@@ -9,8 +9,9 @@
    from the accepted manuscript. The arXiv identifier was supplied by the author.
 3. Choose the release version/date, GitHub owner/repository URL and Zenodo
    community/deposit details. These fields are intentionally absent.
-4. Review this complete whitelist, exclusions, metadata-only changes and tests
-   before authorising Git initialisation. No .git, commit or remote exists here.
+4. Review the inventory, exclusions, changes and tests for a release. GitHub
+   hosting and inclusion of ExceptionalDiagrams have been authorized; these do
+   not settle the remaining licence and release-metadata decisions.
 5. Accept the coverage qualifications: 92 dilute A(3) assembly entries remain
    unreconstructed, rotation geometry is assumed, and the unprinted degree-seven
    braid relation is unresolved. The publication does not claim those results.

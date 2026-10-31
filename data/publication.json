@@ -19,7 +19,7 @@
     "All 330 source transcriptions verified, but this does not independently derive the missing assembly morphisms.",
     "This dataset and its audits do not prove completeness of an abstract defining presentation.",
     "Crossing uses the supplied diagram rotation; diagrammatic rotation conventions are not independently proved.",
-    "Release candidate, not committed, approved for public release, or published."
+    "Licence and release metadata remain provisional."
   ],
   "verification_evidence": [
     "AUDIT_COVERAGE.md",
@@ -28,7 +28,9 @@
     "audits/python/REPORT.md",
     "audits/python/dilute_transcription/REPORT.md",
     "audits/python/a2_spectral/REPORT.md",
-    "audits/c/a2_spectral/REPORT.md"
+    "audits/c/a2_spectral/REPORT.md",
+    "macaulay2/README.md",
+    "verification/macaulay2.json"
   ],
   "files": [
     {

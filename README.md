@@ -1,16 +1,46 @@
-# Exceptional-series R-matrices — local release candidate
+# Exceptional-series R-matrices
 
-Exact JSON matrices and computational audits accompanying Bruce W. Westbury and
+Exact JSON matrices, the ExceptionalDiagrams Macaulay2 package, and computational
+audits accompanying Bruce W. Westbury and
 Paul Zinn-Justin, *A uniform trigonometric R-matrix for the exceptional series*
 (arXiv:2406.01348, accepted manuscript). This directory is an **unlicensed draft**,
-not an approved release. No Git repository, remote or Zenodo deposit is created.
+with licensing and release metadata still to be settled.
 
 Start with `data/publication.json` and FORMAT.md. The 542 sparse matrices comprise
 110 ordinary A(3), 330 dilute A(3), 80 dilute A(2), and 22 polynomial spectral
 matrices. Coefficients are exact; indices are zero-based; row vectors act on the
 right. Raw dilute normalization differs from the manuscript-normalized spectral
 files. Scalar aliases, embeddings, basis maps and normalizations are portable JSON.
-No Macaulay2 or manuscript file is needed at runtime.
+The JSON data and C/Python audits do not require Macaulay2 or the manuscript.
+
+## Macaulay2 package
+
+The maintained package is in [macaulay2/](macaulay2/README.md), including all
+auxiliary files and the original tests. From the repository root, in Macaulay2:
+
+```m2
+needsPackage("ExceptionalDiagrams",
+    FileName=>"macaulay2/ExceptionalDiagrams.m2");
+s1 = rep(3,(braid())_1,Dilute=>false);
+s2 = rep(3,(braid())_2,Dilute=>false);
+assert(s1*s2*s1 == s2*s1*s2);
+```
+
+The package needs `VectorGraphics`; `Factor` is optional. See its README for
+installation, spectral matrices, normalization choices, and tests. The package
+runs independently of the JSON data and the Python/C software.
+
+To verify exact agreement with the data, and test the package and installation:
+
+```sh
+python3 tools/check_macaulay2_data.py --package-tests --output /tmp/m2-check.json
+```
+
+This separate check requires Macaulay2 and Python with jsonschema. It performs
+952 matrix comparisons covering all 542 stored matrices, testing both package
+normalizations for raw dilute data. It neither updates nor regenerates data.
+The GitHub Actions Macaulay2 job runs this check independently of the C/Python
+mathematical audits below.
 
 ## Reproduce the checks
 
@@ -46,8 +76,9 @@ AUDIT_COVERAGE.md for scope/limitations, DEPENDENCY_AUDIT.md for dependency chai
 and PUBLICATION_INVENTORY.md for the complete proposed inventory.
 PUBLICATION_MANIFEST.json is the explicit copy whitelist, with source/candidate
 hashes; EXCLUDED_FILES.json lists every excluded tracked research file and reason.
-DATASET_PROVENANCE.md explains metadata-only curation. PUBLICATION_DECISIONS.md
-lists approvals still needed, including licences and citation/release metadata.
+DATASET_PROVENANCE.md explains the initial curation and subsequent changes.
+PUBLICATION_DECISIONS.md lists remaining release decisions, including licences
+and citation metadata.
 
 The recorded verification was stronger than a normal rerun: bubblewrap mounted
 only this candidate at `/tmp/release`, hid the research Dropbox tree, disabled

@@ -21,10 +21,23 @@ payload hashes are refreshed; research-source hashes and historical audit result
 retain their original meaning. The historical ordinary-to-dilute audit's Y2 sign
 map applies only to the pre-change ordinary matrices, not to the current data.
 
-The public format document omits the legacy ordinary-only CLI section. Audit
-mathematics is copied byte-for-byte. Publication metadata and README are drafts.
-No private manuscript/M2 content is copied. Source filenames and hashes remain
-as citations to preserve mathematical provenance, not as runtime requirements.
+The public format document omits the legacy ordinary-only CLI section. The
+existing C/Python audit mathematics is copied byte-for-byte. Publication metadata
+remains provisional. No manuscript sources are included.
+
+The author subsequently authorized inclusion of ExceptionalDiagrams. Its 37
+auxiliary files were copied unchanged into `macaulay2/`. The package's exported
+coefficients b,c now have their own public symbols rather than aliases to private
+symbols, fixing installPackage documentation generation without changing their
+values or any mathematical calculation. The standalone test script was imported
+with its assertions unchanged and given optional group selection for bounded
+workers. This is now the maintained package; the research copy is an archive.
+`tools/check_macaulay2_data.py` loads only this bundled package and the public
+JSON, and checks exact agreement in both package normalizations. Its
+optional package tests install a temporary copy and load it after removing the
+installation source. No runtime access to the research tree is needed. Original
+source hashes retain their historical meaning; the manifest records the newly
+included source files and their current destinations.
 
 The included historical assembly report is conditional and incomplete: 298
 matrices reconstructed, 32 partial, 92 unknown entries. No missing morphism is

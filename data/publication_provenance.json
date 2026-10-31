@@ -14,12 +14,14 @@
     "new_spectral": "derived from existing rational artifacts and checked against portable generator formula",
     "new_formula": "manuscript prescription, algebraically expanded",
     "basis_maps": "Dilute I,L and source-predicted A2:L maps retained; obsolete ordinary Y2 map removed after adopting its target basis.",
-    "historical_working_files": "Macaulay2 sources excluded; historical hashes retained as citations only"
+    "historical_working_files": "ExceptionalDiagrams is bundled under macaulay2/ with installation-compatible coefficient exports and bounded test groups; all 37 auxiliary files are unchanged. Other research-only files remain excluded."
   },
   "runtime_dependencies": {
     "dataset": "JSON reader and an exact rational-function CAS",
     "structural_validation": "Python >=3.10 and jsonschema >=3.2; no CAS",
-    "optional_sage_example": "SageMath"
+    "optional_sage_example": "SageMath",
+    "macaulay2_package": "Optional: Macaulay2 with VectorGraphics; Factor optional. No JSON or Python/C dependency.",
+    "macaulay2_comparison": "Optional: Python, jsonschema, Macaulay2 and the bundled package; arithmetic runs in Macaulay2."
   },
   "source_hashes": {
     "ExceptionalDiagrams/reps2.m2": {
@@ -222,7 +224,7 @@
     "data/dilute_representations/Dilute_8.json": "0feb3b4febf823745f3a662634316dd1b21d889a7feadfc3cbcfead419d963f6",
     "data/dilute_representations/Dilute_9.json": "b454bb95bb125099eb5cb691bf48b2c77d9b014791a8535f02c0ce4de6700949",
     "data/local_a2.json": "fda4024e781d4d6e6a83bc41f3a94563ecfff89fade64ae287f9fef44e4de7b4",
-    "data/publication.json": "b2b9c0d5375aa813fcda522b37ea4b1b4e6b39ac33bb822d248c7942c69cec7a",
+    "data/publication.json": "d467a30f452791519643929062bb5705d327162af9368485a013f4d505b8b1f1",
     "data/representations/A.json": "021aa224df6174b203757bc4ef58178eb8c6071862938a4695e2837041e47f0b",
     "data/representations/C.json": "11c8deb00d4e7d6edc24d5125ff474343c077422e498369ac079581a5f88a579",
     "data/representations/C_star.json": "80d2888cebf528f51a247c5aab48e98545d719202429436774e4e7c4832cc497",
@@ -255,6 +257,6 @@
   },
   "curation": {
     "research_head": "83aed000254bf7aca4836f0d3e3fb47c818ee4fa",
-    "changes": "Initial curation changed only the portable source label, selected evidence links and payload integrity metadata. On 2026-11-01, author-requested ordinary Y2 basis alignment conjugated all its operators by diag(1,-1,1) and removed the corresponding basis map; payload hashes refreshed."
+    "changes": "Initial curation changed only the portable source label, selected evidence links and payload integrity metadata. On 2026-11-01, author-requested ordinary Y2 basis alignment conjugated all its operators by diag(1,-1,1) and removed the corresponding basis map; payload hashes refreshed. Author-authorized package integration adds macaulay2/, installation-compatible coefficient exports, bounded test groups, and exact comparison tooling; the mathematical JSON entries are unchanged by this import."
   }
 }

@@ -254,9 +254,32 @@
       ],
       "mathematical_code_unchanged": true,
       "special_case": null
+    },
+    {
+      "path": "macaulay2/ExceptionalDiagrams.m2",
+      "review": "Maintained package with installation-compatible coefficient exports and unchanged auxiliary sources; loads auxiliary files relative to its own source directory.",
+      "imports_or_includes": [
+        "VectorGraphics",
+        "Factor (optional)",
+        "macaulay2/ExceptionalDiagrams/*.m2"
+      ],
+      "mathematical_code_unchanged": true,
+      "special_case": "Optional component; independent of JSON and Python/C workers."
+    },
+    {
+      "path": "tools/check_macaulay2_data.py",
+      "review": "Loads the bundled package by explicit path and compares portable JSON expressions using exact Macaulay2 arithmetic; test/install files are temporary.",
+      "imports_or_includes": [
+        "Python standard library",
+        "validate_data",
+        "jsonschema",
+        "Macaulay2"
+      ],
+      "mathematical_code_unchanged": false,
+      "special_case": "New comparison runner; does not generate or alter mathematical data."
     }
   ],
   "runtime_evidence": "verification/summary.json",
   "excluded_dependency_chains": "DEPENDENCY_AUDIT.md",
-  "citations_not_dependencies": "TeX/M2 filenames and source hashes in data are historical provenance."
+  "citations_not_dependencies": "TeX filenames and historical source hashes are provenance citations. Optional Macaulay2 workers use the bundled macaulay2/ files; existing C/Python audits do not load them."
 }

@@ -133,5 +133,9 @@ Independent generic YBE evidence remains in the C and Python audit directories.
 
 See `examples/import_spectral.py` for exact Sage import; Sage is optional.
 The payload, schemas and core validator have no manuscript or Macaulay2 runtime
-dependency. Research-only regeneration tools are intentionally excluded.
-The research-only historical profile is excluded from this candidate.
+dependency. The optional bundled package and its exact comparison runner are
+documented in `macaulay2/README.md`. That runner evaluates the actual package
+against the JSON, applying the registry's normalization factors and the spectral
+prefactor. Both use the same source coordinates; the remaining manuscript basis
+maps are not applied again. Research-only regeneration tools and the historical
+profile remain excluded.
