@@ -1,0 +1,4 @@
+make: Entering directory '/tmp/release/audits/c/a3_relations'
+cc -O2 -std=c11 -Wall -Wextra -o verify verify.c -lflint -lgmp -lmpfr
+cc -O2 -std=c11 -Wall -Wextra -o runner runner.c
+make: Leaving directory '/tmp/release/audits/c/a3_relations'

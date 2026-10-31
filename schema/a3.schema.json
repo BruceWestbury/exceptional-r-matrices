@@ -1,0 +1,715 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Provisional ordinary A(3) algebra profile, 0.2.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "format",
+    "version",
+    "status",
+    "id",
+    "local_ref",
+    "field_ref",
+    "coefficients",
+    "operator_order",
+    "operators",
+    "local_bindings",
+    "polynomial_prescriptions",
+    "relations",
+    "representations",
+    "presentation_scope",
+    "source",
+    "local_assertions",
+    "defining_relation_ids",
+    "provenance",
+    "coefficient_checks",
+    "quotients",
+    "unavailable_assertions",
+    "diagnostics",
+    "coefficient_imports",
+    "audit_history",
+    "quotient_comparisons"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "../schema/a3.schema.json"
+    },
+    "format": {
+      "const": "exceptional-series-a3"
+    },
+    "version": {
+      "const": "0.2.0"
+    },
+    "status": {
+      "const": "current"
+    },
+    "id": {
+      "const": "A3"
+    },
+    "local_ref": {
+      "const": "local_a2.json"
+    },
+    "field_ref": {
+      "const": "F"
+    },
+    "coefficients": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "local_a2.schema.json#/definitions/id"
+      },
+      "additionalProperties": {
+        "$ref": "local_a2.schema.json#/definitions/coefficient"
+      }
+    },
+    "operator_order": {
+      "const": [
+        "H1",
+        "H2",
+        "K1",
+        "K2",
+        "U1",
+        "U2",
+        "S1",
+        "S2",
+        "Sinv1",
+        "Sinv2"
+      ]
+    },
+    "operators": {
+      "type": "object",
+      "minProperties": 10,
+      "maxProperties": 10,
+      "propertyNames": {
+        "$ref": "local_a2.schema.json#/definitions/id"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "local_operator",
+          "position",
+          "kind"
+        ],
+        "properties": {
+          "local_operator": {
+            "enum": [
+              "H",
+              "K",
+              "U",
+              "S",
+              "Sinv"
+            ]
+          },
+          "position": {
+            "enum": [
+              1,
+              2
+            ]
+          },
+          "kind": {
+            "const": "stored_distinguished"
+          }
+        }
+      }
+    },
+    "local_bindings": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "position",
+          "operators"
+        ],
+        "properties": {
+          "position": {
+            "enum": [
+              1,
+              2
+            ]
+          },
+          "operators": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "H",
+              "K",
+              "U",
+              "S",
+              "Sinv"
+            ],
+            "properties": {
+              "H": {
+                "type": "string"
+              },
+              "K": {
+                "type": "string"
+              },
+              "U": {
+                "type": "string"
+              },
+              "S": {
+                "type": "string"
+              },
+              "Sinv": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "polynomial_prescriptions": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "$ref": "#/definitions/relation"
+      }
+    },
+    "relations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/relation"
+      }
+    },
+    "representations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "path"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "local_a2.schema.json#/definitions/id"
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^representations/[A-Za-z][A-Za-z0-9_]*\\.json$"
+          }
+        }
+      }
+    },
+    "presentation_scope": {
+      "$ref": "local_a2.schema.json#/definitions/text"
+    },
+    "source": {
+      "$ref": "local_a2.schema.json#/definitions/sources"
+    },
+    "local_assertions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/local_assertion"
+      }
+    },
+    "defining_relation_ids": {
+      "$ref": "local_a2.schema.json#/definitions/order"
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "base_commit",
+        "change",
+        "authority",
+        "source_hashes"
+      ],
+      "properties": {
+        "base_commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "change": {
+          "$ref": "local_a2.schema.json#/definitions/text"
+        },
+        "authority": {
+          "$ref": "local_a2.schema.json#/definitions/text"
+        },
+        "source_hashes": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        }
+      }
+    },
+    "coefficient_checks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "lhs",
+          "rhs",
+          "expectation",
+          "status",
+          "residual",
+          "source"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "local_a2.schema.json#/definitions/id"
+          },
+          "lhs": {
+            "$ref": "local_a2.schema.json#/definitions/scalar"
+          },
+          "rhs": {
+            "$ref": "local_a2.schema.json#/definitions/scalar"
+          },
+          "expectation": {
+            "enum": [
+              "equal",
+              "not_equal"
+            ]
+          },
+          "status": {
+            "enum": [
+              "equivalent",
+              "unresolved"
+            ]
+          },
+          "residual": {
+            "$ref": "local_a2.schema.json#/definitions/scalar"
+          },
+          "source": {
+            "$ref": "local_a2.schema.json#/definitions/sources"
+          }
+        }
+      }
+    },
+    "quotients": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "zero_operators",
+          "source",
+          "audit_on_L"
+        ],
+        "properties": {
+          "id": {
+            "const": "top_quotient"
+          },
+          "zero_operators": {
+            "$ref": "local_a2.schema.json#/definitions/order"
+          },
+          "source": {
+            "$ref": "local_a2.schema.json#/definitions/sources"
+          },
+          "audit_on_L": {
+            "const": false
+          }
+        }
+      }
+    },
+    "unavailable_assertions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "scope",
+          "kind",
+          "status",
+          "degree",
+          "source",
+          "note"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "local_a2.schema.json#/definitions/id"
+          },
+          "scope": {
+            "const": "full_a3"
+          },
+          "kind": {
+            "const": "additional_braid"
+          },
+          "status": {
+            "const": "unprinted"
+          },
+          "degree": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "source": {
+            "$ref": "local_a2.schema.json#/definitions/sources"
+          },
+          "note": {
+            "$ref": "local_a2.schema.json#/definitions/text"
+          }
+        }
+      }
+    },
+    "diagnostics": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "base_relation",
+          "coefficient_overrides",
+          "rhs_coefficient_multipliers",
+          "status",
+          "source",
+          "note"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "local_a2.schema.json#/definitions/id"
+          },
+          "base_relation": {
+            "$ref": "local_a2.schema.json#/definitions/id"
+          },
+          "snapshot_commit": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{40}$"
+          },
+          "source_sides": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["lhs", "rhs"],
+            "properties": {
+              "lhs": {"$ref": "local_a2.schema.json#/definitions/linear"},
+              "rhs": {"$ref": "local_a2.schema.json#/definitions/linear"}
+            }
+          },
+          "coefficient_overrides": {
+            "type": "object",
+            "propertyNames": {
+              "$ref": "local_a2.schema.json#/definitions/id"
+            },
+            "additionalProperties": {
+              "$ref": "local_a2.schema.json#/definitions/scalar"
+            }
+          },
+          "rhs_coefficient_multipliers": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "term",
+                "factor"
+              ],
+              "properties": {
+                "term": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "factor": {
+                  "$ref": "local_a2.schema.json#/definitions/scalar"
+                }
+              }
+            }
+          },
+          "status": {
+            "const": "non_authoritative"
+          },
+          "source": {
+            "$ref": "local_a2.schema.json#/definitions/sources"
+          },
+          "note": {
+            "$ref": "local_a2.schema.json#/definitions/text"
+          },
+          "reverse_words": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "coefficient_imports": {
+      "const": {
+        "source": "local_a2.json",
+        "required": [
+          "b_0",
+          "b_1",
+          "b_2",
+          "b_3",
+          "b_4"
+        ]
+      }
+    },
+    "audit_history": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "input_a3_sha256",
+        "input_local_sha256",
+        "relation",
+        "coefficient_override",
+        "nonzero_entries",
+        "first_residual",
+        "note"
+      ],
+      "properties": {
+        "status": {
+          "const": "historical_regression"
+        },
+        "input_a3_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "input_local_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "relation": {
+          "const": "quartic_full"
+        },
+        "coefficient_override": {
+          "const": {
+            "b_3": "e2"
+          }
+        },
+        "nonzero_entries": {
+          "const": 24
+        },
+        "first_residual": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": [
+            {
+              "const": 0
+            },
+            {
+              "const": 0
+            },
+            {
+              "$ref": "local_a2.schema.json#/definitions/scalar"
+            }
+          ],
+          "additionalItems": false
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "quotient_comparisons": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "quotient",
+          "full_relation",
+          "summands",
+          "expectation",
+          "source"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "local_a2.schema.json#/definitions/id"
+          },
+          "quotient": {
+            "const": "top_quotient"
+          },
+          "full_relation": {
+            "$ref": "local_a2.schema.json#/definitions/id"
+          },
+          "summands": {
+            "$ref": "local_a2.schema.json#/definitions/order"
+          },
+          "expectation": {
+            "enum": [
+              "equal",
+              "not_equal"
+            ]
+          },
+          "source": {
+            "$ref": "local_a2.schema.json#/definitions/sources"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "relation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "role",
+        "origin",
+        "source",
+        "lhs",
+        "rhs",
+        "scope",
+        "kind",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "local_a2.schema.json#/definitions/id"
+        },
+        "role": {
+          "enum": [
+            "primary",
+            "derived"
+          ]
+        },
+        "origin": {
+          "$ref": "local_a2.schema.json#/definitions/origin"
+        },
+        "source": {
+          "$ref": "local_a2.schema.json#/definitions/sources"
+        },
+        "display": {
+          "$ref": "local_a2.schema.json#/definitions/text"
+        },
+        "lhs": {
+          "$ref": "local_a2.schema.json#/definitions/linear"
+        },
+        "rhs": {
+          "$ref": "local_a2.schema.json#/definitions/linear"
+        },
+        "scope": {
+          "enum": [
+            "full_a3",
+            "top_quotient"
+          ]
+        },
+        "kind": {
+          "enum": [
+            "defining",
+            "additional_braid",
+            "consequence",
+            "quotient_only"
+          ]
+        },
+        "status": {
+          "enum": [
+            "source_claim",
+            "unresolved"
+          ]
+        },
+        "spectral": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "operator",
+            "roots",
+            "expansion"
+          ],
+          "properties": {
+            "operator": {
+              "$ref": "local_a2.schema.json#/definitions/id"
+            },
+            "roots": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "local_a2.schema.json#/definitions/scalar"
+              }
+            },
+            "expansion": {
+              "const": "elementary_symmetric"
+            }
+          }
+        }
+      }
+    },
+    "local_assertion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "role",
+        "scope",
+        "kind",
+        "position",
+        "ref",
+        "source"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "local_a2.schema.json#/definitions/id"
+        },
+        "role": {
+          "const": "primary"
+        },
+        "scope": {
+          "const": "full_a3"
+        },
+        "kind": {
+          "enum": [
+            "defining",
+            "additional_braid"
+          ]
+        },
+        "position": {
+          "enum": [
+            1,
+            2
+          ]
+        },
+        "ref": {
+          "oneOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "relation"
+              ],
+              "properties": {
+                "relation": {
+                  "$ref": "local_a2.schema.json#/definitions/id"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "table",
+                "left",
+                "right"
+              ],
+              "properties": {
+                "table": {
+                  "const": "completed"
+                },
+                "left": {
+                  "$ref": "local_a2.schema.json#/definitions/id"
+                },
+                "right": {
+                  "$ref": "local_a2.schema.json#/definitions/id"
+                }
+              }
+            }
+          ]
+        },
+        "source": {
+          "$ref": "local_a2.schema.json#/definitions/sources"
+        }
+      }
+    }
+  }
+}

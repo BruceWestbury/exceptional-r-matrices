@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "field": [
+    "p",
+    "q",
+    "u"
+  ],
+  "convention": "row vectors, right action, left-to-right ordered products, zero-based indices",
+  "rational_coefficients": {
+    "one": "N1/(A*J)",
+    "S_dilute": "-p^-1*u^-1*X/((q-q^-1)*A*J)",
+    "Sinv_dilute": "p*u*X/((q-q^-1)*A*J)",
+    "K": "-G*N/(A*J)",
+    "T": "G/(A*J)",
+    "B": "-G/(N*A*J)",
+    "E": "-G*XX/(X*W*A*J)",
+    "U": "G*(N6*Z/(N3*W)-1)/(N*A*J)",
+    "O": "-G*(XX12/(X6*W)+2/N)/(A*J)"
+  },
+  "coefficient_definitions": {
+    "A": {
+      "expression": "(p^(1)*u^(1)*q^(1)-p^(-1)*u^(-1)*q^(-1))/(q-q^-1)"
+    },
+    "J": {
+      "expression": "(p^(0)*u^(1)*q^(-1)-p^(0)*u^(-1)*q^(1))/(q-q^-1)"
+    },
+    "NX": {
+      "expression": "(p^(1)*u^(1)*q^(0)-p^(-1)*u^(-1)*q^(0))/(q-q^-1)"
+    },
+    "C31": {
+      "expression": "(p^(3)*u^(1)*q^(1)-p^(-3)*u^(-1)*q^(-1))/(q-q^-1)"
+    },
+    "C2m1": {
+      "expression": "(p^(2)*u^(1)*q^(-1)-p^(-2)*u^(-1)*q^(1))/(q-q^-1)"
+    },
+    "XX": {
+      "expression": "(p^(0)*u^(2)*q^(0)-p^(0)*u^(-2)*q^(0))/(q-q^-1)"
+    },
+    "XX12": {
+      "expression": "(p^(12)*u^(2)*q^(0)-p^(-12)*u^(-2)*q^(0))/(q-q^-1)"
+    },
+    "X6": {
+      "expression": "(p^(6)*u^(1)*q^(0)-p^(-6)*u^(-1)*q^(0))/(q-q^-1)"
+    },
+    "G": {
+      "expression": "N2*N3*N1*X/(N6*Z)"
+    },
+    "t": {
+      "expression": "(q-q^-1)*N1*N2*N3/N6"
+    }
+  },
+  "crossing_prefactor": "X*NX*C31*C2m1/(A*J*Z*W)",
+  "substitutions": {
+    "inverse": "u^-1",
+    "crossing": "p^-3*u^-1"
+  },
+  "splits": {
+    "one": [
+      "I",
+      "D_squared",
+      "O"
+    ],
+    "S_dilute": [
+      "S_ordinary",
+      "D",
+      "O"
+    ],
+    "Sinv_dilute": [
+      "Sinv_ordinary",
+      "D",
+      "O"
+    ],
+    "B": [
+      "D",
+      "D_squared"
+    ],
+    "K": [
+      "K"
+    ],
+    "T": [
+      "T"
+    ],
+    "E": [
+      "E"
+    ],
+    "U": [
+      "U"
+    ],
+    "O": [
+      "O"
+    ]
+  },
+  "skein": {
+    "eliminate": "S_ordinary",
+    "replacement": {
+      "Sinv_ordinary": "1",
+      "H": "t",
+      "K": "-t",
+      "U": "t*(q-q^-1)^2",
+      "I": "-t*(q-q^-1)^2"
+    },
+    "source": "yangbaxter.tex:115-125, eq:skeinc (8.2)"
+  },
+  "diagram_basis": [
+    "D0",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "D9",
+    "D10",
+    "D11",
+    "D12",
+    "D13",
+    "D14",
+    "D15"
+  ],
+  "source_locations": {
+    "rational": "yangbaxter.tex:134-148, eq:Rmat (8.3)",
+    "unitarity": "yangbaxter.tex:220-222, eq:unit (8.11)",
+    "crossing": "yangbaxter.tex:228-231, eq:crossing (8.13)",
+    "polynomial": "yangbaxter.tex:798-805",
+    "rotation": "yangbaxter.tex:824-829"
+  },
+  "assumptions": [
+    "Specified geometric rotation is assumed, not verified.",
+    "Raw source matrices use paper2 multipliers before evaluation; basis conjugations unnecessary for identities.",
+    "The D0,...,D15 diagram basis is the declared source basis; independence is not reproved."
+  ]
+}

@@ -1,0 +1,3 @@
+make: Entering directory '/tmp/release/audits/c/a2_spectral'
+cc -O2 -std=c11 -Wall -Wextra -o verify verify.c -lflint -lgmp -lmpfr
+make: Leaving directory '/tmp/release/audits/c/a2_spectral'

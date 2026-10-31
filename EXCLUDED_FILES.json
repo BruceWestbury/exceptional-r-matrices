@@ -1,0 +1,1118 @@
+[
+  {
+    "path": ".gitignore",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "A2_SPECIFICATION.md",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "DATASET_FORMAT_DESIGN.md",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "DATASET_RELEASE_REPORT.md",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "DESIGN.md",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "DILUTE_CHECKPOINT_2026-10-10.md",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "DILUTE_TRANSCRIPTION_ORIGINAL.md",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "ExceptionalDiagrams.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams.md",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/GB3.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/Rmat.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/basis33.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/cf.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/cfprime.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/decompositions3dilute.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/idem2.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/idem3_0.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/idem3_1.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/idem3_10.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/idem3_2.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/idem3_3.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/idem3_4.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/idem3_5.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/idem3_6.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/idem3_7.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/idem3_8.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/idem3_9.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/reps2.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/reps2dilute.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/reps3_0.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/reps3_1.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/reps3_10.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/reps3_2.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/reps3_3.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/reps3_4.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/reps3_5.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/reps3_6.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/reps3_7.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/reps3_8.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/reps3_9.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/reps3dilute_0.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/reps3dilute_1.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/reps3dilute_2.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/reps3dilute_3.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/reps3dilute_4.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "ExceptionalDiagrams/trim.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "INVENTORY.md",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "MACAULAY2.md",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "PAPER_CORRECTIONS.md",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "README.md",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "audits/a2_spectral_provenance.json",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "audits/c/a2_spectral/.gitignore",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "audits/c/a2_spectral/build.txt",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "audits/c/a2_spectral/build_final.txt",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "audits/c/a2_spectral/results/I.stderr.txt",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a2_spectral/results/I.stdout.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a2_spectral/results/L.stderr.txt",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a2_spectral/results/L.stdout.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a2_spectral/results/X2.stderr.txt",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a2_spectral/results/X2.stdout.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a2_spectral/results/Y2.stderr.txt",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a2_spectral/results/Y2.stdout.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a2_spectral/results/Y2_star.stderr.txt",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a2_spectral/results/Y2_star.stdout.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a2_spectral/results/crossing.stderr.txt",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a2_spectral/results/crossing.stdout.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a2_spectral/results/results.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a3_relations/.gitignore",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "audits/c/a3_relations/README.md",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "audits/c/a3_relations/compile.txt",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "audits/c/a3_relations/compiler.txt",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "audits/c/a3_relations/linkage.txt",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "audits/c/a3_relations/results/SUMMARY.md",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a3_relations/results/python_comparison.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a3_relations/results/relation_results.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a3_relations/results/rep_A.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a3_relations/results/rep_C.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a3_relations/results/rep_C_star.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a3_relations/results/rep_I.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a3_relations/results/rep_L.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a3_relations/results/rep_X2.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a3_relations/results/rep_X3.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a3_relations/results/rep_Y2.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a3_relations/results/rep_Y2_star.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a3_relations/results/rep_Y3.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a3_relations/results/rep_Y3_star.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a3_relations/results/results.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a3_relations/results/results.md",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/c/a3_relations/source_provenance.json",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "audits/c/a3_relations/summarize.py",
+    "reason": "Research-only report generation depends on excluded historical inputs"
+  },
+  {
+    "path": "audits/python/.gitignore",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "audits/python/README.md",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "audits/python/a2_spectral/results/I.stderr.txt",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/a2_spectral/results/I.stdout.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/a2_spectral/results/L.stderr.txt",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/a2_spectral/results/L.stdout.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/a2_spectral/results/X2.stderr.txt",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/a2_spectral/results/X2.stdout.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/a2_spectral/results/Y2.stderr.txt",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/a2_spectral/results/Y2.stdout.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/a2_spectral/results/Y2_star.stderr.txt",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/a2_spectral/results/Y2_star.stdout.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/a2_spectral/results/crossing.stderr.txt",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/a2_spectral/results/crossing.stdout.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/a2_spectral/results/results.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/authority.json",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "audits/python/dilute_transcription/.gitignore",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/README.md",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/arithmetic.py",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/basis_followup/environment.json",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/basis_followup/rep_3.jsonl",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/basis_followup/results.json",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/correspondence_initial.json",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/initial_basis_mismatches.json",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/prepare.py",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/provenance.json",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/requirements.txt",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/results/environment.json",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/results/rep_0.jsonl",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/results/rep_1.jsonl",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/results/rep_10.jsonl",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/results/rep_2.jsonl",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/results/rep_3.jsonl",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/results/rep_4.jsonl",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/results/rep_5.jsonl",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/results/rep_6.jsonl",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/results/rep_7.jsonl",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/results/rep_8.jsonl",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/results/rep_9.jsonl",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/results/results.json",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/run.py",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/structure.json",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/unresolved_blocks.json",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/dilute_transcription/verify.py",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "audits/python/results/C_comparison_provenance.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results/REPORT.md",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results/comparison.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results/provenance.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results/rep_0.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results/rep_1.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results/rep_10.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results/rep_2.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results/rep_3.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results/rep_4.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results/rep_5.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results/rep_6.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results/rep_7.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results/rep_8.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results/rep_9.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results/results.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results_verified/C_comparison_provenance.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results_verified/REPORT.md",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results_verified/comparison.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results_verified/provenance.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results_verified/rep_0.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results_verified/rep_1.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results_verified/rep_10.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results_verified/rep_2.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results_verified/rep_3.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results_verified/rep_4.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results_verified/rep_5.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results_verified/rep_6.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results_verified/rep_7.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results_verified/rep_8.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results_verified/rep_9.jsonl",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/python/results_verified/results.json",
+    "reason": "Old/duplicate run evidence; candidate produces fresh verification evidence"
+  },
+  {
+    "path": "audits/summarize_a2_spectral.py",
+    "reason": "Research-only report generation depends on excluded historical inputs"
+  },
+  {
+    "path": "benchmarks/flint_ybe/.gitignore",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/README.md",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/REPORT.md",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/compile.txt",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/compiler.txt",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/flint_version.txt",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/linkage.txt",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/provenance.json",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/rep_0.jsonl",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/rep_1.jsonl",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/rep_10.jsonl",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/rep_2.jsonl",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/rep_3.jsonl",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/rep_4.jsonl",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/rep_5.jsonl",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/rep_6.jsonl",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/rep_7.jsonl",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/rep_8.jsonl",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/rep_9.jsonl",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/results.json",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/results.md",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/summary.json",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "benchmarks/flint_ybe/version.c",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "dilute-checkpoint-manifest-2026-10-10.json",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "dilute-migration-provenance.json",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "reports/a3_relations.md",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/a3_representation_residuals.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/a3_representations.md",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/a3_top_quotient_history.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/environment.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/existing_a2_comparison.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/export/a2_0.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/export/a2_1.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/export/a2_2.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/export/a2_3.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/export/a2_4.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/export/results.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/export/spectral_0.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/export/spectral_1.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/export/spectral_10.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/export/spectral_2.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/export/spectral_3.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/export/spectral_4.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/export/spectral_5.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/export/spectral_6.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/export/spectral_7.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/export/spectral_8.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/export/spectral_9.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/preservation.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/sage_result.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/sage_retry_stderr.txt",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/sage_retry_stdout.txt",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/sage_stderr.txt",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/sage_stdout.txt",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/dataset_release/validation.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper-agreement-summary.txt",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper-agreement.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper-agreement.pdf",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper-agreement.typ",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_I_crossing.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_a3_0_a3_1_a3_2_a3_3_a3_4_a3_5_a3_6_a3_7_a3_8_a3_9_a3_10.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_altcross_0_altcross_1.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_finite_0_finite_1_finite_2_finite_3_finite_4_finite_5_finite_6_finite_7_finite_8_finite_9_finite_10.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_form_0.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_form_1.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_gauge_0_gauge_1.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_memberdelta_0.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_ordinary_0_ordinary_1_ordinary_2_ordinary_4_ordinary_3.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_ordinary_5_ordinary_6_ordinary_7_ordinary_8_ordinary_9_ordinary_10.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_ordinarygauge_3.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_printed_L_printed_I_bar.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_remaining_2_remaining_3_remaining_4.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_repeat_0_crossdisplays_0.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_spectral_0_spectral_1_spectral_2_spectral_3_spectral_4.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_spectral_5_spectral_6_spectral_7_spectral_9_spectral_10_spectral_8.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_tables_0.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_tables_1.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_topwords_5_topwords_6_topwords_7_topwords_8_topwords_9_topwords_10.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_triple_5_triple_6_triple_7_triple_8_triple_9_triple_10_scalarcheck_0.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/a2_results_ybe_5_ybe_6_ybe_7_ybe_9_ybe_10_ybe_8.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/defining_relations_manifest.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/paper_audit/manuscript_display_inventory.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/square_pentagon_reconstruction.json",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "reports/square_pentagon_reconstruction.md",
+    "reason": "Historical/working audit artifact not needed by selected public checks"
+  },
+  {
+    "path": "tests/exceptional-diagrams.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "tools/audit_a3.py",
+    "reason": "Legacy ordinary audit dependencies: historical Git objects and/or exploratory witnesses; portable C manifest audit selected"
+  },
+  {
+    "path": "tools/audit_paper_a2.py",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "tools/audit_paper_a3_local.py",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "tools/audit_paper_consistency.py",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "tools/audit_paper_spectral.py",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "tools/audit_representations.py",
+    "reason": "Legacy ordinary audit dependencies: historical Git objects and/or exploratory witnesses; portable C manifest audit selected"
+  },
+  {
+    "path": "tools/compare_paper.py",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "tools/exact_a3.py",
+    "reason": "Legacy ordinary audit dependencies: historical Git objects and/or exploratory witnesses; portable C manifest audit selected"
+  },
+  {
+    "path": "tools/exploratory/a2_local_check.py",
+    "reason": "Exploratory research calculation"
+  },
+  {
+    "path": "tools/exploratory/reconstruct_square_pentagon.py",
+    "reason": "Exploratory research calculation"
+  },
+  {
+    "path": "tools/inventory_paper_displays.py",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "tools/macaulay2/example.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "tools/macaulay2/load_a3.m2",
+    "reason": "Macaulay2/package source; explicitly excluded, provenance citations retained"
+  },
+  {
+    "path": "tools/paper_matrix_parser.py",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "tools/publication/README.md",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "tools/publication/export.py",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "tools/publication/package.py",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "tools/publication/prepare.py",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "tools/publication/report.py",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "tools/reduce_quartic_contractions.py",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "tools/render_a3_report.py",
+    "reason": "Research-only report generation depends on excluded historical inputs"
+  },
+  {
+    "path": "tools/representation_sources.py",
+    "reason": "Legacy ordinary audit dependencies: historical Git objects and/or exploratory witnesses; portable C manifest audit selected"
+  },
+  {
+    "path": "tools/run_paper_audit.py",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "tools/transcribe_dilute.py",
+    "reason": "Research-only source regeneration/transcription; reads excluded M2/manuscript or duplicative evidence"
+  },
+  {
+    "path": "transcription-provenance.json",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  },
+  {
+    "path": "transcription-validation.json",
+    "reason": "Outside explicit whitelist; research history, superseded evidence or unnecessary intermediate/supporting material"
+  }
+]

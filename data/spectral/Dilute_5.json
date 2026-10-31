@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schema/portable_matrices.schema.json",
+  "format": "exceptional-series-portable-matrices",
+  "version": "0.3.0",
+  "status": "derived_verified",
+  "id": "Dilute_5",
+  "label": "X3",
+  "dimension": 1,
+  "field": {
+    "base": "QQ",
+    "variables": [
+      "p",
+      "q",
+      "u"
+    ]
+  },
+  "algebra_ref": "../dilute_a3.json",
+  "representation_ref": "../dilute_representations/Dilute_5.json",
+  "formula_ref": "../spectral_r.json",
+  "embeddings_ref": "../dilute_a3_embeddings.json",
+  "basis": {
+    "order": [
+      "coordinate_0"
+    ],
+    "description": "Neutral coordinates preserving the source file row/column order. No identification with manuscript vector names has been established.",
+    "source": [
+      "ExceptionalDiagrams/reps3_5.m2"
+    ]
+  },
+  "conventions": {
+    "index_base": 0,
+    "matrix_encoding": "sparse_triples",
+    "entry_order": "row_major",
+    "action": "row_vectors_right",
+    "word_order": "left_to_right_product",
+    "source": [
+      "ordinary representation schema convention",
+      "ExceptionalDiagrams.m2: repBasis"
+    ],
+    "note": "Raw auxiliary-file normalization. This preserves entries without transpose; row-right is the archive coordinate convention, not a new verification of manuscript action conventions. See dilute_a3.json for package rescaling."
+  },
+  "normalization": "manuscript_polynomial",
+  "coefficient_definitions": {
+    "spectral_denominator": {
+      "expression": "p^11*q^8*u^4 - 4*p^11*q^6*u^4 + 6*p^11*q^4*u^4 - 4*p^11*q^2*u^4 + p^11*u^4",
+      "role": "storage alias only; each entry includes division by this factor"
+    }
+  },
+  "matrices": [
+    {
+      "operator": "Rpoly1",
+      "position": 1,
+      "rows": 1,
+      "cols": 1,
+      "entries": [
+        [
+          0,
+          0,
+          "(p^22*q^6*u^6 - p^22*q^4*u^8 - p^20*q^6*u^6 + p^20*q^4*u^8 + p^18*q^6*u^6 - p^18*q^4*u^8 - p^20*q^4*u^4 - p^18*q^6*u^4 + p^20*q^2*u^6 + p^18*q^4*u^6 + p^16*q^6*u^6 - p^16*q^4*u^8 + p^18*q^4*u^4 - p^18*q^2*u^6 - p^14*q^6*u^6 + p^14*q^4*u^8 - p^16*q^4*u^4 + p^16*q^2*u^6 + p^12*q^6*u^6 - p^12*q^4*u^8 + p^16*q^4*u^2 - p^16*q^2*u^4 - p^14*q^4*u^4 - 2*p^12*q^6*u^4 + p^14*q^2*u^6 + 2*p^12*q^4*u^6 + p^12*q^6*u^2 - p^12*q^2*u^6 - p^10*q^6*u^2 + p^10*q^2*u^6 + 2*p^10*q^4*u^2 + p^8*q^6*u^2 - 2*p^10*q^2*u^4 - p^8*q^4*u^4 - p^6*q^6*u^4 + p^6*q^4*u^6 - p^10*q^4 + p^10*q^2*u^2 + p^6*q^6*u^2 - p^6*q^4*u^4 + p^8*q^4 - p^8*q^2*u^2 - p^4*q^6*u^2 + p^4*q^4*u^4 - p^6*q^4 + p^6*q^2*u^2 + p^4*q^4*u^2 + p^2*q^6*u^2 - p^4*q^2*u^4 - p^2*q^4*u^4 - p^4*q^4 + p^4*q^2*u^2 + p^2*q^4 - p^2*q^2*u^2 - q^4 + q^2*u^2)/spectral_denominator"
+        ]
+      ]
+    },
+    {
+      "operator": "Rpoly2",
+      "position": 2,
+      "rows": 1,
+      "cols": 1,
+      "entries": [
+        [
+          0,
+          0,
+          "(p^22*q^6*u^6 - p^22*q^4*u^8 - p^20*q^6*u^6 + p^20*q^4*u^8 + p^18*q^6*u^6 - p^18*q^4*u^8 - p^20*q^4*u^4 - p^18*q^6*u^4 + p^20*q^2*u^6 + p^18*q^4*u^6 + p^16*q^6*u^6 - p^16*q^4*u^8 + p^18*q^4*u^4 - p^18*q^2*u^6 - p^14*q^6*u^6 + p^14*q^4*u^8 - p^16*q^4*u^4 + p^16*q^2*u^6 + p^12*q^6*u^6 - p^12*q^4*u^8 + p^16*q^4*u^2 - p^16*q^2*u^4 - p^14*q^4*u^4 - 2*p^12*q^6*u^4 + p^14*q^2*u^6 + 2*p^12*q^4*u^6 + p^12*q^6*u^2 - p^12*q^2*u^6 - p^10*q^6*u^2 + p^10*q^2*u^6 + 2*p^10*q^4*u^2 + p^8*q^6*u^2 - 2*p^10*q^2*u^4 - p^8*q^4*u^4 - p^6*q^6*u^4 + p^6*q^4*u^6 - p^10*q^4 + p^10*q^2*u^2 + p^6*q^6*u^2 - p^6*q^4*u^4 + p^8*q^4 - p^8*q^2*u^2 - p^4*q^6*u^2 + p^4*q^4*u^4 - p^6*q^4 + p^6*q^2*u^2 + p^4*q^4*u^2 + p^2*q^6*u^2 - p^4*q^2*u^4 - p^2*q^4*u^4 - p^4*q^4 + p^4*q^2*u^2 + p^2*q^4 - p^2*q^2*u^2 - q^4 + q^2*u^2)/spectral_denominator"
+        ]
+      ]
+    }
+  ],
+  "provenance": {
+    "base_commit": "db523ef0c62105a9363a07a1ab1215c01cdd5b2e",
+    "authority": "Derived release candidate; checked exactly against independent generator reconstruction",
+    "construction": "existing rational spectral artifact multiplied by the exact manuscript scalar",
+    "verification": "independent evaluation of portable JSON generator formula using original raw generators",
+    "input_sha256": {
+      "data/dilute_representations/Dilute_5.json": "08b12c45108396bf62963c0af16c97f56e79961ae38beba2c14133b59c7d2a2c",
+      "reports/paper_audit/spectral_5.json": "6179bfef6567e2467eca097e4d903a16931e012ac61e50433190a0746ae87a62",
+      "data/spectral_r.json": "e9d02d96a70542fdcdfb6f027fc5794dc03c33de0c68bb9e8772cee56fcd8cb3",
+      "data/dilute_a3_embeddings.json": "e552cf606e797149d73ac41fc2567833c29669f336685589c020c671b3362d7e"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{"phase":"generators","seconds":0.003079}
+{"phase":"R1_constructed","seconds":0.013949}
+{"phase":"construction","seconds":0.022345}
+{"phase":"scalar_comparison","seconds":0.003584}
+{"phase":"clearing_factor","u_shift":4,"D_times_u_shift":"p^11*q^8*u^4-4*p^11*q^6*u^4+6*p^11*q^4*u^4-4*p^11*q^2*u^4+p^11*u^4"}
+{"phase":"denominator_clearing","seconds":0.000050}
+{"phase":"YBE_start","R1_terms":150,"R2_terms":150}
+{"phase":"left_pair","seconds":0.000780}
+{"phase":"left_triple","seconds":0.005063}
+{"phase":"right_pair","seconds":0.005758}
+{"phase":"right_triple","seconds":0.010537}
+{"status":"PASS","representation":10,"dimension":2,"construction_seconds":0.022345,"ybe_seconds":0.010765,"total_seconds":0.036804,"left_terms":18708,"right_terms":18708,"residual_nonzero_entries":0,"flint_header":"2.8.0"}

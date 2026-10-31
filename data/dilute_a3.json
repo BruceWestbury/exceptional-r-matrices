@@ -1,0 +1,361 @@
+{
+  "format": "exceptional-series-dilute-a3-transcription",
+  "version": "0.2.0",
+  "status": "provisional_transcription",
+  "field": {
+    "id": "F",
+    "type": "rational_function_field",
+    "base": "QQ",
+    "variables": [
+      "p",
+      "q"
+    ]
+  },
+  "normalization": "raw_auxiliary_source",
+  "operator_order": [
+    "G0",
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "G8",
+    "G9",
+    "G10",
+    "G11",
+    "G12",
+    "G13",
+    "G14",
+    "G15",
+    "G16",
+    "G17",
+    "G18",
+    "G19",
+    "G20",
+    "G21",
+    "G22",
+    "G23",
+    "G24",
+    "G25",
+    "G26",
+    "G27",
+    "G28",
+    "G29"
+  ],
+  "generators": [
+    {
+      "operator": "G0",
+      "source_index": 0,
+      "source_basis_index": 158,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(1)",
+      "paper2_multiplier": "beta^(0)"
+    },
+    {
+      "operator": "G1",
+      "source_index": 1,
+      "source_basis_index": 140,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(1)",
+      "paper2_multiplier": "beta^(2)"
+    },
+    {
+      "operator": "G2",
+      "source_index": 2,
+      "source_basis_index": 169,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(0)",
+      "paper2_multiplier": "beta^(0)"
+    },
+    {
+      "operator": "G3",
+      "source_index": 3,
+      "source_basis_index": 62,
+      "ordinary_source_index": 2,
+      "paper_multiplier": "alpha^(1)",
+      "paper2_multiplier": "beta^(2)"
+    },
+    {
+      "operator": "G4",
+      "source_index": 4,
+      "source_basis_index": 239,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(-1)",
+      "paper2_multiplier": "beta^(0)"
+    },
+    {
+      "operator": "G5",
+      "source_index": 5,
+      "source_basis_index": 183,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(0)",
+      "paper2_multiplier": "beta^(0)"
+    },
+    {
+      "operator": "G6",
+      "source_index": 6,
+      "source_basis_index": 212,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(0)",
+      "paper2_multiplier": "beta^(0)"
+    },
+    {
+      "operator": "G7",
+      "source_index": 7,
+      "source_basis_index": 108,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(1)",
+      "paper2_multiplier": "beta^(1)"
+    },
+    {
+      "operator": "G8",
+      "source_index": 8,
+      "source_basis_index": 119,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(1)",
+      "paper2_multiplier": "beta^(1)"
+    },
+    {
+      "operator": "G9",
+      "source_index": 9,
+      "source_basis_index": 61,
+      "ordinary_source_index": 5,
+      "paper_multiplier": "alpha^(1)",
+      "paper2_multiplier": "beta^(2)"
+    },
+    {
+      "operator": "G10",
+      "source_index": 10,
+      "source_basis_index": 273,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(0)",
+      "paper2_multiplier": "beta^(1)"
+    },
+    {
+      "operator": "G11",
+      "source_index": 11,
+      "source_basis_index": 267,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(-1)",
+      "paper2_multiplier": "beta^(0)"
+    },
+    {
+      "operator": "G12",
+      "source_index": 12,
+      "source_basis_index": 207,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(1)",
+      "paper2_multiplier": "beta^(2)"
+    },
+    {
+      "operator": "G13",
+      "source_index": 13,
+      "source_basis_index": 131,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(0)",
+      "paper2_multiplier": "beta^(0)"
+    },
+    {
+      "operator": "G14",
+      "source_index": 14,
+      "source_basis_index": 146,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(1)",
+      "paper2_multiplier": "beta^(1)"
+    },
+    {
+      "operator": "G15",
+      "source_index": 15,
+      "source_basis_index": 111,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(0)",
+      "paper2_multiplier": "beta^(0)"
+    },
+    {
+      "operator": "G16",
+      "source_index": 16,
+      "source_basis_index": 136,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(0)",
+      "paper2_multiplier": "beta^(1)"
+    },
+    {
+      "operator": "G17",
+      "source_index": 17,
+      "source_basis_index": 109,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(1)",
+      "paper2_multiplier": "beta^(0)"
+    },
+    {
+      "operator": "G18",
+      "source_index": 18,
+      "source_basis_index": 63,
+      "ordinary_source_index": "identity",
+      "paper_multiplier": "alpha^(0)",
+      "paper2_multiplier": "beta^(0)"
+    },
+    {
+      "operator": "G19",
+      "source_index": 19,
+      "source_basis_index": 104,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(1)",
+      "paper2_multiplier": "beta^(0)"
+    },
+    {
+      "operator": "G20",
+      "source_index": 20,
+      "source_basis_index": 103,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(0)",
+      "paper2_multiplier": "beta^(0)"
+    },
+    {
+      "operator": "G21",
+      "source_index": 21,
+      "source_basis_index": 130,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(-1)",
+      "paper2_multiplier": "beta^(0)"
+    },
+    {
+      "operator": "G22",
+      "source_index": 22,
+      "source_basis_index": 122,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(0)",
+      "paper2_multiplier": "beta^(0)"
+    },
+    {
+      "operator": "G23",
+      "source_index": 23,
+      "source_basis_index": 117,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(0)",
+      "paper2_multiplier": "beta^(0)"
+    },
+    {
+      "operator": "G24",
+      "source_index": 24,
+      "source_basis_index": 211,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(-1)",
+      "paper2_multiplier": "beta^(0)"
+    },
+    {
+      "operator": "G25",
+      "source_index": 25,
+      "source_basis_index": 81,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(1)",
+      "paper2_multiplier": "beta^(1)"
+    },
+    {
+      "operator": "G26",
+      "source_index": 26,
+      "source_basis_index": 164,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(0)",
+      "paper2_multiplier": "beta^(0)"
+    },
+    {
+      "operator": "G27",
+      "source_index": 27,
+      "source_basis_index": 210,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(0)",
+      "paper2_multiplier": "beta^(1)"
+    },
+    {
+      "operator": "G28",
+      "source_index": 28,
+      "source_basis_index": 254,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(0)",
+      "paper2_multiplier": "beta^(1)"
+    },
+    {
+      "operator": "G29",
+      "source_index": 29,
+      "source_basis_index": 97,
+      "ordinary_source_index": null,
+      "paper_multiplier": "alpha^(1)",
+      "paper2_multiplier": "beta^(0)"
+    }
+  ],
+  "normalization_prescriptions": {
+    "note": "These expressions are supplied as package prescriptions and were not applied to stored entries. G_j names only a package generator slot, not H_j or S_j. Multiply each raw matrix by its listed multiplier to obtain the corresponding package configuration.",
+    "alpha": "(q-1)*(q+1)*(q*p-1)*(q*p+1)*p^5/(q^2*(p-1)^2*(p+1)^2*(p^2-p+1)^2*(p^2+p+1)^2)",
+    "beta": "(q-1)*(q+1)*p^3/(q*(p-1)*(p+1)*(p^2-p+1)*(p^2+p+1))",
+    "source": "ExceptionalDiagrams.m2: scale1, scale2, alpha configuration, loadrep3"
+  },
+  "representations": [
+    {
+      "id": "Dilute_0",
+      "dimension": 5,
+      "file": "dilute_representations/Dilute_0.json"
+    },
+    {
+      "id": "Dilute_1",
+      "dimension": 11,
+      "file": "dilute_representations/Dilute_1.json"
+    },
+    {
+      "id": "Dilute_2",
+      "dimension": 7,
+      "file": "dilute_representations/Dilute_2.json"
+    },
+    {
+      "id": "Dilute_3",
+      "dimension": 6,
+      "file": "dilute_representations/Dilute_3.json"
+    },
+    {
+      "id": "Dilute_4",
+      "dimension": 6,
+      "file": "dilute_representations/Dilute_4.json"
+    },
+    {
+      "id": "Dilute_5",
+      "dimension": 1,
+      "file": "dilute_representations/Dilute_5.json"
+    },
+    {
+      "id": "Dilute_6",
+      "dimension": 1,
+      "file": "dilute_representations/Dilute_6.json"
+    },
+    {
+      "id": "Dilute_7",
+      "dimension": 1,
+      "file": "dilute_representations/Dilute_7.json"
+    },
+    {
+      "id": "Dilute_8",
+      "dimension": 3,
+      "file": "dilute_representations/Dilute_8.json"
+    },
+    {
+      "id": "Dilute_9",
+      "dimension": 2,
+      "file": "dilute_representations/Dilute_9.json"
+    },
+    {
+      "id": "Dilute_10",
+      "dimension": 2,
+      "file": "dilute_representations/Dilute_10.json"
+    }
+  ],
+  "source_repository": "Research repository Zenodo (source commit recorded separately)",
+  "source_commit": "d2ead0efdb09ecbfd1c2d67a96807717954e04a5",
+  "limitations": [
+    "No defining relations or YBE audited.",
+    "No manuscript basis/operator comparison established.",
+    "No locality or denominator membership claim.",
+    "No diagrams stored: generator identities are traced by source generator/basis indices.",
+    "Schema validity is structural only."
+  ]
+}

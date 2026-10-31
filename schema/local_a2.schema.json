@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Provisional ordinary local A(2) data, version 0.2.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "format", "version", "status", "provenance", "field", "conventions", "coefficients", "elements", "basis_order", "additional_order", "tables", "relations", "scalar_checks", "characters"],
+  "properties": {
+    "$schema": {"const": "../schema/local_a2.schema.json"},
+    "format": {"const": "exceptional-series-local-a2"},
+    "version": {"const": "0.2.0"},
+    "status": {"const": "current"},
+    "provenance": {
+      "type": "object", "additionalProperties": false,
+      "required": ["base_commit", "scope", "authority", "change", "source", "twostring_sha256", "specification_sha256", "historical_evidence"],
+      "properties": {
+        "base_commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+        "scope": {"$ref": "#/definitions/text"}, "authority": {"$ref": "#/definitions/text"},
+        "change": {"$ref": "#/definitions/text"}, "source": {"$ref": "#/definitions/sources"},
+        "twostring_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "specification_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "historical_evidence": {"$ref": "#/definitions/text"}
+      }
+    },
+    "field": {"const": {"id": "F", "type": "rational_function_field", "base": "QQ", "variables": ["p", "q"]}},
+    "conventions": {"const": {"normalization": "alpha=1", "word_order": "left_to_right_product", "matrix_index_base": 0}},
+    "coefficients": {
+      "type": "object", "minProperties": 1, "propertyNames": {"$ref": "#/definitions/id"},
+      "required": ["delta", "phi", "tau", "xi", "zeta", "zetastar", "S_I", "S_K", "S_H", "S_U", "b_0", "b_1", "b_2", "b_3", "b_4"],
+      "additionalProperties": {"$ref": "#/definitions/coefficient"}
+    },
+    "elements": {
+      "type": "object", "propertyNames": {"$ref": "#/definitions/id"},
+      "required": ["one", "H", "H2", "K", "U", "S", "Sinv"], "minProperties": 7, "maxProperties": 7,
+      "additionalProperties": {"$ref": "#/definitions/element"}
+    },
+    "basis_order": {"const": ["one", "H", "H2", "K", "U"]},
+    "additional_order": {"const": ["S", "Sinv"]},
+    "tables": {
+      "type": "object", "additionalProperties": false, "required": ["literal", "completed"],
+      "properties": {
+        "literal": {"allOf": [{"$ref": "#/definitions/table"}, {"properties": {"row_order": {"const": ["U", "K", "H"]}, "column_order": {"const": ["U", "K", "H"]}, "cells": {"minItems": 3, "maxItems": 3, "items": {"minItems": 3, "maxItems": 3}}}}]},
+        "completed": {"allOf": [{"$ref": "#/definitions/table"}, {"required": ["reduction_rules"], "properties": {"row_order": {"const": ["one", "H", "H2", "K", "U"]}, "column_order": {"const": ["one", "H", "H2", "K", "U"]}, "cells": {"minItems": 5, "maxItems": 5, "items": {"minItems": 5, "maxItems": 5}}}}]}
+      }
+    },
+    "relations": {"type": "array", "minItems": 12, "items": {"$ref": "#/definitions/relation"}},
+    "scalar_checks": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["id", "lhs", "rhs", "source"],
+        "properties": {"id": {"$ref": "#/definitions/id"}, "lhs": {"$ref": "#/definitions/scalar"}, "rhs": {"$ref": "#/definitions/scalar"}, "source": {"$ref": "#/definitions/sources"}}
+      }
+    },
+    "square_square": {
+      "type": "object", "additionalProperties": false,
+      "required": ["relation_ref", "coefficient_order", "determinant", "source_basis_order", "source", "convention", "note"],
+      "properties": {
+        "relation_ref": {"const": "square_square"},
+        "coefficient_order": {"const": ["b_0", "b_3", "b_4", "b_2", "b_1"]},
+        "determinant": {"$ref": "#/definitions/scalar"},
+        "source_basis_order": {"const": ["one", "U", "K", "H", "H2"]},
+        "source": {"$ref": "#/definitions/sources"},
+        "convention": {"$ref": "#/definitions/text"}, "note": {"$ref": "#/definitions/text"}
+      }
+    },
+    "coefficient_evidence": {
+      "description": "Non-authoritative printed expressions; never coefficient definitions.",
+      "type": "array", "minItems": 10, "maxItems": 10,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "coefficient", "expression", "status", "residual", "source", "note"],
+        "properties": {
+          "id": {"$ref": "#/definitions/id"}, "coefficient": {"$ref": "#/definitions/id"},
+          "expression": {"$ref": "#/definitions/scalar"}, "residual": {"$ref": "#/definitions/scalar"},
+          "status": {"enum": ["agrees", "disagrees"]},
+          "source": {"$ref": "#/definitions/sources"}, "note": {"$ref": "#/definitions/text"}
+        }
+      }
+    },
+    "characters": {
+      "type": "object", "additionalProperties": false,
+      "required": ["column_order", "row_order", "origin", "source", "column_provenance", "rows"],
+      "properties": {
+        "column_order": {"const": ["one", "H", "H2", "K", "U", "S", "Sinv"]},
+        "row_order": {"const": ["Y2", "L", "X2", "Y2star", "I"]},
+        "origin": {"$ref": "#/definitions/origin"}, "source": {"$ref": "#/definitions/sources"},
+        "column_provenance": {"type": "object", "propertyNames": {"$ref": "#/definitions/id"}, "additionalProperties": {"$ref": "#/definitions/text"}},
+        "rows": {"type": "array", "minItems": 5, "maxItems": 5, "items": {
+          "type": "object", "additionalProperties": false, "required": ["id", "values"],
+          "properties": {"id": {"$ref": "#/definitions/id"}, "values": {"type": "array", "minItems": 7, "maxItems": 7, "items": {"$ref": "#/definitions/scalar"}}}
+        }}
+      }
+    }
+  },
+  "definitions": {
+    "text": {"type": "string", "minLength": 1},
+    "id": {"type": "string", "pattern": "^[A-Za-z][A-Za-z0-9_]*$"},
+    "scalar": {"type": "string", "minLength": 1, "description": "FORMAT.md grammar; parsed by semantic validator, not this schema."},
+    "sources": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/definitions/text"}},
+    "origin": {"enum": ["copied", "expanded", "source_prescribed", "computed"]},
+    "order": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/definitions/id"}},
+    "word": {"type": "array", "items": {"$ref": "#/definitions/id"}},
+    "coefficient": {
+      "type": "object", "additionalProperties": false, "required": ["expression", "origin", "source"],
+      "properties": {"expression": {"$ref": "#/definitions/scalar"}, "display": {"$ref": "#/definitions/text"}, "bar_of": {"$ref": "#/definitions/id"}, "origin": {"$ref": "#/definitions/origin"}, "source": {"$ref": "#/definitions/sources"}}
+    },
+    "element": {
+      "type": "object", "additionalProperties": false, "required": ["kind", "display"],
+      "properties": {"kind": {"enum": ["basis", "additional"]}, "display": {"$ref": "#/definitions/text"}, "word": {"$ref": "#/definitions/word"}}
+    },
+    "linear": {
+      "type": "object", "additionalProperties": false, "required": ["terms"],
+      "properties": {"terms": {"type": "array", "items": {
+        "type": "object", "additionalProperties": false, "required": ["coefficient", "word"],
+        "properties": {"coefficient": {"$ref": "#/definitions/scalar"}, "word": {"$ref": "#/definitions/word"}}
+      }}}
+    },
+    "table": {
+      "type": "object", "additionalProperties": false,
+      "required": ["origin", "role", "form", "source", "row_order", "column_order", "cells"],
+      "properties": {
+        "origin": {"$ref": "#/definitions/origin"}, "role": {"const": "primary"}, "form": {"const": "unreduced"},
+        "source": {"$ref": "#/definitions/sources"}, "row_order": {"$ref": "#/definitions/order"}, "column_order": {"$ref": "#/definitions/order"},
+        "reduction_rules": {"$ref": "#/definitions/order"},
+        "cells": {"type": "array", "minItems": 1, "items": {"type": "array", "minItems": 1, "items": {"$ref": "#/definitions/linear"}}}
+      }
+    },
+    "relation": {
+      "type": "object", "additionalProperties": false, "required": ["id", "role", "origin", "source", "lhs", "rhs"],
+      "properties": {
+        "id": {"$ref": "#/definitions/id"}, "role": {"enum": ["primary", "derived"]}, "origin": {"$ref": "#/definitions/origin"},
+        "source": {"$ref": "#/definitions/sources"}, "display": {"$ref": "#/definitions/text"},
+        "lhs": {"$ref": "#/definitions/linear"}, "rhs": {"$ref": "#/definitions/linear"}
+      }
+    }
+  }
+}

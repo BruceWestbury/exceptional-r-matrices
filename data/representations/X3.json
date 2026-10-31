@@ -1,0 +1,296 @@
+{
+  "$schema": "../../schema/representation.schema.json",
+  "format": "exceptional-series-representation",
+  "version": "0.2.0",
+  "status": "current",
+  "id": "X3",
+  "display": "X_3",
+  "cut_length": 3,
+  "algebra_ref": "../a3.json",
+  "field_ref": "F",
+  "dimension": 1,
+  "basis": {
+    "order": [
+      "coordinate_1"
+    ],
+    "description": "Neutral coordinates in the printed row/column order; these tables do not individually name mathematical basis vectors.",
+    "source": [
+      "threestring-top.tex:114, eq:A3irrep",
+      "threestring-top.tex:497, eq:Sirrep"
+    ]
+  },
+  "conventions": {
+    "index_base": 0,
+    "matrix_encoding": "sparse_triples",
+    "entry_order": "row_major",
+    "action": "row_vectors_right",
+    "word_order": "left_to_right_product",
+    "source": [
+      "ribbon.tex:14,42-49",
+      "threestring-top.tex:114, eq:A3irrep",
+      "threestring-top.tex:497, eq:Sirrep"
+    ],
+    "note": "Repository convention v -> v M and rho(ab)=rho(a)rho(b); no transpose. Top tables print both partners and allow direct J M J comparison; they do not separately state a coordinate action side."
+  },
+  "provenance": {
+    "base_commit": "3068deded4812aed0bf050b5cb13bac785fb0193",
+    "authority": "Current source-based encoding, pending authorial approval; successful audit is not approval.",
+    "change": "Incremental explicit transcription; K/U evaluated from JSON polynomial prescriptions, inverses by bar; no c, quartic or manuscript changes.",
+    "source_hashes": {
+      "threestring.tex": "68602f2cb45526c8b6ddd37e2aa8185e9e5d76655ed5fbdf6c2467b3b6a78f1c",
+      "threestring-top.tex": "5b6f2ac5eaf0e833cb0e9bd7043f54ea3b1ac6b195f01b51ad48cb373916fcd7",
+      "twostring.tex": "8f6463f6d69b47bf8abbabd30c9add57379a31756e5b38740eb14d6d4abf006f"
+    }
+  },
+  "matrices": [
+    {
+      "operator": "H1",
+      "rows": 1,
+      "cols": 1,
+      "entries": [
+        [
+          0,
+          0,
+          "xi"
+        ]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "threestring-top.tex:114, eq:A3irrep"
+        ]
+      }
+    },
+    {
+      "operator": "H2",
+      "rows": 1,
+      "cols": 1,
+      "entries": [
+        [
+          0,
+          0,
+          "xi"
+        ]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "threestring-top.tex:114, eq:A3irrep"
+        ]
+      }
+    },
+    {
+      "operator": "K1",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "method": "zero",
+        "source": [
+          "threestring.tex:513-517, prop:A3bimodules2"
+        ]
+      }
+    },
+    {
+      "operator": "K2",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "method": "zero",
+        "source": [
+          "threestring.tex:513-517, prop:A3bimodules2"
+        ]
+      }
+    },
+    {
+      "operator": "U1",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "method": "zero",
+        "source": [
+          "threestring.tex:513-517, prop:A3bimodules2"
+        ]
+      }
+    },
+    {
+      "operator": "U2",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "method": "zero",
+        "source": [
+          "threestring.tex:513-517, prop:A3bimodules2"
+        ]
+      }
+    },
+    {
+      "operator": "S1",
+      "rows": 1,
+      "cols": 1,
+      "entries": [
+        [
+          0,
+          0,
+          "-1"
+        ]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "threestring-top.tex:497, eq:Sirrep"
+        ]
+      }
+    },
+    {
+      "operator": "S2",
+      "rows": 1,
+      "cols": 1,
+      "entries": [
+        [
+          0,
+          0,
+          "-1"
+        ]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "threestring-top.tex:497, eq:Sirrep"
+        ]
+      }
+    },
+    {
+      "operator": "Sinv1",
+      "rows": 1,
+      "cols": 1,
+      "entries": [
+        [
+          0,
+          0,
+          "-1"
+        ]
+      ],
+      "provenance": {
+        "origin": "source_prescribed",
+        "method": "bar",
+        "source": [
+          "threestring.tex:650-651,694-698; coefficients.tex:342-345, eq:bar"
+        ]
+      }
+    },
+    {
+      "operator": "Sinv2",
+      "rows": 1,
+      "cols": 1,
+      "entries": [
+        [
+          0,
+          0,
+          "-1"
+        ]
+      ],
+      "provenance": {
+        "origin": "source_prescribed",
+        "method": "bar",
+        "source": [
+          "threestring.tex:650-651,694-698; coefficients.tex:342-345, eq:bar"
+        ]
+      }
+    }
+  ],
+  "construction_checks": [
+    {
+      "id": "H_rotation",
+      "kind": "rotation",
+      "role": "derived",
+      "target": "H2",
+      "operand": "H1",
+      "source": [
+        "threestring-top.tex:114, eq:A3irrep",
+        "threestring-top.tex:497, eq:Sirrep",
+        "threestring.tex:248-261,694-698; polynomial/bar commute with J M J"
+      ]
+    },
+    {
+      "id": "K_rotation",
+      "kind": "rotation",
+      "role": "derived",
+      "target": "K2",
+      "operand": "K1",
+      "source": [
+        "threestring-top.tex:114, eq:A3irrep",
+        "threestring-top.tex:497, eq:Sirrep",
+        "threestring.tex:248-261,694-698; polynomial/bar commute with J M J"
+      ]
+    },
+    {
+      "id": "U_rotation",
+      "kind": "rotation",
+      "role": "derived",
+      "target": "U2",
+      "operand": "U1",
+      "source": [
+        "threestring-top.tex:114, eq:A3irrep",
+        "threestring-top.tex:497, eq:Sirrep",
+        "threestring.tex:248-261,694-698; polynomial/bar commute with J M J"
+      ]
+    },
+    {
+      "id": "S_rotation",
+      "kind": "rotation",
+      "role": "derived",
+      "target": "S2",
+      "operand": "S1",
+      "source": [
+        "threestring-top.tex:114, eq:A3irrep",
+        "threestring-top.tex:497, eq:Sirrep",
+        "threestring.tex:248-261,694-698; polynomial/bar commute with J M J"
+      ]
+    },
+    {
+      "id": "Sinv_rotation",
+      "kind": "rotation",
+      "role": "derived",
+      "target": "Sinv2",
+      "operand": "Sinv1",
+      "source": [
+        "threestring-top.tex:114, eq:A3irrep",
+        "threestring-top.tex:497, eq:Sirrep",
+        "threestring.tex:248-261,694-698; polynomial/bar commute with J M J"
+      ]
+    },
+    {
+      "id": "inverse_bar1",
+      "kind": "bar",
+      "role": "derived",
+      "target": "Sinv1",
+      "operand": "S1",
+      "source": [
+        "threestring.tex:650-651,694-698; coefficients.tex:342-345, eq:bar"
+      ]
+    },
+    {
+      "id": "inverse_bar2",
+      "kind": "bar",
+      "role": "derived",
+      "target": "Sinv2",
+      "operand": "S2",
+      "source": [
+        "threestring.tex:650-651,694-698; coefficients.tex:342-345, eq:bar"
+      ]
+    }
+  ],
+  "comparison": {
+    "status": "independently_checked",
+    "method": "tools/audit_representations.py compares copied entries with reviewed literal source witnesses separately from JSON-driven mathematical checks.",
+    "current_coefficients": "Imports settled local coefficients including corrected tau, S_I and b_i; no historical coefficient supplies an entry."
+  }
+}

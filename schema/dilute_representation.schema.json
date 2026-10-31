@@ -1,0 +1,315 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Dilute A(3) raw-source transcription profile, 0.2.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "format",
+    "version",
+    "status",
+    "id",
+    "algebra_ref",
+    "field_ref",
+    "dimension",
+    "basis",
+    "conventions",
+    "provenance",
+    "matrices",
+    "construction_checks",
+    "comparison"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "../../schema/dilute_representation.schema.json"
+    },
+    "format": {
+      "const": "exceptional-series-representation"
+    },
+    "version": {
+      "const": "0.2.0"
+    },
+    "status": {
+      "const": "provisional_transcription"
+    },
+    "id": {
+      "$ref": "local_a2.schema.json#/definitions/id"
+    },
+    "display": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cut_length": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    },
+    "algebra_ref": {
+      "const": "../dilute_a3.json"
+    },
+    "field_ref": {
+      "const": "F"
+    },
+    "dimension": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "basis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "order",
+        "description",
+        "source"
+      ],
+      "properties": {
+        "order": {
+          "$ref": "local_a2.schema.json#/definitions/order"
+        },
+        "description": {
+          "$ref": "local_a2.schema.json#/definitions/text"
+        },
+        "source": {
+          "$ref": "local_a2.schema.json#/definitions/sources"
+        }
+      }
+    },
+    "conventions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "index_base",
+        "matrix_encoding",
+        "entry_order",
+        "action",
+        "word_order",
+        "source",
+        "note"
+      ],
+      "properties": {
+        "index_base": {
+          "const": 0
+        },
+        "matrix_encoding": {
+          "const": "sparse_triples"
+        },
+        "entry_order": {
+          "const": "row_major"
+        },
+        "action": {
+          "const": "row_vectors_right"
+        },
+        "word_order": {
+          "const": "left_to_right_product"
+        },
+        "source": {
+          "$ref": "local_a2.schema.json#/definitions/sources"
+        },
+        "note": {
+          "$ref": "local_a2.schema.json#/definitions/text"
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "base_commit",
+        "authority",
+        "change",
+        "source_hashes"
+      ],
+      "properties": {
+        "base_commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "authority": {
+          "type": "string",
+          "minLength": 1
+        },
+        "change": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_hashes": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        }
+      }
+    },
+    "matrices": {
+      "type": "array",
+      "minItems": 30,
+      "maxItems": 30,
+      "items": {
+        "$ref": "#/definitions/matrix"
+      }
+    },
+    "construction_checks": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 0,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "kind",
+          "role",
+          "target",
+          "operand",
+          "source"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "local_a2.schema.json#/definitions/id"
+          },
+          "kind": {
+            "enum": [
+              "rotation",
+              "bar"
+            ]
+          },
+          "role": {
+            "const": "derived"
+          },
+          "target": {
+            "$ref": "local_a2.schema.json#/definitions/id"
+          },
+          "operand": {
+            "$ref": "local_a2.schema.json#/definitions/id"
+          },
+          "source": {
+            "$ref": "local_a2.schema.json#/definitions/sources"
+          }
+        }
+      }
+    },
+    "comparison": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "method",
+        "current_coefficients"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "pending_audit",
+            "independently_checked"
+          ]
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "current_coefficients": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "definitions": {
+    "matrix": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "operator",
+        "rows",
+        "cols",
+        "entries",
+        "provenance"
+      ],
+      "properties": {
+        "operator": {
+          "$ref": "local_a2.schema.json#/definitions/id"
+        },
+        "rows": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "cols": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "entries": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "integer",
+                "minimum": 0
+              },
+              {
+                "type": "integer",
+                "minimum": 0
+              },
+              {
+                "$ref": "local_a2.schema.json#/definitions/scalar"
+              }
+            ],
+            "additionalItems": false
+          }
+        },
+        "provenance": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "origin",
+            "source"
+          ],
+          "properties": {
+            "origin": {
+              "enum": [
+                "copied",
+                "source_prescribed"
+              ]
+            },
+            "method": {
+              "enum": [
+                "rotation",
+                "bar",
+                "polynomial",
+                "zero",
+                "quotient_zero",
+                "identity"
+              ]
+            },
+            "source": {
+              "$ref": "local_a2.schema.json#/definitions/sources"
+            }
+          },
+          "if": {
+            "properties": {
+              "origin": {
+                "const": "source_prescribed"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "method"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "method"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

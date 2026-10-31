@@ -1,0 +1,616 @@
+{
+  "$schema": "../schema/publication.schema.json",
+  "format": "exceptional-series-basis-maps",
+  "version": "0.3.0",
+  "status": "verified_computational_conventions",
+  "provenance": {
+    "base_commit": "db523ef0c62105a9363a07a1ab1215c01cdd5b2e",
+    "authority": "Accepted local manuscript and retained exact JSON; release candidate pending review"
+  },
+  "coefficient_imports": [
+    "local_a2.json",
+    "dilute_a3.json"
+  ],
+  "maps": [
+    {
+      "id": "dilute_I",
+      "representation_ref": "dilute_representations/Dilute_0.json",
+      "basis_order": [
+        "coordinate_0",
+        "coordinate_1",
+        "coordinate_2",
+        "coordinate_3",
+        "coordinate_4"
+      ],
+      "matrix_diagonal": [
+        "1",
+        "1/b30",
+        "1/b30",
+        "1/b30",
+        "1/b30"
+      ],
+      "direction": "M_manuscript = D * M_JSON * D^-1",
+      "prerequisite": "dilute generators must first be put in paper2 normalization",
+      "affected": "all displayed generators in the same representation; conjugation also applies to derived spectral matrices",
+      "evidence": "reports/paper_audit/a2_results_gauge_0_gauge_1.json",
+      "evidence_sha256": "95d3002043195f246a793196edabe837959de73f4572eddce1b01b97af33e271"
+    },
+    {
+      "id": "dilute_L",
+      "representation_ref": "dilute_representations/Dilute_1.json",
+      "basis_order": [
+        "coordinate_0",
+        "coordinate_1",
+        "coordinate_2",
+        "coordinate_3",
+        "coordinate_4",
+        "coordinate_5",
+        "coordinate_6",
+        "coordinate_7",
+        "coordinate_8",
+        "coordinate_9",
+        "coordinate_10"
+      ],
+      "matrix_diagonal": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "b30",
+        "b30",
+        "b30",
+        "1",
+        "1",
+        "1"
+      ],
+      "direction": "M_manuscript = D * M_JSON * D^-1",
+      "prerequisite": "dilute generators must first be put in paper2 normalization",
+      "affected": "all displayed generators in the same representation; conjugation also applies to derived spectral matrices",
+      "evidence": "reports/paper_audit/a2_results_gauge_0_gauge_1.json",
+      "evidence_sha256": "95d3002043195f246a793196edabe837959de73f4572eddce1b01b97af33e271"
+    },
+    {
+      "id": "ordinary_Y2",
+      "representation_ref": "representations/Y2.json",
+      "basis_order": [
+        "coordinate_1",
+        "coordinate_2",
+        "coordinate_3"
+      ],
+      "matrix_diagonal": [
+        "1",
+        "-1",
+        "1"
+      ],
+      "direction": "M_manuscript = D * M_JSON * D^-1",
+      "prerequisite": "ordinary alpha=1 normalization",
+      "affected": "all displayed generators in the same representation; conjugation also applies to derived spectral matrices",
+      "evidence": "reports/paper_audit/a2_results_ordinarygauge_3.json",
+      "evidence_sha256": "e00d5d8852a10071c2f878d0b1f7cb507275db7216431fe47d9b671d4f816043"
+    },
+    {
+      "id": "dilute_A2_L",
+      "representation_ref": "dilute_a2_representations/L.json",
+      "basis_order": [
+        "coordinate_0",
+        "coordinate_1",
+        "coordinate_2"
+      ],
+      "matrix_diagonal": [
+        "beta^-1",
+        "1",
+        "1"
+      ],
+      "direction": "M_manuscript = D * M_paper2 * D^-1",
+      "prerequisite": "multiply each raw diagram matrix by its registry paper2_multiplier first",
+      "affected": "displayed dilute A(2):L generators",
+      "origin": "derived from source scale2 on basis diagrams with vertex counts [1,0,0], not fitted",
+      "source": [
+        "ExceptionalDiagrams.m2:104-112",
+        "yangbaxter.tex:333-375"
+      ],
+      "evidence": "reports/dataset_release/export/a2_1.json"
+    }
+  ],
+  "occupancy_decompositions": [
+    {
+      "representation_ref": "dilute_representations/Dilute_0.json",
+      "label": "I",
+      "basis": [
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:I",
+          "ordinary_coordinate": 0,
+          "coordinate": 0
+        },
+        {
+          "occupancy": [
+            1,
+            2
+          ],
+          "ordinary_space": "A2:I",
+          "ordinary_coordinate": 0,
+          "coordinate": 1
+        },
+        {
+          "occupancy": [
+            0,
+            2
+          ],
+          "ordinary_space": "A2:I",
+          "ordinary_coordinate": 0,
+          "coordinate": 2
+        },
+        {
+          "occupancy": [
+            0,
+            1
+          ],
+          "ordinary_space": "A2:I",
+          "ordinary_coordinate": 0,
+          "coordinate": 3
+        },
+        {
+          "occupancy": [],
+          "ordinary_space": "A0:I",
+          "ordinary_coordinate": 0,
+          "coordinate": 4
+        }
+      ]
+    },
+    {
+      "representation_ref": "dilute_representations/Dilute_1.json",
+      "label": "L",
+      "basis": [
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:L",
+          "ordinary_coordinate": 0,
+          "coordinate": 0
+        },
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:L",
+          "ordinary_coordinate": 1,
+          "coordinate": 1
+        },
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:L",
+          "ordinary_coordinate": 2,
+          "coordinate": 2
+        },
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:L",
+          "ordinary_coordinate": 3,
+          "coordinate": 3
+        },
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:L",
+          "ordinary_coordinate": 4,
+          "coordinate": 4
+        },
+        {
+          "occupancy": [
+            1,
+            2
+          ],
+          "ordinary_space": "A2:L",
+          "ordinary_coordinate": 0,
+          "coordinate": 5
+        },
+        {
+          "occupancy": [
+            0,
+            2
+          ],
+          "ordinary_space": "A2:L",
+          "ordinary_coordinate": 0,
+          "coordinate": 6
+        },
+        {
+          "occupancy": [
+            0,
+            1
+          ],
+          "ordinary_space": "A2:L",
+          "ordinary_coordinate": 0,
+          "coordinate": 7
+        },
+        {
+          "occupancy": [
+            2
+          ],
+          "ordinary_space": "A1:L",
+          "ordinary_coordinate": 0,
+          "coordinate": 8
+        },
+        {
+          "occupancy": [
+            1
+          ],
+          "ordinary_space": "A1:L",
+          "ordinary_coordinate": 0,
+          "coordinate": 9
+        },
+        {
+          "occupancy": [
+            0
+          ],
+          "ordinary_space": "A1:L",
+          "ordinary_coordinate": 0,
+          "coordinate": 10
+        }
+      ]
+    },
+    {
+      "representation_ref": "dilute_representations/Dilute_2.json",
+      "label": "X2",
+      "basis": [
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:X2",
+          "ordinary_coordinate": 0,
+          "coordinate": 0
+        },
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:X2",
+          "ordinary_coordinate": 1,
+          "coordinate": 1
+        },
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:X2",
+          "ordinary_coordinate": 2,
+          "coordinate": 2
+        },
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:X2",
+          "ordinary_coordinate": 3,
+          "coordinate": 3
+        },
+        {
+          "occupancy": [
+            1,
+            2
+          ],
+          "ordinary_space": "A2:X2",
+          "ordinary_coordinate": 0,
+          "coordinate": 4
+        },
+        {
+          "occupancy": [
+            0,
+            2
+          ],
+          "ordinary_space": "A2:X2",
+          "ordinary_coordinate": 0,
+          "coordinate": 5
+        },
+        {
+          "occupancy": [
+            0,
+            1
+          ],
+          "ordinary_space": "A2:X2",
+          "ordinary_coordinate": 0,
+          "coordinate": 6
+        }
+      ]
+    },
+    {
+      "representation_ref": "dilute_representations/Dilute_3.json",
+      "label": "Y2",
+      "basis": [
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:Y2",
+          "ordinary_coordinate": 0,
+          "coordinate": 0
+        },
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:Y2",
+          "ordinary_coordinate": 1,
+          "coordinate": 1
+        },
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:Y2",
+          "ordinary_coordinate": 2,
+          "coordinate": 2
+        },
+        {
+          "occupancy": [
+            1,
+            2
+          ],
+          "ordinary_space": "A2:Y2",
+          "ordinary_coordinate": 0,
+          "coordinate": 3
+        },
+        {
+          "occupancy": [
+            0,
+            2
+          ],
+          "ordinary_space": "A2:Y2",
+          "ordinary_coordinate": 0,
+          "coordinate": 4
+        },
+        {
+          "occupancy": [
+            0,
+            1
+          ],
+          "ordinary_space": "A2:Y2",
+          "ordinary_coordinate": 0,
+          "coordinate": 5
+        }
+      ]
+    },
+    {
+      "representation_ref": "dilute_representations/Dilute_4.json",
+      "label": "Y2_star",
+      "basis": [
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:Y2_star",
+          "ordinary_coordinate": 0,
+          "coordinate": 0
+        },
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:Y2_star",
+          "ordinary_coordinate": 1,
+          "coordinate": 1
+        },
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:Y2_star",
+          "ordinary_coordinate": 2,
+          "coordinate": 2
+        },
+        {
+          "occupancy": [
+            1,
+            2
+          ],
+          "ordinary_space": "A2:Y2_star",
+          "ordinary_coordinate": 0,
+          "coordinate": 3
+        },
+        {
+          "occupancy": [
+            0,
+            2
+          ],
+          "ordinary_space": "A2:Y2_star",
+          "ordinary_coordinate": 0,
+          "coordinate": 4
+        },
+        {
+          "occupancy": [
+            0,
+            1
+          ],
+          "ordinary_space": "A2:Y2_star",
+          "ordinary_coordinate": 0,
+          "coordinate": 5
+        }
+      ]
+    },
+    {
+      "representation_ref": "dilute_representations/Dilute_5.json",
+      "label": "X3",
+      "basis": [
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:X3",
+          "ordinary_coordinate": 0,
+          "coordinate": 0
+        }
+      ]
+    },
+    {
+      "representation_ref": "dilute_representations/Dilute_6.json",
+      "label": "Y3",
+      "basis": [
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:Y3",
+          "ordinary_coordinate": 0,
+          "coordinate": 0
+        }
+      ]
+    },
+    {
+      "representation_ref": "dilute_representations/Dilute_7.json",
+      "label": "Y3_star",
+      "basis": [
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:Y3_star",
+          "ordinary_coordinate": 0,
+          "coordinate": 0
+        }
+      ]
+    },
+    {
+      "representation_ref": "dilute_representations/Dilute_8.json",
+      "label": "A",
+      "basis": [
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:A",
+          "ordinary_coordinate": 0,
+          "coordinate": 0
+        },
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:A",
+          "ordinary_coordinate": 1,
+          "coordinate": 1
+        },
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:A",
+          "ordinary_coordinate": 2,
+          "coordinate": 2
+        }
+      ]
+    },
+    {
+      "representation_ref": "dilute_representations/Dilute_9.json",
+      "label": "C",
+      "basis": [
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:C",
+          "ordinary_coordinate": 0,
+          "coordinate": 0
+        },
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:C",
+          "ordinary_coordinate": 1,
+          "coordinate": 1
+        }
+      ]
+    },
+    {
+      "representation_ref": "dilute_representations/Dilute_10.json",
+      "label": "C_star",
+      "basis": [
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:C_star",
+          "ordinary_coordinate": 0,
+          "coordinate": 0
+        },
+        {
+          "occupancy": [
+            0,
+            1,
+            2
+          ],
+          "ordinary_space": "A3:C_star",
+          "ordinary_coordinate": 1,
+          "coordinate": 1
+        }
+      ]
+    }
+  ],
+  "occupancy_convention": "row-right; row occupancy = left boundary vertices 0,1,2; column occupancy = reversed right vertices 5,4,3",
+  "occupancy_provenance": {
+    "origin": "copied from committed construction audit; no new morphism reconstruction",
+    "source": "audits/python/dilute_transcription/correspondence.json",
+    "sha256": "351508341d491cf5d6349fe2d40650fb8edd42ee571b7e787f27fc5d7ab882c7",
+    "limitation": "Basis/occupancy identification does not supply the 92 unresolved transition entries."
+  }
+}

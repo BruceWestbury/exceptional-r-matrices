@@ -1,0 +1,175 @@
+{
+  "$schema": "../schema/publication.schema.json",
+  "format": "exceptional-series-spectral-formula",
+  "version": "0.3.0",
+  "status": "source_prescribed",
+  "provenance": {
+    "base_commit": "db523ef0c62105a9363a07a1ab1215c01cdd5b2e",
+    "authority": "Accepted local manuscript and retained exact JSON; release candidate pending review"
+  },
+  "field": {
+    "base": "QQ",
+    "variables": [
+      "p",
+      "q",
+      "u"
+    ]
+  },
+  "coefficient_definitions": {
+    "N": {
+      "expression": "((p^(1)*u^(0)*q^(0)-p^(-1)*u^(0)*q^(0))/(q-q^-1))"
+    },
+    "N1": {
+      "expression": "((p^(1)*u^(0)*q^(1)-p^(-1)*u^(0)*q^(-1))/(q-q^-1))"
+    },
+    "N2": {
+      "expression": "((p^(2)*u^(0)*q^(0)-p^(-2)*u^(0)*q^(0))/(q-q^-1))"
+    },
+    "N3": {
+      "expression": "((p^(3)*u^(0)*q^(0)-p^(-3)*u^(0)*q^(0))/(q-q^-1))"
+    },
+    "N6": {
+      "expression": "((p^(6)*u^(0)*q^(0)-p^(-6)*u^(0)*q^(0))/(q-q^-1))"
+    },
+    "X": {
+      "expression": "((p^(0)*u^(1)*q^(0)-p^(0)*u^(-1)*q^(0))/(q-q^-1))"
+    },
+    "Z": {
+      "expression": "((p^(2)*u^(1)*q^(0)-p^(-2)*u^(-1)*q^(0))/(q-q^-1))"
+    },
+    "W": {
+      "expression": "((p^(3)*u^(1)*q^(0)-p^(-3)*u^(-1)*q^(0))/(q-q^-1))"
+    },
+    "F": {
+      "expression": "N6^2*N/(N3^2*N2)"
+    }
+  },
+  "generator_expansion": [
+    {
+      "coefficient": "F*N1*Z*W",
+      "word": [
+        "one"
+      ]
+    },
+    {
+      "coefficient": "-F*p^-1*u^-1*X*Z*W/(q-q^-1)",
+      "word": [
+        "S_dilute"
+      ]
+    },
+    {
+      "coefficient": "F*p*u*X*Z*W/(q-q^-1)",
+      "word": [
+        "Sinv_dilute"
+      ]
+    },
+    {
+      "coefficient": "-F*N2*N3*N1*X*N*W/N6",
+      "word": [
+        "K"
+      ]
+    },
+    {
+      "coefficient": "F*N2*N3*N1*X*W/N6",
+      "word": [
+        "T"
+      ]
+    },
+    {
+      "coefficient": "-F*N2*N3*N1*X*W/(N6*N)",
+      "word": [
+        "B"
+      ]
+    },
+    {
+      "coefficient": "-F*N2*N3*N1*X*(u+u^-1)/N6",
+      "word": [
+        "E"
+      ]
+    },
+    {
+      "coefficient": "F*N2*N3*N1*X*(N6*Z/N3-W)/(N6*N)",
+      "word": [
+        "U"
+      ]
+    },
+    {
+      "coefficient": "-F*N2*N3*N1*X*(p^6*u+p^-6*u^-1+2*W/N)/N6",
+      "word": [
+        "O"
+      ]
+    }
+  ],
+  "scalar_relationship": {
+    "equation": "Rpoly(u) = normalization_scalar(u) * Rcheck(u)",
+    "normalization_scalar": "F*((p^(1)*u^(1)*q^(1)-p^(-1)*u^(-1)*q^(-1))/(q-q^-1))*((p^(0)*u^(1)*q^(-1)-p^(0)*u^(-1)*q^(1))/(q-q^-1))*Z*W",
+    "inverse_relation": "Rcheck(u) = Rpoly(u)/normalization_scalar(u)",
+    "source": "yangbaxter.tex:798-800"
+  },
+  "crossing": {
+    "spectral_substitution": {
+      "p": "p",
+      "q": "q",
+      "u": "p^-3*u^-1"
+    },
+    "equation": "Rot(Rpoly(u)) = Rpoly(p^-3*u^-1)",
+    "rotation_pairs": [
+      [
+        "I",
+        "U"
+      ],
+      [
+        "S_ordinary",
+        "Sinv_ordinary"
+      ],
+      [
+        "K",
+        "H"
+      ],
+      [
+        "E",
+        "D_squared"
+      ]
+    ],
+    "fixed_generators": [
+      "T",
+      "D",
+      "O"
+    ],
+    "source": "yangbaxter.tex:803-829",
+    "scope": "linear diagram rotation, not entrywise matrix transpose or algebra automorphism; conventions supplied, not independently rederived"
+  },
+  "distinguished_values": [
+    {
+      "u": "0",
+      "interpretation": "limit after Laurent monomial rescaling; unscaled Rpoly has a pole generically",
+      "rescale": "u^4",
+      "coefficient": "F*p^-6/(q-q^-1)^4",
+      "generator": "S_dilute",
+      "rational_limit": "S_dilute"
+    },
+    {
+      "u": "1",
+      "interpretation": "ordinary substitution at a generically regular point",
+      "rescale": "1",
+      "coefficient": "F*N1*N2*N3",
+      "generator": "one",
+      "rational_limit": "-one"
+    },
+    {
+      "u": "infinity",
+      "interpretation": "leading Laurent coefficient; unscaled Rpoly grows generically",
+      "rescale": "u^-4",
+      "coefficient": "F*p^6/(q-q^-1)^4",
+      "generator": "Sinv_dilute",
+      "rational_limit": "Sinv_dilute"
+    }
+  ],
+  "generators_ref": "dilute_a3_embeddings.json",
+  "source": [
+    "yangbaxter.tex:134-148 (8.3)",
+    "yangbaxter.tex:209-214",
+    "yangbaxter.tex:798-829"
+  ],
+  "note": "Polynomial means Laurent polynomial in u with rational p,q coefficients; no extra denominator clearing is part of the manuscript normalization."
+}

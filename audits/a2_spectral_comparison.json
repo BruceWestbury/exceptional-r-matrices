@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "comparison_performed": "after both independent calculation batches completed",
+  "results": [
+    {
+      "task": "I",
+      "python": "PASS",
+      "c": "PASS",
+      "all_reported_residuals_agree": true,
+      "comparison_scope": [
+        "rational_residual_matrix",
+        "polynomial_residual_matrix",
+        "coefficient_normalization_residuals"
+      ]
+    },
+    {
+      "task": "L",
+      "python": "PASS",
+      "c": "PASS",
+      "all_reported_residuals_agree": true,
+      "comparison_scope": [
+        "rational_residual_matrix",
+        "polynomial_residual_matrix",
+        "coefficient_normalization_residuals"
+      ]
+    },
+    {
+      "task": "X2",
+      "python": "PASS",
+      "c": "PASS",
+      "all_reported_residuals_agree": true,
+      "comparison_scope": [
+        "rational_residual_matrix",
+        "polynomial_residual_matrix",
+        "coefficient_normalization_residuals"
+      ]
+    },
+    {
+      "task": "Y2",
+      "python": "PASS",
+      "c": "PASS",
+      "all_reported_residuals_agree": true,
+      "comparison_scope": [
+        "rational_residual_matrix",
+        "polynomial_residual_matrix",
+        "coefficient_normalization_residuals"
+      ]
+    },
+    {
+      "task": "Y2_star",
+      "python": "PASS",
+      "c": "PASS",
+      "all_reported_residuals_agree": true,
+      "comparison_scope": [
+        "rational_residual_matrix",
+        "polynomial_residual_matrix",
+        "coefficient_normalization_residuals"
+      ]
+    },
+    {
+      "task": "crossing",
+      "python": "PASS",
+      "c": "PASS",
+      "all_reported_residuals_agree": true,
+      "comparison_scope": [
+        "diagram_residuals",
+        "scalar_residuals",
+        "polynomial_crossing_factor"
+      ]
+    }
+  ],
+  "assumptions": "Prescribed diagram rotation and declared basis are inputs; their geometric validity and independence are not established here."
+}

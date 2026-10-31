@@ -1,0 +1,925 @@
+{
+  "$schema": "../schema/publication.schema.json",
+  "format": "exceptional-series-dilute-embeddings",
+  "version": "0.3.0",
+  "status": "source_prescribed",
+  "provenance": {
+    "base_commit": "db523ef0c62105a9363a07a1ab1215c01cdd5b2e",
+    "authority": "Accepted local manuscript and retained exact JSON; release candidate pending review"
+  },
+  "positions": {
+    "1": {
+      "0": [
+        [
+          6,
+          2
+        ],
+        [
+          18
+        ]
+      ],
+      "1": [
+        [
+          24,
+          17
+        ],
+        [
+          11,
+          29
+        ]
+      ],
+      "2": [
+        [
+          27,
+          8
+        ],
+        [
+          10,
+          25
+        ]
+      ],
+      "3": [
+        [
+          12
+        ],
+        [
+          3
+        ]
+      ],
+      "5": [
+        [
+          26,
+          23
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "6": [
+        [
+          23
+        ],
+        [
+          13
+        ]
+      ],
+      "7": [
+        [
+          26
+        ],
+        [
+          5
+        ]
+      ],
+      "8": [
+        [
+          22,
+          20
+        ],
+        [
+          13,
+          5
+        ]
+      ],
+      "9": [
+        [
+          8
+        ],
+        [
+          25
+        ]
+      ],
+      "10": [
+        [
+          26,
+          8
+        ],
+        [
+          5,
+          25
+        ]
+      ],
+      "11": [
+        [
+          27,
+          23
+        ],
+        [
+          10,
+          13
+        ]
+      ],
+      "12": [
+        [
+          27
+        ],
+        [
+          10
+        ]
+      ],
+      "13": [
+        [
+          17
+        ],
+        [
+          29
+        ]
+      ],
+      "14": [
+        [
+          24
+        ],
+        [
+          11
+        ]
+      ],
+      "15": [
+        [
+          15
+        ],
+        [
+          20,
+          22
+        ]
+      ]
+    },
+    "2": {
+      "0": [
+        [
+          13,
+          5
+        ],
+        [
+          18
+        ]
+      ],
+      "1": [
+        [
+          21,
+          19
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "2": [
+        [
+          16,
+          7
+        ],
+        [
+          28,
+          14
+        ]
+      ],
+      "3": [
+        [
+          1
+        ],
+        [
+          9
+        ]
+      ],
+      "5": [
+        [
+          22,
+          20
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "6": [
+        [
+          20
+        ],
+        [
+          2
+        ]
+      ],
+      "7": [
+        [
+          22
+        ],
+        [
+          6
+        ]
+      ],
+      "8": [
+        [
+          20,
+          22
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "9": [
+        [
+          7
+        ],
+        [
+          14
+        ]
+      ],
+      "10": [
+        [
+          22,
+          7
+        ],
+        [
+          6,
+          14
+        ]
+      ],
+      "11": [
+        [
+          16,
+          20
+        ],
+        [
+          28,
+          2
+        ]
+      ],
+      "12": [
+        [
+          16
+        ],
+        [
+          28
+        ]
+      ],
+      "13": [
+        [
+          19
+        ],
+        [
+          0
+        ]
+      ],
+      "14": [
+        [
+          21
+        ],
+        [
+          4
+        ]
+      ],
+      "15": [
+        [
+          15
+        ],
+        [
+          26,
+          23
+        ]
+      ]
+    }
+  },
+  "source": {
+    "status": "copied source-prescribed embeddings, not independently verified diagram conventions",
+    "source": "ExceptionalDiagrams.m2 decTable true; local diagram index mapping retained from tools/compare_paper.py",
+    "source_sha256": "cf0599304687c3256cde3378495b0d1df1b3a76bec9056a821b7af17710679e6",
+    "meaning": "Each local diagram tensored with dilute spectator identity is the sum of the two listed generator words; preserve word order. Index 4 is H squared.",
+    "positions": {
+      "1": {
+        "0": [
+          [
+            6,
+            2
+          ],
+          [
+            18
+          ]
+        ],
+        "1": [
+          [
+            24,
+            17
+          ],
+          [
+            11,
+            29
+          ]
+        ],
+        "2": [
+          [
+            27,
+            8
+          ],
+          [
+            10,
+            25
+          ]
+        ],
+        "3": [
+          [
+            12
+          ],
+          [
+            3
+          ]
+        ],
+        "5": [
+          [
+            26,
+            23
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "6": [
+          [
+            23
+          ],
+          [
+            13
+          ]
+        ],
+        "7": [
+          [
+            26
+          ],
+          [
+            5
+          ]
+        ],
+        "8": [
+          [
+            22,
+            20
+          ],
+          [
+            13,
+            5
+          ]
+        ],
+        "9": [
+          [
+            8
+          ],
+          [
+            25
+          ]
+        ],
+        "10": [
+          [
+            26,
+            8
+          ],
+          [
+            5,
+            25
+          ]
+        ],
+        "11": [
+          [
+            27,
+            23
+          ],
+          [
+            10,
+            13
+          ]
+        ],
+        "12": [
+          [
+            27
+          ],
+          [
+            10
+          ]
+        ],
+        "13": [
+          [
+            17
+          ],
+          [
+            29
+          ]
+        ],
+        "14": [
+          [
+            24
+          ],
+          [
+            11
+          ]
+        ],
+        "15": [
+          [
+            15
+          ],
+          [
+            20,
+            22
+          ]
+        ]
+      },
+      "2": {
+        "0": [
+          [
+            13,
+            5
+          ],
+          [
+            18
+          ]
+        ],
+        "1": [
+          [
+            21,
+            19
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "2": [
+          [
+            16,
+            7
+          ],
+          [
+            28,
+            14
+          ]
+        ],
+        "3": [
+          [
+            1
+          ],
+          [
+            9
+          ]
+        ],
+        "5": [
+          [
+            22,
+            20
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "6": [
+          [
+            20
+          ],
+          [
+            2
+          ]
+        ],
+        "7": [
+          [
+            22
+          ],
+          [
+            6
+          ]
+        ],
+        "8": [
+          [
+            20,
+            22
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "9": [
+          [
+            7
+          ],
+          [
+            14
+          ]
+        ],
+        "10": [
+          [
+            22,
+            7
+          ],
+          [
+            6,
+            14
+          ]
+        ],
+        "11": [
+          [
+            16,
+            20
+          ],
+          [
+            28,
+            2
+          ]
+        ],
+        "12": [
+          [
+            16
+          ],
+          [
+            28
+          ]
+        ],
+        "13": [
+          [
+            19
+          ],
+          [
+            0
+          ]
+        ],
+        "14": [
+          [
+            21
+          ],
+          [
+            4
+          ]
+        ],
+        "15": [
+          [
+            15
+          ],
+          [
+            26,
+            23
+          ]
+        ]
+      }
+    }
+  },
+  "coefficient_import": "local_a2.json",
+  "raw_generators_ref": "dilute_a3.json",
+  "normalization": "multiply raw G_j by registry paper2_multiplier before evaluating these ordered words",
+  "local_diagram_ids": [
+    "D0",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "D9",
+    "D10",
+    "D11",
+    "D12",
+    "D13",
+    "D14",
+    "D15"
+  ],
+  "local_D4_definition": [
+    {
+      "coefficient": "1",
+      "word": [
+        "D3",
+        "D3"
+      ]
+    }
+  ],
+  "generator_expressions": {
+    "one": [
+      {
+        "coefficient": "1",
+        "word": [
+          "D0"
+        ]
+      },
+      {
+        "coefficient": "1",
+        "word": [
+          "D5"
+        ]
+      },
+      {
+        "coefficient": "1",
+        "word": [
+          "D8"
+        ]
+      },
+      {
+        "coefficient": "1",
+        "word": [
+          "D15"
+        ]
+      }
+    ],
+    "K": [
+      {
+        "coefficient": "1",
+        "word": [
+          "D2"
+        ]
+      }
+    ],
+    "U": [
+      {
+        "coefficient": "1",
+        "word": [
+          "D1"
+        ]
+      }
+    ],
+    "H": [
+      {
+        "coefficient": "1",
+        "word": [
+          "D3"
+        ]
+      }
+    ],
+    "O": [
+      {
+        "coefficient": "1",
+        "word": [
+          "D15"
+        ]
+      }
+    ],
+    "I": [
+      {
+        "coefficient": "1",
+        "word": [
+          "D0"
+        ]
+      }
+    ],
+    "D": [
+      {
+        "coefficient": "1",
+        "word": [
+          "D6"
+        ]
+      },
+      {
+        "coefficient": "1",
+        "word": [
+          "D7"
+        ]
+      }
+    ],
+    "D_squared": [
+      {
+        "coefficient": "1",
+        "word": [
+          "D5"
+        ]
+      },
+      {
+        "coefficient": "1",
+        "word": [
+          "D8"
+        ]
+      }
+    ],
+    "T": [
+      {
+        "coefficient": "1",
+        "word": [
+          "D9"
+        ]
+      },
+      {
+        "coefficient": "1",
+        "word": [
+          "D10"
+        ]
+      },
+      {
+        "coefficient": "1",
+        "word": [
+          "D11"
+        ]
+      },
+      {
+        "coefficient": "1",
+        "word": [
+          "D12"
+        ]
+      }
+    ],
+    "B": [
+      {
+        "coefficient": "1",
+        "word": [
+          "D5"
+        ]
+      },
+      {
+        "coefficient": "1",
+        "word": [
+          "D6"
+        ]
+      },
+      {
+        "coefficient": "1",
+        "word": [
+          "D7"
+        ]
+      },
+      {
+        "coefficient": "1",
+        "word": [
+          "D8"
+        ]
+      }
+    ],
+    "E": [
+      {
+        "coefficient": "1",
+        "word": [
+          "D13"
+        ]
+      },
+      {
+        "coefficient": "1",
+        "word": [
+          "D14"
+        ]
+      }
+    ],
+    "S_ordinary": [
+      {
+        "coefficient": "C*S_I",
+        "word": [
+          "D0"
+        ]
+      },
+      {
+        "coefficient": "C*S_H*b11",
+        "word": [
+          "D3"
+        ]
+      },
+      {
+        "coefficient": "C*b10*b11^2",
+        "word": [
+          "D3",
+          "D3"
+        ]
+      },
+      {
+        "coefficient": "C*S_K*b11",
+        "word": [
+          "D2"
+        ]
+      },
+      {
+        "coefficient": "C*S_U",
+        "word": [
+          "D1"
+        ]
+      }
+    ],
+    "S_dilute": [
+      {
+        "coefficient": "C*S_I",
+        "word": [
+          "D0"
+        ]
+      },
+      {
+        "coefficient": "C*S_H*b11",
+        "word": [
+          "D3"
+        ]
+      },
+      {
+        "coefficient": "C*b10*b11^2",
+        "word": [
+          "D3",
+          "D3"
+        ]
+      },
+      {
+        "coefficient": "C*S_K*b11",
+        "word": [
+          "D2"
+        ]
+      },
+      {
+        "coefficient": "C*S_U",
+        "word": [
+          "D1"
+        ]
+      },
+      {
+        "coefficient": "1",
+        "word": [
+          "D6"
+        ]
+      },
+      {
+        "coefficient": "1",
+        "word": [
+          "D7"
+        ]
+      },
+      {
+        "coefficient": "1",
+        "word": [
+          "D15"
+        ]
+      }
+    ],
+    "Sinv_ordinary": [
+      {
+        "coefficient": "C*S_U",
+        "word": [
+          "D0"
+        ]
+      },
+      {
+        "coefficient": "C*S_K*b11",
+        "word": [
+          "D3"
+        ]
+      },
+      {
+        "coefficient": "C*b10*b11^2",
+        "word": [
+          "D3",
+          "D3"
+        ]
+      },
+      {
+        "coefficient": "C*S_H*b11",
+        "word": [
+          "D2"
+        ]
+      },
+      {
+        "coefficient": "C*S_I",
+        "word": [
+          "D1"
+        ]
+      }
+    ],
+    "Sinv_dilute": [
+      {
+        "coefficient": "C*S_U",
+        "word": [
+          "D0"
+        ]
+      },
+      {
+        "coefficient": "C*S_K*b11",
+        "word": [
+          "D3"
+        ]
+      },
+      {
+        "coefficient": "C*b10*b11^2",
+        "word": [
+          "D3",
+          "D3"
+        ]
+      },
+      {
+        "coefficient": "C*S_H*b11",
+        "word": [
+          "D2"
+        ]
+      },
+      {
+        "coefficient": "C*S_I",
+        "word": [
+          "D1"
+        ]
+      },
+      {
+        "coefficient": "1",
+        "word": [
+          "D6"
+        ]
+      },
+      {
+        "coefficient": "1",
+        "word": [
+          "D7"
+        ]
+      },
+      {
+        "coefficient": "1",
+        "word": [
+          "D15"
+        ]
+      }
+    ]
+  },
+  "ordinary_to_paper2": "H_ordinary=[n+1]*D3; K_ordinary=[n+1]*D2; ordinary identity=D0; U_ordinary=D1"
+}

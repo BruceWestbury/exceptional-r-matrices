@@ -1,0 +1,13 @@
+python X2 PASS
+python Y2 PASS
+python Y2_star PASS
+python I PASS
+python L PASS
+python crossing PASS
+c X2 PASS
+c Y2 PASS
+c Y2_star PASS
+c I PASS
+c L PASS
+c crossing PASS
+Combined seconds: 1.4669524659984745

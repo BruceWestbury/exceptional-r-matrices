@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "representation": "Dilute_0",
+  "dimension": 5,
+  "raw_generators_loaded": 30,
+  "positions": [
+    1,
+    2
+  ],
+  "spectral_values": [
+    "2",
+    "1/2"
+  ],
+  "coefficient_field": "QQ(p,q)",
+  "check": "Rpoly_i(2)*Rpoly_i(1/2) = N(2)*N(1/2)*Id",
+  "scope": "exact specialized example; not a generic YBE audit"
+}

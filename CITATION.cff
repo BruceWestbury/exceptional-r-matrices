@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Draft citation metadata; confirm before publication. Please cite the accompanying paper."
+type: dataset
+title: "Exact representation matrices and audits for A uniform trigonometric R-matrix for the exceptional series"
+authors:
+  - family-names: Westbury
+    given-names: Bruce W.
+  - family-names: Zinn-Justin
+    given-names: Paul
+preferred-citation:
+  type: article
+  title: "A uniform trigonometric R-matrix for the exceptional series"
+  authors:
+    - family-names: Westbury
+      given-names: Bruce W.
+    - family-names: Zinn-Justin
+      given-names: Paul
+  url: "https://arxiv.org/abs/2406.01348"

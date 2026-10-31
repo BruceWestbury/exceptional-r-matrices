@@ -1,0 +1,20 @@
+{
+  "title": "Exact representation matrices and audits for A uniform trigonometric R-matrix for the exceptional series",
+  "upload_type": "dataset",
+  "creators": [
+    {
+      "name": "Westbury, Bruce W."
+    },
+    {
+      "name": "Zinn-Justin, Paul"
+    }
+  ],
+  "description": "Local release candidate of exact ordinary and dilute representation matrices and independently implemented exact audits accompanying the accepted paper. Metadata and licensing require author approval before deposit.",
+  "related_identifiers": [
+    {
+      "identifier": "https://arxiv.org/abs/2406.01348",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

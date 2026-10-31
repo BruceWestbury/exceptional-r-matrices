@@ -1,0 +1,1457 @@
+{
+  "$schema": "../schema/a3.schema.json",
+  "format": "exceptional-series-a3",
+  "version": "0.2.0",
+  "status": "current",
+  "id": "A3",
+  "local_ref": "local_a2.json",
+  "field_ref": "F",
+  "coefficients": {
+    "b1m1": {
+      "expression": "(p*q^-1-p^-1*q)/(q-q^-1)",
+      "display": "[n-1]",
+      "origin": "expanded",
+      "source": [
+        "coefficients.tex:302-307; threestring.tex:447"
+      ]
+    },
+    "b2m2": {
+      "expression": "(p^2*q^-2-p^-2*q^2)/(q-q^-1)",
+      "display": "[2n-2]",
+      "origin": "expanded",
+      "source": [
+        "coefficients.tex:302-307; threestring.tex:447"
+      ]
+    },
+    "b120": {
+      "expression": "(p^12-p^-12)/(q-q^-1)",
+      "display": "[12n]",
+      "origin": "expanded",
+      "source": [
+        "coefficients.tex:302-307; threestring.tex:449"
+      ]
+    },
+    "c_1": {
+      "expression": "-b11^2/b10^4*(q^2*p^3-2*q^2*p-2*p^3+q^2*p^-1+p+p^-1+q^-2*p-2*p^-3-2*q^-2*p^-1+q^-2*p^-3)",
+      "display": "c_1",
+      "origin": "copied",
+      "source": [
+        "appendix.tex:119, ssec:squarepenta"
+      ]
+    },
+    "c_4": {
+      "expression": "c_1",
+      "display": "c_4",
+      "origin": "copied",
+      "source": [
+        "appendix.tex:118, ssec:squarepenta"
+      ]
+    },
+    "c_2": {
+      "expression": "b60^2*b11^2/(b10^3*b20*b30^2)",
+      "display": "c_2",
+      "origin": "copied",
+      "source": [
+        "appendix.tex:121, ssec:squarepenta"
+      ]
+    },
+    "c_3": {
+      "expression": "c_2",
+      "display": "c_3",
+      "origin": "copied",
+      "source": [
+        "appendix.tex:121, ssec:squarepenta"
+      ]
+    },
+    "c_5": {
+      "expression": "b11/b10^2*(2*q^2*p^3+p^5-q^2*p-2*p^3+2*q^2*p^-1+2*q^-2*p-2*p^-3-q^-2*p^-1+p^-5+2*q^-2*p^-3)",
+      "display": "c_5",
+      "origin": "copied",
+      "source": [
+        "appendix.tex:123, ssec:squarepenta"
+      ]
+    },
+    "c_6": {
+      "expression": "b11/b10^2*(2*q^2*p+p^3-2*p-2*p^-1+p^-3+2*q^-2*p^-1)",
+      "display": "c_6",
+      "origin": "copied",
+      "source": [
+        "appendix.tex:125, ssec:squarepenta"
+      ]
+    },
+    "c_9": {
+      "expression": "c_6",
+      "display": "c_9",
+      "origin": "copied",
+      "source": [
+        "appendix.tex:125, ssec:squarepenta"
+      ]
+    },
+    "c_7": {
+      "expression": "b11/b10^2*(q^2*p^3+p^5+q^2*p-p^3+q^2*p^-1-p-p^-1+q^-2*p-p^-3+q^-2*p^-1+p^-5+q^-2*p^-3)",
+      "display": "c_7",
+      "origin": "copied",
+      "source": [
+        "appendix.tex:127, ssec:squarepenta"
+      ]
+    },
+    "c_8": {
+      "expression": "c_7",
+      "display": "c_8",
+      "origin": "copied",
+      "source": [
+        "appendix.tex:127, ssec:squarepenta"
+      ]
+    },
+    "c_10": {
+      "expression": "(p^3*b10^2+q*p^2*b10-2*b11-q^-1*b10+p^-3*b10^2+p^-2*b11)/b10^2",
+      "display": "c_10",
+      "origin": "copied",
+      "source": [
+        "appendix.tex:129, ssec:squarepenta"
+      ]
+    },
+    "c_11": {
+      "expression": "-b60*b11/(b10*b20*b30)",
+      "display": "c_11",
+      "origin": "copied",
+      "source": [
+        "appendix.tex:131, ssec:squarepenta"
+      ]
+    },
+    "c_14": {
+      "expression": "c_11",
+      "display": "c_14",
+      "origin": "copied",
+      "source": [
+        "appendix.tex:131, ssec:squarepenta"
+      ]
+    },
+    "c_12": {
+      "expression": "-b11/b10^2",
+      "display": "c_12",
+      "origin": "copied",
+      "source": [
+        "appendix.tex:133, ssec:squarepenta"
+      ]
+    },
+    "c_13": {
+      "expression": "c_12",
+      "display": "c_13",
+      "origin": "copied",
+      "source": [
+        "appendix.tex:133, ssec:squarepenta"
+      ]
+    },
+    "c_15": {
+      "expression": "-2*b11/b10^2+b60/(b10^2*b30)*(b11^2+1)",
+      "display": "c_15",
+      "origin": "copied",
+      "source": [
+        "appendix.tex:139, ssec:squarepenta"
+      ]
+    },
+    "c_0": {
+      "expression": "tau^3-(c_3+delta*c_4+phi*(c_6+c_7)+tau*c_9+phi^2*(c_11+c_12)+tau^2*(c_10+c_13)+tau*phi*c_15)",
+      "display": "c_0",
+      "origin": "copied",
+      "source": [
+        "appendix.tex:164, ssec:squarepenta"
+      ]
+    }
+  },
+  "operator_order": [
+    "H1",
+    "H2",
+    "K1",
+    "K2",
+    "U1",
+    "U2",
+    "S1",
+    "S2",
+    "Sinv1",
+    "Sinv2"
+  ],
+  "operators": {
+    "H1": {
+      "local_operator": "H",
+      "position": 1,
+      "kind": "stored_distinguished"
+    },
+    "H2": {
+      "local_operator": "H",
+      "position": 2,
+      "kind": "stored_distinguished"
+    },
+    "K1": {
+      "local_operator": "K",
+      "position": 1,
+      "kind": "stored_distinguished"
+    },
+    "K2": {
+      "local_operator": "K",
+      "position": 2,
+      "kind": "stored_distinguished"
+    },
+    "U1": {
+      "local_operator": "U",
+      "position": 1,
+      "kind": "stored_distinguished"
+    },
+    "U2": {
+      "local_operator": "U",
+      "position": 2,
+      "kind": "stored_distinguished"
+    },
+    "S1": {
+      "local_operator": "S",
+      "position": 1,
+      "kind": "stored_distinguished"
+    },
+    "S2": {
+      "local_operator": "S",
+      "position": 2,
+      "kind": "stored_distinguished"
+    },
+    "Sinv1": {
+      "local_operator": "Sinv",
+      "position": 1,
+      "kind": "stored_distinguished"
+    },
+    "Sinv2": {
+      "local_operator": "Sinv",
+      "position": 2,
+      "kind": "stored_distinguished"
+    }
+  },
+  "local_bindings": [
+    {
+      "position": 1,
+      "operators": {
+        "H": "H1",
+        "K": "K1",
+        "U": "U1",
+        "S": "S1",
+        "Sinv": "Sinv1"
+      }
+    },
+    {
+      "position": 2,
+      "operators": {
+        "H": "H2",
+        "K": "K2",
+        "U": "U2",
+        "S": "S2",
+        "Sinv": "Sinv2"
+      }
+    }
+  ],
+  "polynomial_prescriptions": [
+    {
+      "id": "K_from_H",
+      "role": "derived",
+      "origin": "source_prescribed",
+      "source": [
+        "threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["K"]}
+        ]
+      },
+      "rhs": {
+        "terms": [
+          {"coefficient": "phi*(phi*e3)/((tau-xi)*(tau-zeta)*(tau-zetastar)*(tau-phi))", "word": []},
+          {"coefficient": "phi*(-(e3+phi*e2))/((tau-xi)*(tau-zeta)*(tau-zetastar)*(tau-phi))", "word": ["H"]},
+          {"coefficient": "phi*(e2+phi*e1)/((tau-xi)*(tau-zeta)*(tau-zetastar)*(tau-phi))", "word": ["H", "H"]},
+          {"coefficient": "phi*(-(e1+phi))/((tau-xi)*(tau-zeta)*(tau-zetastar)*(tau-phi))", "word": ["H", "H", "H"]},
+          {"coefficient": "phi*(1)/((tau-xi)*(tau-zeta)*(tau-zetastar)*(tau-phi))", "word": ["H", "H", "H", "H"]}
+        ]
+      },
+      "scope": "full_a3",
+      "kind": "consequence",
+      "status": "source_claim"
+    },
+    {
+      "id": "U_from_H",
+      "role": "derived",
+      "origin": "source_prescribed",
+      "source": [
+        "threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["U"]}
+        ]
+      },
+      "rhs": {
+        "terms": [
+          {"coefficient": "delta*(tau*e3)/((phi-xi)*(phi-zeta)*(phi-zetastar)*(phi-tau))", "word": []},
+          {"coefficient": "delta*(-(e3+tau*e2))/((phi-xi)*(phi-zeta)*(phi-zetastar)*(phi-tau))", "word": ["H"]},
+          {"coefficient": "delta*(e2+tau*e1)/((phi-xi)*(phi-zeta)*(phi-zetastar)*(phi-tau))", "word": ["H", "H"]},
+          {"coefficient": "delta*(-(e1+tau))/((phi-xi)*(phi-zeta)*(phi-zetastar)*(phi-tau))", "word": ["H", "H", "H"]},
+          {"coefficient": "delta*(1)/((phi-xi)*(phi-zeta)*(phi-zetastar)*(phi-tau))", "word": ["H", "H", "H", "H"]}
+        ]
+      },
+      "scope": "full_a3",
+      "kind": "consequence",
+      "status": "source_claim"
+    }
+  ],
+  "relations": [
+    {
+      "id": "braid",
+      "role": "primary",
+      "origin": "copied",
+      "source": [
+        "threestring.tex:642-645, eq:braidA3"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["S1", "S2", "S1"]}
+        ]
+      },
+      "rhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["S2", "S1", "S2"]}
+        ]
+      },
+      "scope": "full_a3",
+      "kind": "additional_braid",
+      "status": "source_claim"
+    },
+    {
+      "id": "HKH",
+      "role": "primary",
+      "origin": "copied",
+      "source": [
+        "threestring.tex:202, eq:A3rels"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["H1", "K2", "H1"]}
+        ]
+      },
+      "rhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["H2", "K1", "H2"]}
+        ]
+      },
+      "scope": "full_a3",
+      "kind": "defining",
+      "status": "source_claim"
+    },
+    {
+      "id": "KUK1",
+      "role": "primary",
+      "origin": "copied",
+      "source": [
+        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["K1", "U2", "K1"]}
+        ]
+      },
+      "rhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["H2", "U1", "H2"]}
+        ]
+      },
+      "scope": "full_a3",
+      "kind": "defining",
+      "status": "source_claim"
+    },
+    {
+      "id": "KUH1",
+      "role": "primary",
+      "origin": "copied",
+      "source": [
+        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["K1", "U2", "H1"]}
+        ]
+      },
+      "rhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["H2", "U1", "K2"]}
+        ]
+      },
+      "scope": "full_a3",
+      "kind": "defining",
+      "status": "source_claim"
+    },
+    {
+      "id": "KUU1",
+      "role": "primary",
+      "origin": "copied",
+      "source": [
+        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["K1", "U2", "U1"]}
+        ]
+      },
+      "rhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["H2", "U1"]}
+        ]
+      },
+      "scope": "full_a3",
+      "kind": "defining",
+      "status": "source_claim"
+    },
+    {
+      "id": "UUK1",
+      "role": "primary",
+      "origin": "copied",
+      "source": [
+        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["U1", "U2", "K1"]}
+        ]
+      },
+      "rhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["U1", "H2"]}
+        ]
+      },
+      "scope": "full_a3",
+      "kind": "defining",
+      "status": "source_claim"
+    },
+    {
+      "id": "UUU1",
+      "role": "primary",
+      "origin": "copied",
+      "source": [
+        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["U1", "U2", "U1"]}
+        ]
+      },
+      "rhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["U1"]}
+        ]
+      },
+      "scope": "full_a3",
+      "kind": "defining",
+      "status": "source_claim"
+    },
+    {
+      "id": "KUK2",
+      "role": "primary",
+      "origin": "copied",
+      "source": [
+        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["K2", "U1", "K2"]}
+        ]
+      },
+      "rhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["H1", "U2", "H1"]}
+        ]
+      },
+      "scope": "full_a3",
+      "kind": "defining",
+      "status": "source_claim"
+    },
+    {
+      "id": "KUH2",
+      "role": "primary",
+      "origin": "copied",
+      "source": [
+        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["K2", "U1", "H2"]}
+        ]
+      },
+      "rhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["H1", "U2", "K1"]}
+        ]
+      },
+      "scope": "full_a3",
+      "kind": "defining",
+      "status": "source_claim"
+    },
+    {
+      "id": "KUU2",
+      "role": "primary",
+      "origin": "copied",
+      "source": [
+        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["K2", "U1", "U2"]}
+        ]
+      },
+      "rhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["H1", "U2"]}
+        ]
+      },
+      "scope": "full_a3",
+      "kind": "defining",
+      "status": "source_claim"
+    },
+    {
+      "id": "UUK2",
+      "role": "primary",
+      "origin": "copied",
+      "source": [
+        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["U2", "U1", "K2"]}
+        ]
+      },
+      "rhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["U2", "H1"]}
+        ]
+      },
+      "scope": "full_a3",
+      "kind": "defining",
+      "status": "source_claim"
+    },
+    {
+      "id": "UUU2",
+      "role": "primary",
+      "origin": "copied",
+      "source": [
+        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["U2", "U1", "U2"]}
+        ]
+      },
+      "rhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["U2"]}
+        ]
+      },
+      "scope": "full_a3",
+      "kind": "defining",
+      "status": "source_claim"
+    },
+    {
+      "id": "quartic_full",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "defining",
+      "status": "source_claim",
+      "origin": "copied",
+      "source": [
+        "threestring.tex:218-237, eq:A3relsb, def:tildeA3"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["H2", "H2", "H1", "H2"]},
+          {"coefficient": "-1", "word": ["H1", "H1", "H2", "H1"]}
+        ]
+      },
+      "rhs": {
+        "terms": [
+          {"coefficient": "(c_2-c_1)*b_0^-1", "word": ["H1", "H1", "H2", "K1"]},
+          {"coefficient": "-((c_2-c_1)*b_0^-1)", "word": ["H2", "H2", "H1", "K2"]},
+          {"coefficient": "c_15", "word": ["H2", "H1", "H2"]},
+          {"coefficient": "-(c_15)", "word": ["H1", "H2", "H1"]},
+          {"coefficient": "c_11", "word": ["H1", "H2", "H2"]},
+          {"coefficient": "-(c_11)", "word": ["H2", "H1", "H1"]},
+          {"coefficient": "c_12", "word": ["H2", "H2", "H1"]},
+          {"coefficient": "-(c_12)", "word": ["H1", "H1", "H2"]},
+          {"coefficient": "c_10", "word": ["K2", "H1", "H2"]},
+          {"coefficient": "-(c_10)", "word": ["K1", "H2", "H1"]},
+          {"coefficient": "c_12+(c_2-c_1)*b_0^-1*b_4", "word": ["H2", "H1", "K2"]},
+          {"coefficient": "-(c_12+(c_2-c_1)*b_0^-1*b_4)", "word": ["H1", "H2", "K1"]},
+          {"coefficient": "(c_6+(c_2-c_1)*b_0^-1*b_2)*tau^-1", "word": ["K2", "H1", "K2"]},
+          {"coefficient": "-((c_6+(c_2-c_1)*b_0^-1*b_2)*tau^-1)", "word": ["K1", "H2", "K1"]},
+          {"coefficient": "c_6", "word": ["K2", "H1"]},
+          {"coefficient": "-(c_6)", "word": ["K1", "H2"]},
+          {"coefficient": "c_7+(c_2-c_1)*b_0^-1*b_3", "word": ["H1", "K2"]},
+          {"coefficient": "-(c_7+(c_2-c_1)*b_0^-1*b_3)", "word": ["H2", "K1"]},
+          {"coefficient": "c_0+(c_2-c_1)*b_0^-1*b_1", "word": ["U2", "H1"]},
+          {"coefficient": "-(c_0+(c_2-c_1)*b_0^-1*b_1)", "word": ["U1", "H2"]},
+          {"coefficient": "c_5-c_7", "word": ["H1", "H2"]},
+          {"coefficient": "-(c_5-c_7)", "word": ["H2", "H1"]},
+          {"coefficient": "c_2", "word": ["H1", "U2"]},
+          {"coefficient": "-(c_2)", "word": ["H2", "U1"]},
+          {"coefficient": "c_1", "word": ["H1"]},
+          {"coefficient": "-(c_1)", "word": ["H2"]}
+        ]
+      }
+    },
+    {
+      "id": "S_quintic1",
+      "role": "derived",
+      "scope": "full_a3",
+      "kind": "additional_braid",
+      "status": "source_claim",
+      "origin": "expanded",
+      "source": [
+        "threestring.tex:640-646, prop:A3S, eq:Squintic"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["S1", "S1", "S1", "S1", "S1"]},
+          {"coefficient": "-((-1)+(q^-2)+(q^2*p^2)+(-p^6)+(p^12))", "word": ["S1", "S1", "S1", "S1"]},
+          {"coefficient": "((-1)*(q^-2)+(-1)*(q^2*p^2)+(-1)*(-p^6)+(-1)*(p^12)+(q^-2)*(q^2*p^2)+(q^-2)*(-p^6)+(q^-2)*(p^12)+(q^2*p^2)*(-p^6)+(q^2*p^2)*(p^12)+(-p^6)*(p^12))", "word": ["S1", "S1", "S1"]},
+          {"coefficient": "-((-1)*(q^-2)*(q^2*p^2)+(-1)*(q^-2)*(-p^6)+(-1)*(q^-2)*(p^12)+(-1)*(q^2*p^2)*(-p^6)+(-1)*(q^2*p^2)*(p^12)+(-1)*(-p^6)*(p^12)+(q^-2)*(q^2*p^2)*(-p^6)+(q^-2)*(q^2*p^2)*(p^12)+(q^-2)*(-p^6)*(p^12)+(q^2*p^2)*(-p^6)*(p^12))", "word": ["S1", "S1"]},
+          {"coefficient": "((-1)*(q^-2)*(q^2*p^2)*(-p^6)+(-1)*(q^-2)*(q^2*p^2)*(p^12)+(-1)*(q^-2)*(-p^6)*(p^12)+(-1)*(q^2*p^2)*(-p^6)*(p^12)+(q^-2)*(q^2*p^2)*(-p^6)*(p^12))", "word": ["S1"]},
+          {"coefficient": "-((-1)*(q^-2)*(q^2*p^2)*(-p^6)*(p^12))", "word": []}
+        ]
+      },
+      "rhs": {
+        "terms": []
+      },
+      "spectral": {
+        "operator": "S1",
+        "roots": [
+          "-1",
+          "q^-2",
+          "q^2*p^2",
+          "-p^6",
+          "p^12"
+        ],
+        "expansion": "elementary_symmetric"
+      }
+    },
+    {
+      "id": "H_quintic1",
+      "role": "derived",
+      "scope": "full_a3",
+      "kind": "consequence",
+      "status": "source_claim",
+      "origin": "expanded",
+      "source": [
+        "threestring.tex:248-253, rem:A3def"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["H1", "H1", "H1", "H1", "H1"]},
+          {"coefficient": "-((xi)+(zeta)+(zetastar)+(phi)+(tau))", "word": ["H1", "H1", "H1", "H1"]},
+          {"coefficient": "((xi)*(zeta)+(xi)*(zetastar)+(xi)*(phi)+(xi)*(tau)+(zeta)*(zetastar)+(zeta)*(phi)+(zeta)*(tau)+(zetastar)*(phi)+(zetastar)*(tau)+(phi)*(tau))", "word": ["H1", "H1", "H1"]},
+          {"coefficient": "-((xi)*(zeta)*(zetastar)+(xi)*(zeta)*(phi)+(xi)*(zeta)*(tau)+(xi)*(zetastar)*(phi)+(xi)*(zetastar)*(tau)+(xi)*(phi)*(tau)+(zeta)*(zetastar)*(phi)+(zeta)*(zetastar)*(tau)+(zeta)*(phi)*(tau)+(zetastar)*(phi)*(tau))", "word": ["H1", "H1"]},
+          {"coefficient": "((xi)*(zeta)*(zetastar)*(phi)+(xi)*(zeta)*(zetastar)*(tau)+(xi)*(zeta)*(phi)*(tau)+(xi)*(zetastar)*(phi)*(tau)+(zeta)*(zetastar)*(phi)*(tau))", "word": ["H1"]},
+          {"coefficient": "-((xi)*(zeta)*(zetastar)*(phi)*(tau))", "word": []}
+        ]
+      },
+      "rhs": {
+        "terms": []
+      },
+      "spectral": {
+        "operator": "H1",
+        "roots": [
+          "xi",
+          "zeta",
+          "zetastar",
+          "phi",
+          "tau"
+        ],
+        "expansion": "elementary_symmetric"
+      }
+    },
+    {
+      "id": "S_quintic2",
+      "role": "derived",
+      "scope": "full_a3",
+      "kind": "additional_braid",
+      "status": "source_claim",
+      "origin": "expanded",
+      "source": [
+        "threestring.tex:640-646, prop:A3S, eq:Squintic"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["S2", "S2", "S2", "S2", "S2"]},
+          {"coefficient": "-((-1)+(q^-2)+(q^2*p^2)+(-p^6)+(p^12))", "word": ["S2", "S2", "S2", "S2"]},
+          {"coefficient": "((-1)*(q^-2)+(-1)*(q^2*p^2)+(-1)*(-p^6)+(-1)*(p^12)+(q^-2)*(q^2*p^2)+(q^-2)*(-p^6)+(q^-2)*(p^12)+(q^2*p^2)*(-p^6)+(q^2*p^2)*(p^12)+(-p^6)*(p^12))", "word": ["S2", "S2", "S2"]},
+          {"coefficient": "-((-1)*(q^-2)*(q^2*p^2)+(-1)*(q^-2)*(-p^6)+(-1)*(q^-2)*(p^12)+(-1)*(q^2*p^2)*(-p^6)+(-1)*(q^2*p^2)*(p^12)+(-1)*(-p^6)*(p^12)+(q^-2)*(q^2*p^2)*(-p^6)+(q^-2)*(q^2*p^2)*(p^12)+(q^-2)*(-p^6)*(p^12)+(q^2*p^2)*(-p^6)*(p^12))", "word": ["S2", "S2"]},
+          {"coefficient": "((-1)*(q^-2)*(q^2*p^2)*(-p^6)+(-1)*(q^-2)*(q^2*p^2)*(p^12)+(-1)*(q^-2)*(-p^6)*(p^12)+(-1)*(q^2*p^2)*(-p^6)*(p^12)+(q^-2)*(q^2*p^2)*(-p^6)*(p^12))", "word": ["S2"]},
+          {"coefficient": "-((-1)*(q^-2)*(q^2*p^2)*(-p^6)*(p^12))", "word": []}
+        ]
+      },
+      "rhs": {
+        "terms": []
+      },
+      "spectral": {
+        "operator": "S2",
+        "roots": [
+          "-1",
+          "q^-2",
+          "q^2*p^2",
+          "-p^6",
+          "p^12"
+        ],
+        "expansion": "elementary_symmetric"
+      }
+    },
+    {
+      "id": "H_quintic2",
+      "role": "derived",
+      "scope": "full_a3",
+      "kind": "consequence",
+      "status": "source_claim",
+      "origin": "expanded",
+      "source": [
+        "threestring.tex:248-253, rem:A3def"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["H2", "H2", "H2", "H2", "H2"]},
+          {"coefficient": "-((xi)+(zeta)+(zetastar)+(phi)+(tau))", "word": ["H2", "H2", "H2", "H2"]},
+          {"coefficient": "((xi)*(zeta)+(xi)*(zetastar)+(xi)*(phi)+(xi)*(tau)+(zeta)*(zetastar)+(zeta)*(phi)+(zeta)*(tau)+(zetastar)*(phi)+(zetastar)*(tau)+(phi)*(tau))", "word": ["H2", "H2", "H2"]},
+          {"coefficient": "-((xi)*(zeta)*(zetastar)+(xi)*(zeta)*(phi)+(xi)*(zeta)*(tau)+(xi)*(zetastar)*(phi)+(xi)*(zetastar)*(tau)+(xi)*(phi)*(tau)+(zeta)*(zetastar)*(phi)+(zeta)*(zetastar)*(tau)+(zeta)*(phi)*(tau)+(zetastar)*(phi)*(tau))", "word": ["H2", "H2"]},
+          {"coefficient": "((xi)*(zeta)*(zetastar)*(phi)+(xi)*(zeta)*(zetastar)*(tau)+(xi)*(zeta)*(phi)*(tau)+(xi)*(zetastar)*(phi)*(tau)+(zeta)*(zetastar)*(phi)*(tau))", "word": ["H2"]},
+          {"coefficient": "-((xi)*(zeta)*(zetastar)*(phi)*(tau))", "word": []}
+        ]
+      },
+      "rhs": {
+        "terms": []
+      },
+      "spectral": {
+        "operator": "H2",
+        "roots": [
+          "xi",
+          "zeta",
+          "zetastar",
+          "phi",
+          "tau"
+        ],
+        "expansion": "elementary_symmetric"
+      }
+    },
+    {
+      "id": "top_cubic1",
+      "role": "primary",
+      "scope": "top_quotient",
+      "kind": "quotient_only",
+      "status": "source_claim",
+      "origin": "copied",
+      "source": [
+        "threestring-top.tex:53-55, eq:Hrels"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["H1", "H1", "H1"]},
+          {"coefficient": "-e1", "word": ["H1", "H1"]},
+          {"coefficient": "e2", "word": ["H1"]},
+          {"coefficient": "-e3", "word": []}
+        ]
+      },
+      "rhs": {
+        "terms": []
+      }
+    },
+    {
+      "id": "top_cubic2",
+      "role": "primary",
+      "scope": "top_quotient",
+      "kind": "quotient_only",
+      "status": "source_claim",
+      "origin": "copied",
+      "source": [
+        "threestring-top.tex:53-55, eq:Hrels"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["H2", "H2", "H2"]},
+          {"coefficient": "-e1", "word": ["H2", "H2"]},
+          {"coefficient": "e2", "word": ["H2"]},
+          {"coefficient": "-e3", "word": []}
+        ]
+      },
+      "rhs": {
+        "terms": []
+      }
+    },
+    {
+      "id": "top_quartic_a",
+      "role": "primary",
+      "scope": "top_quotient",
+      "kind": "quotient_only",
+      "status": "source_claim",
+      "origin": "copied",
+      "source": [
+        "threestring-top.tex:56-69, eq:Hrelsa"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["H2", "H2", "H1", "H2"]},
+          {"coefficient": "-1", "word": ["H2", "H1", "H2", "H2"]}
+        ]
+      },
+      "rhs": {
+        "terms": [
+          {"coefficient": "xi", "word": ["H2", "H2", "H1"]},
+          {"coefficient": "-xi", "word": ["H1", "H2", "H2"]},
+          {"coefficient": "xi^2", "word": ["H1", "H2"]},
+          {"coefficient": "-xi^2", "word": ["H2", "H1"]}
+        ]
+      }
+    },
+    {
+      "id": "top_quartic_aa",
+      "role": "primary",
+      "scope": "top_quotient",
+      "kind": "quotient_only",
+      "status": "source_claim",
+      "origin": "copied",
+      "source": [
+        "threestring-top.tex:70-83, eq:Hrelsaa"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["H1", "H2", "H1", "H1"]},
+          {"coefficient": "-1", "word": ["H1", "H1", "H2", "H1"]}
+        ]
+      },
+      "rhs": {
+        "terms": [
+          {"coefficient": "xi", "word": ["H2", "H1", "H1"]},
+          {"coefficient": "-xi", "word": ["H1", "H1", "H2"]},
+          {"coefficient": "xi^2", "word": ["H1", "H2"]},
+          {"coefficient": "-xi^2", "word": ["H2", "H1"]}
+        ]
+      }
+    },
+    {
+      "id": "top_quartic_b",
+      "role": "primary",
+      "scope": "top_quotient",
+      "kind": "quotient_only",
+      "status": "source_claim",
+      "origin": "copied",
+      "source": [
+        "threestring-top.tex:85-91, eq:Hrelsb, equation (6.7), wholesale corrected definition"
+      ],
+      "lhs": {
+        "terms": [
+          {"coefficient": "1", "word": ["H2", "H2", "H1", "H2"]},
+          {"coefficient": "-1", "word": ["H1", "H1", "H2", "H1"]}
+        ]
+      },
+      "rhs": {
+        "terms": [
+          {"coefficient": "c_15", "word": ["H2", "H1", "H2"]},
+          {"coefficient": "-c_15", "word": ["H1", "H2", "H1"]},
+          {"coefficient": "c_11", "word": ["H1", "H2", "H2"]},
+          {"coefficient": "-c_11", "word": ["H2", "H1", "H1"]},
+          {"coefficient": "c_12", "word": ["H2", "H2", "H1"]},
+          {"coefficient": "-c_12", "word": ["H1", "H1", "H2"]},
+          {"coefficient": "c_5-c_7", "word": ["H1", "H2"]},
+          {"coefficient": "-(c_5-c_7)", "word": ["H2", "H1"]},
+          {"coefficient": "c_1", "word": ["H1"]},
+          {"coefficient": "-c_1", "word": ["H2"]}
+        ]
+      }
+    }
+  ],
+  "representations": [
+    {"id": "I", "path": "representations/I.json"},
+    {"id": "X3", "path": "representations/X3.json"},
+    {"id": "Y3", "path": "representations/Y3.json"},
+    {"id": "Y3_star", "path": "representations/Y3_star.json"},
+    {"id": "C", "path": "representations/C.json"},
+    {"id": "C_star", "path": "representations/C_star.json"},
+    {"id": "A", "path": "representations/A.json"},
+    {"id": "Y2", "path": "representations/Y2.json"},
+    {"id": "Y2_star", "path": "representations/Y2_star.json"},
+    {"id": "X2", "path": "representations/X2.json"},
+    {
+      "id": "L",
+      "path": "representations/L.json"
+    }
+  ],
+  "presentation_scope": "All 30 formal defining H,K,U equations remain encoded as source claims, not an assumption of a complete verified presentation or word basis. The b_i are uniquely determined local coefficients. Following the approved saved-source sign corrections to c1=c4, c15 and the derived b3 term, quartic_full passes exactly in all eleven representations and is included in acceptance checks. Printed c5,c7,c8 and the c0 closure are unchanged; the apparent Delta shift compensated for the stale word-term sign. The wholesale saved eq:Hrelsb replacement at threestring-top.tex:85-91 is the literal K1=K2=U1=U2=0 specialization of quartic_full: both LHS terms and all ten RHS terms match, including the (c5-c7) commutator. top_quartic_b passes exactly in all six top irreducibles (squared dimensions 20) and is now required. All formerly unresolved ordinary quartic assertions pass; prior failures are historical evidence only. The reconstruction verifies the derived word relation, not independently the five-boundary diagram identity.",
+  "source": [
+    "threestring.tex:188-261, def:tildeA3, eq:A3rels, eq:A3relsb, rem:A3def",
+    "threestring.tex:630-645, eq:HtoSA3, eq:braidA3"
+  ],
+  "provenance": {
+    "base_commit": "0149631bb3c8bf73369001d239e00ab5ae718f27",
+    "change": "Encode the formal full H,K,U presentation by local references plus mixed and quartic words; classify additional and quotient identities. No stored matrix or local coefficient is changed in that step. Migrate profile version metadata to 0.2.0. Follow-up: move b coefficients to local ownership and correct b_3 to -e2 by the faithful five-character linear system, not by quartic fitting. Author-directed continuation: classify top_quartic_b as unresolved diagnostic without changing its formula or applicability; register C_star, A and the initially failing source-faithful Y2 candidate. Current follow-up: reconcile the author-approved saved Y2 S1 correction and its rotation/bar counterparts, register source-faithful Y2_star and X2, and complete all eleven representations. All acceptance checks now pass. No c coefficient, quartic term or other existing matrix is changed. Subsequent author-approved saved-source correction: reverse c1=c4 and c15, and change the b3 contribution in quartic_full to plus (threestring.tex:232). All other coefficient formulas, the c0 closure, local b values and every representation byte are unchanged. The independent reconstruction and its stale-sign diagnostic history are retained. Earlier pass from 0149631: copy the saved top eq:Hrelsb c11/c12 word-pairing correction at threestring-top.tex:91-92. Coefficients, quartic_full and matrices are unchanged. Exact top residuals remain nonzero; retain unresolved status. The prior complete top residuals are preserved at base_commit:reports/a3_representation_residuals.json. Subsequent wholesale saved-source replacement of eq:Hrelsb: correct LHS, c15 orientation and c11/c12 word differences, and restore the (c5-c7) commutator. Exact literal quotient comparison and all-six-representation verification pass; promote top_quartic_b to source_claim. The immediate pre-replacement uncommitted relation and full residuals are frozen in reports/a3_top_quotient_history.json. No coefficient, full quartic, or matrix changes.",
+    "authority": "The corrected working manuscript is the source for the c formulas and derived word coefficient. Independent exact matrix reconstruction verifies them; it is not an independent diagrammatic proof of the five-boundary identity. The author approved these saved-source corrections; all matrices remain at the recorded checkpoint.",
+    "source_hashes": {
+      "appendix.tex": "d107395cf034713b40739c5dcadb257a84455d807348d38e57c2b5f14ad9f7a1",
+      "threestring.tex": "67591ab70b2c391f36608cce264bb0ea9cae2d060696c60fc4ab6b458e5fda96",
+      "threestring-top.tex": "666b361553f93527709b9d9b97ba8bb07a95a868b064b3cddd7da19cbda99cdc",
+      "twostring.tex": "8f6463f6d69b47bf8abbabd30c9add57379a31756e5b38740eb14d6d4abf006f"
+    }
+  },
+  "local_assertions": [
+    {
+      "id": "HK1",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "defining",
+      "position": 1,
+      "ref": {
+        "table": "completed",
+        "left": "H",
+        "right": "K"
+      },
+      "source": [
+        "threestring.tex:192-200, eq:A3rels"
+      ]
+    },
+    {
+      "id": "KH1",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "defining",
+      "position": 1,
+      "ref": {
+        "table": "completed",
+        "left": "K",
+        "right": "H"
+      },
+      "source": [
+        "threestring.tex:192-200, eq:A3rels"
+      ]
+    },
+    {
+      "id": "HU1",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "defining",
+      "position": 1,
+      "ref": {
+        "table": "completed",
+        "left": "H",
+        "right": "U"
+      },
+      "source": [
+        "threestring.tex:192-200, eq:A3rels"
+      ]
+    },
+    {
+      "id": "UH1",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "defining",
+      "position": 1,
+      "ref": {
+        "table": "completed",
+        "left": "U",
+        "right": "H"
+      },
+      "source": [
+        "threestring.tex:192-200, eq:A3rels"
+      ]
+    },
+    {
+      "id": "KK1",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "defining",
+      "position": 1,
+      "ref": {
+        "table": "completed",
+        "left": "K",
+        "right": "K"
+      },
+      "source": [
+        "threestring.tex:192-200, eq:A3rels"
+      ]
+    },
+    {
+      "id": "KU1",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "defining",
+      "position": 1,
+      "ref": {
+        "table": "completed",
+        "left": "K",
+        "right": "U"
+      },
+      "source": [
+        "threestring.tex:192-200, eq:A3rels"
+      ]
+    },
+    {
+      "id": "UK1",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "defining",
+      "position": 1,
+      "ref": {
+        "table": "completed",
+        "left": "U",
+        "right": "K"
+      },
+      "source": [
+        "threestring.tex:192-200, eq:A3rels"
+      ]
+    },
+    {
+      "id": "UU1",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "defining",
+      "position": 1,
+      "ref": {
+        "table": "completed",
+        "left": "U",
+        "right": "U"
+      },
+      "source": [
+        "threestring.tex:192-200, eq:A3rels"
+      ]
+    },
+    {
+      "id": "cubic1",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "defining",
+      "position": 1,
+      "ref": {
+        "relation": "cubic"
+      },
+      "source": [
+        "threestring.tex:214-217, eq:A3rels; appendix.tex:88-90; twostring.tex:607-613, eq:Hcubed"
+      ]
+    },
+    {
+      "id": "inverse_left1",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "additional_braid",
+      "position": 1,
+      "ref": {
+        "relation": "inverse_left"
+      },
+      "source": [
+        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+      ]
+    },
+    {
+      "id": "inverse_right1",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "additional_braid",
+      "position": 1,
+      "ref": {
+        "relation": "inverse_right"
+      },
+      "source": [
+        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+      ]
+    },
+    {
+      "id": "S_polynomial1",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "additional_braid",
+      "position": 1,
+      "ref": {
+        "relation": "S_polynomial"
+      },
+      "source": [
+        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+      ]
+    },
+    {
+      "id": "Sinv_polynomial1",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "additional_braid",
+      "position": 1,
+      "ref": {
+        "relation": "Sinv_polynomial"
+      },
+      "source": [
+        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+      ]
+    },
+    {
+      "id": "HK2",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "defining",
+      "position": 2,
+      "ref": {
+        "table": "completed",
+        "left": "H",
+        "right": "K"
+      },
+      "source": [
+        "threestring.tex:192-200, eq:A3rels"
+      ]
+    },
+    {
+      "id": "KH2",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "defining",
+      "position": 2,
+      "ref": {
+        "table": "completed",
+        "left": "K",
+        "right": "H"
+      },
+      "source": [
+        "threestring.tex:192-200, eq:A3rels"
+      ]
+    },
+    {
+      "id": "HU2",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "defining",
+      "position": 2,
+      "ref": {
+        "table": "completed",
+        "left": "H",
+        "right": "U"
+      },
+      "source": [
+        "threestring.tex:192-200, eq:A3rels"
+      ]
+    },
+    {
+      "id": "UH2",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "defining",
+      "position": 2,
+      "ref": {
+        "table": "completed",
+        "left": "U",
+        "right": "H"
+      },
+      "source": [
+        "threestring.tex:192-200, eq:A3rels"
+      ]
+    },
+    {
+      "id": "KK2",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "defining",
+      "position": 2,
+      "ref": {
+        "table": "completed",
+        "left": "K",
+        "right": "K"
+      },
+      "source": [
+        "threestring.tex:192-200, eq:A3rels"
+      ]
+    },
+    {
+      "id": "KU2",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "defining",
+      "position": 2,
+      "ref": {
+        "table": "completed",
+        "left": "K",
+        "right": "U"
+      },
+      "source": [
+        "threestring.tex:192-200, eq:A3rels"
+      ]
+    },
+    {
+      "id": "UK2",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "defining",
+      "position": 2,
+      "ref": {
+        "table": "completed",
+        "left": "U",
+        "right": "K"
+      },
+      "source": [
+        "threestring.tex:192-200, eq:A3rels"
+      ]
+    },
+    {
+      "id": "UU2",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "defining",
+      "position": 2,
+      "ref": {
+        "table": "completed",
+        "left": "U",
+        "right": "U"
+      },
+      "source": [
+        "threestring.tex:192-200, eq:A3rels"
+      ]
+    },
+    {
+      "id": "cubic2",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "defining",
+      "position": 2,
+      "ref": {
+        "relation": "cubic"
+      },
+      "source": [
+        "threestring.tex:214-217, eq:A3rels; appendix.tex:88-90; twostring.tex:607-613, eq:Hcubed"
+      ]
+    },
+    {
+      "id": "inverse_left2",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "additional_braid",
+      "position": 2,
+      "ref": {
+        "relation": "inverse_left"
+      },
+      "source": [
+        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+      ]
+    },
+    {
+      "id": "inverse_right2",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "additional_braid",
+      "position": 2,
+      "ref": {
+        "relation": "inverse_right"
+      },
+      "source": [
+        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+      ]
+    },
+    {
+      "id": "S_polynomial2",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "additional_braid",
+      "position": 2,
+      "ref": {
+        "relation": "S_polynomial"
+      },
+      "source": [
+        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+      ]
+    },
+    {
+      "id": "Sinv_polynomial2",
+      "role": "primary",
+      "scope": "full_a3",
+      "kind": "additional_braid",
+      "position": 2,
+      "ref": {
+        "relation": "Sinv_polynomial"
+      },
+      "source": [
+        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+      ]
+    }
+  ],
+  "defining_relation_ids": [
+    "HK1",
+    "KH1",
+    "HU1",
+    "UH1",
+    "KK1",
+    "KU1",
+    "UK1",
+    "UU1",
+    "cubic1",
+    "HK2",
+    "KH2",
+    "HU2",
+    "UH2",
+    "KK2",
+    "KU2",
+    "UK2",
+    "UU2",
+    "cubic2",
+    "HKH",
+    "KUK1",
+    "KUH1",
+    "KUU1",
+    "UUK1",
+    "UUU1",
+    "KUK2",
+    "KUH2",
+    "KUU2",
+    "UUK2",
+    "UUU2",
+    "quartic_full"
+  ],
+  "quotients": [
+    {
+      "id": "top_quotient",
+      "zero_operators": [
+        "K1",
+        "K2",
+        "U1",
+        "U2"
+      ],
+      "source": [
+        "threestring.tex:501-517; threestring-top.tex:50-99"
+      ],
+      "audit_on_L": false
+    }
+  ],
+  "unavailable_assertions": [
+    {
+      "id": "braid_degree_seven",
+      "scope": "full_a3",
+      "kind": "additional_braid",
+      "status": "unprinted",
+      "degree": 7,
+      "source": [
+        "threestring.tex:701-710"
+      ],
+      "note": "Braid plus quintic is not a complete braid-generator presentation; no words or coefficients supplied. Not part of the H,K,U defining list."
+    }
+  ],
+  "coefficient_checks": [
+    {
+      "id": "c_xi",
+      "lhs": "c_12-c_11",
+      "rhs": "xi",
+      "expectation": "equal",
+      "status": "equivalent",
+      "residual": "0",
+      "source": [
+        "threestring-top.tex:29-36; appendix.tex:131-133"
+      ]
+    },
+    {
+      "id": "c_xi_squared",
+      "lhs": "c_5-c_7",
+      "rhs": "xi^2",
+      "expectation": "equal",
+      "status": "equivalent",
+      "residual": "0",
+      "source": [
+        "threestring-top.tex:29-36; appendix.tex:123,127"
+      ]
+    }
+  ],
+  "quotient_comparisons": [{"id": "preliminary_mod_KU", "quotient": "top_quotient", "full_relation": "quartic_full", "summands": ["top_quartic_a", "top_preliminary_b"], "expectation": "equal", "source": ["threestring-top.tex:26-45; threestring.tex:218-237"]}, {"id": "formal_top_mod_KU", "quotient": "top_quotient", "full_relation": "quartic_full", "summands": ["top_quartic_b"], "expectation": "equal", "source": ["threestring-top.tex:85-91, eq:Hrelsb; threestring.tex:218-237, eq:A3relsb"]}],
+  "diagnostics": [
+    {
+      "id": "quartic_previous_b3",
+      "snapshot_commit": "6ac74be4cdf0ea7bd490f0af1f71225285794bd8",
+      "base_relation": "quartic_full",
+      "coefficient_overrides": {
+        "b_3": "e2"
+      },
+      "rhs_coefficient_multipliers": [],
+      "status": "non_authoritative",
+      "source": [
+        "appendix.tex:84"
+      ],
+      "note": "Reproduce the previous 24-entry failure using the now rejected +e2 formula and the frozen coefficient/word definitions from snapshot_commit, independently of the current provenance.base_commit and corrected c coefficients."
+    },
+    {
+      "id": "quartic_c15_reversed",
+      "base_relation": "quartic_full",
+      "coefficient_overrides": {},
+      "rhs_coefficient_multipliers": [
+        {
+          "term": 2,
+          "factor": "-1"
+        },
+        {
+          "term": 3,
+          "factor": "-1"
+        }
+      ],
+      "status": "non_authoritative",
+      "source": [
+        "threestring.tex:223; threestring-top.tex:43,87"
+      ],
+      "note": "Diagnostic c15 word-difference reversal only. It is not a proposed replacement assertion and does not repair the full residual."
+    },
+    {
+      "id": "quartic_word_reversal",
+      "base_relation": "quartic_full",
+      "coefficient_overrides": {},
+      "rhs_coefficient_multipliers": [],
+      "reverse_words": true,
+      "status": "non_authoritative",
+      "source": [
+        "twostring.tex:181-185; threestring.tex:218-237"
+      ],
+      "note": "Reverse every word on both sides solely to diagnose action convention, not an adopted rule."
+    },
+    {
+      "id": "top_preliminary_b",
+      "base_relation": "top_quartic_b",
+      "coefficient_overrides": {},
+      "rhs_coefficient_multipliers": [],
+      "source_sides": {
+        "lhs": {"terms": [
+          {"coefficient": "1", "word": ["H2", "H1", "H2", "H2"]},
+          {"coefficient": "-1", "word": ["H1", "H1", "H2", "H1"]}
+        ]},
+        "rhs": {"terms": [
+          {"coefficient": "c_15", "word": ["H2", "H1", "H2"]},
+          {"coefficient": "-c_15", "word": ["H1", "H2", "H1"]},
+          {"coefficient": "c_11", "word": ["H2", "H2", "H1"]},
+          {"coefficient": "-c_11", "word": ["H2", "H1", "H1"]},
+          {"coefficient": "c_12", "word": ["H1", "H2", "H2"]},
+          {"coefficient": "-c_12", "word": ["H1", "H1", "H2"]},
+          {"coefficient": "c_1", "word": ["H1"]},
+          {"coefficient": "-c_1", "word": ["H2"]}
+        ]}
+      },
+      "status": "non_authoritative",
+      "source": [
+        "threestring-top.tex:41-47, preliminary square-pentagon display"
+      ],
+      "note": "Literal witness for the unchanged preliminary display, separately retained after the wholesale formal eq:Hrelsb replacement. Only a quotient free-word comparison with the full relation modulo K,U; never evaluate this quotient-only identity on L. No coefficient definition changes."
+    }
+  ],
+  "coefficient_imports": {
+    "source": "local_a2.json",
+    "required": [
+      "b_0",
+      "b_1",
+      "b_2",
+      "b_3",
+      "b_4"
+    ]
+  },
+  "audit_history": {
+    "status": "historical_regression",
+    "input_a3_sha256": "ba58d4a8b8f416083fe1e2becf70d36347871a10d934a34dc5c26af0ebd45067",
+    "input_local_sha256": "7daeb4ccb51ad0f0be9aac200517c59b035303eae835dceedd3311632e45bc5b",
+    "relation": "quartic_full",
+    "coefficient_override": {
+      "b_3": "e2"
+    },
+    "nonzero_entries": 24,
+    "first_residual": [
+      0,
+      0,
+      "(-2*p^40*q^10 + 2*p^40*q^8 - 2*p^38*q^12 + 10*p^38*q^8 - 10*p^38*q^6 + 2*p^38*q^4 - 10*p^36*q^12 + 26*p^36*q^10 - 24*p^36*q^8 + 6*p^36*q^6 + 2*p^36*q^4 - 4*p^34*q^14 - 2*p^34*q^12 + 40*p^34*q^10 - 70*p^34*q^8 + 52*p^34*q^6 - 18*p^34*q^4 + 2*p^34*q^2 - 12*p^32*q^14 + 42*p^32*q^12 - 52*p^32*q^10 + 14*p^32*q^8 + 26*p^32*q^6 - 24*p^32*q^4 + 6*p^32*q^2 - 2*p^30*q^16 - 6*p^30*q^14 + 46*p^30*q^12 - 98*p^30*q^10 + 106*p^30*q^8 - 60*p^30*q^6 + 12*p^30*q^4 + 2*p^30*q^2 - 4*p^28*q^16 + 22*p^28*q^14 - 44*p^28*q^12 + 34*p^28*q^10 + 14*p^28*q^8 - 36*p^28*q^6 + 18*p^28*q^4 - 4*p^28*q^2 - 4*p^26*q^16 + 12*p^26*q^14 - 42*p^26*q^12 + 98*p^26*q^10 - 108*p^26*q^8 + 50*p^26*q^6 - 8*p^26*q^4 + 2*p^26*q^2 + 4*p^24*q^16 - 20*p^24*q^14 + 46*p^24*q^12 - 32*p^24*q^10 - 22*p^24*q^8 + 44*p^24*q^6 - 22*p^24*q^4 + 2*p^24*q^2 - 4*p^22*q^16 - 6*p^22*q^14 + 54*p^22*q^12 - 90*p^22*q^10 + 54*p^22*q^8 + 4*p^22*q^6 - 22*p^22*q^4 + 12*p^22*q^2 - 2*p^22 - 4*p^20*q^16 + 20*p^20*q^14 - 20*p^20*q^12 - 28*p^20*q^10 + 64*p^20*q^8 - 28*p^20*q^6 - 20*p^20*q^4 + 20*p^20*q^2 - 4*p^20 - 2*p^18*q^16 + 12*p^18*q^14 - 22*p^18*q^12 + 4*p^18*q^10 + 54*p^18*q^8 - 90*p^18*q^6 + 54*p^18*q^4 - 6*p^18*q^2 - 4*p^18 + 2*p^16*q^14 - 22*p^16*q^12 + 44*p^16*q^10 - 22*p^16*q^8 - 32*p^16*q^6 + 46*p^16*q^4 - 20*p^16*q^2 + 4*p^16 + 2*p^14*q^14 - 8*p^14*q^12 + 50*p^14*q^10 - 108*p^14*q^8 + 98*p^14*q^6 - 42*p^14*q^4 + 12*p^14*q^2 - 4*p^14 - 4*p^12*q^14 + 18*p^12*q^12 - 36*p^12*q^10 + 14*p^12*q^8 + 34*p^12*q^6 - 44*p^12*q^4 + 22*p^12*q^2 - 4*p^12 + 2*p^10*q^14 + 12*p^10*q^12 - 60*p^10*q^10 + 106*p^10*q^8 - 98*p^10*q^6 + 46*p^10*q^4 - 6*p^10*q^2 - 2*p^10 + 6*p^8*q^14 - 24*p^8*q^12 + 26*p^8*q^10 + 14*p^8*q^8 - 52*p^8*q^6 + 42*p^8*q^4 - 12*p^8*q^2 + 2*p^6*q^14 - 18*p^6*q^12 + 52*p^6*q^10 - 70*p^6*q^8 + 40*p^6*q^6 - 2*p^6*q^4 - 4*p^6*q^2 + 2*p^4*q^12 + 6*p^4*q^10 - 24*p^4*q^8 + 26*p^4*q^6 - 10*p^4*q^4 + 2*p^2*q^12 - 10*p^2*q^10 + 10*p^2*q^8 - 2*p^2*q^4 + 2*q^8 - 2*q^6)/(p^24*q^8 - 4*p^22*q^8 + 6*p^20*q^8 - 4*p^18*q^8 + p^16*q^8)"
+    ],
+    "note": "Exact pre-correction uncommitted failure, retained and reproduced only as a regression; not current b data."
+  }
+}

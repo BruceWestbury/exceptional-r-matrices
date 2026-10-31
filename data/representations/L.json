@@ -1,0 +1,384 @@
+{
+  "$schema": "../../schema/representation.schema.json",
+  "format": "exceptional-series-representation",
+  "version": "0.2.0",
+  "status": "current",
+  "id": "L",
+  "display": "L",
+  "cut_length": 1,
+  "algebra_ref": "../a3.json",
+  "field_ref": "F",
+  "dimension": 5,
+  "basis": {
+    "order": [
+      "e0",
+      "e1",
+      "e2",
+      "e3",
+      "e4"
+    ],
+    "description": "Neutral coordinates in the displayed manuscript matrix order; not names of mathematical vectors or eigenspaces. No individual basis vectors are named in these source tables.",
+    "source": [
+      "threestring.tex:444-456,680-698",
+      "twostring.tex:224-227 (ordering of diagonal eigenvalues)"
+    ]
+  },
+  "conventions": {
+    "index_base": 0,
+    "matrix_encoding": "sparse_triples",
+    "entry_order": "row_major",
+    "action": "row_vectors_right",
+    "word_order": "left_to_right_product",
+    "source": [
+      "twostring.tex:181-185 (right braid-group action)"
+    ],
+    "note": "Repository coordinate convention: v acts by v M; rho(ab)=rho(a)rho(b). Source explicitly states a right action but does not separately identify coordinate vectors. No source matrix is transposed."
+  },
+  "provenance": {
+    "base_commit": "e5360acbd5238a2571a606f7434eebf0264b9cf8",
+    "authority": "Current machine-readable trial data; authorial approval of this encoding remains required. Audit success is not approval.",
+    "change": "Initial explicit encoding of L only; no manuscript edits. Copied H1/S1 expressions retain bracket aliases and source grouping; polynomial/bar outputs use exact factored rational expressions, with prescriptions retained independently.",
+    "source_hashes": {
+      "threestring.tex": "68602f2cb45526c8b6ddd37e2aa8185e9e5d76655ed5fbdf6c2467b3b6a78f1c",
+      "twostring.tex": "8f6463f6d69b47bf8abbabd30c9add57379a31756e5b38740eb14d6d4abf006f"
+    }
+  },
+  "matrices": [
+    {
+      "operator": "H1",
+      "rows": 5,
+      "cols": 5,
+      "entries": [
+        [0, 0, "zeta"],
+        [1, 0, "-(b2m2*b20-b1m1^2)/(b1m1*b10)"],
+        [1, 1, "tau"],
+        [2, 0, "b4m2/(b10*b2m1)"],
+        [2, 1, "-(q^2*p+p^3-p-p^-1+p^-3+q^-2*p^-1)/b10"],
+        [2, 2, "xi"],
+        [3, 0, "-b30*b4m2/(b10*b2m1)"],
+        [3, 1, "q^2*p^3+q^2*p+q^2*p^-1-2*p-2*p^-1+q^-2*p+q^-2*p^-1+q^-2*p^-3"],
+        [3, 2, "b11*b120/(b30*b40)"],
+        [3, 3, "zetastar"],
+        [4, 2, "b4m2*b61/(b10*b2m1)"],
+        [4, 3, "b4m2*b62/(b10*b2m1*b31)"],
+        [4, 4, "phi"]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "threestring.tex:444-451, lem:A3rep"
+        ]
+      }
+    },
+    {
+      "operator": "H2",
+      "rows": 5,
+      "cols": 5,
+      "entries": [
+        [0, 0, "phi"],
+        [0, 1, "b4m2*b62/(b10*b2m1*b31)"],
+        [0, 2, "b4m2*b61/(b10*b2m1)"],
+        [1, 1, "zetastar"],
+        [1, 2, "b11*b120/(b30*b40)"],
+        [1, 3, "q^2*p^3+q^2*p+q^2*p^-1-2*p-2*p^-1+q^-2*p+q^-2*p^-1+q^-2*p^-3"],
+        [1, 4, "-b30*b4m2/(b10*b2m1)"],
+        [2, 2, "xi"],
+        [2, 3, "-(q^2*p+p^3-p-p^-1+p^-3+q^-2*p^-1)/b10"],
+        [2, 4, "b4m2/(b10*b2m1)"],
+        [3, 3, "tau"],
+        [3, 4, "-(b2m2*b20-b1m1^2)/(b1m1*b10)"],
+        [4, 4, "zeta"]
+      ],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "threestring.tex:456",
+          "twostring.tex:205-211,266"
+        ],
+        "method": "rotation"
+      }
+    },
+    {
+      "operator": "K1",
+      "rows": 5,
+      "cols": 5,
+      "entries": [
+        [1, 0, "-(p^4 + q^2)*(p^2 - p + 1)*(p^2 + p + 1)/(p^4*q)"],
+        [1, 1, "(p^4 + q^2)*(p^6*q^2 + 1)*(p^2 - p + 1)*(p^2 + p + 1)/(p^7*q^2)"],
+        [2, 0, "(p^4 + q^2)*(q - 1)*(q + 1)/(p*q^2*(p - 1)*(p + 1))"],
+        [2, 1, "-(p^4 + q^2)*(q - 1)*(q + 1)*(p^6*q^2 + 1)/(p^4*q^3*(p - 1)*(p + 1))"],
+        [3, 0, "-(p^6 + p^4*q^2 - p^4 + p^2*q^2 - p^2 - q^2)/(p^2*q*(p - 1)*(p + 1))"],
+        [3, 1, "(p^6*q^2 + 1)*(p^6 + p^4*q^2 - p^4 + p^2*q^2 - p^2 - q^2)/(p^5*q^2*(p - 1)*(p + 1))"],
+        [4, 0, "-(p^4 + q^2)*(q - 1)*(q + 1)/(p*q^2*(p - 1)*(p + 1))"],
+        [4, 1, "(p^4 + q^2)*(q - 1)*(q + 1)*(p^6*q^2 + 1)/(p^4*q^3*(p - 1)*(p + 1))"]
+      ],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "threestring.tex:248-261, rem:A3def",
+          "twostring.tex:256-264, eq:A2idem (independent S-spectral check)"
+        ],
+        "method": "polynomial"
+      }
+    },
+    {
+      "operator": "K2",
+      "rows": 5,
+      "cols": 5,
+      "entries": [
+        [0, 3, "(p^4 + q^2)*(q - 1)*(q + 1)*(p^6*q^2 + 1)/(p^4*q^3*(p - 1)*(p + 1))"],
+        [0, 4, "-(p^4 + q^2)*(q - 1)*(q + 1)/(p*q^2*(p - 1)*(p + 1))"],
+        [1, 3, "(p^6*q^2 + 1)*(p^6 + p^4*q^2 - p^4 + p^2*q^2 - p^2 - q^2)/(p^5*q^2*(p - 1)*(p + 1))"],
+        [1, 4, "-(p^6 + p^4*q^2 - p^4 + p^2*q^2 - p^2 - q^2)/(p^2*q*(p - 1)*(p + 1))"],
+        [2, 3, "-(p^4 + q^2)*(q - 1)*(q + 1)*(p^6*q^2 + 1)/(p^4*q^3*(p - 1)*(p + 1))"],
+        [2, 4, "(p^4 + q^2)*(q - 1)*(q + 1)/(p*q^2*(p - 1)*(p + 1))"],
+        [3, 3, "(p^4 + q^2)*(p^6*q^2 + 1)*(p^2 - p + 1)*(p^2 + p + 1)/(p^7*q^2)"],
+        [3, 4, "-(p^4 + q^2)*(p^2 - p + 1)*(p^2 + p + 1)/(p^4*q)"]
+      ],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "twostring.tex:205-211,264"
+        ],
+        "method": "rotation"
+      }
+    },
+    {
+      "operator": "U1",
+      "rows": 5,
+      "cols": 5,
+      "entries": [
+        [4, 0, "1"],
+        [4, 1, "-(p^4 + q^2)*(p^6*q - 1)*(p^6*q + 1)/(p^7*q*(p*q - 1)*(p*q + 1))"],
+        [4, 2, "(p - 1)*(p + 1)*(p^4 + q^2)*(p^6*q - 1)*(p^6*q + 1)*(p^4 - p^3 + p^2 - p + 1)*(p^4 + p^3 + p^2 + p + 1)/(p^12*(q - 1)*(q + 1)*(p*q - 1)*(p*q + 1))"],
+        [4, 3, "(p^4 + 1)*(p^4 + q^2)*(p^6*q - 1)*(p^6*q + 1)/(p^9*q*(p*q - 1)*(p*q + 1))"],
+        [4, 4, "(p^4 + 1)*(p^5 - q)*(p^5 + q)*(p^6*q - 1)*(p^6*q + 1)/(p^12*(q - 1)*(q + 1)*(p*q - 1)*(p*q + 1))"]
+      ],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "threestring.tex:248-261, rem:A3def",
+          "twostring.tex:256-264, eq:A2idem (independent S-spectral check)"
+        ],
+        "method": "polynomial"
+      }
+    },
+    {
+      "operator": "U2",
+      "rows": 5,
+      "cols": 5,
+      "entries": [
+        [0, 0, "(p^4 + 1)*(p^5 - q)*(p^5 + q)*(p^6*q - 1)*(p^6*q + 1)/(p^12*(q - 1)*(q + 1)*(p*q - 1)*(p*q + 1))"],
+        [0, 1, "(p^4 + 1)*(p^4 + q^2)*(p^6*q - 1)*(p^6*q + 1)/(p^9*q*(p*q - 1)*(p*q + 1))"],
+        [0, 2, "(p - 1)*(p + 1)*(p^4 + q^2)*(p^6*q - 1)*(p^6*q + 1)*(p^4 - p^3 + p^2 - p + 1)*(p^4 + p^3 + p^2 + p + 1)/(p^12*(q - 1)*(q + 1)*(p*q - 1)*(p*q + 1))"],
+        [0, 3, "-(p^4 + q^2)*(p^6*q - 1)*(p^6*q + 1)/(p^7*q*(p*q - 1)*(p*q + 1))"],
+        [0, 4, "1"]
+      ],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "twostring.tex:205-211,264"
+        ],
+        "method": "rotation"
+      }
+    },
+    {
+      "operator": "S1",
+      "rows": 5,
+      "cols": 5,
+      "entries": [
+        [0, 0, "q^-2"],
+        [1, 0, "q^-1*p^3"],
+        [1, 1, "-p^6"],
+        [2, 0, "-1"],
+        [2, 1, "p^3*(q-q^-1)"],
+        [2, 2, "-1"],
+        [3, 0, "q*p^-3"],
+        [3, 1, "-p^4-q^2+1"],
+        [3, 2, "q*p*(p^4-1+p^-4)"],
+        [3, 3, "q^2*p^2"],
+        [4, 0, "q^2"],
+        [4, 1, "-p^5*q*(q-q^-1)*(q^-1*p^2+q*p^-2)"],
+        [4, 2, "q*p^6*(q^-1*p^2+q*p^-2)*(p^4-1+p^-4)"],
+        [4, 3, "p^7*q*(q-q^-1)*(q^-1*p^2+q*p^-2)"],
+        [4, 4, "p^12"]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "threestring.tex:680-688, eq:Sirrepe",
+          "twostring.tex:213-220, eq:braidmatrix (independent expanded comparison)"
+        ]
+      }
+    },
+    {
+      "operator": "S2",
+      "rows": 5,
+      "cols": 5,
+      "entries": [
+        [0, 0, "p^12"],
+        [0, 1, "p^7*q*(q-q^-1)*(q^-1*p^2+q*p^-2)"],
+        [0, 2, "q*p^6*(q^-1*p^2+q*p^-2)*(p^4-1+p^-4)"],
+        [0, 3, "-p^5*q*(q-q^-1)*(q^-1*p^2+q*p^-2)"],
+        [0, 4, "q^2"],
+        [1, 1, "q^2*p^2"],
+        [1, 2, "q*p*(p^4-1+p^-4)"],
+        [1, 3, "-p^4-q^2+1"],
+        [1, 4, "q*p^-3"],
+        [2, 2, "-1"],
+        [2, 3, "p^3*(q-q^-1)"],
+        [2, 4, "-1"],
+        [3, 3, "-p^6"],
+        [3, 4, "q^-1*p^3"],
+        [4, 4, "q^-2"]
+      ],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "threestring.tex:694-698",
+          "twostring.tex:205-211,239"
+        ],
+        "method": "rotation"
+      }
+    },
+    {
+      "operator": "Sinv1",
+      "rows": 5,
+      "cols": 5,
+      "entries": [
+        [0, 0, "q^2"],
+        [1, 0, "q/p^3"],
+        [1, 1, "-1/p^6"],
+        [2, 0, "-1"],
+        [2, 1, "-(q - 1)*(q + 1)/(p^3*q)"],
+        [2, 2, "-1"],
+        [3, 0, "p^3/q"],
+        [3, 1, "(p^4*q^2 - p^4 - q^2)/(p^4*q^2)"],
+        [3, 2, "(p^8 - p^4 + 1)/(p^5*q)"],
+        [3, 3, "1/(p^2*q^2)"],
+        [4, 0, "q^(-2)"],
+        [4, 1, "(p^4 + q^2)*(q - 1)*(q + 1)/(p^7*q^3)"],
+        [4, 2, "(p^4 + q^2)*(p^8 - p^4 + 1)/(p^12*q^2)"],
+        [4, 3, "-(p^4 + q^2)*(q - 1)*(q + 1)/(p^9*q^3)"],
+        [4, 4, "p^(-12)"]
+      ],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "threestring.tex:694-698",
+          "twostring.tex:224-231",
+          "coefficients.tex:341-349, eq:bar"
+        ],
+        "method": "bar"
+      }
+    },
+    {
+      "operator": "Sinv2",
+      "rows": 5,
+      "cols": 5,
+      "entries": [
+        [0, 0, "p^(-12)"],
+        [0, 1, "-(p^4 + q^2)*(q - 1)*(q + 1)/(p^9*q^3)"],
+        [0, 2, "(p^4 + q^2)*(p^8 - p^4 + 1)/(p^12*q^2)"],
+        [0, 3, "(p^4 + q^2)*(q - 1)*(q + 1)/(p^7*q^3)"],
+        [0, 4, "q^(-2)"],
+        [1, 1, "1/(p^2*q^2)"],
+        [1, 2, "(p^8 - p^4 + 1)/(p^5*q)"],
+        [1, 3, "(p^4*q^2 - p^4 - q^2)/(p^4*q^2)"],
+        [1, 4, "p^3/q"],
+        [2, 2, "-1"],
+        [2, 3, "-(q - 1)*(q + 1)/(p^3*q)"],
+        [2, 4, "-1"],
+        [3, 3, "-1/p^6"],
+        [3, 4, "q/p^3"],
+        [4, 4, "q^2"]
+      ],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "threestring.tex:694-698",
+          "twostring.tex:224-239",
+          "coefficients.tex:341-349, eq:bar"
+        ],
+        "method": "bar"
+      }
+    }
+  ],
+  "construction_checks": [
+    {
+      "id": "H_rotation",
+      "kind": "rotation",
+      "role": "derived",
+      "target": "H2",
+      "operand": "H1",
+      "source": [
+        "twostring.tex:205-211,239,264-266; threestring.tex:456,694-698; inverse rotation follows because J is bar-fixed"
+      ]
+    },
+    {
+      "id": "K_rotation",
+      "kind": "rotation",
+      "role": "derived",
+      "target": "K2",
+      "operand": "K1",
+      "source": [
+        "twostring.tex:205-211,239,264-266; threestring.tex:456,694-698; inverse rotation follows because J is bar-fixed"
+      ]
+    },
+    {
+      "id": "U_rotation",
+      "kind": "rotation",
+      "role": "derived",
+      "target": "U2",
+      "operand": "U1",
+      "source": [
+        "twostring.tex:205-211,239,264-266; threestring.tex:456,694-698; inverse rotation follows because J is bar-fixed"
+      ]
+    },
+    {
+      "id": "S_rotation",
+      "kind": "rotation",
+      "role": "derived",
+      "target": "S2",
+      "operand": "S1",
+      "source": [
+        "twostring.tex:205-211,239,264-266; threestring.tex:456,694-698; inverse rotation follows because J is bar-fixed"
+      ]
+    },
+    {
+      "id": "Sinv_rotation",
+      "kind": "rotation",
+      "role": "derived",
+      "target": "Sinv2",
+      "operand": "Sinv1",
+      "source": [
+        "twostring.tex:205-211,239,264-266; threestring.tex:456,694-698; inverse rotation follows because J is bar-fixed"
+      ]
+    },
+    {
+      "id": "inverse_bar1",
+      "kind": "bar",
+      "role": "derived",
+      "target": "Sinv1",
+      "operand": "S1",
+      "source": [
+        "threestring.tex:694-698; coefficients.tex:341-349, eq:bar"
+      ]
+    },
+    {
+      "id": "inverse_bar2",
+      "kind": "bar",
+      "role": "derived",
+      "target": "Sinv2",
+      "operand": "S2",
+      "source": [
+        "threestring.tex:694-698; coefficients.tex:341-349, eq:bar"
+      ]
+    }
+  ],
+  "comparison": {
+    "status": "independently_checked",
+    "method": "tools/exploratory/a2_local_check.py compares every entry (including omitted zeros) with retained independently reviewed H1/S1 source fixtures, their rotations/bar, and K/U computed spectrally from S. tools/audit_a3.py checks stored matrices using JSON relations and H-polynomial prescriptions.",
+    "current_coefficients": "Imports corrected tau and S_I only from local_a2.json; working twostring.tex:58-59,145-157,332,501-514 inspected; obsolete tau searches empty. Historical rejection fixtures never supply stored matrix entries."
+  }
+}

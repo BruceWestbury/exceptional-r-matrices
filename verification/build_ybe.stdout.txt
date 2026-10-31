@@ -1,0 +1,4 @@
+make: Entering directory '/tmp/release/benchmarks/flint_ybe'
+cc -O2 -std=c11 -Wall -Wextra    verifier.c  -lflint -lgmp -lmpfr -o verifier
+cc -O2 -std=c11 -Wall -Wextra -o runner runner.c
+make: Leaving directory '/tmp/release/benchmarks/flint_ybe'

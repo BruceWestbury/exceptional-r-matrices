@@ -1,0 +1,484 @@
+{
+  "$schema": "../../schema/dilute_representation.schema.json",
+  "format": "exceptional-series-representation",
+  "version": "0.2.0",
+  "status": "provisional_transcription",
+  "id": "Dilute_6",
+  "display": "Package dilute representation index 6",
+  "algebra_ref": "../dilute_a3.json",
+  "field_ref": "F",
+  "dimension": 1,
+  "basis": {
+    "order": [
+      "coordinate_0"
+    ],
+    "description": "Neutral coordinates preserving the source file row/column order. No identification with manuscript vector names has been established.",
+    "source": [
+      "ExceptionalDiagrams/reps3_6.m2"
+    ]
+  },
+  "conventions": {
+    "index_base": 0,
+    "matrix_encoding": "sparse_triples",
+    "entry_order": "row_major",
+    "action": "row_vectors_right",
+    "word_order": "left_to_right_product",
+    "source": [
+      "ordinary representation schema convention",
+      "ExceptionalDiagrams.m2: repBasis"
+    ],
+    "note": "Raw auxiliary-file normalization. This preserves entries without transpose; row-right is the archive coordinate convention, not a new verification of manuscript action conventions. See dilute_a3.json for package rescaling."
+  },
+  "provenance": {
+    "base_commit": "d2ead0efdb09ecbfd1c2d67a96807717954e04a5",
+    "authority": "Provisional transcription of Paul Zinn-Justin source matrices; not independently audited or approved for release.",
+    "change": "Copy exact scalar strings into sparse entries; for top representations reuse ordinary source matrices and explicit quotient zeros as prescribed by package dispatch. Identity matrices are also prescribed by repBasis. No scalar evaluation, matrix multiplication or normalization change.",
+    "source_hashes": {
+      "ExceptionalDiagrams/reps3_6.m2": "2bc69e4339859fa0f4fb9fd6f0b3d0df01e897f927cfd610b6015c06860fdbbc",
+      "ExceptionalDiagrams.m2": "cf0599304687c3256cde3378495b0d1df1b3a76bec9056a821b7af17710679e6"
+    }
+  },
+  "matrices": [
+    {
+      "operator": "G0",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G1",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G2",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G3",
+      "rows": 1,
+      "cols": 1,
+      "entries": [
+        [
+          0,
+          0,
+          "-(p-1)*(p+1)*(p^2-p+1)^2*(p^2+p+1)^2*(p^4+q^2)/(p^6*(q*p-1)*(q*p+1))"
+        ]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3_6.m2: matrix index 2",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G4",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G5",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G6",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G7",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G8",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G9",
+      "rows": 1,
+      "cols": 1,
+      "entries": [
+        [
+          0,
+          0,
+          "-(p-1)*(p+1)*(p^2-p+1)^2*(p^2+p+1)^2*(p^4+q^2)/(p^6*(q*p-1)*(q*p+1))"
+        ]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3_6.m2: matrix index 5",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G10",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G11",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G12",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G13",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G14",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G15",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G16",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G17",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G18",
+      "rows": 1,
+      "cols": 1,
+      "entries": [
+        [
+          0,
+          0,
+          "1"
+        ]
+      ],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repBasis starts with the identity matrix; G18 is the fully occupied identity"
+        ],
+        "method": "identity"
+      }
+    },
+    {
+      "operator": "G19",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G20",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G21",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G22",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G23",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G24",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G25",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G26",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G27",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G28",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    },
+    {
+      "operator": "G29",
+      "rows": 1,
+      "cols": 1,
+      "entries": [],
+      "provenance": {
+        "origin": "source_prescribed",
+        "source": [
+          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "ExceptionalDiagrams/reps3_6.m2: source representation dimension"
+        ],
+        "method": "quotient_zero"
+      }
+    }
+  ],
+  "construction_checks": [],
+  "comparison": {
+    "status": "pending_audit",
+    "method": "Structural source-to-JSON round-trip checked; not a mathematical audit or independent source comparison.",
+    "current_coefficients": "Expressions use p,q only, directly copied from the generic auxiliary files; raw source normalization."
+  }
+}

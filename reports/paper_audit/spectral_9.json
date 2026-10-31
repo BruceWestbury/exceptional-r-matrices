@@ -1,0 +1,52 @@
+{
+  "status": "computed audit artifact; not authoritative data",
+  "representation": 9,
+  "formula": "accepted yangbaxter.tex eq:Rmat (8.3)",
+  "variables": [
+    "p",
+    "q",
+    "u"
+  ],
+  "positions": {
+    "1": {
+      "dimension": 2,
+      "entries": [
+        [
+          0,
+          0,
+          "(-q**2*u**2 + 1)/(q**2 - u**2)"
+        ],
+        [
+          1,
+          0,
+          "(-q*u**2 + q)/(q**2 - u**2)"
+        ],
+        [
+          1,
+          1,
+          "-1"
+        ]
+      ]
+    },
+    "2": {
+      "dimension": 2,
+      "entries": [
+        [
+          0,
+          0,
+          "-1"
+        ],
+        [
+          0,
+          1,
+          "(-q*u**2 + q)/(q**2 - u**2)"
+        ],
+        [
+          1,
+          1,
+          "(-q**2*u**2 + 1)/(q**2 - u**2)"
+        ]
+      ]
+    }
+  }
+}

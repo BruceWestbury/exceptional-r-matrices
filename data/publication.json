@@ -1,0 +1,270 @@
+{
+  "$schema": "../schema/publication.schema.json",
+  "format": "exceptional-series-publication-catalog",
+  "version": "0.3.0",
+  "status": "release_candidate",
+  "provenance": {
+    "base_commit": "db523ef0c62105a9363a07a1ab1215c01cdd5b2e",
+    "authority": "Accepted local manuscript and retained exact JSON; release candidate pending review"
+  },
+  "conventions": {
+    "index_base": 0,
+    "action": "row_vectors_right",
+    "word_order": "left_to_right_product",
+    "scalar_grammar": "FORMAT.md",
+    "legacy_status": "Preserved fields in 0.2.0 files describe their transcription-time status, not current audit coverage."
+  },
+  "limitations": [
+    "298/330 dilute A(3) matrices independently reconstructed; 32 partial and 92 transition entries unresolved. No missing morphisms reconstructed.",
+    "All 330 source transcriptions verified, but this does not independently derive the missing assembly morphisms.",
+    "This dataset and its audits do not prove completeness of an abstract defining presentation.",
+    "Crossing uses the supplied diagram rotation; diagrammatic rotation conventions are not independently proved.",
+    "Release candidate, not committed, approved for public release, or published."
+  ],
+  "verification_evidence": [
+    "AUDIT_COVERAGE.md",
+    "CLEAN_CHECKOUT_REPORT.md",
+    "audits/c/a3_relations/REPORT.md",
+    "audits/python/REPORT.md",
+    "audits/python/dilute_transcription/REPORT.md",
+    "audits/python/a2_spectral/REPORT.md",
+    "audits/c/a2_spectral/REPORT.md"
+  ],
+  "files": [
+    {
+      "path": "data/a3.json",
+      "schema": "schema/a3.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/basis_maps.json",
+      "schema": "schema/publication.schema.json",
+      "role": "specification_or_metadata"
+    },
+    {
+      "path": "data/dilute_a2.json",
+      "schema": "schema/publication.schema.json",
+      "role": "specification_or_metadata"
+    },
+    {
+      "path": "data/dilute_a2_representations/I.json",
+      "schema": "schema/portable_matrices.schema.json",
+      "role": "source_transcription"
+    },
+    {
+      "path": "data/dilute_a2_representations/L.json",
+      "schema": "schema/portable_matrices.schema.json",
+      "role": "source_transcription"
+    },
+    {
+      "path": "data/dilute_a2_representations/X2.json",
+      "schema": "schema/portable_matrices.schema.json",
+      "role": "source_transcription"
+    },
+    {
+      "path": "data/dilute_a2_representations/Y2.json",
+      "schema": "schema/portable_matrices.schema.json",
+      "role": "source_transcription"
+    },
+    {
+      "path": "data/dilute_a2_representations/Y2_star.json",
+      "schema": "schema/portable_matrices.schema.json",
+      "role": "source_transcription"
+    },
+    {
+      "path": "data/dilute_a3.json",
+      "schema": "schema/publication.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/dilute_a3_embeddings.json",
+      "schema": "schema/publication.schema.json",
+      "role": "specification_or_metadata"
+    },
+    {
+      "path": "data/dilute_representations/Dilute_0.json",
+      "schema": "schema/dilute_representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/dilute_representations/Dilute_1.json",
+      "schema": "schema/dilute_representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/dilute_representations/Dilute_10.json",
+      "schema": "schema/dilute_representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/dilute_representations/Dilute_2.json",
+      "schema": "schema/dilute_representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/dilute_representations/Dilute_3.json",
+      "schema": "schema/dilute_representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/dilute_representations/Dilute_4.json",
+      "schema": "schema/dilute_representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/dilute_representations/Dilute_5.json",
+      "schema": "schema/dilute_representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/dilute_representations/Dilute_6.json",
+      "schema": "schema/dilute_representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/dilute_representations/Dilute_7.json",
+      "schema": "schema/dilute_representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/dilute_representations/Dilute_8.json",
+      "schema": "schema/dilute_representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/dilute_representations/Dilute_9.json",
+      "schema": "schema/dilute_representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/local_a2.json",
+      "schema": "schema/local_a2.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/publication.json",
+      "schema": "schema/publication.schema.json",
+      "role": "specification_or_metadata"
+    },
+    {
+      "path": "data/publication_provenance.json",
+      "schema": "schema/publication.schema.json",
+      "role": "specification_or_metadata"
+    },
+    {
+      "path": "data/representations/A.json",
+      "schema": "schema/representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/representations/C.json",
+      "schema": "schema/representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/representations/C_star.json",
+      "schema": "schema/representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/representations/I.json",
+      "schema": "schema/representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/representations/L.json",
+      "schema": "schema/representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/representations/X2.json",
+      "schema": "schema/representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/representations/X3.json",
+      "schema": "schema/representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/representations/Y2.json",
+      "schema": "schema/representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/representations/Y2_star.json",
+      "schema": "schema/representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/representations/Y3.json",
+      "schema": "schema/representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/representations/Y3_star.json",
+      "schema": "schema/representation.schema.json",
+      "role": "retained_authoritative_payload"
+    },
+    {
+      "path": "data/spectral/Dilute_0.json",
+      "schema": "schema/portable_matrices.schema.json",
+      "role": "derived_verified"
+    },
+    {
+      "path": "data/spectral/Dilute_1.json",
+      "schema": "schema/portable_matrices.schema.json",
+      "role": "derived_verified"
+    },
+    {
+      "path": "data/spectral/Dilute_10.json",
+      "schema": "schema/portable_matrices.schema.json",
+      "role": "derived_verified"
+    },
+    {
+      "path": "data/spectral/Dilute_2.json",
+      "schema": "schema/portable_matrices.schema.json",
+      "role": "derived_verified"
+    },
+    {
+      "path": "data/spectral/Dilute_3.json",
+      "schema": "schema/portable_matrices.schema.json",
+      "role": "derived_verified"
+    },
+    {
+      "path": "data/spectral/Dilute_4.json",
+      "schema": "schema/portable_matrices.schema.json",
+      "role": "derived_verified"
+    },
+    {
+      "path": "data/spectral/Dilute_5.json",
+      "schema": "schema/portable_matrices.schema.json",
+      "role": "derived_verified"
+    },
+    {
+      "path": "data/spectral/Dilute_6.json",
+      "schema": "schema/portable_matrices.schema.json",
+      "role": "derived_verified"
+    },
+    {
+      "path": "data/spectral/Dilute_7.json",
+      "schema": "schema/portable_matrices.schema.json",
+      "role": "derived_verified"
+    },
+    {
+      "path": "data/spectral/Dilute_8.json",
+      "schema": "schema/portable_matrices.schema.json",
+      "role": "derived_verified"
+    },
+    {
+      "path": "data/spectral/Dilute_9.json",
+      "schema": "schema/portable_matrices.schema.json",
+      "role": "derived_verified"
+    },
+    {
+      "path": "data/spectral_r.json",
+      "schema": "schema/publication.schema.json",
+      "role": "specification_or_metadata"
+    }
+  ]
+}

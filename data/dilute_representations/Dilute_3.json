@@ -1,0 +1,602 @@
+{
+  "$schema": "../../schema/dilute_representation.schema.json",
+  "format": "exceptional-series-representation",
+  "version": "0.2.0",
+  "status": "provisional_transcription",
+  "id": "Dilute_3",
+  "display": "Package dilute representation index 3",
+  "algebra_ref": "../dilute_a3.json",
+  "field_ref": "F",
+  "dimension": 6,
+  "basis": {
+    "order": [
+      "coordinate_0",
+      "coordinate_1",
+      "coordinate_2",
+      "coordinate_3",
+      "coordinate_4",
+      "coordinate_5"
+    ],
+    "description": "Neutral coordinates preserving the source file row/column order. No identification with manuscript vector names has been established.",
+    "source": [
+      "ExceptionalDiagrams/reps3dilute_3.m2"
+    ]
+  },
+  "conventions": {
+    "index_base": 0,
+    "matrix_encoding": "sparse_triples",
+    "entry_order": "row_major",
+    "action": "row_vectors_right",
+    "word_order": "left_to_right_product",
+    "source": [
+      "ordinary representation schema convention",
+      "ExceptionalDiagrams.m2: repBasis"
+    ],
+    "note": "Raw auxiliary-file normalization. This preserves entries without transpose; row-right is the archive coordinate convention, not a new verification of manuscript action conventions. See dilute_a3.json for package rescaling."
+  },
+  "provenance": {
+    "base_commit": "d2ead0efdb09ecbfd1c2d67a96807717954e04a5",
+    "authority": "Provisional transcription of Paul Zinn-Justin source matrices; not independently audited or approved for release.",
+    "change": "Copy exact scalar strings into sparse entries; for top representations reuse ordinary source matrices and explicit quotient zeros as prescribed by package dispatch. Identity matrices are also prescribed by repBasis. No scalar evaluation, matrix multiplication or normalization change.",
+    "source_hashes": {
+      "ExceptionalDiagrams/reps3dilute_3.m2": "becaaf01eebd22233620dbd6a8c36eb46193b7bf9aff88df4dd4b0e82795d919",
+      "ExceptionalDiagrams.m2": "cf0599304687c3256cde3378495b0d1df1b3a76bec9056a821b7af17710679e6"
+    }
+  },
+  "matrices": [
+    {
+      "operator": "G0",
+      "rows": 6,
+      "cols": 6,
+      "entries": [],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 0",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G1",
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        [
+          3,
+          3,
+          "-(p-1)*(p+1)*(p^2-p+1)^2*(p^2+p+1)^2*(p^4+q^2)/(p^6*(p*q-1)*(p*q+1))"
+        ]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 1",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G2",
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        [
+          4,
+          5,
+          "1"
+        ]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 2",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G3",
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        [
+          0,
+          0,
+          "-(p-1)*(p+1)*(p^2-p+1)^2*(p^2+p+1)^2*(p^4+q^2)/(p^6*(p*q-1)*(p*q+1))"
+        ],
+        [
+          1,
+          0,
+          "-q*(p-1)*(p+1)*(p^2-p+1)^2*(p^2+p+1)^2*(p^4-p^2+1)/(p^6*(p*q-1)*(p*q+1))"
+        ],
+        [
+          1,
+          1,
+          "(p-1)^2*(p+1)^2*(p^2-p+1)^2*(p^2+p+1)^2/p^6"
+        ],
+        [
+          2,
+          0,
+          "-(p-1)*(p+1)*(p^2-p+1)^2*(p^2+p+1)^2*(p^4+q^2)/(p^6*(p*q-1)*(p*q+1))"
+        ],
+        [
+          2,
+          1,
+          "-(p-1)*(p+1)*(p^2-p+1)^2*(p^2+p+1)^2*(p^3-q)*(p^3+q)*(p^6*q^2+p^4*q^4-p^4*q^2-p^2*q^2+p^2+q^2)/(q*(q-1)*(q+1)*p^10*(p*q-1)*(p*q+1))"
+        ],
+        [
+          2,
+          2,
+          "(p-1)^2*(p+1)^2*(p^2+1)*(p^2-p+1)^2*(p^2+p+1)^2*(p^8*q^2+p^6*q^4-p^6*q^2+p^4*q^4-p^4*q^2+p^4-p^2*q^2+p^2+q^2)/((q-1)*(q+1)*p^10*(p*q-1)*(p*q+1))"
+        ]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 3",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G4",
+      "rows": 6,
+      "cols": 6,
+      "entries": [],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 4",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G5",
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        [
+          4,
+          3,
+          "1"
+        ]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 5",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G6",
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        [
+          5,
+          4,
+          "1"
+        ]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 6",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G7",
+      "rows": 6,
+      "cols": 6,
+      "entries": [],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 7",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G8",
+      "rows": 6,
+      "cols": 6,
+      "entries": [],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 8",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G9",
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        [
+          0,
+          0,
+          "(p-1)^2*(p+1)^2*(p^2+1)*(p^2-p+1)^2*(p^2+p+1)^2*(p^8*q^2+p^6*q^4-p^6*q^2+p^4*q^4-p^4*q^2+p^4-p^2*q^2+p^2+q^2)/((q-1)*(q+1)*p^10*(p*q-1)*(p*q+1))"
+        ],
+        [
+          0,
+          1,
+          "-(p-1)*(p+1)*(p^2-p+1)^2*(p^2+p+1)^2*(p^3-q)*(p^3+q)*(p^6*q^2+p^4*q^4-p^4*q^2-p^2*q^2+p^2+q^2)/(q*(q-1)*(q+1)*p^10*(p*q-1)*(p*q+1))"
+        ],
+        [
+          0,
+          2,
+          "-(p-1)*(p+1)*(p^2-p+1)^2*(p^2+p+1)^2*(p^4+q^2)/(p^6*(p*q-1)*(p*q+1))"
+        ],
+        [
+          1,
+          1,
+          "(p-1)^2*(p+1)^2*(p^2-p+1)^2*(p^2+p+1)^2/p^6"
+        ],
+        [
+          1,
+          2,
+          "-q*(p-1)*(p+1)*(p^2-p+1)^2*(p^2+p+1)^2*(p^4-p^2+1)/(p^6*(p*q-1)*(p*q+1))"
+        ],
+        [
+          2,
+          2,
+          "-(p-1)*(p+1)*(p^2-p+1)^2*(p^2+p+1)^2*(p^4+q^2)/(p^6*(p*q-1)*(p*q+1))"
+        ]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 9",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G10",
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        [
+          2,
+          3,
+          "q*(p-1)*(p+1)*(p^2-p+1)*(p^2+p+1)/((q-1)*(q+1)*p^3)"
+        ]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 10",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G11",
+      "rows": 6,
+      "cols": 6,
+      "entries": [],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 11",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G12",
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        [
+          5,
+          5,
+          "-(p-1)*(p+1)*(p^2-p+1)^2*(p^2+p+1)^2*(p^4+q^2)/(p^6*(p*q-1)*(p*q+1))"
+        ]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 12",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G13",
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        [
+          3,
+          4,
+          "1"
+        ]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 13",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G14",
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        [
+          4,
+          0,
+          "(p-1)*(p+1)*(p^2-p+1)^2*(p^2+p+1)^2*(p^4+q^2)*(p^6*q^2+1)/(q*p^9*(p*q-1)*(p*q+1))"
+        ],
+        [
+          4,
+          1,
+          "-(p^2-p+1)*(p^2+p+1)*(p^3-q)*(p^3+q)*(p^4+q^2)*(p^6*q^2+1)/(q^2*p^9*(p*q-1)*(p*q+1))"
+        ],
+        [
+          4,
+          2,
+          "-(q-1)*(q+1)*(p^2-p+1)*(p^2+p+1)*(p^4+q^2)/(q*p^3*(p*q-1)*(p*q+1))"
+        ]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 14",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G15",
+      "rows": 6,
+      "cols": 6,
+      "entries": [],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 15",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G16",
+      "rows": 6,
+      "cols": 6,
+      "entries": [],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 16",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G17",
+      "rows": 6,
+      "cols": 6,
+      "entries": [],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 17",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G18",
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        [
+          0,
+          0,
+          "1"
+        ],
+        [
+          1,
+          1,
+          "1"
+        ],
+        [
+          2,
+          2,
+          "1"
+        ]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 18",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G19",
+      "rows": 6,
+      "cols": 6,
+      "entries": [],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 19",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G20",
+      "rows": 6,
+      "cols": 6,
+      "entries": [],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 20",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G21",
+      "rows": 6,
+      "cols": 6,
+      "entries": [],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 21",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G22",
+      "rows": 6,
+      "cols": 6,
+      "entries": [],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 22",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G23",
+      "rows": 6,
+      "cols": 6,
+      "entries": [],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 23",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G24",
+      "rows": 6,
+      "cols": 6,
+      "entries": [],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 24",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G25",
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        [
+          3,
+          0,
+          "-(q-1)*(q+1)*(p^2-p+1)*(p^2+p+1)*(p^4+q^2)/(q*p^3*(p*q-1)*(p*q+1))"
+        ],
+        [
+          3,
+          1,
+          "-(p^2-p+1)*(p^2+p+1)*(p^3-q)*(p^3+q)*(p^4+q^2)*(p^6*q^2+1)/(q^2*p^9*(p*q-1)*(p*q+1))"
+        ],
+        [
+          3,
+          2,
+          "(p-1)*(p+1)*(p^2-p+1)^2*(p^2+p+1)^2*(p^4+q^2)*(p^6*q^2+1)/(q*p^9*(p*q-1)*(p*q+1))"
+        ]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 25",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G26",
+      "rows": 6,
+      "cols": 6,
+      "entries": [],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 26",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G27",
+      "rows": 6,
+      "cols": 6,
+      "entries": [],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 27",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G28",
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        [
+          0,
+          4,
+          "q*(p-1)*(p+1)*(p^2-p+1)*(p^2+p+1)/((q-1)*(q+1)*p^3)"
+        ]
+      ],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 28",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    },
+    {
+      "operator": "G29",
+      "rows": 6,
+      "cols": 6,
+      "entries": [],
+      "provenance": {
+        "origin": "copied",
+        "source": [
+          "ExceptionalDiagrams/reps3dilute_3.m2: matrix index 29",
+          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+        ]
+      }
+    }
+  ],
+  "construction_checks": [],
+  "comparison": {
+    "status": "pending_audit",
+    "method": "Structural source-to-JSON round-trip checked; not a mathematical audit or independent source comparison.",
+    "current_coefficients": "Expressions use p,q only, directly copied from the generic auxiliary files; raw source normalization."
+  }
+}

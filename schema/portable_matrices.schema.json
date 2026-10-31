@@ -1,0 +1,259 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Portable matrix extension 0.3.0",
+  "type": "object",
+  "required": [
+    "$schema",
+    "format",
+    "version",
+    "status",
+    "id",
+    "dimension",
+    "field",
+    "algebra_ref",
+    "basis",
+    "conventions",
+    "normalization",
+    "coefficient_definitions",
+    "matrices",
+    "provenance"
+  ],
+  "properties": {
+    "format": {
+      "const": "exceptional-series-portable-matrices"
+    },
+    "version": {
+      "const": "0.3.0"
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dimension": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "field": {
+      "type": "object",
+      "required": [
+        "base",
+        "variables"
+      ],
+      "properties": {
+        "base": {
+          "const": "QQ"
+        },
+        "variables": {
+          "enum": [
+            [
+              "p",
+              "q"
+            ],
+            [
+              "p",
+              "q",
+              "u"
+            ]
+          ]
+        }
+      }
+    },
+    "algebra_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "basis": {
+      "type": "object",
+      "required": [
+        "order",
+        "description"
+      ],
+      "properties": {
+        "order": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "conventions": {
+      "type": "object",
+      "required": [
+        "index_base",
+        "matrix_encoding",
+        "entry_order",
+        "action",
+        "word_order"
+      ],
+      "properties": {
+        "index_base": {
+          "const": 0
+        },
+        "matrix_encoding": {
+          "const": "sparse_triples"
+        },
+        "entry_order": {
+          "const": "row_major"
+        },
+        "action": {
+          "const": "row_vectors_right"
+        },
+        "word_order": {
+          "const": "left_to_right_product"
+        }
+      }
+    },
+    "normalization": {
+      "type": "string",
+      "minLength": 1
+    },
+    "coefficient_definitions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "expression"
+        ],
+        "properties": {
+          "expression": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "matrices": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "operator",
+          "rows",
+          "cols",
+          "entries"
+        ],
+        "properties": {
+          "operator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rows": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "cols": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "position": {
+            "enum": [
+              1,
+              2
+            ]
+          },
+          "entries": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "minItems": 3,
+              "maxItems": 3,
+              "items": [
+                {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                {
+                  "type": "string",
+                  "minLength": 1
+                }
+              ],
+              "additionalItems": false
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "base_commit"
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "required": [
+          "formula_ref"
+        ]
+      },
+      "then": {
+        "required": [
+          "representation_ref",
+          "embeddings_ref"
+        ],
+        "properties": {
+          "normalization": {
+            "const": "manuscript_polynomial"
+          },
+          "field": {
+            "properties": {
+              "variables": {
+                "const": [
+                  "p",
+                  "q",
+                  "u"
+                ]
+              }
+            }
+          },
+          "matrices": {
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "required": [
+                "position"
+              ]
+            }
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "matrices": {
+            "minItems": 16,
+            "maxItems": 16
+          },
+          "field": {
+            "properties": {
+              "variables": {
+                "const": [
+                  "p",
+                  "q"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

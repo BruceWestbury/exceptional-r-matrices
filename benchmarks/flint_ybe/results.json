@@ -1,0 +1,13 @@
+{"per_representation_limit_seconds":60,"batch_limit_seconds":300,"results":[
+{"representation":"X3","index":5,"dimension":1,"status":"PASS","wall_seconds":0.030896,"peak_rss_kib":8280,"last_phase":"right_triple","exit_code":0,"effective_limit_seconds":60.000000},
+{"representation":"Y3","index":6,"dimension":1,"status":"PASS","wall_seconds":0.031022,"peak_rss_kib":8020,"last_phase":"right_triple","exit_code":0,"effective_limit_seconds":60.000000},
+{"representation":"Y3_star","index":7,"dimension":1,"status":"PASS","wall_seconds":0.031051,"peak_rss_kib":8720,"last_phase":"right_triple","exit_code":0,"effective_limit_seconds":60.000000},
+{"representation":"C","index":9,"dimension":2,"status":"PASS","wall_seconds":0.046541,"peak_rss_kib":9128,"last_phase":"right_triple","exit_code":0,"effective_limit_seconds":60.000000},
+{"representation":"C_star","index":10,"dimension":2,"status":"PASS","wall_seconds":0.046553,"peak_rss_kib":9428,"last_phase":"right_triple","exit_code":0,"effective_limit_seconds":60.000000},
+{"representation":"A","index":8,"dimension":3,"status":"PASS","wall_seconds":0.077368,"peak_rss_kib":10968,"last_phase":"right_triple","exit_code":0,"effective_limit_seconds":60.000000},
+{"representation":"I","index":0,"dimension":5,"status":"PASS","wall_seconds":0.165960,"peak_rss_kib":17432,"last_phase":"right_triple","exit_code":0,"effective_limit_seconds":60.000000},
+{"representation":"Y2","index":3,"dimension":6,"status":"PASS","wall_seconds":0.238598,"peak_rss_kib":18504,"last_phase":"right_triple","exit_code":0,"effective_limit_seconds":60.000000},
+{"representation":"Y2_star","index":4,"dimension":6,"status":"PASS","wall_seconds":0.249391,"peak_rss_kib":19284,"last_phase":"right_triple","exit_code":0,"effective_limit_seconds":60.000000},
+{"representation":"X2","index":2,"dimension":7,"status":"PASS","wall_seconds":0.316882,"peak_rss_kib":23416,"last_phase":"right_triple","exit_code":0,"effective_limit_seconds":60.000000},
+{"representation":"L","index":1,"dimension":11,"status":"PASS","wall_seconds":0.956838,"peak_rss_kib":53560,"last_phase":"right_triple","exit_code":0,"effective_limit_seconds":60.000000}
+],"batch_wall_seconds":2.194040,"all_eleven_pass":true}

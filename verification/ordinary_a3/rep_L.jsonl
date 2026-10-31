@@ -1,0 +1,293 @@
+{"phase":"loaded","representation":"L","seconds":0.007487}
+{"phase":"relation_started","id":"HK1"}
+{"representation":"L","id":"HK1","status":"PASS","seconds":0.001317,"peak_rss_kib":7980,"checked_entries":25,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"phase":"relation_started","id":"KH1"}
+{"representation":"L","id":"KH1","status":"PASS","seconds":0.001184,"peak_rss_kib":8108,"checked_entries":25,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"phase":"relation_started","id":"HU1"}
+{"representation":"L","id":"HU1","status":"PASS","seconds":0.000700,"peak_rss_kib":8108,"checked_entries":25,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"phase":"relation_started","id":"UH1"}
+{"representation":"L","id":"UH1","status":"PASS","seconds":0.001683,"peak_rss_kib":8108,"checked_entries":25,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"phase":"relation_started","id":"KK1"}
+{"representation":"L","id":"KK1","status":"PASS","seconds":0.000745,"peak_rss_kib":8108,"checked_entries":25,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"phase":"relation_started","id":"KU1"}
+{"representation":"L","id":"KU1","status":"PASS","seconds":0.000114,"peak_rss_kib":8108,"checked_entries":25,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"phase":"relation_started","id":"UK1"}
+{"representation":"L","id":"UK1","status":"PASS","seconds":0.000872,"peak_rss_kib":8108,"checked_entries":25,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"phase":"relation_started","id":"UU1"}
+{"representation":"L","id":"UU1","status":"PASS","seconds":0.000966,"peak_rss_kib":8108,"checked_entries":25,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"phase":"relation_started","id":"cubic1"}
+{"representation":"L","id":"cubic1","status":"PASS","seconds":0.008544,"peak_rss_kib":8236,"checked_entries":25,"source":["threestring.tex:214-217, eq:A3rels; appendix.tex:88-90; twostring.tex:607-613, eq:Hcubed"],"residuals":[]}
+{"phase":"relation_started","id":"inverse_left1"}
+{"representation":"L","id":"inverse_left1","status":"PASS","seconds":0.000217,"peak_rss_kib":8236,"checked_entries":25,"source":["threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"],"residuals":[]}
+{"phase":"relation_started","id":"inverse_right1"}
+{"representation":"L","id":"inverse_right1","status":"PASS","seconds":0.000196,"peak_rss_kib":8236,"checked_entries":25,"source":["threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"],"residuals":[]}
+{"phase":"relation_started","id":"S_polynomial1"}
+{"representation":"L","id":"S_polynomial1","status":"PASS","seconds":0.006348,"peak_rss_kib":8236,"checked_entries":25,"source":["threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"],"residuals":[]}
+{"phase":"relation_started","id":"Sinv_polynomial1"}
+{"representation":"L","id":"Sinv_polynomial1","status":"PASS","seconds":0.005185,"peak_rss_kib":8236,"checked_entries":25,"source":["threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"],"residuals":[]}
+{"phase":"relation_started","id":"HK2"}
+{"representation":"L","id":"HK2","status":"PASS","seconds":0.001268,"peak_rss_kib":8236,"checked_entries":25,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"phase":"relation_started","id":"KH2"}
+{"representation":"L","id":"KH2","status":"PASS","seconds":0.001038,"peak_rss_kib":8236,"checked_entries":25,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"phase":"relation_started","id":"HU2"}
+{"representation":"L","id":"HU2","status":"PASS","seconds":0.000681,"peak_rss_kib":8236,"checked_entries":25,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"phase":"relation_started","id":"UH2"}
+{"representation":"L","id":"UH2","status":"PASS","seconds":0.001739,"peak_rss_kib":8236,"checked_entries":25,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"phase":"relation_started","id":"KK2"}
+{"representation":"L","id":"KK2","status":"PASS","seconds":0.000870,"peak_rss_kib":8236,"checked_entries":25,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"phase":"relation_started","id":"KU2"}
+{"representation":"L","id":"KU2","status":"PASS","seconds":0.000104,"peak_rss_kib":8236,"checked_entries":25,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"phase":"relation_started","id":"UK2"}
+{"representation":"L","id":"UK2","status":"PASS","seconds":0.001145,"peak_rss_kib":8236,"checked_entries":25,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"phase":"relation_started","id":"UU2"}
+{"representation":"L","id":"UU2","status":"PASS","seconds":0.000714,"peak_rss_kib":8236,"checked_entries":25,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"phase":"relation_started","id":"cubic2"}
+{"representation":"L","id":"cubic2","status":"PASS","seconds":0.006829,"peak_rss_kib":8364,"checked_entries":25,"source":["threestring.tex:214-217, eq:A3rels; appendix.tex:88-90; twostring.tex:607-613, eq:Hcubed"],"residuals":[]}
+{"phase":"relation_started","id":"inverse_left2"}
+{"representation":"L","id":"inverse_left2","status":"PASS","seconds":0.000276,"peak_rss_kib":8364,"checked_entries":25,"source":["threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"],"residuals":[]}
+{"phase":"relation_started","id":"inverse_right2"}
+{"representation":"L","id":"inverse_right2","status":"PASS","seconds":0.000335,"peak_rss_kib":8364,"checked_entries":25,"source":["threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"],"residuals":[]}
+{"phase":"relation_started","id":"S_polynomial2"}
+{"representation":"L","id":"S_polynomial2","status":"PASS","seconds":0.005779,"peak_rss_kib":8364,"checked_entries":25,"source":["threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"],"residuals":[]}
+{"phase":"relation_started","id":"Sinv_polynomial2"}
+{"representation":"L","id":"Sinv_polynomial2","status":"PASS","seconds":0.005169,"peak_rss_kib":8364,"checked_entries":25,"source":["threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"],"residuals":[]}
+{"phase":"relation_started","id":"local1_literal_U_U"}
+{"representation":"L","id":"local1_literal_U_U","status":"PASS","seconds":0.000561,"peak_rss_kib":8364,"checked_entries":25,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"phase":"relation_started","id":"local1_literal_U_K"}
+{"representation":"L","id":"local1_literal_U_K","status":"PASS","seconds":0.000044,"peak_rss_kib":8364,"checked_entries":25,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"phase":"relation_started","id":"local1_literal_U_H"}
+{"representation":"L","id":"local1_literal_U_H","status":"PASS","seconds":0.000345,"peak_rss_kib":8364,"checked_entries":25,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"phase":"relation_started","id":"local1_literal_K_U"}
+{"representation":"L","id":"local1_literal_K_U","status":"PASS","seconds":0.000104,"peak_rss_kib":8364,"checked_entries":25,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"phase":"relation_started","id":"local1_literal_K_K"}
+{"representation":"L","id":"local1_literal_K_K","status":"PASS","seconds":0.000456,"peak_rss_kib":8364,"checked_entries":25,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"phase":"relation_started","id":"local1_literal_K_H"}
+{"representation":"L","id":"local1_literal_K_H","status":"PASS","seconds":0.000499,"peak_rss_kib":8364,"checked_entries":25,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"phase":"relation_started","id":"local1_literal_H_U"}
+{"representation":"L","id":"local1_literal_H_U","status":"PASS","seconds":0.000338,"peak_rss_kib":8364,"checked_entries":25,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"phase":"relation_started","id":"local1_literal_H_K"}
+{"representation":"L","id":"local1_literal_H_K","status":"PASS","seconds":0.000539,"peak_rss_kib":8364,"checked_entries":25,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"phase":"relation_started","id":"local1_literal_H_H"}
+{"representation":"L","id":"local1_literal_H_H","status":"PASS","seconds":0.001014,"peak_rss_kib":8364,"checked_entries":25,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_one_one"}
+{"representation":"L","id":"local1_completed_one_one","status":"PASS","seconds":0.000097,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_one_H"}
+{"representation":"L","id":"local1_completed_one_H","status":"PASS","seconds":0.000483,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_one_H2"}
+{"representation":"L","id":"local1_completed_one_H2","status":"PASS","seconds":0.000984,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_one_K"}
+{"representation":"L","id":"local1_completed_one_K","status":"PASS","seconds":0.000310,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_one_U"}
+{"representation":"L","id":"local1_completed_one_U","status":"PASS","seconds":0.000215,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_H_one"}
+{"representation":"L","id":"local1_completed_H_one","status":"PASS","seconds":0.000439,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_H_H"}
+{"representation":"L","id":"local1_completed_H_H","status":"PASS","seconds":0.000975,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_H_H2"}
+{"representation":"L","id":"local1_completed_H_H2","status":"PASS","seconds":0.001529,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_H_K"}
+{"representation":"L","id":"local1_completed_H_K","status":"PASS","seconds":0.000545,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_H_U"}
+{"representation":"L","id":"local1_completed_H_U","status":"PASS","seconds":0.000447,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_H2_one"}
+{"representation":"L","id":"local1_completed_H2_one","status":"PASS","seconds":0.000931,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_H2_H"}
+{"representation":"L","id":"local1_completed_H2_H","status":"PASS","seconds":0.001709,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_H2_H2"}
+{"representation":"L","id":"local1_completed_H2_H2","status":"PASS","seconds":0.005645,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_H2_K"}
+{"representation":"L","id":"local1_completed_H2_K","status":"PASS","seconds":0.002428,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_H2_U"}
+{"representation":"L","id":"local1_completed_H2_U","status":"PASS","seconds":0.000810,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_K_one"}
+{"representation":"L","id":"local1_completed_K_one","status":"PASS","seconds":0.000353,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_K_H"}
+{"representation":"L","id":"local1_completed_K_H","status":"PASS","seconds":0.000607,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_K_H2"}
+{"representation":"L","id":"local1_completed_K_H2","status":"PASS","seconds":0.002722,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_K_K"}
+{"representation":"L","id":"local1_completed_K_K","status":"PASS","seconds":0.000741,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_K_U"}
+{"representation":"L","id":"local1_completed_K_U","status":"PASS","seconds":0.000105,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_U_one"}
+{"representation":"L","id":"local1_completed_U_one","status":"PASS","seconds":0.000276,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_U_H"}
+{"representation":"L","id":"local1_completed_U_H","status":"PASS","seconds":0.000400,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_U_H2"}
+{"representation":"L","id":"local1_completed_U_H2","status":"PASS","seconds":0.003173,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_U_K"}
+{"representation":"L","id":"local1_completed_U_K","status":"PASS","seconds":0.000063,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_completed_U_U"}
+{"representation":"L","id":"local1_completed_U_U","status":"PASS","seconds":0.000520,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local1_square_square"}
+{"representation":"L","id":"local1_square_square","status":"PASS","seconds":0.005024,"peak_rss_kib":8364,"checked_entries":25,"source":["appendix.tex:62-65, eq:squaresquare","twostring.tex:585-623, eq:Hcubed","diagrams/code.m2:24-32,47-50","pictures.tex:482-506; twostring.tex:170-175, fig:elements"],"residuals":[]}
+{"phase":"relation_started","id":"local1_cubic"}
+{"representation":"L","id":"local1_cubic","status":"PASS","seconds":0.004455,"peak_rss_kib":8364,"checked_entries":25,"source":["twostring.tex:607-613, eq:Hcubed"],"residuals":[]}
+{"phase":"relation_started","id":"local1_reduce_H3"}
+{"representation":"L","id":"local1_reduce_H3","status":"PASS","seconds":0.004447,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, cubic expansion"],"residuals":[]}
+{"phase":"relation_started","id":"local1_reduce_H4"}
+{"representation":"L","id":"local1_reduce_H4","status":"PASS","seconds":0.006392,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, cubic multiplied by H"],"residuals":[]}
+{"phase":"relation_started","id":"local1_skein"}
+{"representation":"L","id":"local1_skein","status":"PASS","seconds":0.000959,"peak_rss_kib":8364,"checked_entries":25,"source":["twostring.tex:78-96,372-383"],"residuals":[]}
+{"phase":"relation_started","id":"local1_inverse_right"}
+{"representation":"L","id":"local1_inverse_right","status":"PASS","seconds":0.000108,"peak_rss_kib":8364,"checked_entries":25,"source":["twostring.tex:224-231"],"residuals":[]}
+{"phase":"relation_started","id":"local1_inverse_left"}
+{"representation":"L","id":"local1_inverse_left","status":"PASS","seconds":0.000074,"peak_rss_kib":8364,"checked_entries":25,"source":["twostring.tex:224-231"],"residuals":[]}
+{"phase":"relation_started","id":"local1_S_polynomial"}
+{"representation":"L","id":"local1_S_polynomial","status":"PASS","seconds":0.005766,"peak_rss_kib":8364,"checked_entries":25,"source":["threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"],"residuals":[]}
+{"phase":"relation_started","id":"local1_Sinv_polynomial"}
+{"representation":"L","id":"local1_Sinv_polynomial","status":"PASS","seconds":0.005969,"peak_rss_kib":8364,"checked_entries":25,"source":["threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"],"residuals":[]}
+{"phase":"relation_started","id":"local1_jacobi_commute_S"}
+{"representation":"L","id":"local1_jacobi_commute_S","status":"PASS","seconds":0.002317,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 7"],"residuals":[]}
+{"phase":"relation_started","id":"local1_jacobi_commute_Sinv"}
+{"representation":"L","id":"local1_jacobi_commute_Sinv","status":"PASS","seconds":0.001785,"peak_rss_kib":8364,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 7"],"residuals":[]}
+{"phase":"relation_started","id":"local1_jacobi_S"}
+{"representation":"L","id":"local1_jacobi_S","status":"PASS","seconds":0.001842,"peak_rss_kib":8364,"checked_entries":25,"source":["twostring.tex:422-431"],"residuals":[]}
+{"phase":"relation_started","id":"local1_jacobi_Sinv"}
+{"representation":"L","id":"local1_jacobi_Sinv","status":"PASS","seconds":0.001671,"peak_rss_kib":8364,"checked_entries":25,"source":["twostring.tex:473-490"],"residuals":[]}
+{"phase":"relation_started","id":"local1_K_from_H"}
+{"representation":"L","id":"local1_K_from_H","status":"PASS","seconds":0.039986,"peak_rss_kib":8492,"checked_entries":25,"source":["threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"],"residuals":[]}
+{"phase":"relation_started","id":"local1_U_from_H"}
+{"representation":"L","id":"local1_U_from_H","status":"PASS","seconds":0.042858,"peak_rss_kib":8492,"checked_entries":25,"source":["threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"],"residuals":[]}
+{"phase":"relation_started","id":"local2_literal_U_U"}
+{"representation":"L","id":"local2_literal_U_U","status":"PASS","seconds":0.000466,"peak_rss_kib":8492,"checked_entries":25,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"phase":"relation_started","id":"local2_literal_U_K"}
+{"representation":"L","id":"local2_literal_U_K","status":"PASS","seconds":0.000044,"peak_rss_kib":8492,"checked_entries":25,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"phase":"relation_started","id":"local2_literal_U_H"}
+{"representation":"L","id":"local2_literal_U_H","status":"PASS","seconds":0.000340,"peak_rss_kib":8492,"checked_entries":25,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"phase":"relation_started","id":"local2_literal_K_U"}
+{"representation":"L","id":"local2_literal_K_U","status":"PASS","seconds":0.000051,"peak_rss_kib":8492,"checked_entries":25,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"phase":"relation_started","id":"local2_literal_K_K"}
+{"representation":"L","id":"local2_literal_K_K","status":"PASS","seconds":0.000504,"peak_rss_kib":8492,"checked_entries":25,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"phase":"relation_started","id":"local2_literal_K_H"}
+{"representation":"L","id":"local2_literal_K_H","status":"PASS","seconds":0.000497,"peak_rss_kib":8492,"checked_entries":25,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"phase":"relation_started","id":"local2_literal_H_U"}
+{"representation":"L","id":"local2_literal_H_U","status":"PASS","seconds":0.000434,"peak_rss_kib":8492,"checked_entries":25,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"phase":"relation_started","id":"local2_literal_H_K"}
+{"representation":"L","id":"local2_literal_H_K","status":"PASS","seconds":0.000589,"peak_rss_kib":8492,"checked_entries":25,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"phase":"relation_started","id":"local2_literal_H_H"}
+{"representation":"L","id":"local2_literal_H_H","status":"PASS","seconds":0.001013,"peak_rss_kib":8492,"checked_entries":25,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_one_one"}
+{"representation":"L","id":"local2_completed_one_one","status":"PASS","seconds":0.000089,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_one_H"}
+{"representation":"L","id":"local2_completed_one_H","status":"PASS","seconds":0.000464,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_one_H2"}
+{"representation":"L","id":"local2_completed_one_H2","status":"PASS","seconds":0.000852,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_one_K"}
+{"representation":"L","id":"local2_completed_one_K","status":"PASS","seconds":0.000485,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_one_U"}
+{"representation":"L","id":"local2_completed_one_U","status":"PASS","seconds":0.000259,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_H_one"}
+{"representation":"L","id":"local2_completed_H_one","status":"PASS","seconds":0.000469,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_H_H"}
+{"representation":"L","id":"local2_completed_H_H","status":"PASS","seconds":0.000945,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_H_H2"}
+{"representation":"L","id":"local2_completed_H_H2","status":"PASS","seconds":0.001330,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_H_K"}
+{"representation":"L","id":"local2_completed_H_K","status":"PASS","seconds":0.000515,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_H_U"}
+{"representation":"L","id":"local2_completed_H_U","status":"PASS","seconds":0.000305,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_H2_one"}
+{"representation":"L","id":"local2_completed_H2_one","status":"PASS","seconds":0.000878,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_H2_H"}
+{"representation":"L","id":"local2_completed_H2_H","status":"PASS","seconds":0.001422,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_H2_H2"}
+{"representation":"L","id":"local2_completed_H2_H2","status":"PASS","seconds":0.004620,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_H2_K"}
+{"representation":"L","id":"local2_completed_H2_K","status":"PASS","seconds":0.002275,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_H2_U"}
+{"representation":"L","id":"local2_completed_H2_U","status":"PASS","seconds":0.000746,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_K_one"}
+{"representation":"L","id":"local2_completed_K_one","status":"PASS","seconds":0.000372,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_K_H"}
+{"representation":"L","id":"local2_completed_K_H","status":"PASS","seconds":0.000590,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_K_H2"}
+{"representation":"L","id":"local2_completed_K_H2","status":"PASS","seconds":0.001798,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_K_K"}
+{"representation":"L","id":"local2_completed_K_K","status":"PASS","seconds":0.000487,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_K_U"}
+{"representation":"L","id":"local2_completed_K_U","status":"PASS","seconds":0.000056,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_U_one"}
+{"representation":"L","id":"local2_completed_U_one","status":"PASS","seconds":0.000177,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_U_H"}
+{"representation":"L","id":"local2_completed_U_H","status":"PASS","seconds":0.000374,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_U_H2"}
+{"representation":"L","id":"local2_completed_U_H2","status":"PASS","seconds":0.002686,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_U_K"}
+{"representation":"L","id":"local2_completed_U_K","status":"PASS","seconds":0.000033,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_completed_U_U"}
+{"representation":"L","id":"local2_completed_U_U","status":"PASS","seconds":0.000317,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"phase":"relation_started","id":"local2_square_square"}
+{"representation":"L","id":"local2_square_square","status":"PASS","seconds":0.005603,"peak_rss_kib":8492,"checked_entries":25,"source":["appendix.tex:62-65, eq:squaresquare","twostring.tex:585-623, eq:Hcubed","diagrams/code.m2:24-32,47-50","pictures.tex:482-506; twostring.tex:170-175, fig:elements"],"residuals":[]}
+{"phase":"relation_started","id":"local2_cubic"}
+{"representation":"L","id":"local2_cubic","status":"PASS","seconds":0.004733,"peak_rss_kib":8492,"checked_entries":25,"source":["twostring.tex:607-613, eq:Hcubed"],"residuals":[]}
+{"phase":"relation_started","id":"local2_reduce_H3"}
+{"representation":"L","id":"local2_reduce_H3","status":"PASS","seconds":0.004974,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, cubic expansion"],"residuals":[]}
+{"phase":"relation_started","id":"local2_reduce_H4"}
+{"representation":"L","id":"local2_reduce_H4","status":"PASS","seconds":0.008082,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 4, cubic multiplied by H"],"residuals":[]}
+{"phase":"relation_started","id":"local2_skein"}
+{"representation":"L","id":"local2_skein","status":"PASS","seconds":0.001236,"peak_rss_kib":8492,"checked_entries":25,"source":["twostring.tex:78-96,372-383"],"residuals":[]}
+{"phase":"relation_started","id":"local2_inverse_right"}
+{"representation":"L","id":"local2_inverse_right","status":"PASS","seconds":0.000149,"peak_rss_kib":8492,"checked_entries":25,"source":["twostring.tex:224-231"],"residuals":[]}
+{"phase":"relation_started","id":"local2_inverse_left"}
+{"representation":"L","id":"local2_inverse_left","status":"PASS","seconds":0.000084,"peak_rss_kib":8492,"checked_entries":25,"source":["twostring.tex:224-231"],"residuals":[]}
+{"phase":"relation_started","id":"local2_S_polynomial"}
+{"representation":"L","id":"local2_S_polynomial","status":"PASS","seconds":0.005814,"peak_rss_kib":8492,"checked_entries":25,"source":["threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"],"residuals":[]}
+{"phase":"relation_started","id":"local2_Sinv_polynomial"}
+{"representation":"L","id":"local2_Sinv_polynomial","status":"PASS","seconds":0.007698,"peak_rss_kib":8492,"checked_entries":25,"source":["threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"],"residuals":[]}
+{"phase":"relation_started","id":"local2_jacobi_commute_S"}
+{"representation":"L","id":"local2_jacobi_commute_S","status":"PASS","seconds":0.001563,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 7"],"residuals":[]}
+{"phase":"relation_started","id":"local2_jacobi_commute_Sinv"}
+{"representation":"L","id":"local2_jacobi_commute_Sinv","status":"PASS","seconds":0.001956,"peak_rss_kib":8492,"checked_entries":25,"source":["A2_SPECIFICATION.md: section 7"],"residuals":[]}
+{"phase":"relation_started","id":"local2_jacobi_S"}
+{"representation":"L","id":"local2_jacobi_S","status":"PASS","seconds":0.001976,"peak_rss_kib":8492,"checked_entries":25,"source":["twostring.tex:422-431"],"residuals":[]}
+{"phase":"relation_started","id":"local2_jacobi_Sinv"}
+{"representation":"L","id":"local2_jacobi_Sinv","status":"PASS","seconds":0.001986,"peak_rss_kib":8492,"checked_entries":25,"source":["twostring.tex:473-490"],"residuals":[]}
+{"phase":"relation_started","id":"local2_K_from_H"}
+{"representation":"L","id":"local2_K_from_H","status":"PASS","seconds":0.038278,"peak_rss_kib":8620,"checked_entries":25,"source":["threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"],"residuals":[]}
+{"phase":"relation_started","id":"local2_U_from_H"}
+{"representation":"L","id":"local2_U_from_H","status":"PASS","seconds":0.037946,"peak_rss_kib":8620,"checked_entries":25,"source":["threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"],"residuals":[]}
+{"phase":"relation_started","id":"braid"}
+{"representation":"L","id":"braid","status":"PASS","seconds":0.000635,"peak_rss_kib":8620,"checked_entries":25,"source":["threestring.tex:658-667; (6.49)-(6.50)"],"residuals":[]}
+{"phase":"relation_started","id":"HKH"}
+{"representation":"L","id":"HKH","status":"PASS","seconds":0.008393,"peak_rss_kib":8620,"checked_entries":25,"source":["threestring.tex:202, eq:A3rels"],"residuals":[]}
+{"phase":"relation_started","id":"KUK1"}
+{"representation":"L","id":"KUK1","status":"PASS","seconds":0.008481,"peak_rss_kib":8620,"checked_entries":25,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"phase":"relation_started","id":"KUH1"}
+{"representation":"L","id":"KUH1","status":"PASS","seconds":0.007124,"peak_rss_kib":8748,"checked_entries":25,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"phase":"relation_started","id":"KUU1"}
+{"representation":"L","id":"KUU1","status":"PASS","seconds":0.001163,"peak_rss_kib":8748,"checked_entries":25,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"phase":"relation_started","id":"UUK1"}
+{"representation":"L","id":"UUK1","status":"PASS","seconds":0.001170,"peak_rss_kib":8748,"checked_entries":25,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"phase":"relation_started","id":"UUU1"}
+{"representation":"L","id":"UUU1","status":"PASS","seconds":0.000193,"peak_rss_kib":8748,"checked_entries":25,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"phase":"relation_started","id":"KUK2"}
+{"representation":"L","id":"KUK2","status":"PASS","seconds":0.009290,"peak_rss_kib":8748,"checked_entries":25,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"phase":"relation_started","id":"KUH2"}
+{"representation":"L","id":"KUH2","status":"PASS","seconds":0.009755,"peak_rss_kib":8876,"checked_entries":25,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"phase":"relation_started","id":"KUU2"}
+{"representation":"L","id":"KUU2","status":"PASS","seconds":0.001914,"peak_rss_kib":8876,"checked_entries":25,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"phase":"relation_started","id":"UUK2"}
+{"representation":"L","id":"UUK2","status":"PASS","seconds":0.002001,"peak_rss_kib":8876,"checked_entries":25,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"phase":"relation_started","id":"UUU2"}
+{"representation":"L","id":"UUU2","status":"PASS","seconds":0.000263,"peak_rss_kib":8876,"checked_entries":25,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"phase":"relation_started","id":"quartic_full"}
+{"representation":"L","id":"quartic_full","status":"PASS","seconds":0.157968,"peak_rss_kib":9900,"checked_entries":25,"source":["threestring.tex:218-237, eq:A3relsb, def:tildeA3"],"residuals":[]}
+{"phase":"relation_started","id":"S_quintic1"}
+{"representation":"L","id":"S_quintic1","status":"PASS","seconds":0.002047,"peak_rss_kib":9900,"checked_entries":25,"source":["threestring.tex:658-667; (6.49)-(6.50)"],"residuals":[]}
+{"phase":"relation_started","id":"H_quintic1"}
+{"representation":"L","id":"H_quintic1","status":"PASS","seconds":0.018622,"peak_rss_kib":10028,"checked_entries":25,"source":["threestring.tex:248-253, rem:A3def"],"residuals":[]}
+{"phase":"relation_started","id":"S_quintic2"}
+{"representation":"L","id":"S_quintic2","status":"PASS","seconds":0.002227,"peak_rss_kib":10028,"checked_entries":25,"source":["threestring.tex:658-667; (6.49)-(6.50)"],"residuals":[]}
+{"phase":"relation_started","id":"H_quintic2"}
+{"representation":"L","id":"H_quintic2","status":"PASS","seconds":0.018780,"peak_rss_kib":10028,"checked_entries":25,"source":["threestring.tex:248-253, rem:A3def"],"residuals":[]}
+{"representation":"L","id":"top_cubic1","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":10028,"source":["threestring-top.tex:53-55, eq:Hrels"]}
+{"representation":"L","id":"top_cubic2","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":10028,"source":["threestring-top.tex:53-55, eq:Hrels"]}
+{"representation":"L","id":"top_quartic_a","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":10028,"source":["threestring-top.tex:56-69, eq:Hrelsa"]}
+{"representation":"L","id":"top_quartic_aa","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":10028,"source":["threestring-top.tex:70-83, eq:Hrelsaa"]}
+{"representation":"L","id":"top_quartic_b","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":10028,"source":["threestring-top.tex:85-91, eq:Hrelsb, equation (6.7), wholesale corrected definition"]}
+{"representation":"L","id":"quotient_zero_K1","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":10028,"source":["threestring.tex:501-517; threestring-top.tex:50-99; quotient K_i=U_i=0"]}
+{"representation":"L","id":"quotient_zero_K2","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":10028,"source":["threestring.tex:501-517; threestring-top.tex:50-99; quotient K_i=U_i=0"]}
+{"representation":"L","id":"quotient_zero_U1","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":10028,"source":["threestring.tex:501-517; threestring-top.tex:50-99; quotient K_i=U_i=0"]}
+{"representation":"L","id":"quotient_zero_U2","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":10028,"source":["threestring.tex:501-517; threestring-top.tex:50-99; quotient K_i=U_i=0"]}
+{"phase":"complete","representation":"L","status":"PASS","passed":141,"failed":0,"not_applicable":9,"seconds":0.621275,"peak_rss_kib":10028,"cached_words":113}

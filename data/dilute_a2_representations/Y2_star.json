@@ -1,0 +1,154 @@
+{
+  "$schema": "../../schema/portable_matrices.schema.json",
+  "format": "exceptional-series-portable-matrices",
+  "version": "0.3.0",
+  "status": "copied_or_source_prescribed",
+  "provenance": {
+    "base_commit": "db523ef0c62105a9363a07a1ab1215c01cdd5b2e",
+    "authority": "Accepted local manuscript and retained exact JSON; release candidate pending review",
+    "source": "ExceptionalDiagrams/reps2.m2",
+    "source_sha256": "2320e10e26bb62e61223fe19285fd5af274967d95cc7e857183918cdef5539f3",
+    "top_dispatch": "indices >=2 use ordinary first five and zero partial diagrams; ExceptionalDiagrams.m2:repTop,repBasis"
+  },
+  "id": "Y2_star",
+  "algebra_ref": "../dilute_a2.json",
+  "dimension": 1,
+  "field": {
+    "base": "QQ",
+    "variables": [
+      "p",
+      "q"
+    ]
+  },
+  "basis": {
+    "order": [
+      "coordinate_0"
+    ],
+    "description": "Retained source coordinates, no transposition. I: full,empty; L: full,{1},{0}; top: full only."
+  },
+  "conventions": {
+    "index_base": 0,
+    "matrix_encoding": "sparse_triples",
+    "entry_order": "row_major",
+    "action": "row_vectors_right",
+    "word_order": "left_to_right_product"
+  },
+  "normalization": "raw_auxiliary_source; apply registry factors explicitly",
+  "coefficient_definitions": {},
+  "matrices": [
+    {
+      "operator": "D0",
+      "rows": 1,
+      "cols": 1,
+      "entries": [
+        [
+          0,
+          0,
+          "1"
+        ]
+      ]
+    },
+    {
+      "operator": "D1",
+      "rows": 1,
+      "cols": 1,
+      "entries": []
+    },
+    {
+      "operator": "D2",
+      "rows": 1,
+      "cols": 1,
+      "entries": []
+    },
+    {
+      "operator": "D3",
+      "rows": 1,
+      "cols": 1,
+      "entries": [
+        [
+          0,
+          0,
+          "q*p^(-1)*(p-1)*(p+1)*(p-1+p^(-1))^2*(p+1+p^(-1))^2*(q*p^3+q^(-1)*p^(-3))/((q-1)*(q+1))"
+        ]
+      ]
+    },
+    {
+      "operator": "D4",
+      "rows": 1,
+      "cols": 1,
+      "entries": [
+        [
+          0,
+          0,
+          "q^2*p^(-2)*(p-1)^2*(p+1)^2*(p-1+p^(-1))^4*(p+1+p^(-1))^4*(q*p^3+q^(-1)*p^(-3))^2/((q-1)^2*(q+1)^2)"
+        ]
+      ]
+    },
+    {
+      "operator": "D5",
+      "rows": 1,
+      "cols": 1,
+      "entries": []
+    },
+    {
+      "operator": "D6",
+      "rows": 1,
+      "cols": 1,
+      "entries": []
+    },
+    {
+      "operator": "D7",
+      "rows": 1,
+      "cols": 1,
+      "entries": []
+    },
+    {
+      "operator": "D8",
+      "rows": 1,
+      "cols": 1,
+      "entries": []
+    },
+    {
+      "operator": "D9",
+      "rows": 1,
+      "cols": 1,
+      "entries": []
+    },
+    {
+      "operator": "D10",
+      "rows": 1,
+      "cols": 1,
+      "entries": []
+    },
+    {
+      "operator": "D11",
+      "rows": 1,
+      "cols": 1,
+      "entries": []
+    },
+    {
+      "operator": "D12",
+      "rows": 1,
+      "cols": 1,
+      "entries": []
+    },
+    {
+      "operator": "D13",
+      "rows": 1,
+      "cols": 1,
+      "entries": []
+    },
+    {
+      "operator": "D14",
+      "rows": 1,
+      "cols": 1,
+      "entries": []
+    },
+    {
+      "operator": "D15",
+      "rows": 1,
+      "cols": 1,
+      "entries": []
+    }
+  ]
+}

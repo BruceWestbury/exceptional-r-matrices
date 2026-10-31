@@ -1,0 +1,295 @@
+{
+  "$schema": "../schema/local_a2.schema.json",
+  "format": "exceptional-series-local-a2",
+  "version": "0.2.0",
+  "status": "current",
+  "provenance": {
+    "base_commit": "3068deded4812aed0bf050b5cb13bac785fb0193",
+    "scope": "Settled ordinary local A(2) data for ordinary A(3); provisional encoding, not a released deposit.",
+    "authority": "Current corrected formulas and local payload settled by the author; this JSON encoding remains subject to review.",
+    "change": "Extend settled local payload by the square-square identity and its uniquely character-determined b_0,...,b_4; b_3=-e2 corrects the previous uncommitted A3 reference +e2. Preserve all previous local formulas, relations and characters.",
+    "source": ["A2_SPECIFICATION.md: sections 2-7", "twostring.tex:54-158,313-350,422-522,585-623", "threestring.tex:444-456,630-637,680-698"],
+    "twostring_sha256": "8f6463f6d69b47bf8abbabd30c9add57379a31756e5b38740eb14d6d4abf006f",
+    "specification_sha256": "094679060cb03e116b5020d6a3f23f45595fd5137ea585768e2cf79160710a00",
+    "historical_evidence": "Former tau/S_I fixtures remain external. coefficient_evidence contains non-authoritative printed b expressions, including exactly rejected current-manuscript typos; none supplies coefficient definitions."
+  },
+  "field": {"id": "F", "type": "rational_function_field", "base": "QQ", "variables": ["p", "q"]},
+  "conventions": {"normalization": "alpha=1", "word_order": "left_to_right_product", "matrix_index_base": 0},
+  "coefficients": {
+    "b10": {"expression": "(p-p^-1)/(q-q^-1)", "display": "[n]", "origin": "expanded", "source": ["coefficients.tex:302-307"]},
+    "b11": {"expression": "(p*q-p^-1*q^-1)/(q-q^-1)", "display": "[n+1]", "origin": "expanded", "source": ["coefficients.tex:302-307"]},
+    "b20": {"expression": "(p^2-p^-2)/(q-q^-1)", "display": "[2n]", "origin": "expanded", "source": ["coefficients.tex:302-307"]},
+    "b30": {"expression": "(p^3-p^-3)/(q-q^-1)", "display": "[3n]", "origin": "expanded", "source": ["coefficients.tex:302-307"]},
+    "b40": {"expression": "(p^4-p^-4)/(q-q^-1)", "display": "[4n]", "origin": "expanded", "source": ["coefficients.tex:302-307"]},
+    "b50": {"expression": "(p^5-p^-5)/(q-q^-1)", "display": "[5n]", "origin": "expanded", "source": ["coefficients.tex:302-307"]},
+    "b60": {"expression": "(p^6-p^-6)/(q-q^-1)", "display": "[6n]", "origin": "expanded", "source": ["coefficients.tex:302-307"]},
+    "b61": {"expression": "(p^6*q-p^-6*q^-1)/(q-q^-1)", "display": "[6n+1]", "origin": "expanded", "source": ["coefficients.tex:302-307"]},
+    "b5m1": {"expression": "(p^5*q^-1-p^-5*q)/(q-q^-1)", "display": "[5n-1]", "origin": "expanded", "source": ["coefficients.tex:302-307"]},
+    "b62": {"expression": "(p^6*q^2-p^-6*q^-2)/(q-q^-1)", "display": "[6n+2]", "origin": "expanded", "source": ["coefficients.tex:302-307"]},
+    "b4m2": {"expression": "(p^4*q^-2-p^-4*q^2)/(q-q^-1)", "display": "[4n-2]", "origin": "expanded", "source": ["coefficients.tex:302-307"]},
+    "b31": {"expression": "(p^3*q-p^-3*q^-1)/(q-q^-1)", "display": "[3n+1]", "origin": "expanded", "source": ["coefficients.tex:302-307"]},
+    "b2m1": {"expression": "(p^2*q^-1-p^-2*q)/(q-q^-1)", "display": "[2n-1]", "origin": "expanded", "source": ["coefficients.tex:302-307"]},
+    "b41": {"expression": "(p^4*q-p^-4*q^-1)/(q-q^-1)", "display": "[4n+1]", "origin": "expanded", "source": ["coefficients.tex:302-307"]},
+    "delta": {"expression": "b61*b5m1*b40/(b11*b20)", "origin": "copied", "source": ["twostring.tex:56"]},
+    "phi": {"expression": "b30*b62*b4m2/(b10*b31*b2m1)", "origin": "copied", "source": ["twostring.tex:57"]},
+    "aI": {"expression": "p^-4*phi*(p^5-p^-5)/(p^-8+delta+p^8)", "origin": "copied", "source": ["twostring.tex:325-328,486-490"]},
+    "tau": {"expression": "(p^4*aI*(p^5-p^-5)+phi)/(p^2+p^-2)", "origin": "copied", "source": ["twostring.tex:332,503,514 (corrected working source)"]},
+    "xi": {"expression": "(q-q^-1)^2*b11", "origin": "copied", "source": ["twostring.tex:599"]},
+    "zeta": {"expression": "-b4m2/(b10*b2m1)", "origin": "copied", "source": ["twostring.tex:599"]},
+    "zetastar": {"expression": "b11*b62/(b10*b31)", "origin": "copied", "source": ["twostring.tex:599"]},
+    "w": {"expression": "(q-q^-1)*b30*b20/b60", "origin": "computed", "source": ["A2_SPECIFICATION.md: section 2, skein"]},
+    "z": {"expression": "-xi*w", "origin": "computed", "source": ["A2_SPECIFICATION.md: section 2, skein"]},
+    "D": {"expression": "(tau-phi)*delta+2*phi-tau", "origin": "copied", "source": ["twostring.tex:335-337"]},
+    "e1": {"expression": "xi+zeta+zetastar", "origin": "computed", "source": ["A2_SPECIFICATION.md: section 4"]},
+    "e2": {"expression": "xi*zeta+xi*zetastar+zeta*zetastar", "origin": "computed", "source": ["A2_SPECIFICATION.md: section 4"]},
+    "e3": {"expression": "xi*zeta*zetastar", "origin": "computed", "source": ["A2_SPECIFICATION.md: section 4"]},
+    "cU": {"expression": "(phi-xi)*(phi-zeta)*(phi-zetastar)/delta", "origin": "copied", "source": ["twostring.tex:610-612"]},
+    "cK": {"expression": "(tau-xi)*(tau-zeta)*(tau-zetastar)/phi", "origin": "copied", "source": ["twostring.tex:610-612"]},
+    "b3m1": {"expression": "(p^3*q^-1-p^-3*q)/(q-q^-1)", "display": "[3n-1]", "origin": "expanded", "source": ["coefficients.tex:302-307; appendix.tex:72"]},
+    "b_0": {"expression": "e3", "origin": "computed", "source": ["appendix.tex:62-65, eq:squaresquare", "twostring.tex:585-623, eq:Hcubed"], "display": "b_0"},
+    "b_1": {"expression": "cU", "origin": "computed", "source": ["appendix.tex:62-65, eq:squaresquare", "twostring.tex:585-623, eq:Hcubed"], "display": "b_1"},
+    "b_2": {"expression": "cK", "origin": "computed", "source": ["appendix.tex:62-65, eq:squaresquare", "twostring.tex:585-623, eq:Hcubed"], "display": "b_2"},
+    "b_3": {"expression": "-e2", "origin": "computed", "source": ["appendix.tex:62-65, eq:squaresquare", "twostring.tex:585-623, eq:Hcubed"], "display": "b_3"},
+    "b_4": {"expression": "e1", "origin": "computed", "source": ["appendix.tex:62-65, eq:squaresquare", "twostring.tex:585-623, eq:Hcubed"], "display": "b_4"},
+    "C": {"expression": "b20*b30^2/(b11*b60^2)", "origin": "copied", "source": ["threestring.tex:630-637"]},
+    "S_I": {"expression": "b11/b10*(-p^3-p^-1*q^2+p^-1+p^-3*q^2-p^-3-p^-3*q^-2-p^-5+p^-5*q^-2)", "origin": "copied", "source": ["twostring.tex:153 (corrected working source)"]},
+    "S_K": {"expression": "(-p^4*q^2-p^2*q^2+3*p^2+q^2-p^2*q^-2-q^-2-2*p^-2+p^-2*q^-2+p^-4)/(q-q^-1)", "origin": "copied", "source": ["twostring.tex:154"]},
+    "S_H": {"expression": "(-p^-4*q^-2-p^-2*q^-2+3*p^-2+q^-2-p^-2*q^2-q^2-2*p^2+p^2*q^2+p^4)/(q^-1-q)", "bar_of": "S_K", "origin": "source_prescribed", "source": ["twostring.tex:147,154"]},
+    "S_U": {"expression": "b11/b10*(-p^-3-p*q^-2+p+p^3*q^-2-p^3-p^3*q^2-p^5+p^5*q^2)", "bar_of": "S_I", "origin": "source_prescribed", "source": ["twostring.tex:147,153"]}
+  },
+  "elements": {
+    "one": {"kind": "basis", "display": "1", "word": []},
+    "H": {"kind": "basis", "display": "H"},
+    "H2": {"kind": "basis", "display": "H^2", "word": ["H", "H"]},
+    "K": {"kind": "basis", "display": "K"},
+    "U": {"kind": "basis", "display": "U"},
+    "S": {"kind": "additional", "display": "S"},
+    "Sinv": {"kind": "additional", "display": "S^-1"}
+  },
+  "basis_order": ["one", "H", "H2", "K", "U"],
+  "additional_order": ["S", "Sinv"],
+  "tables": {
+    "literal": {
+      "origin": "copied", "role": "primary", "form": "unreduced",
+      "source": ["twostring.tex:313-323 with S removed as directed at 590-591", "A2_SPECIFICATION.md: section 4, literal source specification"],
+      "row_order": ["U", "K", "H"], "column_order": ["U", "K", "H"],
+      "cells": [
+        [{"terms": [{"coefficient": "delta", "word": ["U"]}]}, {"terms": []}, {"terms": [{"coefficient": "phi", "word": ["U"]}]}],
+        [{"terms": []}, {"terms": [{"coefficient": "phi", "word": ["K"]}]}, {"terms": [{"coefficient": "tau", "word": ["K"]}]}],
+        [{"terms": [{"coefficient": "phi", "word": ["U"]}]}, {"terms": [{"coefficient": "tau", "word": ["K"]}]}, {"terms": [{"coefficient": "1", "word": ["H", "H"]}]}]
+      ]
+    },
+    "completed": {
+      "origin": "computed", "role": "primary", "form": "unreduced",
+      "source": ["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],
+      "row_order": ["one", "H", "H2", "K", "U"], "column_order": ["one", "H", "H2", "K", "U"],
+      "reduction_rules": ["reduce_H4", "reduce_H3"],
+      "cells": [
+        [{"terms": [{"coefficient": "1", "word": []}]}, {"terms": [{"coefficient": "1", "word": ["H"]}]}, {"terms": [{"coefficient": "1", "word": ["H2"]}]}, {"terms": [{"coefficient": "1", "word": ["K"]}]}, {"terms": [{"coefficient": "1", "word": ["U"]}]}],
+        [{"terms": [{"coefficient": "1", "word": ["H"]}]}, {"terms": [{"coefficient": "1", "word": ["H2"]}]}, {"terms": [{"coefficient": "1", "word": ["H", "H", "H"]}]}, {"terms": [{"coefficient": "tau", "word": ["K"]}]}, {"terms": [{"coefficient": "phi", "word": ["U"]}]}],
+        [{"terms": [{"coefficient": "1", "word": ["H2"]}]}, {"terms": [{"coefficient": "1", "word": ["H", "H", "H"]}]}, {"terms": [{"coefficient": "1", "word": ["H", "H", "H", "H"]}]}, {"terms": [{"coefficient": "tau^2", "word": ["K"]}]}, {"terms": [{"coefficient": "phi^2", "word": ["U"]}]}],
+        [{"terms": [{"coefficient": "1", "word": ["K"]}]}, {"terms": [{"coefficient": "tau", "word": ["K"]}]}, {"terms": [{"coefficient": "tau^2", "word": ["K"]}]}, {"terms": [{"coefficient": "phi", "word": ["K"]}]}, {"terms": []}],
+        [{"terms": [{"coefficient": "1", "word": ["U"]}]}, {"terms": [{"coefficient": "phi", "word": ["U"]}]}, {"terms": [{"coefficient": "phi^2", "word": ["U"]}]}, {"terms": []}, {"terms": [{"coefficient": "delta", "word": ["U"]}]}]
+      ]
+    }
+  },
+  "relations": [
+    {"id": "square_square", "role": "primary", "origin": "expanded", "source": ["appendix.tex:62-65, eq:squaresquare", "twostring.tex:585-623, eq:Hcubed", "diagrams/code.m2:24-32,47-50", "pictures.tex:482-506; twostring.tex:170-175, fig:elements"], "display": "H^3 = b_0 1 + b_1 U + b_2 K + b_3 H + b_4 H^2", "lhs": {"terms": [{"coefficient": "1", "word": ["H", "H", "H"]}]}, "rhs": {"terms": [{"coefficient": "b_0", "word": []}, {"coefficient": "b_3", "word": ["H"]}, {"coefficient": "b_4", "word": ["H2"]}, {"coefficient": "b_2", "word": ["K"]}, {"coefficient": "b_1", "word": ["U"]}]}},
+    {"id": "cubic", "role": "primary", "origin": "expanded", "source": ["twostring.tex:607-613, eq:Hcubed"], "display": "(H-xi)(H-zeta)(H-zetastar) = cU U + cK K",
+      "lhs": {"terms": [{"coefficient": "1", "word": ["H", "H", "H"]}, {"coefficient": "-e1", "word": ["H2"]}, {"coefficient": "e2", "word": ["H"]}, {"coefficient": "-e3", "word": []}]},
+      "rhs": {"terms": [{"coefficient": "cU", "word": ["U"]}, {"coefficient": "cK", "word": ["K"]}]}},
+    {"id": "reduce_H3", "role": "derived", "origin": "computed", "source": ["A2_SPECIFICATION.md: section 4, cubic expansion"],
+      "lhs": {"terms": [{"coefficient": "1", "word": ["H", "H", "H"]}]},
+      "rhs": {"terms": [{"coefficient": "e3", "word": []}, {"coefficient": "-e2", "word": ["H"]}, {"coefficient": "e1", "word": ["H2"]}, {"coefficient": "cK", "word": ["K"]}, {"coefficient": "cU", "word": ["U"]}]}},
+    {"id": "reduce_H4", "role": "derived", "origin": "computed", "source": ["A2_SPECIFICATION.md: section 4, cubic multiplied by H"],
+      "lhs": {"terms": [{"coefficient": "1", "word": ["H", "H", "H", "H"]}]},
+      "rhs": {"terms": [{"coefficient": "e1*e3", "word": []}, {"coefficient": "e3-e1*e2", "word": ["H"]}, {"coefficient": "e1^2-e2", "word": ["H2"]}, {"coefficient": "cK*(e1+tau)", "word": ["K"]}, {"coefficient": "cU*(e1+phi)", "word": ["U"]}]}},
+    {"id": "skein", "role": "primary", "origin": "copied", "source": ["twostring.tex:78-96,372-383"],
+      "lhs": {"terms": [{"coefficient": "1", "word": ["S"]}, {"coefficient": "-1", "word": ["Sinv"]}]},
+      "rhs": {"terms": [{"coefficient": "z", "word": []}, {"coefficient": "-z", "word": ["U"]}, {"coefficient": "w", "word": ["H"]}, {"coefficient": "-w", "word": ["K"]}]}},
+    {"id": "inverse_right", "role": "primary", "origin": "copied", "source": ["twostring.tex:224-231"], "lhs": {"terms": [{"coefficient": "1", "word": ["S", "Sinv"]}]}, "rhs": {"terms": [{"coefficient": "1", "word": []}]}},
+    {"id": "inverse_left", "role": "primary", "origin": "copied", "source": ["twostring.tex:224-231"], "lhs": {"terms": [{"coefficient": "1", "word": ["Sinv", "S"]}]}, "rhs": {"terms": [{"coefficient": "1", "word": []}]}},
+    {"id": "S_polynomial", "role": "primary", "origin": "copied", "source": ["twostring.tex:126-158", "threestring.tex:630-637"],
+      "lhs": {"terms": [{"coefficient": "1", "word": ["S"]}]},
+      "rhs": {"terms": [{"coefficient": "C*S_I", "word": []}, {"coefficient": "C*S_H", "word": ["H"]}, {"coefficient": "C*b10", "word": ["H2"]}, {"coefficient": "C*S_K", "word": ["K"]}, {"coefficient": "C*S_U", "word": ["U"]}]}},
+    {"id": "Sinv_polynomial", "role": "primary", "origin": "source_prescribed", "source": ["twostring.tex:143-158, bar counterpart"],
+      "lhs": {"terms": [{"coefficient": "1", "word": ["Sinv"]}]},
+      "rhs": {"terms": [{"coefficient": "C*S_U", "word": []}, {"coefficient": "C*S_K", "word": ["H"]}, {"coefficient": "C*b10", "word": ["H2"]}, {"coefficient": "C*S_H", "word": ["K"]}, {"coefficient": "C*S_I", "word": ["U"]}]}},
+    {"id": "jacobi_commute_S", "role": "derived", "origin": "computed", "source": ["A2_SPECIFICATION.md: section 7"], "lhs": {"terms": [{"coefficient": "1", "word": ["H", "S"]}]}, "rhs": {"terms": [{"coefficient": "1", "word": ["S", "H"]}]}},
+    {"id": "jacobi_commute_Sinv", "role": "derived", "origin": "computed", "source": ["A2_SPECIFICATION.md: section 7"], "lhs": {"terms": [{"coefficient": "1", "word": ["H", "Sinv"]}]}, "rhs": {"terms": [{"coefficient": "1", "word": ["Sinv", "H"]}]}},
+    {"id": "jacobi_S", "role": "derived", "origin": "copied", "source": ["twostring.tex:422-431"],
+      "lhs": {"terms": [{"coefficient": "p^-3", "word": ["H", "S"]}]},
+      "rhs": {"terms": [{"coefficient": "aI", "word": []}, {"coefficient": "aI*p^8", "word": ["U"]}, {"coefficient": "aI*p^4", "word": ["S"]}, {"coefficient": "p^-1", "word": ["H"]}, {"coefficient": "-p", "word": ["K"]}]}},
+    {"id": "jacobi_Sinv", "role": "derived", "origin": "copied", "source": ["twostring.tex:473-490"],
+      "lhs": {"terms": [{"coefficient": "p^3", "word": ["H", "Sinv"]}]},
+      "rhs": {"terms": [{"coefficient": "-aI*p^8", "word": []}, {"coefficient": "-aI", "word": ["U"]}, {"coefficient": "-aI*p^4", "word": ["Sinv"]}, {"coefficient": "-p^-1", "word": ["K"]}, {"coefficient": "p", "word": ["H"]}]}}
+  ],
+  "scalar_checks": [
+    {"id": "tau_bracket", "lhs": "tau", "rhs": "b20/b40*(phi+(q-q^-1)^2*b11*b50/b10)", "source": ["twostring.tex:58"]},
+    {"id": "tau_laurent", "lhs": "tau", "rhs": "b20/b10*(p^4+p^2*q^2-p^2+q^2-1+q^-2-p^-2+p^-2*q^-2+p^-4)", "source": ["twostring.tex:59"]},
+    {"id": "tau_ratio", "lhs": "tau/phi", "rhs": "((p^5-p^-5)^2/(p^-8+delta+p^8)+1)/(p^2+p^-2)", "source": ["twostring.tex:522"]},
+    {"id": "tau_intermediate", "lhs": "tau", "rhs": "(aI*(1-p^10)-p*phi)/(-p^3-p^-1)", "source": ["twostring.tex:513"]},
+    {"id": "aI_simplified", "lhs": "aI", "rhs": "p^-4*(q-q^-1)*b11/b10", "source": ["twostring.tex:106-110"]},
+    {"id": "phi_laurent", "lhs": "phi", "rhs": "(p^2+1+p^-2)*(p^2*q^-1+p^-2*q)*(p^3*q+p^-3*q^-1)", "source": ["appendix.tex:37"]},
+    {"id": "source_z", "lhs": "z", "rhs": "((p^-6-p^6)*phi+(p^12-p^-12)*(phi-tau))/D", "source": ["twostring.tex:336"]},
+    {"id": "source_w", "lhs": "w", "rhs": "((p^-6-p^6)*(delta-1)+(p^12-p^-12))/D", "source": ["twostring.tex:337"]},
+    {"id": "S_K_alternative", "lhs": "S_K", "rhs": "q+q^-1-q*p^2+(2-q^-2)*b20-q*b41", "source": ["twostring.tex:155"]}
+  ],
+  "square_square": {
+    "relation_ref": "square_square",
+    "coefficient_order": [
+      "b_0",
+      "b_3",
+      "b_4",
+      "b_2",
+      "b_1"
+    ],
+    "determinant": "delta*phi*(xi-zeta)*(zetastar-zeta)*(zetastar-xi)",
+    "source_basis_order": [
+      "one",
+      "U",
+      "K",
+      "H",
+      "H2"
+    ],
+    "source": [
+      "appendix.tex:62-65, eq:squaresquare",
+      "twostring.tex:585-623, eq:Hcubed",
+      "diagrams/code.m2:24-32,47-50",
+      "pictures.tex:482-506; twostring.tex:170-175, fig:elements"
+    ],
+    "convention": "round4_0,...,round4_4 are 1,U,K,H,H^2 with plus signs. code.m2 builds squaresquare from H|H|H; round4 and diag2_2 use the same diagramList(2,2).",
+    "note": "The character/basis matrix is built from characters in their declared order; solve C*x=chi(H^3). Coordinates follow basis_order. Nonzero determinant proves uniqueness, independently of printed b formulas."
+  },
+  "coefficient_evidence": [
+    {
+      "id": "b_0_bracket",
+      "coefficient": "b_0",
+      "expression": "-b11^2*b62*b4m2*(q-q^-1)^2/(b11*b30^2*b2m1)",
+      "status": "disagrees",
+      "residual": "b_0*(b10^2*b31/(b11*b30^2)-1)",
+      "source": [
+        "appendix.tex:68, ssec:squaresquare"
+      ],
+      "note": "Candidate manuscript typo: expression minus uniquely determined local coefficient."
+    },
+    {
+      "id": "b_0_eigenvalue",
+      "coefficient": "b_0",
+      "expression": "xi*zeta*zetastar",
+      "status": "agrees",
+      "residual": "0",
+      "source": [
+        "appendix.tex:86, ssec:squaresquare"
+      ],
+      "note": "Checked equivalent expression, not a second definition."
+    },
+    {
+      "id": "b_1_bracket",
+      "coefficient": "b_1",
+      "expression": "b11*b62*b4m2*(p^5+q^2*p+p^3+p^-3+q^-2*p^-1+p^-5)/(b10^2*b31*b2m1)",
+      "status": "agrees",
+      "residual": "0",
+      "source": [
+        "appendix.tex:70, ssec:squaresquare"
+      ],
+      "note": "Checked equivalent expression, not a second definition."
+    },
+    {
+      "id": "b_1_eigenvalue",
+      "coefficient": "b_1",
+      "expression": "(phi-xi)*(phi-zeta)*(phi-zetastar)/delta",
+      "status": "agrees",
+      "residual": "0",
+      "source": [
+        "appendix.tex:88, ssec:squaresquare"
+      ],
+      "note": "Checked equivalent expression, not a second definition."
+    },
+    {
+      "id": "b_2_bracket",
+      "coefficient": "b_2",
+      "expression": "b30^4*(b10*b3m1+b20)*(b62*b10-b31)*(q^2*p+p^3-p-p^-1+p^-3+q^-2*p^-1)/(b10^2*b10^3*b31)",
+      "status": "disagrees",
+      "residual": "b_2*(b30^4/b10^2-1)",
+      "source": [
+        "appendix.tex:72, ssec:squaresquare"
+      ],
+      "note": "Candidate manuscript typo: expression minus uniquely determined local coefficient."
+    },
+    {
+      "id": "b_2_eigenvalue",
+      "coefficient": "b_2",
+      "expression": "(tau-xi)*(tau-zeta)*(tau-zetastar)/phi",
+      "status": "agrees",
+      "residual": "0",
+      "source": [
+        "appendix.tex:90, ssec:squaresquare"
+      ],
+      "note": "Checked equivalent expression, not a second definition."
+    },
+    {
+      "id": "b_3_bracket",
+      "coefficient": "b_3",
+      "expression": "-b11*(q^2*p^5-q^2*p^3-p^5-q^2*p-2*p^3-q^2*p^-1+2*p+q^-2*p^3+q^2*p^-3+2*p^-1-q^-2*p-2*p^-3-q^-2*p^-1-p^-5-q^-2*p^-3+q^-2*p^-5)/b10^2",
+      "status": "agrees",
+      "residual": "0",
+      "source": [
+        "appendix.tex:74, ssec:squaresquare"
+      ],
+      "note": "Checked equivalent expression, not a second definition."
+    },
+    {
+      "id": "b_3_eigenvalue",
+      "coefficient": "b_3",
+      "expression": "xi*zeta+xi*zetastar+zeta*zetastar",
+      "status": "disagrees",
+      "residual": "-2*b_3",
+      "source": [
+        "appendix.tex:84, ssec:squaresquare"
+      ],
+      "note": "Candidate manuscript typo: expression minus uniquely determined local coefficient."
+    },
+    {
+      "id": "b_4_bracket",
+      "coefficient": "b_4",
+      "expression": "b20*(q^2*p^2+q^2-3+q^-2+q^-2*p^-2)/b10",
+      "status": "agrees",
+      "residual": "0",
+      "source": [
+        "appendix.tex:76, ssec:squaresquare"
+      ],
+      "note": "Checked equivalent expression, not a second definition."
+    },
+    {
+      "id": "b_4_eigenvalue",
+      "coefficient": "b_4",
+      "expression": "xi+zeta+zetastar",
+      "status": "agrees",
+      "residual": "0",
+      "source": [
+        "appendix.tex:82, ssec:squaresquare"
+      ],
+      "note": "Checked equivalent expression, not a second definition."
+    }
+  ],
+  "characters": {
+    "column_order": ["one", "H", "H2", "K", "U", "S", "Sinv"],
+    "row_order": ["Y2", "L", "X2", "Y2star", "I"],
+    "origin": "source_prescribed",
+    "source": ["A2_SPECIFICATION.md: section 3, common triangular coordinate order", "threestring.tex:444-451,680-698", "twostring.tex:256-264 (K,U spectral prescription)"],
+    "column_provenance": {
+      "one": "Identity by definition.", "H": "Printed diagonal, using corrected tau.",
+      "H2": "Square of H diagonal, computed, not an additional stored matrix.",
+      "K": "phi times the L spectral projector of S.", "U": "delta times the I spectral projector of S.",
+      "S": "Printed S diagonal.", "Sinv": "Source-prescribed bar of S, independently checked as inverse."
+    },
+    "rows": [
+      {"id": "Y2", "values": ["1", "zeta", "zeta^2", "0", "0", "q^-2", "q^2"]},
+      {"id": "L", "values": ["1", "tau", "tau^2", "phi", "0", "-p^6", "-p^-6"]},
+      {"id": "X2", "values": ["1", "xi", "xi^2", "0", "0", "-1", "-1"]},
+      {"id": "Y2star", "values": ["1", "zetastar", "zetastar^2", "0", "0", "p^2*q^2", "p^-2*q^-2"]},
+      {"id": "I", "values": ["1", "phi", "phi^2", "0", "delta", "p^12", "p^-12"]}
+    ]
+  }
+}

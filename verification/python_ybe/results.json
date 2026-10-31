@@ -1,0 +1,405 @@
+{
+  "limits_seconds": {
+    "per_representation": 60,
+    "batch": 300
+  },
+  "batch_wall_seconds": 9.347552059000009,
+  "results": [
+    {
+      "index": 5,
+      "name": "X3",
+      "dimension": 1,
+      "effective_limit_seconds": 60,
+      "last_phase": "YBE_complete",
+      "construction_seconds": 0.025099132006289437,
+      "clearing_seconds": 0.0002677839947864413,
+      "elapsed_ybe_seconds": 0.0030792809993727133,
+      "ybe_seconds": 0.005925334000494331,
+      "comparison_seconds": 0.00265539300016826,
+      "worker_seconds": 0.03425229400454555,
+      "status": "PASS",
+      "clearing": {
+        "D_pq": "p^11*q^8 - 4*p^11*q^6 + 6*p^11*q^4 - 4*p^11*q^2 + p^11",
+        "u_shift": 4,
+        "common_multiplier": "p^11*q^8*u^4 - 4*p^11*q^6*u^4 + 6*p^11*q^4*u^4 - 4*p^11*q^2*u^4 + p^11*u^4",
+        "YBE_common_scalar": "(p^11*q^8 - 4*p^11*q^6 + 6*p^11*q^4 - 4*p^11*q^2 + p^11)^3*u^8*v^8",
+        "entrywise_clearing_verified": true
+      },
+      "ybe_residuals": [],
+      "rational_comparison_residuals": [],
+      "checked_ybe_entries": 1,
+      "checked_comparison_entries": 2,
+      "R_terms": [
+        56,
+        56
+      ],
+      "triple_terms": [
+        5668,
+        5668
+      ],
+      "wall_seconds": 0.07062317899544723,
+      "peak_rss_kib": 24508,
+      "process_exit": 0
+    },
+    {
+      "index": 6,
+      "name": "Y3",
+      "dimension": 1,
+      "effective_limit_seconds": 60,
+      "last_phase": "YBE_complete",
+      "construction_seconds": 0.027681190003931988,
+      "clearing_seconds": 0.00015714399341959506,
+      "elapsed_ybe_seconds": 0.0014541819982696325,
+      "ybe_seconds": 0.003456176993495319,
+      "comparison_seconds": 0.0023838050037738867,
+      "worker_seconds": 0.034059675002936274,
+      "status": "PASS",
+      "clearing": {
+        "D_pq": "p^11*q^8 - 4*p^11*q^6 + 6*p^11*q^4 - 4*p^11*q^2 + p^11",
+        "u_shift": 4,
+        "common_multiplier": "p^11*q^8*u^4 - 4*p^11*q^6*u^4 + 6*p^11*q^4*u^4 - 4*p^11*q^2*u^4 + p^11*u^4",
+        "YBE_common_scalar": "(p^11*q^8 - 4*p^11*q^6 + 6*p^11*q^4 - 4*p^11*q^2 + p^11)^3*u^8*v^8",
+        "entrywise_clearing_verified": true
+      },
+      "ybe_residuals": [],
+      "rational_comparison_residuals": [],
+      "checked_ybe_entries": 1,
+      "checked_comparison_entries": 2,
+      "R_terms": [
+        42,
+        42
+      ],
+      "triple_terms": [
+        4230,
+        4230
+      ],
+      "wall_seconds": 0.06361372000537813,
+      "peak_rss_kib": 23828,
+      "process_exit": 0
+    },
+    {
+      "index": 7,
+      "name": "Y3_star",
+      "dimension": 1,
+      "effective_limit_seconds": 60,
+      "last_phase": "YBE_complete",
+      "construction_seconds": 0.019676296004035976,
+      "clearing_seconds": 0.00018767100118566304,
+      "elapsed_ybe_seconds": 0.001490349997766316,
+      "ybe_seconds": 0.0030068699998082593,
+      "comparison_seconds": 0.0024698140041437,
+      "worker_seconds": 0.025672219002444763,
+      "status": "PASS",
+      "clearing": {
+        "D_pq": "p^11*q^8 - 4*p^11*q^6 + 6*p^11*q^4 - 4*p^11*q^2 + p^11",
+        "u_shift": 4,
+        "common_multiplier": "p^11*q^8*u^4 - 4*p^11*q^6*u^4 + 6*p^11*q^4*u^4 - 4*p^11*q^2*u^4 + p^11*u^4",
+        "YBE_common_scalar": "(p^11*q^8 - 4*p^11*q^6 + 6*p^11*q^4 - 4*p^11*q^2 + p^11)^3*u^8*v^8",
+        "entrywise_clearing_verified": true
+      },
+      "ybe_residuals": [],
+      "rational_comparison_residuals": [],
+      "checked_ybe_entries": 1,
+      "checked_comparison_entries": 2,
+      "R_terms": [
+        42,
+        42
+      ],
+      "triple_terms": [
+        4230,
+        4230
+      ],
+      "wall_seconds": 0.05392202400253154,
+      "peak_rss_kib": 23864,
+      "process_exit": 0
+    },
+    {
+      "index": 9,
+      "name": "C",
+      "dimension": 2,
+      "effective_limit_seconds": 60,
+      "last_phase": "YBE_complete",
+      "construction_seconds": 0.025424683997698594,
+      "clearing_seconds": 0.0003032509994227439,
+      "elapsed_ybe_seconds": 0.010587130003841594,
+      "ybe_seconds": 0.020441018998099025,
+      "comparison_seconds": 0.004181093005172443,
+      "worker_seconds": 0.05060457199579105,
+      "status": "PASS",
+      "clearing": {
+        "D_pq": "p^11*q^8 - 4*p^11*q^6 + 6*p^11*q^4 - 4*p^11*q^2 + p^11",
+        "u_shift": 4,
+        "common_multiplier": "p^11*q^8*u^4 - 4*p^11*q^6*u^4 + 6*p^11*q^4*u^4 - 4*p^11*q^2*u^4 + p^11*u^4",
+        "YBE_common_scalar": "(p^11*q^8 - 4*p^11*q^6 + 6*p^11*q^4 - 4*p^11*q^2 + p^11)^3*u^8*v^8",
+        "entrywise_clearing_verified": true
+      },
+      "ybe_residuals": [],
+      "rational_comparison_residuals": [],
+      "checked_ybe_entries": 4,
+      "checked_comparison_entries": 8,
+      "R_terms": [
+        150,
+        150
+      ],
+      "triple_terms": [
+        18708,
+        18708
+      ],
+      "wall_seconds": 0.12216133099718718,
+      "peak_rss_kib": 24636,
+      "process_exit": 0
+    },
+    {
+      "index": 10,
+      "name": "C_star",
+      "dimension": 2,
+      "effective_limit_seconds": 60,
+      "last_phase": "YBE_complete",
+      "construction_seconds": 0.026262660998327192,
+      "clearing_seconds": 0.0002685649960767478,
+      "elapsed_ybe_seconds": 0.008943070999521296,
+      "ybe_seconds": 0.01821467300032964,
+      "comparison_seconds": 0.004196351001155563,
+      "worker_seconds": 0.04936710400215816,
+      "status": "PASS",
+      "clearing": {
+        "D_pq": "p^11*q^8 - 4*p^11*q^6 + 6*p^11*q^4 - 4*p^11*q^2 + p^11",
+        "u_shift": 4,
+        "common_multiplier": "p^11*q^8*u^4 - 4*p^11*q^6*u^4 + 6*p^11*q^4*u^4 - 4*p^11*q^2*u^4 + p^11*u^4",
+        "YBE_common_scalar": "(p^11*q^8 - 4*p^11*q^6 + 6*p^11*q^4 - 4*p^11*q^2 + p^11)^3*u^8*v^8",
+        "entrywise_clearing_verified": true
+      },
+      "ybe_residuals": [],
+      "rational_comparison_residuals": [],
+      "checked_ybe_entries": 4,
+      "checked_comparison_entries": 8,
+      "R_terms": [
+        150,
+        150
+      ],
+      "triple_terms": [
+        18708,
+        18708
+      ],
+      "wall_seconds": 0.12547301100130426,
+      "peak_rss_kib": 24848,
+      "process_exit": 0
+    },
+    {
+      "index": 8,
+      "name": "A",
+      "dimension": 3,
+      "effective_limit_seconds": 60,
+      "last_phase": "YBE_complete",
+      "construction_seconds": 0.03305840099346824,
+      "clearing_seconds": 0.00043904899939661846,
+      "elapsed_ybe_seconds": 0.02091413400194142,
+      "ybe_seconds": 0.043669197999406606,
+      "comparison_seconds": 0.009909717002301477,
+      "worker_seconds": 0.0874471610004548,
+      "status": "PASS",
+      "clearing": {
+        "D_pq": "p^11*q^8 - 4*p^11*q^6 + 6*p^11*q^4 - 4*p^11*q^2 + p^11",
+        "u_shift": 4,
+        "common_multiplier": "p^11*q^8*u^4 - 4*p^11*q^6*u^4 + 6*p^11*q^4*u^4 - 4*p^11*q^2*u^4 + p^11*u^4",
+        "YBE_common_scalar": "(p^11*q^8 - 4*p^11*q^6 + 6*p^11*q^4 - 4*p^11*q^2 + p^11)^3*u^8*v^8",
+        "entrywise_clearing_verified": true
+      },
+      "ybe_residuals": [],
+      "rational_comparison_residuals": [],
+      "checked_ybe_entries": 9,
+      "checked_comparison_entries": 18,
+      "R_terms": [
+        264,
+        264
+      ],
+      "triple_terms": [
+        39190,
+        39190
+      ],
+      "wall_seconds": 0.2258241250019637,
+      "peak_rss_kib": 26712,
+      "process_exit": 0
+    },
+    {
+      "index": 0,
+      "name": "I",
+      "dimension": 5,
+      "effective_limit_seconds": 60,
+      "last_phase": "YBE_complete",
+      "construction_seconds": 0.042986905995348934,
+      "clearing_seconds": 0.002392761001829058,
+      "elapsed_ybe_seconds": 0.08800974800396943,
+      "ybe_seconds": 0.18331241800478892,
+      "comparison_seconds": 0.09451771800377173,
+      "worker_seconds": 0.3235311659955187,
+      "status": "PASS",
+      "clearing": {
+        "D_pq": "p^21*q^8 - 4*p^21*q^6 + p^19*q^8 + 6*p^21*q^4 - 4*p^19*q^6 + p^17*q^8 - 4*p^21*q^2 + 6*p^19*q^4 - 4*p^17*q^6 + p^21 - 4*p^19*q^2 + 6*p^17*q^4 + p^19 - 4*p^17*q^2 + p^17",
+        "u_shift": 4,
+        "common_multiplier": "p^21*q^8*u^4 - 4*p^21*q^6*u^4 + p^19*q^8*u^4 + 6*p^21*q^4*u^4 - 4*p^19*q^6*u^4 + p^17*q^8*u^4 - 4*p^21*q^2*u^4 + 6*p^19*q^4*u^4 - 4*p^17*q^6*u^4 + p^21*u^4 - 4*p^19*q^2*u^4 + 6*p^17*q^4*u^4 + p^19*u^4 - 4*p^17*q^2*u^4 + p^17*u^4",
+        "YBE_common_scalar": "(p^21*q^8 - 4*p^21*q^6 + p^19*q^8 + 6*p^21*q^4 - 4*p^19*q^6 + p^17*q^8 - 4*p^21*q^2 + 6*p^19*q^4 - 4*p^17*q^6 + p^21 - 4*p^19*q^2 + 6*p^17*q^4 + p^19 - 4*p^17*q^2 + p^17)^3*u^8*v^8",
+        "entrywise_clearing_verified": true
+      },
+      "ybe_residuals": [],
+      "rational_comparison_residuals": [],
+      "checked_ybe_entries": 25,
+      "checked_comparison_entries": 50,
+      "R_terms": [
+        782,
+        782
+      ],
+      "triple_terms": [
+        171824,
+        171824
+      ],
+      "wall_seconds": 0.8659453520012903,
+      "peak_rss_kib": 34132,
+      "process_exit": 0
+    },
+    {
+      "index": 3,
+      "name": "Y2",
+      "dimension": 6,
+      "effective_limit_seconds": 60,
+      "last_phase": "YBE_complete",
+      "construction_seconds": 0.05771560699940892,
+      "clearing_seconds": 0.0015737549983896315,
+      "elapsed_ybe_seconds": 0.11588218999531819,
+      "ybe_seconds": 0.23603896200074814,
+      "comparison_seconds": 0.10339635900163557,
+      "worker_seconds": 0.39912751500378363,
+      "status": "PASS",
+      "clearing": {
+        "D_pq": "p^14*q^8 - 4*p^14*q^6 + 6*p^14*q^4 - 4*p^14*q^2 + p^14",
+        "u_shift": 4,
+        "common_multiplier": "p^14*q^8*u^4 - 4*p^14*q^6*u^4 + 6*p^14*q^4*u^4 - 4*p^14*q^2*u^4 + p^14*u^4",
+        "YBE_common_scalar": "(p^14*q^8 - 4*p^14*q^6 + 6*p^14*q^4 - 4*p^14*q^2 + p^14)^3*u^8*v^8",
+        "entrywise_clearing_verified": true
+      },
+      "ybe_residuals": [],
+      "rational_comparison_residuals": [],
+      "checked_ybe_entries": 36,
+      "checked_comparison_entries": 72,
+      "R_terms": [
+        976,
+        976
+      ],
+      "triple_terms": [
+        182604,
+        182604
+      ],
+      "wall_seconds": 0.9914663460003794,
+      "peak_rss_kib": 35696,
+      "process_exit": 0
+    },
+    {
+      "index": 4,
+      "name": "Y2_star",
+      "dimension": 6,
+      "effective_limit_seconds": 60,
+      "last_phase": "YBE_complete",
+      "construction_seconds": 0.05909349899593508,
+      "clearing_seconds": 0.0018551960019976832,
+      "elapsed_ybe_seconds": 0.1332619690001593,
+      "ybe_seconds": 0.27048995700170053,
+      "comparison_seconds": 0.10967947699828073,
+      "worker_seconds": 0.4413997189985821,
+      "status": "PASS",
+      "clearing": {
+        "D_pq": "p^15*q^8 - 4*p^15*q^6 + 6*p^15*q^4 - 4*p^15*q^2 + p^15",
+        "u_shift": 4,
+        "common_multiplier": "p^15*q^8*u^4 - 4*p^15*q^6*u^4 + 6*p^15*q^4*u^4 - 4*p^15*q^2*u^4 + p^15*u^4",
+        "YBE_common_scalar": "(p^15*q^8 - 4*p^15*q^6 + 6*p^15*q^4 - 4*p^15*q^2 + p^15)^3*u^8*v^8",
+        "entrywise_clearing_verified": true
+      },
+      "ybe_residuals": [],
+      "rational_comparison_residuals": [],
+      "checked_ybe_entries": 36,
+      "checked_comparison_entries": 72,
+      "R_terms": [
+        996,
+        996
+      ],
+      "triple_terms": [
+        182954,
+        182954
+      ],
+      "wall_seconds": 1.0320427070037113,
+      "peak_rss_kib": 35480,
+      "process_exit": 0
+    },
+    {
+      "index": 2,
+      "name": "X2",
+      "dimension": 7,
+      "effective_limit_seconds": 60,
+      "last_phase": "YBE_complete",
+      "construction_seconds": 0.07896384099876741,
+      "clearing_seconds": 0.0029852700026822276,
+      "elapsed_ybe_seconds": 0.17972280100366333,
+      "ybe_seconds": 0.36494612700334983,
+      "comparison_seconds": 0.10143380999943474,
+      "worker_seconds": 0.5487926330024493,
+      "status": "PASS",
+      "clearing": {
+        "D_pq": "p^14*q^8 - 4*p^14*q^6 + 6*p^14*q^4 - 4*p^14*q^2 + p^14",
+        "u_shift": 4,
+        "common_multiplier": "p^14*q^8*u^4 - 4*p^14*q^6*u^4 + 6*p^14*q^4*u^4 - 4*p^14*q^2*u^4 + p^14*u^4",
+        "YBE_common_scalar": "(p^14*q^8 - 4*p^14*q^6 + 6*p^14*q^4 - 4*p^14*q^2 + p^14)^3*u^8*v^8",
+        "entrywise_clearing_verified": true
+      },
+      "ybe_residuals": [],
+      "rational_comparison_residuals": [],
+      "checked_ybe_entries": 49,
+      "checked_comparison_entries": 98,
+      "R_terms": [
+        1386,
+        1386
+      ],
+      "triple_terms": [
+        254278,
+        254278
+      ],
+      "wall_seconds": 1.326894721998542,
+      "peak_rss_kib": 39048,
+      "process_exit": 0
+    },
+    {
+      "index": 1,
+      "name": "L",
+      "dimension": 11,
+      "effective_limit_seconds": 60,
+      "last_phase": "YBE_complete",
+      "construction_seconds": 0.1456452630009153,
+      "clearing_seconds": 0.008310161007102579,
+      "elapsed_ybe_seconds": 0.7687126210003044,
+      "ybe_seconds": 1.5502121359968442,
+      "comparison_seconds": 0.3003646729994216,
+      "worker_seconds": 2.0049860049985,
+      "status": "PASS",
+      "clearing": {
+        "D_pq": "p^21*q^8 - 4*p^21*q^6 + p^19*q^8 + 6*p^21*q^4 - 4*p^19*q^6 + p^17*q^8 - 4*p^21*q^2 + 6*p^19*q^4 - 4*p^17*q^6 + p^21 - 4*p^19*q^2 + 6*p^17*q^4 + p^19 - 4*p^17*q^2 + p^17",
+        "u_shift": 4,
+        "common_multiplier": "p^21*q^8*u^4 - 4*p^21*q^6*u^4 + p^19*q^8*u^4 + 6*p^21*q^4*u^4 - 4*p^19*q^6*u^4 + p^17*q^8*u^4 - 4*p^21*q^2*u^4 + 6*p^19*q^4*u^4 - 4*p^17*q^6*u^4 + p^21*u^4 - 4*p^19*q^2*u^4 + 6*p^17*q^4*u^4 + p^19*u^4 - 4*p^17*q^2*u^4 + p^17*u^4",
+        "YBE_common_scalar": "(p^21*q^8 - 4*p^21*q^6 + p^19*q^8 + 6*p^21*q^4 - 4*p^19*q^6 + p^17*q^8 - 4*p^21*q^2 + 6*p^19*q^4 - 4*p^17*q^6 + p^21 - 4*p^19*q^2 + 6*p^17*q^4 + p^19 - 4*p^17*q^2 + p^17)^3*u^8*v^8",
+        "entrywise_clearing_verified": true
+      },
+      "ybe_residuals": [],
+      "rational_comparison_residuals": [],
+      "checked_ybe_entries": 121,
+      "checked_comparison_entries": 242,
+      "R_terms": [
+        2938,
+        2938
+      ],
+      "triple_terms": [
+        817200,
+        817200
+      ],
+      "wall_seconds": 4.462190293001186,
+      "peak_rss_kib": 70804,
+      "process_exit": 0
+    }
+  ]
+}

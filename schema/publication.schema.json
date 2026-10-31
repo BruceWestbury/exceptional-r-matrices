@@ -1,0 +1,525 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Portable publication specifications 0.3.0",
+  "type": "object",
+  "oneOf": [
+    {
+      "required": [
+        "format",
+        "version",
+        "status",
+        "provenance",
+        "field",
+        "coefficient_definitions",
+        "generator_expansion",
+        "scalar_relationship",
+        "crossing",
+        "distinguished_values",
+        "generators_ref"
+      ],
+      "properties": {
+        "format": {
+          "const": "exceptional-series-spectral-formula"
+        },
+        "version": {
+          "const": "0.3.0"
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provenance": {
+          "type": "object",
+          "required": [
+            "base_commit"
+          ]
+        },
+        "field": {
+          "type": "object",
+          "required": [
+            "base",
+            "variables"
+          ],
+          "properties": {
+            "base": {
+              "const": "QQ"
+            },
+            "variables": {
+              "enum": [
+                [
+                  "p",
+                  "q"
+                ],
+                [
+                  "p",
+                  "q",
+                  "u"
+                ]
+              ]
+            }
+          }
+        },
+        "coefficient_definitions": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": [
+              "expression"
+            ],
+            "properties": {
+              "expression": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        "generator_expansion": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "coefficient",
+              "word"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "coefficient": {
+                "type": "string",
+                "minLength": 1
+              },
+              "word": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        },
+        "scalar_relationship": {
+          "type": "object",
+          "required": [
+            "normalization_scalar",
+            "source"
+          ]
+        },
+        "crossing": {
+          "type": "object",
+          "required": [
+            "spectral_substitution",
+            "rotation_pairs",
+            "fixed_generators",
+            "source"
+          ]
+        },
+        "distinguished_values": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "u",
+              "interpretation",
+              "rescale",
+              "coefficient",
+              "generator"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "format",
+        "version",
+        "status",
+        "provenance",
+        "positions",
+        "local_diagram_ids",
+        "local_D4_definition",
+        "generator_expressions",
+        "coefficient_import",
+        "raw_generators_ref",
+        "normalization"
+      ],
+      "properties": {
+        "format": {
+          "const": "exceptional-series-dilute-embeddings"
+        },
+        "version": {
+          "const": "0.3.0"
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provenance": {
+          "type": "object",
+          "required": [
+            "base_commit"
+          ]
+        },
+        "positions": {
+          "type": "object",
+          "required": [
+            "1",
+            "2"
+          ],
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 29
+                }
+              }
+            }
+          }
+        },
+        "generator_expressions": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "coefficient",
+                "word"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "coefficient": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "word": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          }
+        },
+        "local_D4_definition": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "coefficient",
+              "word"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "coefficient": {
+                "type": "string",
+                "minLength": 1
+              },
+              "word": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "format",
+        "version",
+        "status",
+        "provenance",
+        "field",
+        "normalization",
+        "normalization_prescriptions",
+        "operator_order",
+        "generators",
+        "representations"
+      ],
+      "properties": {
+        "format": {
+          "const": "exceptional-series-dilute-a2"
+        },
+        "version": {
+          "const": "0.3.0"
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provenance": {
+          "type": "object",
+          "required": [
+            "base_commit"
+          ]
+        },
+        "field": {
+          "type": "object",
+          "required": [
+            "base",
+            "variables"
+          ],
+          "properties": {
+            "base": {
+              "const": "QQ"
+            },
+            "variables": {
+              "enum": [
+                [
+                  "p",
+                  "q"
+                ],
+                [
+                  "p",
+                  "q",
+                  "u"
+                ]
+              ]
+            }
+          }
+        },
+        "generators": {
+          "type": "array",
+          "minItems": 16,
+          "maxItems": 16,
+          "items": {
+            "type": "object",
+            "required": [
+              "operator",
+              "source_index",
+              "graph_edges",
+              "paper_multiplier",
+              "paper2_multiplier"
+            ]
+          }
+        },
+        "representations": {
+          "type": "array",
+          "minItems": 5,
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "dimension",
+              "file"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "format",
+        "version",
+        "status",
+        "provenance",
+        "coefficient_imports",
+        "maps",
+        "occupancy_decompositions",
+        "occupancy_convention",
+        "occupancy_provenance"
+      ],
+      "properties": {
+        "format": {
+          "const": "exceptional-series-basis-maps"
+        },
+        "version": {
+          "const": "0.3.0"
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provenance": {
+          "type": "object",
+          "required": [
+            "base_commit"
+          ]
+        },
+        "maps": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "representation_ref",
+              "basis_order",
+              "matrix_diagonal",
+              "direction",
+              "prerequisite",
+              "evidence"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "format",
+        "version",
+        "status",
+        "provenance",
+        "files",
+        "limitations",
+        "conventions",
+        "verification_evidence"
+      ],
+      "properties": {
+        "format": {
+          "const": "exceptional-series-publication-catalog"
+        },
+        "version": {
+          "const": "0.3.0"
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provenance": {
+          "type": "object",
+          "required": [
+            "base_commit"
+          ]
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "path",
+              "schema",
+              "role"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "schema": {
+                "type": "string",
+                "minLength": 1
+              },
+              "role": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "format",
+        "version",
+        "status",
+        "provenance",
+        "base_commit",
+        "source_hashes",
+        "payload_hashes",
+        "classification",
+        "runtime_dependencies"
+      ],
+      "properties": {
+        "format": {
+          "const": "exceptional-series-publication-provenance"
+        },
+        "version": {
+          "const": "0.3.0"
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provenance": {
+          "type": "object",
+          "required": [
+            "base_commit"
+          ]
+        },
+        "base_commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "source_hashes": {
+          "type": "object"
+        },
+        "payload_hashes": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "format",
+        "version",
+        "status",
+        "field",
+        "normalization",
+        "normalization_prescriptions",
+        "operator_order",
+        "generators",
+        "representations"
+      ],
+      "properties": {
+        "format": {
+          "const": "exceptional-series-dilute-a3-transcription"
+        },
+        "field": {
+          "type": "object",
+          "required": [
+            "base",
+            "variables"
+          ],
+          "properties": {
+            "base": {
+              "const": "QQ"
+            },
+            "variables": {
+              "enum": [
+                [
+                  "p",
+                  "q"
+                ],
+                [
+                  "p",
+                  "q",
+                  "u"
+                ]
+              ]
+            }
+          }
+        },
+        "generators": {
+          "type": "array",
+          "minItems": 30,
+          "maxItems": 30
+        },
+        "representations": {
+          "type": "array",
+          "minItems": 11,
+          "maxItems": 11
+        }
+      }
+    }
+  ]
+}

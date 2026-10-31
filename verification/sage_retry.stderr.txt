@@ -1,0 +1,2 @@
+[software-installation-path]:4: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  __import__('pkg_resources').require('sagemath-standard==10.6b2')

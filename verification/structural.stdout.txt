@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "kind": "structural_only",
+  "json_files": 47,
+  "schemas": 6,
+  "matrix_files": 38,
+  "matrices": 542,
+  "negative_fixtures_rejected": [
+    "index_bounds",
+    "duplicate_coordinate",
+    "unknown_scalar",
+    "dimension",
+    "position",
+    "basis",
+    "generator",
+    "coefficient_cycle",
+    "scalar_code",
+    "missing_ref"
+  ],
+  "limitations": "No CAS simplification, denominator nonvanishing proof, or mathematical identity verification; exact export comparisons are separate evidence.",
+  "seconds": 1.3929662689988618
+}

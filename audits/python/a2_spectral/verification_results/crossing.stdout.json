@@ -1,0 +1,237 @@
+{
+  "task": "crossing",
+  "status": "PASS",
+  "diagram_residuals": {
+    "rational": {
+      "D0": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D1": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D2": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D3": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D4": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D5": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D6": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D7": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D8": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D9": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D10": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D11": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D12": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D13": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D14": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D15": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    "polynomial": {
+      "D0": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D1": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D2": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D3": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D4": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D5": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D6": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D7": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D8": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D9": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D10": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D11": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D12": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D13": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D14": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "D15": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    }
+  },
+  "scalar_residuals": {
+    "N_times_prefactor_minus_transformed_N": {
+      "numerator": "0",
+      "denominator": "1"
+    },
+    "crossing_substitution_involution": {
+      "numerator": "0",
+      "denominator": "1"
+    },
+    "declared_substitution": {
+      "numerator": "0",
+      "denominator": "1"
+    },
+    "normalization_u": {
+      "one": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "S_dilute": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "Sinv_dilute": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "K": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "T": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "B": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "E": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "U": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "O": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    "normalization_crossed": {
+      "one": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "S_dilute": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "Sinv_dilute": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "K": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "T": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "B": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "E": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "U": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "O": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    }
+  },
+  "polynomial_crossing_factor": {
+    "numerator": "1",
+    "denominator": "1"
+  },
+  "method": "formal rotation, skein elimination, expansion into sixteen diagram coordinates; no representation evaluation",
+  "calculation_seconds": 0.07525520800118102,
+  "python": "3.10.12",
+  "python_flint": "0.9.0",
+  "flint": "3.6.0"
+}

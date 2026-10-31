@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+/audits/c/a2_spectral/verify
+/audits/c/a3_relations/verify
+/audits/c/a3_relations/runner
+/benchmarks/flint_ybe/verifier
+/benchmarks/flint_ybe/runner

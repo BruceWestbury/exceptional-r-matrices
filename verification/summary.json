@@ -1,0 +1,201 @@
+{
+  "status": "PASS",
+  "suite_wall_seconds": 19.791371259998414,
+  "stages": [
+    {
+      "stage": "structural",
+      "command": [
+        "/usr/bin/python3",
+        "tools/validate_publication.py",
+        "--self-test",
+        "--output",
+        "verification/structural.json"
+      ],
+      "wall_seconds": 1.6224774900038028,
+      "limit_seconds": 60,
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "stage": "build_ordinary",
+      "command": [
+        "make",
+        "-C",
+        "audits/c/a3_relations"
+      ],
+      "wall_seconds": 0.8240896710049128,
+      "limit_seconds": 60,
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "stage": "build_a2",
+      "command": [
+        "make",
+        "-C",
+        "audits/c/a2_spectral"
+      ],
+      "wall_seconds": 0.6224345129958238,
+      "limit_seconds": 60,
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "stage": "build_ybe",
+      "command": [
+        "make",
+        "-C",
+        "benchmarks/flint_ybe"
+      ],
+      "wall_seconds": 0.8212875530007295,
+      "limit_seconds": 60,
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "stage": "ordinary_a3",
+      "command": [
+        "audits/c/a3_relations/runner",
+        "verification/ordinary_a3"
+      ],
+      "wall_seconds": 2.320858250997844,
+      "limit_seconds": 300,
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "stage": "a2_spectral",
+      "command": [
+        "/usr/bin/python3",
+        "audits/run_a2_spectral.py",
+        "--results",
+        "verification_results"
+      ],
+      "wall_seconds": 1.5742653920024168,
+      "limit_seconds": 300,
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "stage": "c_ybe",
+      "command": [
+        "benchmarks/flint_ybe/runner",
+        "benchmarks/flint_ybe/verification_results"
+      ],
+      "wall_seconds": 2.2195103249978274,
+      "limit_seconds": 300,
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "stage": "python_ybe",
+      "command": [
+        "/usr/bin/python3",
+        "audits/python/run.py",
+        "--output",
+        "verification/python_ybe"
+      ],
+      "wall_seconds": 9.535845177000738,
+      "limit_seconds": 300,
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "stage": "sage",
+      "command": [
+        "sage",
+        "-python",
+        "examples/import_spectral.py"
+      ],
+      "wall_seconds": 4.051892501003749,
+      "limit_seconds": 59,
+      "exit_code": 0,
+      "status": "PASS",
+      "attempts": 2
+    }
+  ],
+  "ordinary_relation_counts": {
+    "PASS": 1605,
+    "NOT APPLICABLE": 45
+  },
+  "versions": {
+    "python": "3.10.12",
+    "compiler": "cc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+    "python-flint": "0.9.0",
+    "jsonschema": "3.2.0",
+    "sympy": "1.9"
+  },
+  "access_traces": [
+    {
+      "stage": "structural",
+      "traced": true,
+      "file_path_events": 3947,
+      "candidate_path_events": 2020,
+      "forbidden_research_path_attempts": 0
+    },
+    {
+      "stage": "build_ordinary",
+      "traced": true,
+      "file_path_events": 7475,
+      "candidate_path_events": 49,
+      "forbidden_research_path_attempts": 0
+    },
+    {
+      "stage": "build_a2",
+      "traced": true,
+      "file_path_events": 3937,
+      "candidate_path_events": 29,
+      "forbidden_research_path_attempts": 0
+    },
+    {
+      "stage": "build_ybe",
+      "traced": true,
+      "file_path_events": 7385,
+      "candidate_path_events": 49,
+      "forbidden_research_path_attempts": 0
+    },
+    {
+      "stage": "ordinary_a3",
+      "traced": true,
+      "file_path_events": 388,
+      "candidate_path_events": 0,
+      "forbidden_research_path_attempts": 0
+    },
+    {
+      "stage": "a2_spectral",
+      "traced": true,
+      "file_path_events": 6147,
+      "candidate_path_events": 437,
+      "forbidden_research_path_attempts": 0
+    },
+    {
+      "stage": "c_ybe",
+      "traced": true,
+      "file_path_events": 487,
+      "candidate_path_events": 0,
+      "forbidden_research_path_attempts": 0
+    },
+    {
+      "stage": "python_ybe",
+      "traced": true,
+      "file_path_events": 1531,
+      "candidate_path_events": 269,
+      "forbidden_research_path_attempts": 0
+    },
+    {
+      "stage": "sage_retry",
+      "traced": true,
+      "file_path_events": 23908,
+      "forbidden_research_path_attempts": 0
+    }
+  ],
+  "isolation": {
+    "research_tree_hidden": true,
+    "network_disabled": true,
+    "candidate_mount": "/tmp/release",
+    "method": "bubblewrap mount namespace; research tree hidden; dynamic strace file-access monitoring"
+  },
+  "generated_executables_removed": true,
+  "suite_wall_seconds_including_retry": 23.843263761002163,
+  "evidence_note": "Final summary combines the unchanged successful core batch with isolated Sage-only retry. Prior environment-only startup incident is retained separately; no mathematics changed."
+}
