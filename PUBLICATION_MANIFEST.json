@@ -147,8 +147,8 @@
       "source": "audits/python/dilute_transcription/REPORT.md",
       "destination": "audits/python/dilute_transcription/REPORT.md",
       "source_sha256": "5f3226547784bc22d9e6c91388929d79b6145e431d364a4574c42a1aa4d9947e",
-      "candidate_sha256": "5f3226547784bc22d9e6c91388929d79b6145e431d364a4574c42a1aa4d9947e",
-      "treatment": "copied_byte_for_byte"
+      "candidate_sha256": "ace077b8161b744c902d634fa411a697426b732b94da4362148ea3caac378a82",
+      "treatment": "historical_report_with_current_basis_note"
     },
     {
       "source": "audits/python/dilute_transcription/correspondence.json",
@@ -224,8 +224,8 @@
       "source": "data/basis_maps.json",
       "destination": "data/basis_maps.json",
       "source_sha256": "4868426b74aa5ea09189d81c2f48a5fdec297bdebf2198db992ae17ed452a1d6",
-      "candidate_sha256": "4868426b74aa5ea09189d81c2f48a5fdec297bdebf2198db992ae17ed452a1d6",
-      "treatment": "copied_byte_for_byte"
+      "candidate_sha256": "1fd5e7d92a52f188d8d9df5a464788570cf8c79315b7e5f707ef6f987b626665",
+      "treatment": "remove_obsolete_ordinary_Y2_map_2026_11_01"
     },
     {
       "source": "data/dilute_a2.json",
@@ -378,8 +378,8 @@
       "source": "data/publication_provenance.json",
       "destination": "data/publication_provenance.json",
       "source_sha256": "f61cdf0f36e5d3da81768767367f231b040c0dc47a56cd4895616af35155624d",
-      "candidate_sha256": "8dfec641d75344f8789650f9e6e61cc84da7a7ac65e91c56c22432341b6a4ae1",
-      "treatment": "metadata_only_portability"
+      "candidate_sha256": "38bce0d37ac4f7b2410e270a74b52cc6c4258893173a1552e5f04bb93f0c7142",
+      "treatment": "updated_basis_provenance_and_payload_hashes"
     },
     {
       "source": "data/representations/A.json",
@@ -434,8 +434,8 @@
       "source": "data/representations/Y2.json",
       "destination": "data/representations/Y2.json",
       "source_sha256": "315763cf8457a59ffcb2e79562df0d4dc99ae3a178140f0adc66a871ee34936a",
-      "candidate_sha256": "315763cf8457a59ffcb2e79562df0d4dc99ae3a178140f0adc66a871ee34936a",
-      "treatment": "copied_byte_for_byte"
+      "candidate_sha256": "1bf8b8a1e8b63585cbe753e56ff9462cdea2211c976f081846e3ac2fb20fabd0",
+      "treatment": "author_requested_basis_conjugation_2026_11_01"
     },
     {
       "source": "data/representations/Y2_star.json",
@@ -714,8 +714,8 @@
       "source": "FORMAT.md",
       "destination": "FORMAT.md",
       "source_sha256": "b7db10e31572dd5d568e7ed91db89f805615f1d2393d170cfc3fbf2a75771e69",
-      "candidate_sha256": "6e060f07d637b70f9e09154397bae5cc74684074072b6c5e6150a793ac51b4d2",
-      "treatment": "portable_documentation_excerpt"
+      "candidate_sha256": "9f4ae0d1a660883468d98161cf5705cbf065100a464304fce4ea170cc271038f",
+      "treatment": "updated_basis_convention_documentation"
     }
   ],
   "authoritative_json_source_sha256": {
@@ -866,20 +866,20 @@
     ".gitignore": "6e1f73620213a8ea4ae09d3ae9547e5972c092a6faab2c4b7706a725495d8345",
     "CITATION.cff": "b6653aab2901e06e4773bd9ac02b884572840ef1d100a4d16dc716d7e1b19c4c",
     "DEPENDENCY_AUDIT.md": "b218a8a57dd7c27d4abef82f49d2a2ca0c179b44d291218e34478057b161b104",
-    "DATASET_PROVENANCE.md": "517d9ef76c771832e32701b58f19861bf1993b34e261ed6b09bc883bc7face0f",
+    "DATASET_PROVENANCE.md": "8b876131674870d88bcf0682e909e9ecb510861f28f02526b5edc323ae359c8f",
     "README.md": "6554e67258084be4ca4278a278b98341f93a07d35af1411ac8490344bad3b099",
     "AUDIT_COVERAGE.md": "c25488db2d9bf9459df0b795cde114e8a6bd6d9ce3b90581072a68d9b50e799b",
     "EXCLUDED_FILES.json": "9a4dd787f6f43a107213451b5c40685a340d96d153045c682c0fd3c9d4a1549a",
     "DEPENDENCIES.json": "93b77dc1227ff4827aed23f319d80a9d3e8af168cef4e99bc953b224e2306507",
-    "FORMAT.md": "6e060f07d637b70f9e09154397bae5cc74684074072b6c5e6150a793ac51b4d2",
+    "FORMAT.md": "9f4ae0d1a660883468d98161cf5705cbf065100a464304fce4ea170cc271038f",
     ".zenodo.json": "430d86674eb82d5c784f50fdff82873654fec4a503b1e32762e4c7583f59fae3",
     "LICENSE": "09479a9d148a7ca39d33bd6a58299a00ab38614354c76b1490ccb1223a80d4f1",
-    "data/basis_maps.json": "4868426b74aa5ea09189d81c2f48a5fdec297bdebf2198db992ae17ed452a1d6",
+    "data/basis_maps.json": "1fd5e7d92a52f188d8d9df5a464788570cf8c79315b7e5f707ef6f987b626665",
     "data/dilute_a3.json": "3dc0b2e91bd624a7ef313fe503e2b9c4cf799f3e219cdb96e36cd3be4658c2e0",
     "data/publication.json": "b2b9c0d5375aa813fcda522b37ea4b1b4e6b39ac33bb822d248c7942c69cec7a",
     "data/a3.json": "9b549adcc52f4fd9cd70b1080a075ab143e71a514f166d66310f6ee905f3863a",
     "data/local_a2.json": "fda4024e781d4d6e6a83bc41f3a94563ecfff89fade64ae287f9fef44e4de7b4",
-    "data/publication_provenance.json": "8dfec641d75344f8789650f9e6e61cc84da7a7ac65e91c56c22432341b6a4ae1",
+    "data/publication_provenance.json": "38bce0d37ac4f7b2410e270a74b52cc6c4258893173a1552e5f04bb93f0c7142",
     "data/dilute_a3_embeddings.json": "e552cf606e797149d73ac41fc2567833c29669f336685589c020c671b3362d7e",
     "data/dilute_a2.json": "e6c4e054c8351e3bd1892417ec0d0b0694e8906540f3fc9614a49fc996fea049",
     "data/spectral_r.json": "e9d02d96a70542fdcdfb6f027fc5794dc03c33de0c68bb9e8772cee56fcd8cb3",
@@ -903,7 +903,7 @@
     "data/representations/C_star.json": "80d2888cebf528f51a247c5aab48e98545d719202429436774e4e7c4832cc497",
     "data/representations/C.json": "11c8deb00d4e7d6edc24d5125ff474343c077422e498369ac079581a5f88a579",
     "data/representations/Y2_star.json": "05efbe90a81545dd279f8ff22293a3a1531285b5fe8d20a7602a475591487375",
-    "data/representations/Y2.json": "315763cf8457a59ffcb2e79562df0d4dc99ae3a178140f0adc66a871ee34936a",
+    "data/representations/Y2.json": "1bf8b8a1e8b63585cbe753e56ff9462cdea2211c976f081846e3ac2fb20fabd0",
     "data/representations/X3.json": "43308cf9890c00b356f20051b13e30b1609e5347dbf19bc1c0be41a9b872bca3",
     "data/representations/L.json": "f11fdd38ef3f4f1eb91b3b8e083cfffc59ea2a3b1da8c5ead0c09b57bdba839d",
     "data/representations/Y3_star.json": "a6f11cf79510c9482b08d325faf352c4e5d2b3a7cb0c86691c031425fc65b64b",
@@ -972,7 +972,7 @@
     "audits/python/requirements.txt": "4cef508304e84c21f73cf412712165dc26e40978cb784bc08a876948b559d90d",
     "audits/python/spectral_ybe.py": "06ee4ac464fd8b10c1bbcb1258355fd4be589b36dc9c16c6664fc7fa303af223",
     "audits/python/dilute_transcription/final_results.json": "e77018700da8f8a36c21df04c661237bba590d341bd817acd9a0c3660e61f48e",
-    "audits/python/dilute_transcription/REPORT.md": "5f3226547784bc22d9e6c91388929d79b6145e431d364a4574c42a1aa4d9947e",
+    "audits/python/dilute_transcription/REPORT.md": "ace077b8161b744c902d634fa411a697426b732b94da4362148ea3caac378a82",
     "audits/python/dilute_transcription/correspondence.json": "351508341d491cf5d6349fe2d40650fb8edd42ee571b7e787f27fc5d7ab882c7",
     "audits/python/a2_spectral/verify.py": "26f10fbbb9a591950ff891a262464851e4c8fdc863102852ad25114f88477ba3",
     "audits/python/a2_spectral/README.md": "7089285edb0d50a256fd6d1634a3a8080404dd49dc8aa8d791a9a8977d86c12e",

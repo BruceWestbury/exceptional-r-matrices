@@ -1,5 +1,11 @@
 # Ordinary-to-dilute A(3) transcription audit
 
+**Basis update (2026-11-01):** This report and its JSON evidence describe the
+historical input coordinates. The current ordinary Y2 matrices have since been
+conjugated by D=diag(1,-1,1) to match the manuscript and Macaulay2 basis. Do not
+apply the Y2 map below, or the one in correspondence.json, to the current data.
+The dilute matrices are unchanged.
+
 **The construction is only partially independently verified.** With the documented Y2 basis map, **298 of 330 generator matrices are completely reconstructed entrywise** from ordinary data and occupancy rules. **32 matrices are only partially verified**, with **92 active-block entries not independently reconstructed**. Their surrounding forced-zero blocks pass. All 8,518 reconstructed entries have exact zero residual. No matrix is wholly unassessed, but that does not make the 32 active blocks reconstructed.
 
 Separately, **all 330 matrices match the retained raw Macaulay2 source files**, and **all 20 displayed manuscript S1,T1,B1,E1 tables pass** in the recorded normalizations/bases. Neither result supplies the missing independent construction of the 92 entries.

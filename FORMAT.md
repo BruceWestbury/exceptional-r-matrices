@@ -76,8 +76,9 @@ operators in these local diagrams. In particular the ordinary braid supported
 on full occupancy differs from the dilute braid by D6+D7+D15.
 
 Displayed-table comparison may additionally require a diagonal basis map.
-`basis_maps.json` records I,L (dilute A3), ordinary Y2, and the source-derived
-A2:L map. With row coordinates, the stated map M_paper = D M_JSON D^-1 means
+`basis_maps.json` records I,L (dilute A3) and the source-derived A2:L map.
+Ordinary Y2 already uses the manuscript and Macaulay2 basis; no sign conjugation
+is needed. With row coordinates, the stated map M_paper = D M_JSON D^-1 means
 row coordinates transform as v_paper = v_JSON D^-1. Apply any required generator
 normalisation first. The A2:L map diag(beta^-1,1,1) comes from vertex counts
 [1,0,0] in its basis diagrams, and was checked against the tables; it was not

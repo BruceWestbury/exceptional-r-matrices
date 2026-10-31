@@ -15,7 +15,7 @@
       "coordinate_2",
       "coordinate_3"
     ],
-    "description": "Neutral coordinates in the printed row/column order; these tables do not individually name mathematical basis vectors.",
+    "description": "Coordinates in the current manuscript and ExceptionalDiagrams paper-normalized basis; no additional sign conjugation is required.",
     "source": [
       "threestring.tex:432-436,456, lem:A3rep",
       "threestring.tex:666-672,694-698, eq:Sirrepdd"
@@ -36,12 +36,14 @@
   },
   "provenance": {
     "base_commit": "3068deded4812aed0bf050b5cb13bac785fb0193",
-    "authority": "Current source-based encoding, pending authorial approval; successful audit is not approval.",
-    "change": "Reconcile the author-approved saved correction at threestring.tex:670-671, eq:Sirrepdd (paper 6.52): negate S1 entries (1,0),(2,1), and exactly their rotation/bar counterparts in S2, Sinv1, Sinv2. All H,K,U matrices and every other matrix entry are unchanged. Previous source hash: 68602f2cb45526c8b6ddd37e2aa8185e9e5d76655ed5fbdf6c2467b3b6a78f1c.",
+    "authority": "Author-requested alignment with the current manuscript and ExceptionalDiagrams basis.",
+    "change": "2026-11-01: conjugate every ordinary Y2 operator by D=diag(1,-1,1), adopting the current manuscript and ExceptionalDiagrams basis. This changes the adjacent off-diagonal signs in H1,H2,K1,K2,S1,S2,Sinv1,Sinv2; U1,U2 remain zero. Remove the now-obsolete ordinary_Y2 basis map. Previous JSON SHA256: 315763cf8457a59ffcb2e79562df0d4dc99ae3a178140f0adc66a871ee34936a.",
     "source_hashes": {
-      "threestring.tex": "57a8f96bb73ba0572db41f613dd582bffc4f8d60773bb578b5c09eb085b2c7d5",
-      "threestring-top.tex": "5b6f2ac5eaf0e833cb0e9bd7043f54ea3b1ac6b195f01b51ad48cb373916fcd7",
-      "twostring.tex": "8f6463f6d69b47bf8abbabd30c9add57379a31756e5b38740eb14d6d4abf006f"
+      "threestring.tex": "6047ea7cfd6b809a95306f39cade54b4b8542b5ac4ef1796aa6c93b6e77eecff",
+      "threestring-top.tex": "b3d731a75ae2d54c3c13d5fd5fdd3d24fb3f04ae7b6832be7e3562a9c557ef0d",
+      "twostring.tex": "5fd69e6340fd2c1cf792cda4126d387797b12119b5c6051474865f4eaca471b5",
+      "ExceptionalDiagrams.m2": "cf0599304687c3256cde3378495b0d1df1b3a76bec9056a821b7af17710679e6",
+      "ExceptionalDiagrams/reps3_3.m2": "909bedd8d7b01a53b1c34fb11923963dc08a80363596ed4c439301e1c07d0d02"
     }
   },
   "matrices": [
@@ -58,7 +60,7 @@
         [
           1,
           0,
-          "b60/(b30*b20)"
+          "-(b60/(b30*b20))"
         ],
         [
           1,
@@ -73,7 +75,7 @@
         [
           2,
           1,
-          "b3m1*(q^2*p+p^3-p-p^-1+p^-3+q^-2*p^-1)/b10"
+          "-(b3m1*(q^2*p+p^3-p-p^-1+p^-3+q^-2*p^-1)/b10)"
         ],
         [
           2,
@@ -101,7 +103,7 @@
         [
           0,
           1,
-          "(p^12*q^2 + p^10*q^4 - p^10*q^2 - p^8*q^2 + p^8 - p^6*q^4 + p^6*q^2 - p^4*q^6 + p^4*q^4 + p^2*q^4 - p^2*q^2 - q^4)/(p^7*q^3 - p^5*q^3)"
+          "-((p^12*q^2 + p^10*q^4 - p^10*q^2 - p^8*q^2 + p^8 - p^6*q^4 + p^6*q^2 - p^4*q^6 + p^4*q^4 + p^2*q^4 - p^2*q^2 - q^4)/(p^7*q^3 - p^5*q^3))"
         ],
         [
           0,
@@ -116,7 +118,7 @@
         [
           1,
           2,
-          "(p^4*q^2 - p^4 - p^2*q^2 + p^2 + q^2 - 1)/(p^3*q - p*q)"
+          "-((p^4*q^2 - p^4 - p^2*q^2 + p^2 + q^2 - 1)/(p^3*q - p*q))"
         ],
         [
           2,
@@ -145,7 +147,7 @@
         [
           2,
           1,
-          "(p^16*q^2 + p^12*q^4 - p^10*q^4 + p^10 - p^6*q^6 + p^6*q^2 - p^4*q^2 - q^4)/(p^9*q^3 - p^7*q^3)"
+          "-((p^16*q^2 + p^12*q^4 - p^10*q^4 + p^10 - p^6*q^6 + p^6*q^2 - p^4*q^2 - q^4)/(p^9*q^3 - p^7*q^3))"
         ],
         [
           2,
@@ -174,7 +176,7 @@
         [
           0,
           1,
-          "(p^16*q^2 + p^12*q^4 - p^10*q^4 + p^10 - p^6*q^6 + p^6*q^2 - p^4*q^2 - q^4)/(p^9*q^3 - p^7*q^3)"
+          "-((p^16*q^2 + p^12*q^4 - p^10*q^4 + p^10 - p^6*q^6 + p^6*q^2 - p^4*q^2 - q^4)/(p^9*q^3 - p^7*q^3))"
         ],
         [
           0,
@@ -229,7 +231,7 @@
         [
           1,
           0,
-          "-q^-1"
+          "q^-1"
         ],
         [
           1,
@@ -244,7 +246,7 @@
         [
           2,
           1,
-          "-q^-1*p^2*(p^2-q*p^-1)*(p^2+q*p^-1)"
+          "q^-1*p^2*(p^2-q*p^-1)*(p^2+q*p^-1)"
         ],
         [
           2,
@@ -272,7 +274,7 @@
         [
           0,
           1,
-          "(-p^6 + q^2)/q"
+          "-((-p^6 + q^2)/q)"
         ],
         [
           0,
@@ -287,7 +289,7 @@
         [
           1,
           2,
-          "-1/q"
+          "1/q"
         ],
         [
           2,
@@ -316,7 +318,7 @@
         [
           1,
           0,
-          "-q"
+          "q"
         ],
         [
           1,
@@ -331,7 +333,7 @@
         [
           2,
           1,
-          "(p^6 - q^2)/(p^6*q)"
+          "-((p^6 - q^2)/(p^6*q))"
         ],
         [
           2,
@@ -360,7 +362,7 @@
         [
           0,
           1,
-          "(p^6 - q^2)/(p^6*q)"
+          "-((p^6 - q^2)/(p^6*q))"
         ],
         [
           0,
@@ -375,7 +377,7 @@
         [
           1,
           2,
-          "-q"
+          "q"
         ],
         [
           2,
@@ -476,7 +478,7 @@
   ],
   "comparison": {
     "status": "independently_checked",
-    "method": "Corrected S1 copied from newly reread saved manuscript; S2 and inverses independently recomputed by prescribed rotation/bar. All source, construction, local, braid, identification and selected consistency checks pass. No further normalization inferred; quartic_full remains an unchanged unresolved diagnostic.",
+    "method": "All ten ordinary Y2 operators agree exactly with the current ExceptionalDiagrams paper-normalized representation. Displayed H1,H2,S1,S2 agree with the current manuscript without a basis change; the other operators follow the recorded polynomial, zero and inverse prescriptions.",
     "current_coefficients": "Imports settled local coefficients including corrected tau, S_I and b_i; no historical coefficient supplies an entry."
   }
 }

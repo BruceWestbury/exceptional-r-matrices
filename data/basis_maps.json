@@ -71,25 +71,6 @@
       "evidence_sha256": "95d3002043195f246a793196edabe837959de73f4572eddce1b01b97af33e271"
     },
     {
-      "id": "ordinary_Y2",
-      "representation_ref": "representations/Y2.json",
-      "basis_order": [
-        "coordinate_1",
-        "coordinate_2",
-        "coordinate_3"
-      ],
-      "matrix_diagonal": [
-        "1",
-        "-1",
-        "1"
-      ],
-      "direction": "M_manuscript = D * M_JSON * D^-1",
-      "prerequisite": "ordinary alpha=1 normalization",
-      "affected": "all displayed generators in the same representation; conjugation also applies to derived spectral matrices",
-      "evidence": "reports/paper_audit/a2_results_ordinarygauge_3.json",
-      "evidence_sha256": "e00d5d8852a10071c2f878d0b1f7cb507275db7216431fe47d9b671d4f816043"
-    },
-    {
       "id": "dilute_A2_L",
       "representation_ref": "dilute_a2_representations/L.json",
       "basis_order": [

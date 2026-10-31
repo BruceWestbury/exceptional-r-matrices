@@ -9,11 +9,11 @@
   },
   "base_commit": "db523ef0c62105a9363a07a1ab1215c01cdd5b2e",
   "classification": {
-    "existing_matrix_entries": "unchanged",
+    "existing_matrix_entries": "Ordinary Y2 conjugated by diag(1,-1,1) on 2026-11-01 to match the current manuscript and Macaulay2 basis; all other matrices unchanged.",
     "new_a2": "literal source copies plus package-prescribed quotient zeros",
     "new_spectral": "derived from existing rational artifacts and checked against portable generator formula",
     "new_formula": "manuscript prescription, algebraically expanded",
-    "basis_maps": "previously verified maps plus source-predicted A2:L map checked here",
+    "basis_maps": "Dilute I,L and source-predicted A2:L maps retained; obsolete ordinary Y2 map removed after adopting its target basis.",
     "historical_working_files": "Macaulay2 sources excluded; historical hashes retained as citations only"
   },
   "runtime_dependencies": {
@@ -201,7 +201,7 @@
   },
   "payload_hashes": {
     "data/a3.json": "9b549adcc52f4fd9cd70b1080a075ab143e71a514f166d66310f6ee905f3863a",
-    "data/basis_maps.json": "4868426b74aa5ea09189d81c2f48a5fdec297bdebf2198db992ae17ed452a1d6",
+    "data/basis_maps.json": "1fd5e7d92a52f188d8d9df5a464788570cf8c79315b7e5f707ef6f987b626665",
     "data/dilute_a2.json": "e6c4e054c8351e3bd1892417ec0d0b0694e8906540f3fc9614a49fc996fea049",
     "data/dilute_a2_representations/I.json": "4b132899ce561a0baf4d4285ff2a74b26a070ae73dd8d4228c90b16fbb29be78",
     "data/dilute_a2_representations/L.json": "fa29e048e096f888ecf36faaac1f8bbd0c7eb1972fd435697919de5e3be0606d",
@@ -230,7 +230,7 @@
     "data/representations/L.json": "f11fdd38ef3f4f1eb91b3b8e083cfffc59ea2a3b1da8c5ead0c09b57bdba839d",
     "data/representations/X2.json": "b62482cd63fde89241a687d33be2befd474ef48723cce393c507dcb61f645248",
     "data/representations/X3.json": "43308cf9890c00b356f20051b13e30b1609e5347dbf19bc1c0be41a9b872bca3",
-    "data/representations/Y2.json": "315763cf8457a59ffcb2e79562df0d4dc99ae3a178140f0adc66a871ee34936a",
+    "data/representations/Y2.json": "1bf8b8a1e8b63585cbe753e56ff9462cdea2211c976f081846e3ac2fb20fabd0",
     "data/representations/Y2_star.json": "05efbe90a81545dd279f8ff22293a3a1531285b5fe8d20a7602a475591487375",
     "data/representations/Y3.json": "92c75e1846dd1a3dc9dd506efa7e1c5a22bcaa3278c8cb58c47486092693f6d5",
     "data/representations/Y3_star.json": "a6f11cf79510c9482b08d325faf352c4e5d2b3a7cb0c86691c031425fc65b64b",
@@ -255,6 +255,6 @@
   },
   "curation": {
     "research_head": "83aed000254bf7aca4836f0d3e3fb47c818ee4fa",
-    "changes": "Metadata-only portable source label, selected evidence links and payload integrity refresh; all mathematical entries unchanged."
+    "changes": "Initial curation changed only the portable source label, selected evidence links and payload integrity metadata. On 2026-11-01, author-requested ordinary Y2 basis alignment conjugated all its operators by diag(1,-1,1) and removed the corresponding basis map; payload hashes refreshed."
   }
 }
