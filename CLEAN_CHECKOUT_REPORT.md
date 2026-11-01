@@ -1,6 +1,6 @@
 # Clean-checkout verification report
 
-**PASS**: all requested candidate checks completed. The candidate has no Git repository yet; this tests a clean curated directory.
+**PASS**: all requested candidate checks completed. This historical report records the initial clean curated directory, before the Git repository and Macaulay2 integration were added.
 
 | Stage | Status | Wall seconds | Limit seconds |
 |---|---|---:|---:|
@@ -34,4 +34,6 @@ The historical Python ordinary-audit wrapper is deliberately excluded because it
 
 Run `python3 verify_release.py --run-name a_fresh_name` for another bounded suite after installing the documented dependencies. It reports whether namespace isolation was supplied; ordinary reruns do not pretend the research tree was masked. Generated executable removal is part of the runner. New evidence must use fresh names.
 
-No GitHub remote, commit, release or Zenodo deposit was created. Licensing and citation/release metadata remain author decisions.
+The verification run itself created no GitHub remote, commit, release or Zenodo
+deposit. The repository has since adopted [CC BY 4.0](LICENSE); citation and
+release metadata remain to be finalized.

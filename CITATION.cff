@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "Draft citation metadata; confirm before publication. Please cite the accompanying paper."
 type: dataset
+license: CC-BY-4.0
 title: "Exact representation matrices and audits for A uniform trigonometric R-matrix for the exceptional series"
 authors:
   - family-names: Westbury

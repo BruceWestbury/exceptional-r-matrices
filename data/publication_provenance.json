@@ -224,7 +224,7 @@
     "data/dilute_representations/Dilute_8.json": "0feb3b4febf823745f3a662634316dd1b21d889a7feadfc3cbcfead419d963f6",
     "data/dilute_representations/Dilute_9.json": "b454bb95bb125099eb5cb691bf48b2c77d9b014791a8535f02c0ce4de6700949",
     "data/local_a2.json": "fda4024e781d4d6e6a83bc41f3a94563ecfff89fade64ae287f9fef44e4de7b4",
-    "data/publication.json": "d467a30f452791519643929062bb5705d327162af9368485a013f4d505b8b1f1",
+    "data/publication.json": "8e5f4f8f76b34f414a9348dcd5bf4d5b03232ed9b449725d70833525ff0c556d",
     "data/representations/A.json": "021aa224df6174b203757bc4ef58178eb8c6071862938a4695e2837041e47f0b",
     "data/representations/C.json": "11c8deb00d4e7d6edc24d5125ff474343c077422e498369ac079581a5f88a579",
     "data/representations/C_star.json": "80d2888cebf528f51a247c5aab48e98545d719202429436774e4e7c4832cc497",
@@ -257,6 +257,6 @@
   },
   "curation": {
     "research_head": "83aed000254bf7aca4836f0d3e3fb47c818ee4fa",
-    "changes": "Initial curation changed only the portable source label, selected evidence links and payload integrity metadata. On 2026-11-01, author-requested ordinary Y2 basis alignment conjugated all its operators by diag(1,-1,1) and removed the corresponding basis map; payload hashes refreshed. Author-authorized package integration adds macaulay2/, installation-compatible coefficient exports, bounded test groups, and exact comparison tooling; the mathematical JSON entries are unchanged by this import."
+    "changes": "Initial curation changed only the portable source label, selected evidence links and payload integrity metadata. On 2026-11-01, author-requested ordinary Y2 basis alignment conjugated all its operators by diag(1,-1,1) and removed the corresponding basis map; payload hashes refreshed. Author-authorized package integration adds macaulay2/, installation-compatible coefficient exports, bounded test groups, and exact comparison tooling; the mathematical JSON entries are unchanged by this import. On 2026-11-01, the author selected CC BY 4.0 for data, documentation and software; licence notices and current payload hashes were updated without changing mathematical content."
   }
 }

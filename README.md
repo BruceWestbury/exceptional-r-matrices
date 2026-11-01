@@ -3,8 +3,9 @@
 Exact JSON matrices, the ExceptionalDiagrams Macaulay2 package, and computational
 audits accompanying Bruce W. Westbury and
 Paul Zinn-Justin, *A uniform trigonometric R-matrix for the exceptional series*
-(arXiv:2406.01348, accepted manuscript). This directory is an **unlicensed draft**,
-with licensing and release metadata still to be settled.
+(arXiv:2406.01348, accepted manuscript). The data, documentation and code are
+licensed under [Creative Commons Attribution 4.0 International
+(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/); see [LICENSE](LICENSE).
 
 Start with `data/publication.json` and FORMAT.md. The 542 sparse matrices comprise
 110 ordinary A(3), 330 dilute A(3), 80 dilute A(2), and 22 polynomial spectral
@@ -77,8 +78,8 @@ and PUBLICATION_INVENTORY.md for the complete proposed inventory.
 PUBLICATION_MANIFEST.json is the explicit copy whitelist, with source/candidate
 hashes; EXCLUDED_FILES.json lists every excluded tracked research file and reason.
 DATASET_PROVENANCE.md explains the initial curation and subsequent changes.
-PUBLICATION_DECISIONS.md lists remaining release decisions, including licences
-and citation metadata.
+PUBLICATION_DECISIONS.md records the licence choice and remaining release
+decisions, including citation metadata.
 
 The recorded verification was stronger than a normal rerun: bubblewrap mounted
 only this candidate at `/tmp/release`, hid the research Dropbox tree, disabled
@@ -86,3 +87,13 @@ networking, and supplied `/dev`; PWD/OLDPWD pointed inside the candidate. Python
 and FLINT/Sage installations remained available read-only. A normal invocation
 of verify_release.py does not claim this namespace isolation; its report states
 whether PUBLIC_ISOLATED was provided by the external namespace supervisor.
+
+## Licence and attribution
+
+CC BY 4.0 applies to the repository's mathematical data, documentation and
+software, including ExceptionalDiagrams and the C/Python audit code. When sharing
+or adapting this material, give appropriate credit, link to the licence and
+indicate any changes, as specified in [LICENSE](LICENSE). Credit Bruce W. Westbury
+and Paul Zinn-Justin for the companion repository, and retain Paul Zinn-Justin's
+authorship credit for ExceptionalDiagrams. See [CITATION.cff](CITATION.cff) for the
+accompanying paper's citation. External dependencies retain their own licences.

@@ -23,7 +23,11 @@ map applies only to the pre-change ordinary matrices, not to the current data.
 
 The public format document omits the legacy ordinary-only CLI section. The
 existing C/Python audit mathematics is copied byte-for-byte. Publication metadata
-remains provisional. No manuscript sources are included.
+remains provisional apart from the licence: the author selected
+[CC BY 4.0](LICENSE) for data, documentation and software on 2026-11-01.
+Recorded verification results and their input hashes describe the tested
+versions; subsequent licence notices and metadata do not change the mathematics.
+No manuscript sources are included.
 
 The author subsequently authorized inclusion of ExceptionalDiagrams. Its 37
 auxiliary files were copied unchanged into `macaulay2/`. The package's exported

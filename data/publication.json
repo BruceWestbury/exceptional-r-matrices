@@ -19,7 +19,7 @@
     "All 330 source transcriptions verified, but this does not independently derive the missing assembly morphisms.",
     "This dataset and its audits do not prove completeness of an abstract defining presentation.",
     "Crossing uses the supplied diagram rotation; diagrammatic rotation conventions are not independently proved.",
-    "Licence and release metadata remain provisional."
+    "Data, documentation and software are licensed under CC BY 4.0; release metadata remains provisional."
   ],
   "verification_evidence": [
     "AUDIT_COVERAGE.md",

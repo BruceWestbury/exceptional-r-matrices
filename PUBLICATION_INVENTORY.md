@@ -16,7 +16,7 @@ reports/paper_audit/           rational comparison fixtures and embeddings
 examples/                     optional Sage importer
 verification/                 saved results and provenance
 *.md, *.json, CITATION.cff     documentation and publication metadata
-LICENSE                       current licence status
+LICENSE                       CC BY 4.0 licence text
 ```
 
 The Macaulay2 component is optional for JSON consumers and the C/Python audits. Its maintained source and every auxiliary file are included. The original mathematical assertions in the standalone package tests have been grouped for bounded execution; the main package has an installation fix for its coefficient exports.
@@ -121,8 +121,8 @@ Historical ordinary-to-dilute assembly evidence remains under audits/python/dilu
 | `data/dilute_representations/Dilute_8.json` | copied_byte_for_byte |
 | `data/dilute_representations/Dilute_9.json` | copied_byte_for_byte |
 | `data/local_a2.json` | copied_byte_for_byte |
-| `data/publication.json` | metadata_only_portability |
-| `data/publication_provenance.json` | updated_basis_provenance_and_payload_hashes |
+| `data/publication.json` | updated_publication_metadata_and_licensing |
+| `data/publication_provenance.json` | updated_publication_metadata_and_licensing |
 | `data/representations/A.json` | copied_byte_for_byte |
 | `data/representations/C.json` | copied_byte_for_byte |
 | `data/representations/C_star.json` | copied_byte_for_byte |

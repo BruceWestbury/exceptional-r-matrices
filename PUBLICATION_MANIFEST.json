@@ -378,15 +378,15 @@
       "source": "data/publication.json",
       "destination": "data/publication.json",
       "source_sha256": "cb6100d613b6b8ad3206d85fd12caefc0f08d82746cb753855fa3b0bcdf71948",
-      "candidate_sha256": "d467a30f452791519643929062bb5705d327162af9368485a013f4d505b8b1f1",
-      "treatment": "updated_for_authorized_macaulay2_integration"
+      "candidate_sha256": "8e5f4f8f76b34f414a9348dcd5bf4d5b03232ed9b449725d70833525ff0c556d",
+      "treatment": "updated_publication_metadata_and_licensing"
     },
     {
       "source": "data/publication_provenance.json",
       "destination": "data/publication_provenance.json",
       "source_sha256": "f61cdf0f36e5d3da81768767367f231b040c0dc47a56cd4895616af35155624d",
-      "candidate_sha256": "2935710f99130be0e1fd1bd96497abf112bb4607b74a873a69fcc27dd82e82a5",
-      "treatment": "updated_for_authorized_macaulay2_integration"
+      "candidate_sha256": "8c43edbb065aa2222172aa61b702cb8f76d915ca8d7438ad18d536c446f001cc",
+      "treatment": "updated_publication_metadata_and_licensing"
     },
     {
       "source": "data/representations/A.json",
@@ -567,7 +567,7 @@
       "source": "ExceptionalDiagrams.m2",
       "destination": "macaulay2/ExceptionalDiagrams.m2",
       "source_sha256": "cf0599304687c3256cde3378495b0d1df1b3a76bec9056a821b7af17710679e6",
-      "candidate_sha256": "5ab6dd3aba7649a2d368075306429a08b60b9d3cdd2f5fd6047a00656c1420d2",
+      "candidate_sha256": "6ee40a5d6f3da30b77a74e914b7a3cb8c233e353d725b6b2b8644014a9097398",
       "treatment": "coefficient_export_symbols_fixed_for_installation"
     },
     {
@@ -1140,18 +1140,18 @@
   "candidate_payload_sha256": {
     ".github/workflows/macaulay2.yml": "04e74fced08bd3b52d6ed829ef88f8f402c988119bf7e21a5ebb5d254d11a0cf",
     ".gitignore": "6e1f73620213a8ea4ae09d3ae9547e5972c092a6faab2c4b7706a725495d8345",
-    ".zenodo.json": "430d86674eb82d5c784f50fdff82873654fec4a503b1e32762e4c7583f59fae3",
+    ".zenodo.json": "5781dcf69167741bcb756a359ff83797105625b4434d365a40abb24e8da985c5",
     "AUDIT_COVERAGE.md": "2e1da63b182f7d0bcd567950279a0f9fadae06c6d659b70a523cda290f1e691d",
-    "CITATION.cff": "b6653aab2901e06e4773bd9ac02b884572840ef1d100a4d16dc716d7e1b19c4c",
-    "CLEAN_CHECKOUT_REPORT.md": "5eedef386e5b6716d563eb854c0b53ae68cdb779730515378fa75ca6e32bc6f2",
-    "DATASET_PROVENANCE.md": "3cf67d3484555ce2cc391380b37a80b1614f4a3d5f6db289b36d1bf625832e5e",
+    "CITATION.cff": "d5ccc12e54fa9686e743ffca9e1cadd09e6c02f5ce9793d7716a1303cd62964b",
+    "CLEAN_CHECKOUT_REPORT.md": "f61522f103930850dc46ec0ee4a4c9ab4697cd6dd5bfcdd06f6ceb2584fda684",
+    "DATASET_PROVENANCE.md": "de5fc41b10bd6e88b1bdf6cc66154f350505af7d05435e084c4bada672db9c3b",
     "DEPENDENCIES.json": "6bb41af26a605b2a6b255023b2a165611777daad06f5acf8762d513d7f009856",
     "DEPENDENCY_AUDIT.md": "612994eeaa28c57d26721bd1ace10c86b8dc520bae620bfbc44fc5292aceced3",
     "EXCLUDED_FILES.json": "3a004ff9df9131c2e419ca444dd0ee003115f803379dd5bfdd751b3b7886c6ff",
     "FORMAT.md": "751df8ed6310951d24fe70a3ee40b1f6ebf55cc33068f4f9c699c8d5286722ce",
-    "LICENSE": "09479a9d148a7ca39d33bd6a58299a00ab38614354c76b1490ccb1223a80d4f1",
-    "PUBLICATION_DECISIONS.md": "7f7d652afb3727d04497dcec077f55a0129ccfc4eae33fd5a7706afdaaf73af0",
-    "README.md": "de55276d7b675a37b7a84dddf8428a0cb554dc0760b4c7f415e42a6f7a736b61",
+    "LICENSE": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196",
+    "PUBLICATION_DECISIONS.md": "3f782db721a29d3b00d534d6cb909c5d5600efdaa266c661207b6fd2e06f9696",
+    "README.md": "bc484eb02fb27a47cc085c380cf24b7521849395a275ba427ebb5ed673af27e0",
     "audits/A2_SPECTRAL_COMPARISON.md": "5504c9dadf089bc6348bfb7dfb12f9dcd35e918a08f4cabf4188e64868022d8d",
     "audits/a2_spectral_comparison.json": "719b0958769dd8dad1b345ee5c67dc889876373dda79f4c14ac77a0a3064be37",
     "audits/a2_spectral_spec.json": "48c1d303f3452c699825be2a729c1a6868a6d51d100f1a025433993473c959ea",
@@ -1232,8 +1232,8 @@
     "data/dilute_representations/Dilute_8.json": "0feb3b4febf823745f3a662634316dd1b21d889a7feadfc3cbcfead419d963f6",
     "data/dilute_representations/Dilute_9.json": "b454bb95bb125099eb5cb691bf48b2c77d9b014791a8535f02c0ce4de6700949",
     "data/local_a2.json": "fda4024e781d4d6e6a83bc41f3a94563ecfff89fade64ae287f9fef44e4de7b4",
-    "data/publication.json": "d467a30f452791519643929062bb5705d327162af9368485a013f4d505b8b1f1",
-    "data/publication_provenance.json": "2935710f99130be0e1fd1bd96497abf112bb4607b74a873a69fcc27dd82e82a5",
+    "data/publication.json": "8e5f4f8f76b34f414a9348dcd5bf4d5b03232ed9b449725d70833525ff0c556d",
+    "data/publication_provenance.json": "8c43edbb065aa2222172aa61b702cb8f76d915ca8d7438ad18d536c446f001cc",
     "data/representations/A.json": "021aa224df6174b203757bc4ef58178eb8c6071862938a4695e2837041e47f0b",
     "data/representations/C.json": "11c8deb00d4e7d6edc24d5125ff474343c077422e498369ac079581a5f88a579",
     "data/representations/C_star.json": "80d2888cebf528f51a247c5aab48e98545d719202429436774e4e7c4832cc497",
@@ -1259,7 +1259,7 @@
     "data/spectral_r.json": "e9d02d96a70542fdcdfb6f027fc5794dc03c33de0c68bb9e8772cee56fcd8cb3",
     "examples/README.md": "ed87f45969e95bb8b68d1a477f7cd692ff9b4ad6585807670092602f89a3505e",
     "examples/import_spectral.py": "2594a89b87282ac7bcb5033418e39117a28078d9be725ac4beab986fff351bc3",
-    "macaulay2/ExceptionalDiagrams.m2": "5ab6dd3aba7649a2d368075306429a08b60b9d3cdd2f5fd6047a00656c1420d2",
+    "macaulay2/ExceptionalDiagrams.m2": "6ee40a5d6f3da30b77a74e914b7a3cb8c233e353d725b6b2b8644014a9097398",
     "macaulay2/ExceptionalDiagrams/GB3.m2": "50fd0a09ccc725eee369ebf5dbfa6ebed4e99aef09ad99632144de37a6478331",
     "macaulay2/ExceptionalDiagrams/Rmat.m2": "5d55a24e119e8d3352561aa4eba64b566b5f368b1769d28822a685a2237aeb0c",
     "macaulay2/ExceptionalDiagrams/basis33.m2": "97bf8e32d3eb8d02a1e53e094cf41d24674d3030fa86ac91581cd78b0705d1dc",
@@ -1297,7 +1297,7 @@
     "macaulay2/ExceptionalDiagrams/reps3dilute_3.m2": "becaaf01eebd22233620dbd6a8c36eb46193b7bf9aff88df4dd4b0e82795d919",
     "macaulay2/ExceptionalDiagrams/reps3dilute_4.m2": "dce86044d16e5261ca8aff56395578f4b01b7bab14a03cc8d43d55229f57fad0",
     "macaulay2/ExceptionalDiagrams/trim.m2": "c6096d1f73ecd747dfef8da024a34a8e3d1efc889380974dd9afd2abda95d02f",
-    "macaulay2/README.md": "ae9ef2e4078214e4760cb35507adee3df7cd3f453292439d36efd4198f73c440",
+    "macaulay2/README.md": "eee085783cb2544b5a805d4de0db797cb1633474a5517492692dff28409c1b7b",
     "macaulay2/tests/exceptional-diagrams.m2": "b942d622831b0c5f9958ae1ff1965d02d75ab6bfcbf6acb3005072f02f44388f",
     "reports/paper_audit/local_embeddings.json": "070329a208fcad62d2512e933128f45db1ec38f59623c89fe88bae2f24631d3a",
     "reports/paper_audit/spectral_0.json": "7efa1372fd80618fca71c9005c679eee80346e3919519ee870dff9a3e0ecacca",
@@ -1368,7 +1368,7 @@
     "verification/structural.json": "c2f3349481f74a5fa1d28f1c0e9f06e39e5bb5787fc019e3ad0f12cf71c67e28",
     "verification/structural.stdout.txt": "c2f3349481f74a5fa1d28f1c0e9f06e39e5bb5787fc019e3ad0f12cf71c67e28",
     "verification/summary.json": "0669671d1c8c5a029c2de751f45a5b0c9e46054d35314ea05da71e5a240b0ce4",
-    "verify_release.py": "70a344d4184c6bef448db78e8bc0f1805cb5ea3472be6c9605beb2e3a0a290d6"
+    "verify_release.py": "c610d8ac8c85d68c289f4f6858789501e6f808f434a4284e9a4d2be985652fc0"
   },
   "package_verification": "verification/macaulay2.json"
 }

@@ -111,4 +111,9 @@ described in [AUDIT_COVERAGE.md](../AUDIT_COVERAGE.md).
 For future changes, edit this maintained package, update affected JSON deliberately,
 and require the comparison and independent audits to pass. A deterministic export
 tool can be added later; the current checker does not silently synchronize files.
-The repository's [licence status](../LICENSE) also applies to this package.
+
+## Licence
+
+ExceptionalDiagrams is by Paul Zinn-Justin and is distributed under the
+repository's [Creative Commons Attribution 4.0 International (CC BY 4.0)
+licence](../LICENSE), including its auxiliary files and tests.

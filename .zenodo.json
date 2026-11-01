@@ -1,6 +1,7 @@
 {
   "title": "Exact representation matrices and audits for A uniform trigonometric R-matrix for the exceptional series",
   "upload_type": "dataset",
+  "license": "cc-by-4.0",
   "creators": [
     {
       "name": "Westbury, Bruce W."
@@ -9,7 +10,7 @@
       "name": "Zinn-Justin, Paul"
     }
   ],
-  "description": "Local release candidate of exact ordinary and dilute representation matrices and independently implemented exact audits accompanying the accepted paper. Metadata and licensing require author approval before deposit.",
+  "description": "Exact ordinary and dilute representation matrices, the ExceptionalDiagrams Macaulay2 package, and independently implemented exact audits accompanying the accepted paper. Data, documentation and software are licensed under CC BY 4.0. Release metadata remains to be finalized before deposit.",
   "related_identifiers": [
     {
       "identifier": "https://arxiv.org/abs/2406.01348",
