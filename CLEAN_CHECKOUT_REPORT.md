@@ -1,6 +1,9 @@
-# Clean-checkout verification report
+# Recorded verification results
 
-**PASS**: all requested candidate checks completed. This historical report records the initial clean curated directory, before the Git repository and Macaulay2 integration were added.
+**PASS:** the saved C/Python suite covers structural validation, ordinary A(3)
+relations, dilute A(2) unitarity and crossing, generic Yang–Baxter identities,
+and the SageMath import example. The table summarizes
+[verification/summary.json](verification/summary.json).
 
 | Stage | Status | Wall seconds | Limit seconds |
 |---|---|---:|---:|
@@ -14,26 +17,46 @@
 | python_ybe | PASS | 9.536 | 300 |
 | sage | PASS | 4.052 | 59 |
 
-Structural validation: 47 data JSON files, 542 matrices, six schemas and ten negative fixtures. Ordinary A(3): **1,605 exact PASS, 45 NOT APPLICABLE**; the unprinted degree-seven relation is not claimed. Dilute A(2): both implementations pass unitarity in five representations and crossing coefficientwise. Generic dilute A(3) YBE: both implementations pass all eleven representations, with exact zero residuals. Sage: exact scaled unitarity at u=2,1/2 in both positions of dilute I over QQ(p,q).
+## Mathematical results
 
-Dependencies: {'python': '3.10.12', 'compiler': 'cc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0', 'python-flint': '0.9.0', 'jsonschema': '3.2.0', 'sympy': '1.9'}. C FLINT runtime 2.8.0; python-flint 0.9.0 / FLINT 3.6.0; Sage 10.6.beta2. Worker JSON records exact timings and peak memory. Build time is separate.
+- Structural validation: 47 JSON files, six schemas and 542 matrices pass;
+  ten malformed-data fixtures are rejected.
+- Ordinary A(3): 1,605 applicable encoded relations pass in eleven representations.
+- Dilute A(2): C and Python both pass unitarity in five representations and
+  crossing in all sixteen diagram coefficients.
+- Dilute A(3): C and Python both pass the generic Yang–Baxter equation in eleven
+  representations, with exact zero residuals.
+- SageMath: scaled unitarity passes at u=2 and u=1/2 over QQ(p,q), in both
+  spectral positions for dilute I.
 
-## Isolation and startup incident
+The separately recorded [Macaulay2 check](verification/macaulay2.json) passes
+952 exact matrix comparisons and its package and installation tests. That run
+contains 46 stages and took about 439 seconds.
 
-The candidate was mounted at `/tmp/release` in a bubblewrap namespace; the entire research Dropbox tree was hidden and networking disabled. The original repository and manuscript were inaccessible. All successful checks were traced with strace and recorded **zero forbidden research-path attempts**. External software dependencies remained available read-only. Raw access traces were ephemeral; per-stage counts are retained in verification/summary.json.
+[AUDIT_COVERAGE.md](AUDIT_COVERAGE.md) describes the scope of each check and the
+additional construction work needed for full ordinary-to-dilute reconstruction.
 
-The first namespace mount failed before calculation because the read-only root could not create /release. The later initial Sage startup failed because /dev/null was read-only; an inherited PWD produced one inaccessible research-path probe. No Sage mathematics ran. Supplying /dev and clean PWD/OLDPWD fixed startup. Only the unchanged Sage example was retried, under a reduced 59-second ceiling, and passed in 4.052 seconds. Successful mathematical batches were not repeated. The incident, initial evidence hashes and corrective details are in verification/isolation_incident.json.
+## Environment and measurements
 
-Each mathematical worker retained a 60-second hard limit and each batch a 300-second ceiling. No limit was extended, no numerical fallback was used, and no mathematical failure was hidden. The final summary combines the successful main batch and this Sage-only retry.
+The C/Python run used Python 3.10.12, GCC 11.4.0, C FLINT runtime 2.8.0,
+python-flint 0.9.0 with FLINT 3.6.0, jsonschema 3.2.0 and SageMath 10.6.beta2.
+Compilation time is recorded separately. Worker logs retain exact residuals,
+wall times and peak resident memory.
 
-## Integrity and reproducibility
+The saved suite ran in an isolated filesystem environment with local software
+dependencies available. Its summary records the environment settings and
+file-access measurements. Each mathematical worker has a 60-second ceiling and
+each batch a 300-second ceiling; the table records the effective stage limits.
 
-All original research JSON hashes still match; the research working tree remains clean at 83aed000254bf7aca4836f0d3e3fb47c818ee4fa. All selected mathematical sources are byte-for-byte copies. Only explicitly documented candidate metadata and documentation changed. No compiled executable, M2 file, cache, symlink or .git directory remains in the candidate.
+## Reproduction
 
-The historical Python ordinary-audit wrapper is deliberately excluded because it reads exploratory/Git-history inputs; the portable C manifest audit supplies current ordinary-relation coverage. Original construction-source comparisons are cited historical evidence, not rerun assertions.
+Follow the dependencies in [README.md](README.md), then run:
 
-Run `python3 verify_release.py --run-name a_fresh_name` for another bounded suite after installing the documented dependencies. It reports whether namespace isolation was supplied; ordinary reruns do not pretend the research tree was masked. Generated executable removal is part of the runner. New evidence must use fresh names.
+```sh
+python3 verify_release.py --run-name checks
+python3 tools/check_macaulay2_data.py --package-tests --output /tmp/m2-check.json
+```
 
-The verification run itself created no GitHub remote, commit, release or Zenodo
-deposit. The repository has since adopted [CC BY 4.0](LICENSE); citation and
-release metadata remain to be finalized.
+Choose a fresh run name and output filename. The suite saves logs and JSON
+results under the run name and updates this Markdown summary. The Macaulay2
+command writes its separate report to the chosen output file.

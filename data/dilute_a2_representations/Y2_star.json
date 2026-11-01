@@ -4,11 +4,11 @@
   "version": "0.3.0",
   "status": "copied_or_source_prescribed",
   "provenance": {
-    "base_commit": "db523ef0c62105a9363a07a1ab1215c01cdd5b2e",
-    "authority": "Accepted local manuscript and retained exact JSON; release candidate pending review",
-    "source": "ExceptionalDiagrams/reps2.m2",
-    "source_sha256": "2320e10e26bb62e61223fe19285fd5af274967d95cc7e857183918cdef5539f3",
-    "top_dispatch": "indices >=2 use ordinary first five and zero partial diagrams; ExceptionalDiagrams.m2:repTop,repBasis"
+    "citation": "https://arxiv.org/abs/2406.01348",
+    "description": "Raw dilute A(2) diagram matrices in ExceptionalDiagrams coordinates; apply the registry normalization multipliers.",
+    "sources": [
+      "macaulay2/ExceptionalDiagrams/reps2.m2"
+    ]
   },
   "id": "Y2_star",
   "algebra_ref": "../dilute_a2.json",
@@ -24,7 +24,7 @@
     "order": [
       "coordinate_0"
     ],
-    "description": "Retained source coordinates, no transposition. I: full,empty; L: full,{1},{0}; top: full only."
+    "description": "Coordinate labels follow the stored matrix order and the bundled ExceptionalDiagrams basis."
   },
   "conventions": {
     "index_base": 0,

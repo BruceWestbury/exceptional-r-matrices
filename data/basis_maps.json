@@ -4,8 +4,11 @@
   "version": "0.3.0",
   "status": "verified_computational_conventions",
   "provenance": {
-    "base_commit": "db523ef0c62105a9363a07a1ab1215c01cdd5b2e",
-    "authority": "Accepted local manuscript and retained exact JSON; release candidate pending review"
+    "citation": "https://arxiv.org/abs/2406.01348",
+    "description": "Coordinate changes for displayed-table comparison and dilute occupancy decompositions.",
+    "sources": [
+      "https://arxiv.org/abs/2406.01348"
+    ]
   },
   "coefficient_imports": [
     "local_a2.json",
@@ -32,8 +35,7 @@
       "direction": "M_manuscript = D * M_JSON * D^-1",
       "prerequisite": "dilute generators must first be put in paper2 normalization",
       "affected": "all displayed generators in the same representation; conjugation also applies to derived spectral matrices",
-      "evidence": "reports/paper_audit/a2_results_gauge_0_gauge_1.json",
-      "evidence_sha256": "95d3002043195f246a793196edabe837959de73f4572eddce1b01b97af33e271"
+      "evidence": "audits/python/dilute_transcription/final_results.json"
     },
     {
       "id": "dilute_L",
@@ -67,8 +69,7 @@
       "direction": "M_manuscript = D * M_JSON * D^-1",
       "prerequisite": "dilute generators must first be put in paper2 normalization",
       "affected": "all displayed generators in the same representation; conjugation also applies to derived spectral matrices",
-      "evidence": "reports/paper_audit/a2_results_gauge_0_gauge_1.json",
-      "evidence_sha256": "95d3002043195f246a793196edabe837959de73f4572eddce1b01b97af33e271"
+      "evidence": "audits/python/dilute_transcription/final_results.json"
     },
     {
       "id": "dilute_A2_L",
@@ -86,12 +87,12 @@
       "direction": "M_manuscript = D * M_paper2 * D^-1",
       "prerequisite": "multiply each raw diagram matrix by its registry paper2_multiplier first",
       "affected": "displayed dilute A(2):L generators",
-      "origin": "derived from source scale2 on basis diagrams with vertex counts [1,0,0], not fitted",
+      "origin": "Derived from scale2 on basis diagrams with vertex counts [1,0,0].",
       "source": [
-        "ExceptionalDiagrams.m2:104-112",
-        "yangbaxter.tex:333-375"
+        "macaulay2/ExceptionalDiagrams.m2",
+        "Paper, Section 8"
       ],
-      "evidence": "reports/dataset_release/export/a2_1.json"
+      "evidence": "macaulay2/ExceptionalDiagrams.m2"
     }
   ],
   "occupancy_decompositions": [
@@ -589,9 +590,8 @@
   ],
   "occupancy_convention": "row-right; row occupancy = left boundary vertices 0,1,2; column occupancy = reversed right vertices 5,4,3",
   "occupancy_provenance": {
-    "origin": "copied from committed construction audit; no new morphism reconstruction",
+    "origin": "Occupancy decomposition and ordinary-space coordinates.",
     "source": "audits/python/dilute_transcription/correspondence.json",
-    "sha256": "351508341d491cf5d6349fe2d40650fb8edd42ee571b7e787f27fc5d7ab882c7",
-    "limitation": "Basis/occupancy identification does not supply the 92 unresolved transition entries."
+    "limitation": "An independent construction of 92 transition-block entries requires additional rectangular morphism data."
   }
 }

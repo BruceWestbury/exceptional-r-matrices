@@ -111,7 +111,8 @@
       "limit_seconds": 59,
       "exit_code": 0,
       "status": "PASS",
-      "attempts": 2
+      "attempts": 2,
+      "check": "Exact scaled unitarity at u=2 and u=1/2 over QQ(p,q), both positions of dilute I."
     }
   ],
   "ordinary_relation_counts": {
@@ -130,72 +131,61 @@
       "stage": "structural",
       "traced": true,
       "file_path_events": 3947,
-      "candidate_path_events": 2020,
-      "forbidden_research_path_attempts": 0
+      "repository_path_events": 2020
     },
     {
       "stage": "build_ordinary",
       "traced": true,
       "file_path_events": 7475,
-      "candidate_path_events": 49,
-      "forbidden_research_path_attempts": 0
+      "repository_path_events": 49
     },
     {
       "stage": "build_a2",
       "traced": true,
       "file_path_events": 3937,
-      "candidate_path_events": 29,
-      "forbidden_research_path_attempts": 0
+      "repository_path_events": 29
     },
     {
       "stage": "build_ybe",
       "traced": true,
       "file_path_events": 7385,
-      "candidate_path_events": 49,
-      "forbidden_research_path_attempts": 0
+      "repository_path_events": 49
     },
     {
       "stage": "ordinary_a3",
       "traced": true,
       "file_path_events": 388,
-      "candidate_path_events": 0,
-      "forbidden_research_path_attempts": 0
+      "repository_path_events": 0
     },
     {
       "stage": "a2_spectral",
       "traced": true,
       "file_path_events": 6147,
-      "candidate_path_events": 437,
-      "forbidden_research_path_attempts": 0
+      "repository_path_events": 437
     },
     {
       "stage": "c_ybe",
       "traced": true,
       "file_path_events": 487,
-      "candidate_path_events": 0,
-      "forbidden_research_path_attempts": 0
+      "repository_path_events": 0
     },
     {
       "stage": "python_ybe",
       "traced": true,
       "file_path_events": 1531,
-      "candidate_path_events": 269,
-      "forbidden_research_path_attempts": 0
+      "repository_path_events": 269
     },
     {
-      "stage": "sage_retry",
+      "stage": "sage",
       "traced": true,
-      "file_path_events": 23908,
-      "forbidden_research_path_attempts": 0
+      "file_path_events": 23908
     }
   ],
   "isolation": {
-    "research_tree_hidden": true,
-    "network_disabled": true,
-    "candidate_mount": "/tmp/release",
-    "method": "bubblewrap mount namespace; research tree hidden; dynamic strace file-access monitoring"
+    "filesystem": "isolated mount namespace",
+    "network_access": false,
+    "method": "bubblewrap with local software dependencies; strace file-access measurements"
   },
   "generated_executables_removed": true,
-  "suite_wall_seconds_including_retry": 23.843263761002163,
-  "evidence_note": "Final summary combines the unchanged successful core batch with isolated Sage-only retry. Prior environment-only startup incident is retained separately; no mathematics changed."
+  "suite_wall_seconds_total": 23.843263761002163
 }

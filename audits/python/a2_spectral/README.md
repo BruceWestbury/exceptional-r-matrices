@@ -1,47 +1,43 @@
-# Python/FLINT dilute A(2) spectral audit
+# Python/FLINT unitarity and crossing
 
-Requires Python >=3.10 and `python-flint==0.9.0` (tested with FLINT 3.6.0).
-No SymPy, Sage, C verifier, previous Python audit, manuscript file or Macaulay2
-is imported or executed. Mathematical inputs are the public JSON dataset plus
-`audits/a2_spectral_spec.json`, the source-derived identity specification.
+This verifier checks generic unitarity in the five dilute A(2) representations
+and crossing in all sixteen diagram coordinates. It requires Python >=3.10 and
+python-flint 0.9.0; the saved run used FLINT 3.6.0.
 
 From the repository root:
 
 ```sh
 python3 -m pip install -r audits/python/a2_spectral/requirements.txt
-python3 audits/run_a2_spectral.py --backend python --results new_run
+python3 audits/run_a2_spectral.py --backend python --results checks
 ```
 
-Choose a new results directory name: the launcher refuses to overwrite evidence.
-It kills each process group at 60 seconds and enforces 300 seconds for the batch.
-For both backends within **one** 300-second budget, build C first, then use:
+The launcher creates a fresh `checks/` directory alongside this guide and records
+exact residuals, status, diagnostics, wall time and peak memory. Choose a fresh
+name for each run. Limits are 60 seconds per task and 300 seconds per batch.
+
+For both implementations within one combined batch, build the C verifier first:
 
 ```sh
-python3 audits/run_a2_spectral.py --backend all --results new_run
+make -C audits/c/a2_spectral
+python3 audits/run_a2_spectral.py --backend all --results combined_checks
 ```
 
-Direct diagnostic invocation (still use a hard limit):
+Standalone diagnostics run from the repository root:
 
 ```sh
 timeout -s KILL 60s python3 audits/python/a2_spectral/verify.py crossing
 timeout -s KILL 60s python3 audits/python/a2_spectral/verify.py I
 ```
 
-Task names: I, L, X2, Y2, Y2_star, crossing. The default launcher order is
-X2,Y2,Y2_star,I,L,crossing, increasing representation dimension.
-The launcher does process supervision and JSON recording only, with no CAS
-operations. Source `verify.py` has its own rational arithmetic, AST parser,
-matrix evaluator and diagram coefficient reduction.
+Task names are I, L, X2, Y2, Y2_star and crossing. The launcher processes the
+one-dimensional representations first, followed by I, L and crossing.
 
-`results/` is the original successful evidence. `REPORT.md` states the exact
-mathematics and conditional scope. Each unitarity result includes full rational
-and polynomial residual matrices in zero-based row/column array order; every
-scalar is an exact numerator/denominator string. Crossing includes every D0–D15
-coefficient. The polynomial unitarity residual is obtained from the direct
-rational residual by the separately verified normalization equivalence, rather
-than a duplicate polynomial matrix multiplication.
+`verify.py` implements a restricted scalar parser, rational arithmetic, ordered
+matrix products and diagram coefficient reduction. Its mathematical inputs are
+repository JSON and [the shared identity specification](../../a2_spectral_spec.json).
+Unitarity uses direct rational matrix multiplication; the polynomial residual
+follows from the separately checked normalization equivalence.
 
-`audits/summarize_a2_spectral.py` compares the saved completed `results/` files
-and renders the reports; it does not perform mathematical calculations. It is
-not part of either verifier and must be run only after both backends finish.
-No output of the C implementation enters the Python computation.
+The [report](REPORT.md) describes the mathematics and saved results.
+The [comparison report](../../A2_SPECTRAL_COMPARISON.md) summarizes agreement with
+the separately evaluated C implementation.

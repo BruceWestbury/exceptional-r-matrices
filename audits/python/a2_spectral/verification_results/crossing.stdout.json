@@ -229,7 +229,7 @@
     "numerator": "1",
     "denominator": "1"
   },
-  "method": "formal rotation, skein elimination, expansion into sixteen diagram coordinates; no representation evaluation",
+  "method": "Formal rotation, skein elimination and expansion into sixteen diagram coordinates.",
   "calculation_seconds": 0.07525520800118102,
   "python": "3.10.12",
   "python_flint": "0.9.0",

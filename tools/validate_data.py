@@ -436,7 +436,7 @@ def validate_assertion_set(data, local, scalars):
         if isinstance(value, dict):
             for key, item in value.items():
                 if key == "source" and isinstance(item, list):
-                    require(all(re.match(r"^[A-Za-z][A-Za-z0-9_-]*\.tex:[1-9][0-9]*(?:[-,; ]|$)", s) for s in item), "malformed manuscript source reference")
+                    require(all(re.match(r"^Paper, (?:Section [0-9]+(?:\.[0-9]+)*|Appendix)\b", s) for s in item), "malformed public paper reference")
                 else:
                     sources(item)
         elif isinstance(value, list):
@@ -463,7 +463,7 @@ def algebra_self_test(data, schema):
         ("unknown algebra operator", lambda d: term(d)["word"].append("missing_operator")),
         ("malformed word", lambda d: term(d).update(word="S1 S2 S1")),
         ("cyclic algebra coefficient", lambda d: d["coefficients"]["c_0"].update(expression="c_0")),
-        ("conflicting coefficient ownership", lambda d: d['coefficients'].update(b_3={'expression':'e2','origin':'computed','source':['appendix.tex:84']})),
+        ("conflicting coefficient ownership", lambda d: d['coefficients'].update(b_3={'expression':'e2','origin':'computed','source':['Paper, Appendix']})),
         ("invalid assertion role", lambda d: d["relations"][0].update(role="defining")),
         ("invalid assertion scope", lambda d: d["relations"][0].update(scope="all_algebras")),
         ("broken substitution", lambda d: d["local_bindings"][0]["operators"].update(H="H3")),
@@ -633,7 +633,7 @@ def self_test(data, schema):
     require(parse_scalar("p^(-2)") == parse_scalar("p^-2"), "signed power grammar")
     # Independent two-position format fixture: validate ordered braid words,
     # never a claim that this local character audit proves the A(3) braid.
-    example = {"id": "braid", "role": "primary", "origin": "copied", "source": ["threestring.tex:642-645"],
+    example = {"id": "braid", "role": "primary", "origin": "copied", "source": ["Paper, Section 6"],
                "lhs": {"terms": [{"coefficient": "1", "word": ["S1", "S2", "S1"]}]},
                "rhs": {"terms": [{"coefficient": "1", "word": ["S2", "S1", "S2"]}]}}
     Draft7Validator({"$ref": "#/definitions/relation", "definitions": schema["definitions"]}).validate(example)

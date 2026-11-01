@@ -2,7 +2,7 @@
   "$schema": "../../schema/dilute_representation.schema.json",
   "format": "exceptional-series-representation",
   "version": "0.2.0",
-  "status": "provisional_transcription",
+  "status": "current",
   "id": "Dilute_8",
   "display": "Package dilute representation index 8",
   "algebra_ref": "../dilute_a3.json",
@@ -14,9 +14,9 @@
       "coordinate_1",
       "coordinate_2"
     ],
-    "description": "Neutral coordinates preserving the source file row/column order. No identification with manuscript vector names has been established.",
+    "description": "Coordinate labels follow the stored matrix order and the bundled ExceptionalDiagrams basis.",
     "source": [
-      "ExceptionalDiagrams/reps3_8.m2"
+      "macaulay2/ExceptionalDiagrams/reps3_8.m2"
     ]
   },
   "conventions": {
@@ -27,18 +27,17 @@
     "word_order": "left_to_right_product",
     "source": [
       "ordinary representation schema convention",
-      "ExceptionalDiagrams.m2: repBasis"
+      "macaulay2/ExceptionalDiagrams.m2: repBasis"
     ],
-    "note": "Raw auxiliary-file normalization. This preserves entries without transpose; row-right is the archive coordinate convention, not a new verification of manuscript action conventions. See dilute_a3.json for package rescaling."
+    "note": "Row vectors act on the right, with generator words multiplied in the stated order. See FORMAT.md for normalization."
   },
   "provenance": {
-    "base_commit": "d2ead0efdb09ecbfd1c2d67a96807717954e04a5",
-    "authority": "Provisional transcription of Paul Zinn-Justin source matrices; not independently audited or approved for release.",
-    "change": "Copy exact scalar strings into sparse entries; for top representations reuse ordinary source matrices and explicit quotient zeros as prescribed by package dispatch. Identity matrices are also prescribed by repBasis. No scalar evaluation, matrix multiplication or normalization change.",
-    "source_hashes": {
-      "ExceptionalDiagrams/reps3_8.m2": "970f01bafadb224615dfed4aebe0e831762f14910f57ff96b172a21aabc94567",
-      "ExceptionalDiagrams.m2": "cf0599304687c3256cde3378495b0d1df1b3a76bec9056a821b7af17710679e6"
-    }
+    "citation": "https://arxiv.org/abs/2406.01348",
+    "description": "Raw dilute A(3) generator matrices in ExceptionalDiagrams coordinates; apply the registry normalization multipliers.",
+    "sources": [
+      "macaulay2/ExceptionalDiagrams/reps3_8.m2",
+      "macaulay2/ExceptionalDiagrams.m2"
+    ]
   },
   "matrices": [
     {
@@ -49,8 +48,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -63,8 +62,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -77,8 +76,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -117,8 +116,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3_8.m2: matrix index 2",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: matrix index 2",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -130,8 +129,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -144,8 +143,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -158,8 +157,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -172,8 +171,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -186,8 +185,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -226,8 +225,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3_8.m2: matrix index 5",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: matrix index 5",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -239,8 +238,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -253,8 +252,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -267,8 +266,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -281,8 +280,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -295,8 +294,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -309,8 +308,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -323,8 +322,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -337,8 +336,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -367,7 +366,7 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repBasis starts with the identity matrix; G18 is the fully occupied identity"
+          "macaulay2/ExceptionalDiagrams.m2: repBasis starts with the identity matrix; G18 is the fully occupied identity"
         ],
         "method": "identity"
       }
@@ -380,8 +379,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -394,8 +393,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -408,8 +407,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -422,8 +421,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -436,8 +435,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -450,8 +449,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -464,8 +463,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -478,8 +477,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -492,8 +491,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -506,8 +505,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -520,8 +519,8 @@
       "provenance": {
         "origin": "source_prescribed",
         "source": [
-          "ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
-          "ExceptionalDiagrams/reps3_8.m2: source representation dimension"
+          "macaulay2/ExceptionalDiagrams.m2: repTop and repBasis prescribe zero on partial diagrams",
+          "macaulay2/ExceptionalDiagrams/reps3_8.m2: source representation dimension"
         ],
         "method": "quotient_zero"
       }
@@ -529,8 +528,8 @@
   ],
   "construction_checks": [],
   "comparison": {
-    "status": "pending_audit",
-    "method": "Structural source-to-JSON round-trip checked; not a mathematical audit or independent source comparison.",
-    "current_coefficients": "Expressions use p,q only, directly copied from the generic auxiliary files; raw source normalization."
+    "status": "package_checked",
+    "method": "Exact agreement with the bundled ExceptionalDiagrams package; verification/macaulay2.json records the package comparison. Algebraic identities are covered in AUDIT_COVERAGE.md.",
+    "current_coefficients": "Exact expressions in p,q with coefficient aliases and normalization prescribed by the algebra registry."
   }
 }

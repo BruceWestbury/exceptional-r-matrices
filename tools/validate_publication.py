@@ -126,7 +126,7 @@ def validate(self_test=False):
    try:func()
    except Invalid:negatives.append(name)
    else:raise Invalid('negative accepted: '+name)
- return {'status':'PASS','kind':'structural_only','json_files':len(paths),'schemas':len(schemas),'matrix_files':sum('matrices' in d for d in docs.values()),'matrices':sum(len(d.get('matrices',[])) for d in docs.values()),'negative_fixtures_rejected':negatives,'limitations':'No CAS simplification, denominator nonvanishing proof, or mathematical identity verification; exact export comparisons are separate evidence.'}
+ return {'status':'PASS','kind':'structural_only','json_files':len(paths),'schemas':len(schemas),'matrix_files':sum('matrices' in d for d in docs.values()),'matrices':sum(len(d.get('matrices',[])) for d in docs.values()),'negative_fixtures_rejected':negatives,'limitations':'Structural validation checks schemas, expressions, references and hashes. Exact identity checks are recorded separately.'}
 
 def main():
  parser=argparse.ArgumentParser();parser.add_argument('--self-test',action='store_true');parser.add_argument('--output',type=Path);args=parser.parse_args();started=time.monotonic()

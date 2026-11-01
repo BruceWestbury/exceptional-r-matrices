@@ -1,56 +1,41 @@
-# C/FLINT dilute A(2) spectral audit
+# C/FLINT unitarity and crossing
 
-Requires a C11 compiler, FLINT development headers/library, GMP and MPFR.
-Tested with cc 11.4.0 and FLINT runtime 2.8.0 (Ubuntu package 2.8.4).
-Build from the repository root:
+This verifier checks generic unitarity in the five dilute A(2) representations
+and crossing in all sixteen diagram coordinates, using exact rational functions.
+It requires a C11 compiler, FLINT development headers, GMP and MPFR.
+The saved run used GCC 11.4.0 and FLINT runtime 2.8.0.
+
+From the repository root:
 
 ```sh
 make -C audits/c/a2_spectral
+python3 audits/run_a2_spectral.py --backend c --results checks
 ```
 
-Compilation uses `-O2 -std=c11 -Wall -Wextra` and links
-`-lflint -lgmp -lmpfr`. `build_final.txt` records the clean final build;
-`build.txt` preserves the initial indentation warnings. No calculation ran with
-those warnings; the final calculation source hashes are in `results/results.json`.
+The launcher saves a fresh `checks/` directory alongside this guide, with exact
+residuals, status, wall time, peak memory and diagnostics. Choose a fresh name
+for each run. Limits are 60 seconds per task and 300 seconds per batch.
+To run both implementations within one combined batch:
 
-Run a standalone exact check, with the repository root as cwd:
+```sh
+python3 audits/run_a2_spectral.py --backend all --results combined_checks
+```
+
+The Python backend requires the dependencies in its
+[guide](../../python/a2_spectral/README.md).
+Standalone diagnostic commands also run from the repository root:
 
 ```sh
 timeout -s KILL 60s audits/c/a2_spectral/verify I
 timeout -s KILL 60s audits/c/a2_spectral/verify crossing
 ```
 
-The standalone binary does not invoke Python, Sage or Macaulay2. Task names are
-I,L,X2,Y2,Y2_star,crossing. The only mathematical inputs are public repository
-JSON and `audits/a2_spectral_spec.json`. Manuscript/source paths in provenance
-are citations, not runtime dependencies.
+Task names are I, L, X2, Y2, Y2_star and crossing.
+`verify.c` constructs the spectral matrices from repository JSON and
+[the shared identity specification](../../a2_spectral_spec.json).
+`exact.h` supplies rational arithmetic and parsing; FLINT performs polynomial
+arithmetic, denominator clearing and gcd reduction.
 
-For resource measurements and a complete machine-readable batch, the optional
-standard-library Python launcher executes the binary, without doing mathematics:
-
-```sh
-python3 audits/run_a2_spectral.py --backend c --results new_run
-# Or run both implementations under one combined 300-second budget:
-python3 audits/run_a2_spectral.py --backend all --results new_run
-```
-
-Choose a new output directory name. Existing evidence is never overwritten by
-the runner. It imposes a hard 60-second process-group limit per task and a
-300-second total batch deadline, then records PASS/FAIL/ERROR/TIMEOUT, stderr,
-wall time and Linux peak RSS. Standalone failures to parse/build return nonzero;
-the launcher turns those into ERROR records. Nonzero mathematical residuals are
-printed exactly and return FAIL. No numerical fallback or limit extension exists.
-
-`verify.c` is the new A(2) calculation. `exact.h` adapts **generic** C arithmetic,
-JSON parsing and scalar parsing from the existing C YBE verifier; no spectral
-matrix construction was copied. Integer-polynomial numerator/denominator pairs
-are reduced exactly using FLINT gcd. Dense matrix products use polynomial
-arithmetic after denominator clearing. The shared factors are printed; the
-reported residual divides them out and also divides out N(u)N(u^-1) for rational
-unitarity. D4 is the declared H-squared diagram; no representation basis map is
-fitted. Coefficientwise crossing uses formal rotation and skein elimination,
-not matrix transposition or tests only in irreducible representations.
-
-See `REPORT.md`, `results/`, `../../A2_SPECTRAL_COMPARISON.md`, and the shared
-provenance JSON. Python/C results are compared only by the separate summarizer
-after both independent batches have completed.
+The [report](REPORT.md) describes the calculation and links the saved residuals.
+The [comparison report](../../A2_SPECTRAL_COMPARISON.md) relates the C and Python
+implementations. The launcher records PASS, FAIL, ERROR and TIMEOUT separately.

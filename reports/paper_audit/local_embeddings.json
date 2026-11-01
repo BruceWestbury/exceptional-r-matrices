@@ -1,6 +1,6 @@
 {
-  "status": "copied source-prescribed embeddings, not independently verified diagram conventions",
-  "source": "ExceptionalDiagrams.m2 decTable true; local diagram index mapping retained from tools/compare_paper.py",
+  "status": "Diagram embeddings specified by the paper and the package.",
+  "source": "macaulay2/ExceptionalDiagrams.m2: decTable; data/dilute_a3_embeddings.json: local diagram index mapping",
   "source_sha256": "cf0599304687c3256cde3378495b0d1df1b3a76bec9056a821b7af17710679e6",
   "meaning": "Each local diagram tensored with dilute spectator identity is the sum of the two listed generator words; preserve word order. Index 4 is H squared.",
   "positions": {

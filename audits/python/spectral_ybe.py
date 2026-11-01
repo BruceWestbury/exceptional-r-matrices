@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Independent exact spectral audit. No imports from other repository audits.
+"""Independent exact spectral audit using python-flint.
 
-Authority: yangbaxter.tex eq:Rmat (8.3), polynomial display at 798--800.
+Source: paper, equation (8.3), with the polynomial normalization of Section 8.
 Construction uses Q(p,q,u); YBE uses Q[p,q,u,v], degree-reverse-lex order.
 """
 from __future__ import annotations

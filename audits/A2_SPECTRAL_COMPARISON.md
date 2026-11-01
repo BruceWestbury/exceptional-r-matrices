@@ -1,41 +1,51 @@
-# Dilute A(2) spectral audit comparison
+# Dilute A(2) spectral verification
 
-**Both independent implementations PASS. All reported residuals agree exactly.**
-Comparison was performed only after each completed its own calculations.
+**Both implementations pass unitarity and crossing with exact zero residuals.**
+C/FLINT and Python/FLINT evaluate the shared mathematical specification using
+separate parsers and arithmetic implementations.
 
-| Identity/task | Python/FLINT | C/FLINT | Exact residual |
+| Check | Python/FLINT | C/FLINT | Scope |
 |---|---|---|---|
-| I | PASS | PASS | all zero |
-| L | PASS | PASS | all zero |
-| X2 | PASS | PASS | all zero |
-| Y2 | PASS | PASS | all zero |
-| Y2_star | PASS | PASS | all zero |
-| crossing | PASS | PASS | all zero |
+| Unitarity, I | PASS | PASS | 2×2 matrix |
+| Unitarity, L | PASS | PASS | 3×3 matrix |
+| Unitarity, X2 | PASS | PASS | 1×1 matrix |
+| Unitarity, Y2 | PASS | PASS | 1×1 matrix |
+| Unitarity, Y2_star | PASS | PASS | 1×1 matrix |
+| Crossing | PASS | PASS | Sixteen diagram coefficients |
 
-Unitarity: all 16 matrix entries across I,L,X2,Y2,Y2_star vanish exactly over
-QQ(p,q,u). Crossing: all 16 diagram coefficients vanish in both rational and
-polynomial formulations after prescribed rotation and skein reduction. Both
-implementations also verify the nine normalization coefficients at both
-arguments, the crossing substitution/involution, N(u)c(u)=N(p^-3*u^-1), and the
-polynomial crossing factor 1.
+The calculations use QQ(p,q,u). Unitarity tests all sixteen entries across the
+five blocks. Crossing tests all sixteen coefficients after diagram rotation and
+skein reduction, in both rational and polynomial normalizations.
 
-Python uses direct rational matrix multiplication with a new AST/parser and
-Python/FLINT fraction implementation. C uses denominator-cleared integer
-polynomial matrix multiplication and a separate recursive-descent parser;
-its generic infrastructure is adapted from the prior C YBE audit. They share
-the public mathematical JSON inputs and FLINT library family, but no computed
-intermediate matrices, residuals or arithmetic evaluator. C uses FLINT 2.8.0;
-Python uses python-flint 0.9.0 / FLINT 3.6.0. The different algorithms do not make
-the common mathematical specification or FLINT library an independent source.
+Both implementations also check the nine spectral normalization coefficients at
+both arguments, the crossing substitution and its involution, and the identity
+`N(u)c(u)=N(p^-3*u^-1)`. The resulting polynomial crossing factor is 1.
 
-No discrepancies or unresolved algebraic conventions arose. The stated geometric
-rotation is an assumption, not a geometric theorem established by these audits.
-No existing data, evidence, manuscript or M2 files were changed. Nothing was
-committed or published. Both runs used only repository JSON as mathematical
-input; accepted-manuscript hashes are provenance, not runtime dependencies.
+## Methods and scope
 
-See [Python report](python/a2_spectral/REPORT.md), [C report](c/a2_spectral/REPORT.md)
-and [machine-readable comparison](a2_spectral_comparison.json). All artifacts
-are in the research repository. The base commit remains db523ef; the portable
-JSON additions from the preceding task were already uncommitted when this task
-began, and have been preserved unchanged.
+Python uses direct rational matrix multiplication and FLINT rational polynomials.
+C uses denominator-cleared integer-polynomial products. Each implementation
+constructs its own intermediate matrices and residuals; they share the JSON
+specification and the FLINT library family. The saved C run used FLINT 2.8.0;
+the Python run used python-flint 0.9.0 with FLINT 3.6.0.
+
+These are exact algebraic checks with the specified diagram basis and rotation.
+The paper supplies their categorical interpretation. Specializations require
+the relevant rational expressions to be defined.
+
+## Results and reproduction
+
+The [Python report](python/a2_spectral/REPORT.md) and
+[C report](c/a2_spectral/REPORT.md) link their saved worker results.
+The [machine-readable comparison](a2_spectral_comparison.json) records agreement
+of the reported residuals.
+
+To run both implementations from the repository root:
+
+```sh
+make -C audits/c/a2_spectral
+python3 audits/run_a2_spectral.py --backend all --results checks
+```
+
+Use a fresh result name and the dependencies described in the component guides.
+The launcher applies a 60-second limit per task and a 300-second combined budget.

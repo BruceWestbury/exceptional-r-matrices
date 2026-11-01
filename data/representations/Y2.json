@@ -15,10 +15,10 @@
       "coordinate_2",
       "coordinate_3"
     ],
-    "description": "Coordinates in the current manuscript and ExceptionalDiagrams paper-normalized basis; no additional sign conjugation is required.",
+    "description": "Coordinate labels follow the stored matrix order and the bundled ExceptionalDiagrams basis.",
     "source": [
-      "threestring.tex:432-436,456, lem:A3rep",
-      "threestring.tex:666-672,694-698, eq:Sirrepdd"
+      "Paper, Section 6 item 6.14",
+      "Paper, Section 6 equation 6.52"
     ]
   },
   "conventions": {
@@ -28,23 +28,19 @@
     "action": "row_vectors_right",
     "word_order": "left_to_right_product",
     "source": [
-      "ribbon.tex:14,42-49",
-      "threestring.tex:432-436,456, lem:A3rep",
-      "threestring.tex:666-672,694-698, eq:Sirrepdd"
+      "Paper, Section 3",
+      "Paper, Section 6 item 6.14",
+      "Paper, Section 6 equation 6.52"
     ],
-    "note": "Repository convention v -> v M and rho(ab)=rho(a)rho(b); no transpose. Lower tables prescribe index-2 rotation, not individually named coordinates. In dimension one the two coordinate conventions coincide."
+    "note": "Row vectors act on the right: v maps to v M and rho(ab)=rho(a)rho(b). Ordinary normalization has alpha=1."
   },
   "provenance": {
-    "base_commit": "3068deded4812aed0bf050b5cb13bac785fb0193",
-    "authority": "Author-requested alignment with the current manuscript and ExceptionalDiagrams basis.",
-    "change": "2026-11-01: conjugate every ordinary Y2 operator by D=diag(1,-1,1), adopting the current manuscript and ExceptionalDiagrams basis. This changes the adjacent off-diagonal signs in H1,H2,K1,K2,S1,S2,Sinv1,Sinv2; U1,U2 remain zero. Remove the now-obsolete ordinary_Y2 basis map. Previous JSON SHA256: 315763cf8457a59ffcb2e79562df0d4dc99ae3a178140f0adc66a871ee34936a.",
-    "source_hashes": {
-      "threestring.tex": "6047ea7cfd6b809a95306f39cade54b4b8542b5ac4ef1796aa6c93b6e77eecff",
-      "threestring-top.tex": "b3d731a75ae2d54c3c13d5fd5fdd3d24fb3f04ae7b6832be7e3562a9c557ef0d",
-      "twostring.tex": "5fd69e6340fd2c1cf792cda4126d387797b12119b5c6051474865f4eaca471b5",
-      "ExceptionalDiagrams.m2": "cf0599304687c3256cde3378495b0d1df1b3a76bec9056a821b7af17710679e6",
-      "ExceptionalDiagrams/reps3_3.m2": "909bedd8d7b01a53b1c34fb11923963dc08a80363596ed4c439301e1c07d0d02"
-    }
+    "citation": "https://arxiv.org/abs/2406.01348",
+    "description": "Ordinary A(3) representation in the paper and ExceptionalDiagrams coordinates, with alpha=1.",
+    "sources": [
+      "macaulay2/ExceptionalDiagrams.m2",
+      "macaulay2/ExceptionalDiagrams/reps3_3.m2"
+    ]
   },
   "matrices": [
     {
@@ -86,7 +82,7 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "threestring.tex:432-436,456, lem:A3rep"
+          "Paper, Section 6 item 6.14"
         ]
       }
     },
@@ -130,7 +126,7 @@
         "origin": "source_prescribed",
         "method": "rotation",
         "source": [
-          "threestring.tex:432-436,456, lem:A3rep"
+          "Paper, Section 6 item 6.14"
         ]
       }
     },
@@ -159,7 +155,7 @@
         "origin": "source_prescribed",
         "method": "polynomial",
         "source": [
-          "threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"
+          "Paper, Section 6 item 6.10; expanded factored Lagrange prescription with H interpreted as H_i"
         ]
       }
     },
@@ -188,7 +184,7 @@
         "origin": "source_prescribed",
         "method": "polynomial",
         "source": [
-          "threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"
+          "Paper, Section 6 item 6.10; expanded factored Lagrange prescription with H interpreted as H_i"
         ]
       }
     },
@@ -201,7 +197,7 @@
         "origin": "source_prescribed",
         "method": "zero",
         "source": [
-          "threestring.tex:513-517, prop:A3bimodules2"
+          "Paper, Section 6 item 6.16"
         ]
       }
     },
@@ -214,7 +210,7 @@
         "origin": "source_prescribed",
         "method": "zero",
         "source": [
-          "threestring.tex:513-517, prop:A3bimodules2"
+          "Paper, Section 6 item 6.16"
         ]
       }
     },
@@ -257,7 +253,7 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "threestring.tex:666-672,694-698, eq:Sirrepdd"
+          "Paper, Section 6 equation 6.52"
         ]
       }
     },
@@ -301,7 +297,7 @@
         "origin": "source_prescribed",
         "method": "rotation",
         "source": [
-          "threestring.tex:666-672,694-698, eq:Sirrepdd"
+          "Paper, Section 6 equation 6.52"
         ]
       }
     },
@@ -345,7 +341,7 @@
         "origin": "source_prescribed",
         "method": "bar",
         "source": [
-          "threestring.tex:650-651,694-698; coefficients.tex:342-345, eq:bar"
+          "Paper, Section 6; Paper, Section 4 equation 4.19"
         ]
       }
     },
@@ -389,7 +385,7 @@
         "origin": "source_prescribed",
         "method": "bar",
         "source": [
-          "threestring.tex:650-651,694-698; coefficients.tex:342-345, eq:bar"
+          "Paper, Section 6; Paper, Section 4 equation 4.19"
         ]
       }
     }
@@ -402,9 +398,9 @@
       "target": "H2",
       "operand": "H1",
       "source": [
-        "threestring.tex:432-436,456, lem:A3rep",
-        "threestring.tex:666-672,694-698, eq:Sirrepdd",
-        "threestring.tex:248-261,694-698; polynomial/bar commute with J M J"
+        "Paper, Section 6 item 6.14",
+        "Paper, Section 6 equation 6.52",
+        "Paper, Section 6; polynomial/bar commute with J M J"
       ]
     },
     {
@@ -414,9 +410,9 @@
       "target": "K2",
       "operand": "K1",
       "source": [
-        "threestring.tex:432-436,456, lem:A3rep",
-        "threestring.tex:666-672,694-698, eq:Sirrepdd",
-        "threestring.tex:248-261,694-698; polynomial/bar commute with J M J"
+        "Paper, Section 6 item 6.14",
+        "Paper, Section 6 equation 6.52",
+        "Paper, Section 6; polynomial/bar commute with J M J"
       ]
     },
     {
@@ -426,9 +422,9 @@
       "target": "U2",
       "operand": "U1",
       "source": [
-        "threestring.tex:432-436,456, lem:A3rep",
-        "threestring.tex:666-672,694-698, eq:Sirrepdd",
-        "threestring.tex:248-261,694-698; polynomial/bar commute with J M J"
+        "Paper, Section 6 item 6.14",
+        "Paper, Section 6 equation 6.52",
+        "Paper, Section 6; polynomial/bar commute with J M J"
       ]
     },
     {
@@ -438,9 +434,9 @@
       "target": "S2",
       "operand": "S1",
       "source": [
-        "threestring.tex:432-436,456, lem:A3rep",
-        "threestring.tex:666-672,694-698, eq:Sirrepdd",
-        "threestring.tex:248-261,694-698; polynomial/bar commute with J M J"
+        "Paper, Section 6 item 6.14",
+        "Paper, Section 6 equation 6.52",
+        "Paper, Section 6; polynomial/bar commute with J M J"
       ]
     },
     {
@@ -450,9 +446,9 @@
       "target": "Sinv2",
       "operand": "Sinv1",
       "source": [
-        "threestring.tex:432-436,456, lem:A3rep",
-        "threestring.tex:666-672,694-698, eq:Sirrepdd",
-        "threestring.tex:248-261,694-698; polynomial/bar commute with J M J"
+        "Paper, Section 6 item 6.14",
+        "Paper, Section 6 equation 6.52",
+        "Paper, Section 6; polynomial/bar commute with J M J"
       ]
     },
     {
@@ -462,7 +458,7 @@
       "target": "Sinv1",
       "operand": "S1",
       "source": [
-        "threestring.tex:650-651,694-698; coefficients.tex:342-345, eq:bar"
+        "Paper, Section 6; Paper, Section 4 equation 4.19"
       ]
     },
     {
@@ -472,13 +468,13 @@
       "target": "Sinv2",
       "operand": "S2",
       "source": [
-        "threestring.tex:650-651,694-698; coefficients.tex:342-345, eq:bar"
+        "Paper, Section 6; Paper, Section 4 equation 4.19"
       ]
     }
   ],
   "comparison": {
-    "status": "independently_checked",
-    "method": "All ten ordinary Y2 operators agree exactly with the current ExceptionalDiagrams paper-normalized representation. Displayed H1,H2,S1,S2 agree with the current manuscript without a basis change; the other operators follow the recorded polynomial, zero and inverse prescriptions.",
-    "current_coefficients": "Imports settled local coefficients including corrected tau, S_I and b_i; no historical coefficient supplies an entry."
+    "status": "package_checked",
+    "method": "Exact agreement with the bundled ExceptionalDiagrams package; verification/macaulay2.json records the package comparison. Algebraic identities are covered in AUDIT_COVERAGE.md.",
+    "current_coefficients": "Exact expressions in p,q with coefficient aliases and normalization prescribed by the algebra registry."
   }
 }

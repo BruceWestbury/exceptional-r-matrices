@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Provisional ordinary A(3) algebra profile, 0.2.0",
+  "title": "ordinary A(3) algebra profile, 0.2.0",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -218,28 +218,26 @@
       "type": "object",
       "additionalProperties": false,
       "required": [
-        "base_commit",
-        "change",
-        "authority",
-        "source_hashes"
+        "citation",
+        "description",
+        "sources"
       ],
       "properties": {
-        "base_commit": {
+        "citation": {
           "type": "string",
-          "pattern": "^[0-9a-f]{40}$"
+          "minLength": 1
         },
-        "change": {
-          "$ref": "local_a2.schema.json#/definitions/text"
+        "description": {
+          "type": "string",
+          "minLength": 1
         },
-        "authority": {
-          "$ref": "local_a2.schema.json#/definitions/text"
-        },
-        "source_hashes": {
-          "type": "object",
-          "minProperties": 1,
-          "additionalProperties": {
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
             "type": "string",
-            "pattern": "^[0-9a-f]{64}$"
+            "minLength": 1
           }
         }
       }
@@ -381,17 +379,20 @@
           "base_relation": {
             "$ref": "local_a2.schema.json#/definitions/id"
           },
-          "snapshot_commit": {
-            "type": "string",
-            "pattern": "^[0-9a-f]{40}$"
-          },
           "source_sides": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["lhs", "rhs"],
+            "required": [
+              "lhs",
+              "rhs"
+            ],
             "properties": {
-              "lhs": {"$ref": "local_a2.schema.json#/definitions/linear"},
-              "rhs": {"$ref": "local_a2.schema.json#/definitions/linear"}
+              "lhs": {
+                "$ref": "local_a2.schema.json#/definitions/linear"
+              },
+              "rhs": {
+                "$ref": "local_a2.schema.json#/definitions/linear"
+              }
             }
           },
           "coefficient_overrides": {

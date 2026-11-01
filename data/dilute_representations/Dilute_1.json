@@ -2,7 +2,7 @@
   "$schema": "../../schema/dilute_representation.schema.json",
   "format": "exceptional-series-representation",
   "version": "0.2.0",
-  "status": "provisional_transcription",
+  "status": "current",
   "id": "Dilute_1",
   "display": "Package dilute representation index 1",
   "algebra_ref": "../dilute_a3.json",
@@ -22,9 +22,9 @@
       "coordinate_9",
       "coordinate_10"
     ],
-    "description": "Neutral coordinates preserving the source file row/column order. No identification with manuscript vector names has been established.",
+    "description": "Coordinate labels follow the stored matrix order and the bundled ExceptionalDiagrams basis.",
     "source": [
-      "ExceptionalDiagrams/reps3dilute_1.m2"
+      "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2"
     ]
   },
   "conventions": {
@@ -35,18 +35,17 @@
     "word_order": "left_to_right_product",
     "source": [
       "ordinary representation schema convention",
-      "ExceptionalDiagrams.m2: repBasis"
+      "macaulay2/ExceptionalDiagrams.m2: repBasis"
     ],
-    "note": "Raw auxiliary-file normalization. This preserves entries without transpose; row-right is the archive coordinate convention, not a new verification of manuscript action conventions. See dilute_a3.json for package rescaling."
+    "note": "Row vectors act on the right, with generator words multiplied in the stated order. See FORMAT.md for normalization."
   },
   "provenance": {
-    "base_commit": "d2ead0efdb09ecbfd1c2d67a96807717954e04a5",
-    "authority": "Provisional transcription of Paul Zinn-Justin source matrices; not independently audited or approved for release.",
-    "change": "Copy exact scalar strings into sparse entries; for top representations reuse ordinary source matrices and explicit quotient zeros as prescribed by package dispatch. Identity matrices are also prescribed by repBasis. No scalar evaluation, matrix multiplication or normalization change.",
-    "source_hashes": {
-      "ExceptionalDiagrams/reps3dilute_1.m2": "1d53e1d774382823105591954655add798bd5faa68ca294c434df1c0abd32138",
-      "ExceptionalDiagrams.m2": "cf0599304687c3256cde3378495b0d1df1b3a76bec9056a821b7af17710679e6"
-    }
+    "citation": "https://arxiv.org/abs/2406.01348",
+    "description": "Raw dilute A(3) generator matrices in ExceptionalDiagrams coordinates; apply the registry normalization multipliers.",
+    "sources": [
+      "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2",
+      "macaulay2/ExceptionalDiagrams.m2"
+    ]
   },
   "matrices": [
     {
@@ -83,8 +82,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 0",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 0",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -102,8 +101,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 1",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 1",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -121,8 +120,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 2",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 2",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -200,8 +199,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 3",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 3",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -219,8 +218,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 4",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 4",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -238,8 +237,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 5",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 5",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -257,8 +256,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 6",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 6",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -276,8 +275,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 7",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 7",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -295,8 +294,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 8",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 8",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -374,8 +373,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 9",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 9",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -408,8 +407,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 10",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 10",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -427,8 +426,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 11",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 11",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -446,8 +445,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 12",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 12",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -465,8 +464,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 13",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 13",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -489,8 +488,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 14",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 14",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -502,8 +501,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 15",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 15",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -521,8 +520,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 16",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 16",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -534,8 +533,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 17",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 17",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -573,8 +572,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 18",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 18",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -586,8 +585,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 19",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 19",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -605,8 +604,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 20",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 20",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -618,8 +617,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 21",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 21",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -637,8 +636,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 22",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 22",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -656,8 +655,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 23",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 23",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -669,8 +668,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 24",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 24",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -693,8 +692,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 25",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 25",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -712,8 +711,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 26",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 26",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -731,8 +730,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 27",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 27",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -765,8 +764,8 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 28",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 28",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     },
@@ -804,16 +803,16 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "ExceptionalDiagrams/reps3dilute_1.m2: matrix index 29",
-          "ExceptionalDiagrams.m2:repTop, repData, repBasis"
+          "macaulay2/ExceptionalDiagrams/reps3dilute_1.m2: matrix index 29",
+          "macaulay2/ExceptionalDiagrams.m2:repTop, repData, repBasis"
         ]
       }
     }
   ],
   "construction_checks": [],
   "comparison": {
-    "status": "pending_audit",
-    "method": "Structural source-to-JSON round-trip checked; not a mathematical audit or independent source comparison.",
-    "current_coefficients": "Expressions use p,q only, directly copied from the generic auxiliary files; raw source normalization."
+    "status": "package_checked",
+    "method": "Exact agreement with the bundled ExceptionalDiagrams package; verification/macaulay2.json records the package comparison. Algebraic identities are covered in AUDIT_COVERAGE.md.",
+    "current_coefficients": "Exact expressions in p,q with coefficient aliases and normalization prescribed by the algebra registry."
   }
 }

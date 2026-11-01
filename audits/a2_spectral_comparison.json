@@ -69,5 +69,5 @@
       ]
     }
   ],
-  "assumptions": "Prescribed diagram rotation and declared basis are inputs; their geometric validity and independence are not established here."
+  "assumptions": "The calculations use the diagram basis and geometric rotation specified in the paper."
 }

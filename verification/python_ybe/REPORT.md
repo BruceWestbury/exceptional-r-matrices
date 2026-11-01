@@ -1,6 +1,6 @@
 # Independent Python/FLINT spectral YBE audit
 
-Exact arithmetic over independent p,q,u,v; no specialization or sampling.
+Exact arithmetic over QQ(p,q,u,v), with algebraically independent variables.
 
 | Representation | Dim. | Python | C | Construct s | YBE s | Compare s | Wall s | Peak MiB |
 |---|---:|---|---|---:|---:|---:|---:|---:|
@@ -19,10 +19,10 @@ Exact arithmetic over independent p,q,u,v; no specialization or sampling.
 All eleven generic symbolic YBE checks and all polynomial/rational comparisons PASS with exact zero residuals.
 
 Sum of worker wall times: 9.3402 seconds.
-Fixed limits: 60 seconds per worker and 300 seconds for the batch; no extensions.
+Limits: 60 seconds per worker and 300 seconds per batch.
 
 Construction uses literal rational equation (8.3), followed by the paper’s polynomial normalization. Clearing time is separate in results.json. YBE time includes FLINT composition, both triple products, and every entrywise difference. Comparison occurs after YBE. Wall time includes interpreter/library import and reporting overhead; peak RSS is wait4 ru_maxrss on Linux.
 
-C results were first loaded only after every Python worker completed or stopped. No C program or historical audit was called. This is implementation independence, not independence of the shared JSON mathematical specifications or the FLINT library.
+The Python workers construct and evaluate their own matrices. The report loads C results after the Python batch finishes. The implementations share the JSON mathematical specifications and the FLINT library family.
 
-The recorded embeddings remain source-prescribed conventions. This audit does not prove the full defining presentation or independently identify diagrammatic embeddings.
+The conclusion concerns the supplied representations with the specified embeddings and normalization. The paper provides the categorical interpretation and abstract presentation arguments.

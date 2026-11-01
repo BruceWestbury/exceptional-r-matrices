@@ -1,49 +1,46 @@
-# Dataset provenance
+# Data conventions and verification
 
-Research source: repository named Zenodo, clean HEAD `83aed000254bf7aca4836f0d3e3fb47c818ee4fa`.
-The source repository and Git history remain untouched. The initial public copy
-excluded the research .git directory. Source hashes for every selected file and every original data
-JSON file are in PUBLICATION_MANIFEST.json; no original Git object is needed
-at runtime. Historical source commits are citations, not public-history claims.
+The data implement the ordinary and dilute representations described in
+[*A uniform trigonometric R-matrix for the exceptional series*](https://arxiv.org/abs/2406.01348)
+and in the bundled [ExceptionalDiagrams package](macaulay2/README.md).
 
-Initial curation preserved all matrix entries, scalar definitions, basis maps and
-generator embeddings. Its data transformations were (1) replacing the absolute research
-path in dilute_a3.json's provenance label, (2) selecting included report references
-in publication.json, and (3) refreshing public payload hashes/classification in
-publication_provenance.json. These metadata-only changes are explicit in the
-manifest and are checked independently of the mathematical tests.
+## Mathematical data
 
-On 2026-11-01, at the author's request, every ordinary Y2 operator was conjugated
-by D=diag(1,-1,1) to adopt the current manuscript and Macaulay2 basis. The obsolete
-ordinary Y2 map was removed from basis_maps.json. Dilute and spectral matrices
-already use the corresponding source coordinates and were not changed. Current
-payload hashes are refreshed; research-source hashes and historical audit results
-retain their original meaning. The historical ordinary-to-dilute audit's Y2 sign
-map applies only to the pre-change ordinary matrices, not to the current data.
+The [catalogue](data/publication.json) lists each JSON file, its schema and its
+role. The ordinary A(3) data use the paper's ordinary normalization. Dilute
+A(2) and A(3) generator files store raw matrices together with registry factors
+for the package's `paper` and `paper2` normalizations. Spectral files store the
+polynomial R-matrices in the normalization described in [FORMAT.md](FORMAT.md).
 
-The public format document omits the legacy ordinary-only CLI section. The
-existing C/Python audit mathematics is copied byte-for-byte. Publication metadata
-remains provisional apart from the licence: the author selected
-[CC BY 4.0](LICENSE) for data, documentation and software on 2026-11-01.
-Recorded verification results and their input hashes describe the tested
-versions; subsequent licence notices and metadata do not change the mathematics.
-No manuscript sources are included.
+Ordinary Y2 uses a common basis in the paper, the JSON data and ExceptionalDiagrams.
+The dilute JSON and package also share coordinates. The
+[basis-map registry](data/basis_maps.json) specifies the diagonal conjugations
+used to compare selected dilute matrices with the displayed tables in the paper.
 
-The author subsequently authorized inclusion of ExceptionalDiagrams. Its 37
-auxiliary files were copied unchanged into `macaulay2/`. The package's exported
-coefficients b,c now have their own public symbols rather than aliases to private
-symbols, fixing installPackage documentation generation without changing their
-values or any mathematical calculation. The standalone test script was imported
-with its assertions unchanged and given optional group selection for bounded
-workers. This is now the maintained package; the research copy is an archive.
-`tools/check_macaulay2_data.py` loads only this bundled package and the public
-JSON, and checks exact agreement in both package normalizations. Its
-optional package tests install a temporary copy and load it after removing the
-installation source. No runtime access to the research tree is needed. Original
-source hashes retain their historical meaning; the manifest records the newly
-included source files and their current destinations.
+## Agreement and identities
 
-The included historical assembly report is conditional and incomplete: 298
-matrices reconstructed, 32 partial, 92 unknown entries. No missing morphism is
-invented or reconstructed during curation. Fresh exact identity checks are
-separate evidence and do not resolve that provenance gap.
+The [package comparison tool](tools/check_macaulay2_data.py) evaluates the bundled
+Macaulay2 package over exact rational-function fields and compares all 542 JSON
+matrices. Both normalization choices for the raw dilute matrices are tested,
+giving 952 matrix comparisons. Scalar rescalings, built-in package tests,
+standalone tests and installation checks have dedicated recorded results.
+
+The C/FLINT and Python/FLINT programs verify the ordinary relations and spectral
+identities. They use explicit JSON coefficients, generator words, embeddings and
+rotation rules. The [coverage guide](AUDIT_COVERAGE.md) distinguishes these
+identity checks from package agreement and the partial ordinary-to-dilute
+construction check.
+
+## Integrity and reproducibility
+
+[PUBLICATION_MANIFEST.json](PUBLICATION_MANIFEST.json) records the repository
+inventory and current file hashes in `files`.
+[data/publication_provenance.json](data/publication_provenance.json) supplies
+payload hashes checked by the structural validator. Saved verification records
+identify the inputs used for each calculation.
+
+For a fresh verification, follow the [main README](README.md). For data or package
+changes, follow the [maintenance guide](PUBLICATION_DECISIONS.md), update affected
+integrity records and record the relevant checks.
+
+The data, documentation and software are distributed under [CC BY 4.0](LICENSE).

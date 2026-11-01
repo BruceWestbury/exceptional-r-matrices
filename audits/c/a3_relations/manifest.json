@@ -10,14 +10,14 @@
     "word_order": "left_to_right_product",
     "indices": "zero_based"
   },
-  "review": "Displayed six-generator definition, mixed/quartic words and top quotient reviewed against accepted TeX; copied local ancillary specification retained with provenance; not authorial approval.",
+  "review": "Exact word-and-coefficient encoding of the ordinary H,K,U relations, local identities, braid prescriptions and top quotient.",
   "coefficients": {
     "b10": {
       "expression": "(p-p^-1)/(q-q^-1)",
       "display": "[n]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307"
+        "Paper, Section 4"
       ]
     },
     "b11": {
@@ -25,7 +25,7 @@
       "display": "[n+1]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307"
+        "Paper, Section 4"
       ]
     },
     "b20": {
@@ -33,7 +33,7 @@
       "display": "[2n]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307"
+        "Paper, Section 4"
       ]
     },
     "b30": {
@@ -41,7 +41,7 @@
       "display": "[3n]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307"
+        "Paper, Section 4"
       ]
     },
     "b40": {
@@ -49,7 +49,7 @@
       "display": "[4n]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307"
+        "Paper, Section 4"
       ]
     },
     "b50": {
@@ -57,7 +57,7 @@
       "display": "[5n]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307"
+        "Paper, Section 4"
       ]
     },
     "b60": {
@@ -65,7 +65,7 @@
       "display": "[6n]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307"
+        "Paper, Section 4"
       ]
     },
     "b61": {
@@ -73,7 +73,7 @@
       "display": "[6n+1]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307"
+        "Paper, Section 4"
       ]
     },
     "b5m1": {
@@ -81,7 +81,7 @@
       "display": "[5n-1]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307"
+        "Paper, Section 4"
       ]
     },
     "b62": {
@@ -89,7 +89,7 @@
       "display": "[6n+2]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307"
+        "Paper, Section 4"
       ]
     },
     "b4m2": {
@@ -97,7 +97,7 @@
       "display": "[4n-2]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307"
+        "Paper, Section 4"
       ]
     },
     "b31": {
@@ -105,7 +105,7 @@
       "display": "[3n+1]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307"
+        "Paper, Section 4"
       ]
     },
     "b2m1": {
@@ -113,7 +113,7 @@
       "display": "[2n-1]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307"
+        "Paper, Section 4"
       ]
     },
     "b41": {
@@ -121,112 +121,112 @@
       "display": "[4n+1]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307"
+        "Paper, Section 4"
       ]
     },
     "delta": {
       "expression": "b61*b5m1*b40/(b11*b20)",
       "origin": "copied",
       "source": [
-        "twostring.tex:56"
+        "Paper, Section 5"
       ]
     },
     "phi": {
       "expression": "b30*b62*b4m2/(b10*b31*b2m1)",
       "origin": "copied",
       "source": [
-        "twostring.tex:57"
+        "Paper, Section 5"
       ]
     },
     "aI": {
       "expression": "p^-4*phi*(p^5-p^-5)/(p^-8+delta+p^8)",
       "origin": "copied",
       "source": [
-        "twostring.tex:325-328,486-490"
+        "Paper, Section 5"
       ]
     },
     "tau": {
       "expression": "(p^4*aI*(p^5-p^-5)+phi)/(p^2+p^-2)",
       "origin": "copied",
       "source": [
-        "twostring.tex:332,503,514 (corrected working source)"
+        "Paper, Section 5 (corrected working source)"
       ]
     },
     "xi": {
       "expression": "(q-q^-1)^2*b11",
       "origin": "copied",
       "source": [
-        "twostring.tex:599"
+        "Paper, Section 5"
       ]
     },
     "zeta": {
       "expression": "-b4m2/(b10*b2m1)",
       "origin": "copied",
       "source": [
-        "twostring.tex:599"
+        "Paper, Section 5"
       ]
     },
     "zetastar": {
       "expression": "b11*b62/(b10*b31)",
       "origin": "copied",
       "source": [
-        "twostring.tex:599"
+        "Paper, Section 5"
       ]
     },
     "w": {
       "expression": "(q-q^-1)*b30*b20/b60",
       "origin": "computed",
       "source": [
-        "A2_SPECIFICATION.md: section 2, skein"
+        "Paper, Section 5; data/local_a2.json"
       ]
     },
     "z": {
       "expression": "-xi*w",
       "origin": "computed",
       "source": [
-        "A2_SPECIFICATION.md: section 2, skein"
+        "Paper, Section 5; data/local_a2.json"
       ]
     },
     "D": {
       "expression": "(tau-phi)*delta+2*phi-tau",
       "origin": "copied",
       "source": [
-        "twostring.tex:335-337"
+        "Paper, Section 5"
       ]
     },
     "e1": {
       "expression": "xi+zeta+zetastar",
       "origin": "computed",
       "source": [
-        "A2_SPECIFICATION.md: section 4"
+        "Paper, Section 5; data/local_a2.json"
       ]
     },
     "e2": {
       "expression": "xi*zeta+xi*zetastar+zeta*zetastar",
       "origin": "computed",
       "source": [
-        "A2_SPECIFICATION.md: section 4"
+        "Paper, Section 5; data/local_a2.json"
       ]
     },
     "e3": {
       "expression": "xi*zeta*zetastar",
       "origin": "computed",
       "source": [
-        "A2_SPECIFICATION.md: section 4"
+        "Paper, Section 5; data/local_a2.json"
       ]
     },
     "cU": {
       "expression": "(phi-xi)*(phi-zeta)*(phi-zetastar)/delta",
       "origin": "copied",
       "source": [
-        "twostring.tex:610-612"
+        "Paper, Section 5"
       ]
     },
     "cK": {
       "expression": "(tau-xi)*(tau-zeta)*(tau-zetastar)/phi",
       "origin": "copied",
       "source": [
-        "twostring.tex:610-612"
+        "Paper, Section 5"
       ]
     },
     "b3m1": {
@@ -234,15 +234,15 @@
       "display": "[3n-1]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307; appendix.tex:72"
+        "Paper, Section 4; Paper, Appendix"
       ]
     },
     "b_0": {
       "expression": "e3",
       "origin": "computed",
       "source": [
-        "appendix.tex:62-65, eq:squaresquare",
-        "twostring.tex:585-623, eq:Hcubed"
+        "Paper, Appendix equation A.1",
+        "Paper, Section 5 equation 5.34"
       ],
       "display": "b_0"
     },
@@ -250,8 +250,8 @@
       "expression": "cU",
       "origin": "computed",
       "source": [
-        "appendix.tex:62-65, eq:squaresquare",
-        "twostring.tex:585-623, eq:Hcubed"
+        "Paper, Appendix equation A.1",
+        "Paper, Section 5 equation 5.34"
       ],
       "display": "b_1"
     },
@@ -259,8 +259,8 @@
       "expression": "cK",
       "origin": "computed",
       "source": [
-        "appendix.tex:62-65, eq:squaresquare",
-        "twostring.tex:585-623, eq:Hcubed"
+        "Paper, Appendix equation A.1",
+        "Paper, Section 5 equation 5.34"
       ],
       "display": "b_2"
     },
@@ -268,8 +268,8 @@
       "expression": "-e2",
       "origin": "computed",
       "source": [
-        "appendix.tex:62-65, eq:squaresquare",
-        "twostring.tex:585-623, eq:Hcubed"
+        "Paper, Appendix equation A.1",
+        "Paper, Section 5 equation 5.34"
       ],
       "display": "b_3"
     },
@@ -277,8 +277,8 @@
       "expression": "e1",
       "origin": "computed",
       "source": [
-        "appendix.tex:62-65, eq:squaresquare",
-        "twostring.tex:585-623, eq:Hcubed"
+        "Paper, Appendix equation A.1",
+        "Paper, Section 5 equation 5.34"
       ],
       "display": "b_4"
     },
@@ -286,21 +286,21 @@
       "expression": "b20*b30^2/(b11*b60^2)",
       "origin": "copied",
       "source": [
-        "threestring.tex:630-637"
+        "Paper, Section 6"
       ]
     },
     "S_I": {
       "expression": "b11/b10*(-p^3-p^-1*q^2+p^-1+p^-3*q^2-p^-3-p^-3*q^-2-p^-5+p^-5*q^-2)",
       "origin": "copied",
       "source": [
-        "twostring.tex:153 (corrected working source)"
+        "Paper, Section 5 (corrected working source)"
       ]
     },
     "S_K": {
       "expression": "(-p^4*q^2-p^2*q^2+3*p^2+q^2-p^2*q^-2-q^-2-2*p^-2+p^-2*q^-2+p^-4)/(q-q^-1)",
       "origin": "copied",
       "source": [
-        "twostring.tex:154"
+        "Paper, Section 5"
       ]
     },
     "S_H": {
@@ -308,7 +308,7 @@
       "bar_of": "S_K",
       "origin": "source_prescribed",
       "source": [
-        "twostring.tex:147,154"
+        "Paper, Section 5"
       ]
     },
     "S_U": {
@@ -316,7 +316,7 @@
       "bar_of": "S_I",
       "origin": "source_prescribed",
       "source": [
-        "twostring.tex:147,153"
+        "Paper, Section 5"
       ]
     },
     "b1m1": {
@@ -324,7 +324,7 @@
       "display": "[n-1]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307; threestring.tex:447"
+        "Paper, Section 4; Paper, Section 6"
       ]
     },
     "b2m2": {
@@ -332,7 +332,7 @@
       "display": "[2n-2]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307; threestring.tex:447"
+        "Paper, Section 4; Paper, Section 6"
       ]
     },
     "b120": {
@@ -340,7 +340,7 @@
       "display": "[12n]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307; threestring.tex:449"
+        "Paper, Section 4; Paper, Section 6"
       ]
     },
     "c_1": {
@@ -348,7 +348,7 @@
       "display": "c_1",
       "origin": "copied",
       "source": [
-        "appendix.tex:119, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_4": {
@@ -356,7 +356,7 @@
       "display": "c_4",
       "origin": "copied",
       "source": [
-        "appendix.tex:118, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_2": {
@@ -364,7 +364,7 @@
       "display": "c_2",
       "origin": "copied",
       "source": [
-        "appendix.tex:121, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_3": {
@@ -372,7 +372,7 @@
       "display": "c_3",
       "origin": "copied",
       "source": [
-        "appendix.tex:121, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_5": {
@@ -380,7 +380,7 @@
       "display": "c_5",
       "origin": "copied",
       "source": [
-        "appendix.tex:123, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_6": {
@@ -388,7 +388,7 @@
       "display": "c_6",
       "origin": "copied",
       "source": [
-        "appendix.tex:125, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_9": {
@@ -396,7 +396,7 @@
       "display": "c_9",
       "origin": "copied",
       "source": [
-        "appendix.tex:125, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_7": {
@@ -404,7 +404,7 @@
       "display": "c_7",
       "origin": "copied",
       "source": [
-        "appendix.tex:127, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_8": {
@@ -412,7 +412,7 @@
       "display": "c_8",
       "origin": "copied",
       "source": [
-        "appendix.tex:127, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_10": {
@@ -420,7 +420,7 @@
       "display": "c_10",
       "origin": "copied",
       "source": [
-        "appendix.tex:129, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_11": {
@@ -428,7 +428,7 @@
       "display": "c_11",
       "origin": "copied",
       "source": [
-        "appendix.tex:131, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_14": {
@@ -436,7 +436,7 @@
       "display": "c_14",
       "origin": "copied",
       "source": [
-        "appendix.tex:131, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_12": {
@@ -444,7 +444,7 @@
       "display": "c_12",
       "origin": "copied",
       "source": [
-        "appendix.tex:133, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_13": {
@@ -452,7 +452,7 @@
       "display": "c_13",
       "origin": "copied",
       "source": [
-        "appendix.tex:133, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_15": {
@@ -460,7 +460,7 @@
       "display": "c_15",
       "origin": "copied",
       "source": [
-        "appendix.tex:139, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_0": {
@@ -468,7 +468,7 @@
       "display": "c_0",
       "origin": "copied",
       "source": [
-        "appendix.tex:164, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     }
   },
@@ -537,7 +537,7 @@
       "kind": "defining",
       "position": 1,
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ],
       "lhs": {
         "terms": [
@@ -576,10 +576,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:192-200, eq:A3rels"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "KH1",
@@ -588,7 +585,7 @@
       "kind": "defining",
       "position": 1,
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ],
       "lhs": {
         "terms": [
@@ -627,10 +624,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:192-200, eq:A3rels"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "HU1",
@@ -639,7 +633,7 @@
       "kind": "defining",
       "position": 1,
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ],
       "lhs": {
         "terms": [
@@ -678,10 +672,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:192-200, eq:A3rels"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "UH1",
@@ -690,7 +681,7 @@
       "kind": "defining",
       "position": 1,
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ],
       "lhs": {
         "terms": [
@@ -729,10 +720,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:192-200, eq:A3rels"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "KK1",
@@ -741,7 +729,7 @@
       "kind": "defining",
       "position": 1,
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ],
       "lhs": {
         "terms": [
@@ -780,10 +768,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:192-200, eq:A3rels"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "KU1",
@@ -792,7 +777,7 @@
       "kind": "defining",
       "position": 1,
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ],
       "lhs": {
         "terms": [
@@ -824,10 +809,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:192-200, eq:A3rels"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "UK1",
@@ -836,7 +818,7 @@
       "kind": "defining",
       "position": 1,
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ],
       "lhs": {
         "terms": [
@@ -868,10 +850,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:192-200, eq:A3rels"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "UU1",
@@ -880,7 +859,7 @@
       "kind": "defining",
       "position": 1,
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ],
       "lhs": {
         "terms": [
@@ -919,10 +898,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:192-200, eq:A3rels"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "cubic1",
@@ -931,7 +907,7 @@
       "kind": "defining",
       "position": 1,
       "source": [
-        "threestring.tex:214-217, eq:A3rels; appendix.tex:88-90; twostring.tex:607-613, eq:Hcubed"
+        "Paper, Section 6 equation 6.27; Paper, Appendix; Paper, Section 5 equation 5.34"
       ],
       "lhs": {
         "terms": [
@@ -994,10 +970,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:214-217, eq:A3rels; appendix.tex:88-90; twostring.tex:607-613, eq:Hcubed"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "inverse_left1",
@@ -1006,7 +979,7 @@
       "kind": "additional_braid",
       "position": 1,
       "source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+        "Paper, Section 6; Paper, Section 5"
       ],
       "lhs": {
         "terms": [
@@ -1043,10 +1016,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "inverse_right1",
@@ -1055,7 +1025,7 @@
       "kind": "additional_braid",
       "position": 1,
       "source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+        "Paper, Section 6; Paper, Section 5"
       ],
       "lhs": {
         "terms": [
@@ -1092,10 +1062,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "S_polynomial1",
@@ -1104,7 +1071,7 @@
       "kind": "additional_braid",
       "position": 1,
       "source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+        "Paper, Section 6; Paper, Section 5"
       ],
       "lhs": {
         "terms": [
@@ -1165,10 +1132,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "Sinv_polynomial1",
@@ -1177,7 +1141,7 @@
       "kind": "additional_braid",
       "position": 1,
       "source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+        "Paper, Section 6; Paper, Section 5"
       ],
       "lhs": {
         "terms": [
@@ -1238,10 +1202,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "HK2",
@@ -1250,7 +1211,7 @@
       "kind": "defining",
       "position": 2,
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ],
       "lhs": {
         "terms": [
@@ -1289,10 +1250,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:192-200, eq:A3rels"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "KH2",
@@ -1301,7 +1259,7 @@
       "kind": "defining",
       "position": 2,
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ],
       "lhs": {
         "terms": [
@@ -1340,10 +1298,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:192-200, eq:A3rels"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "HU2",
@@ -1352,7 +1307,7 @@
       "kind": "defining",
       "position": 2,
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ],
       "lhs": {
         "terms": [
@@ -1391,10 +1346,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:192-200, eq:A3rels"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "UH2",
@@ -1403,7 +1355,7 @@
       "kind": "defining",
       "position": 2,
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ],
       "lhs": {
         "terms": [
@@ -1442,10 +1394,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:192-200, eq:A3rels"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "KK2",
@@ -1454,7 +1403,7 @@
       "kind": "defining",
       "position": 2,
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ],
       "lhs": {
         "terms": [
@@ -1493,10 +1442,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:192-200, eq:A3rels"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "KU2",
@@ -1505,7 +1451,7 @@
       "kind": "defining",
       "position": 2,
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ],
       "lhs": {
         "terms": [
@@ -1537,10 +1483,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:192-200, eq:A3rels"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "UK2",
@@ -1549,7 +1492,7 @@
       "kind": "defining",
       "position": 2,
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ],
       "lhs": {
         "terms": [
@@ -1581,10 +1524,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:192-200, eq:A3rels"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "UU2",
@@ -1593,7 +1533,7 @@
       "kind": "defining",
       "position": 2,
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ],
       "lhs": {
         "terms": [
@@ -1632,10 +1572,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:192-200, eq:A3rels"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "cubic2",
@@ -1644,7 +1581,7 @@
       "kind": "defining",
       "position": 2,
       "source": [
-        "threestring.tex:214-217, eq:A3rels; appendix.tex:88-90; twostring.tex:607-613, eq:Hcubed"
+        "Paper, Section 6 equation 6.27; Paper, Appendix; Paper, Section 5 equation 5.34"
       ],
       "lhs": {
         "terms": [
@@ -1707,10 +1644,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:214-217, eq:A3rels; appendix.tex:88-90; twostring.tex:607-613, eq:Hcubed"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "inverse_left2",
@@ -1719,7 +1653,7 @@
       "kind": "additional_braid",
       "position": 2,
       "source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+        "Paper, Section 6; Paper, Section 5"
       ],
       "lhs": {
         "terms": [
@@ -1756,10 +1690,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "inverse_right2",
@@ -1768,7 +1699,7 @@
       "kind": "additional_braid",
       "position": 2,
       "source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+        "Paper, Section 6; Paper, Section 5"
       ],
       "lhs": {
         "terms": [
@@ -1805,10 +1736,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "S_polynomial2",
@@ -1817,7 +1745,7 @@
       "kind": "additional_braid",
       "position": 2,
       "source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+        "Paper, Section 6; Paper, Section 5"
       ],
       "lhs": {
         "terms": [
@@ -1878,10 +1806,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "Sinv_polynomial2",
@@ -1890,7 +1815,7 @@
       "kind": "additional_braid",
       "position": 2,
       "source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+        "Paper, Section 6; Paper, Section 5"
       ],
       "lhs": {
         "terms": [
@@ -1951,16 +1876,13 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_literal_U_U",
       "source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
+        "Paper, Section 5 with S removed as directed at 590-591",
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -1999,17 +1921,13 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_literal_U_K",
       "source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
+        "Paper, Section 5 with S removed as directed at 590-591",
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2041,17 +1959,13 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_literal_U_H",
       "source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
+        "Paper, Section 5 with S removed as directed at 590-591",
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2090,17 +2004,13 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_literal_K_U",
       "source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
+        "Paper, Section 5 with S removed as directed at 590-591",
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2132,17 +2042,13 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_literal_K_K",
       "source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
+        "Paper, Section 5 with S removed as directed at 590-591",
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2181,17 +2087,13 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_literal_K_H",
       "source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
+        "Paper, Section 5 with S removed as directed at 590-591",
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2230,17 +2132,13 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_literal_H_U",
       "source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
+        "Paper, Section 5 with S removed as directed at 590-591",
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2279,17 +2177,13 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_literal_H_K",
       "source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
+        "Paper, Section 5 with S removed as directed at 590-591",
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2328,17 +2222,13 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_literal_H_H",
       "source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
+        "Paper, Section 5 with S removed as directed at 590-591",
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2378,16 +2268,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_one_one",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2421,15 +2307,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_one_H",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2467,15 +2350,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_one_H2",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2515,15 +2395,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_one_K",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2561,15 +2438,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_one_U",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2607,15 +2481,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_H_one",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2653,15 +2524,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_H_H",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2701,15 +2569,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_H_H2",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2751,15 +2616,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_H_K",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2798,15 +2660,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_H_U",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2845,15 +2704,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_H2_one",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2893,15 +2749,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_H2_H",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2943,15 +2796,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_H2_H2",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -2995,15 +2845,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_H2_K",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -3043,15 +2890,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_H2_U",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -3091,15 +2935,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_K_one",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -3137,15 +2978,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_K_H",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -3184,15 +3022,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_K_H2",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -3232,15 +3067,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_K_K",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -3279,15 +3111,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_K_U",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -3319,15 +3148,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_U_one",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -3365,15 +3191,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_U_H",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -3412,15 +3235,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_U_H2",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -3460,15 +3280,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_U_K",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -3500,15 +3317,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_completed_U_U",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -3547,20 +3361,17 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_square_square",
       "role": "primary",
       "origin": "expanded",
       "source": [
-        "appendix.tex:62-65, eq:squaresquare",
-        "twostring.tex:585-623, eq:Hcubed",
-        "diagrams/code.m2:24-32,47-50",
-        "pictures.tex:482-506; twostring.tex:170-175, fig:elements"
+        "Paper, Appendix equation A.1",
+        "Paper, Section 5 equation 5.34",
+        "the square-square diagram identity",
+        "Paper, Section 5; Paper, Section 5 item 1"
       ],
       "display": "H^3 = b_0 1 + b_1 U + b_2 K + b_3 H + b_4 H^2",
       "lhs": {
@@ -3624,20 +3435,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "appendix.tex:62-65, eq:squaresquare",
-        "twostring.tex:585-623, eq:Hcubed",
-        "diagrams/code.m2:24-32,47-50",
-        "pictures.tex:482-506; twostring.tex:170-175, fig:elements"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_cubic",
       "role": "primary",
       "origin": "expanded",
       "source": [
-        "twostring.tex:607-613, eq:Hcubed"
+        "Paper, Section 5 equation 5.34"
       ],
       "display": "(H-xi)(H-zeta)(H-zetastar) = cU U + cK K",
       "lhs": {
@@ -3701,17 +3506,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:607-613, eq:Hcubed"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_reduce_H3",
       "role": "derived",
       "origin": "computed",
       "source": [
-        "A2_SPECIFICATION.md: section 4, cubic expansion"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -3774,17 +3576,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, cubic expansion"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_reduce_H4",
       "role": "derived",
       "origin": "computed",
       "source": [
-        "A2_SPECIFICATION.md: section 4, cubic multiplied by H"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -3848,17 +3647,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, cubic multiplied by H"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_skein",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "twostring.tex:78-96,372-383"
+        "Paper, Section 5"
       ],
       "lhs": {
         "terms": [
@@ -3918,17 +3714,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:78-96,372-383"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_inverse_right",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "twostring.tex:224-231"
+        "Paper, Section 5"
       ],
       "lhs": {
         "terms": [
@@ -3965,17 +3758,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:224-231"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_inverse_left",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "twostring.tex:224-231"
+        "Paper, Section 5"
       ],
       "lhs": {
         "terms": [
@@ -4012,18 +3802,15 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:224-231"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_S_polynomial",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "twostring.tex:126-158",
-        "threestring.tex:630-637"
+        "Paper, Section 5",
+        "Paper, Section 6"
       ],
       "lhs": {
         "terms": [
@@ -4084,17 +3871,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_Sinv_polynomial",
       "role": "primary",
       "origin": "source_prescribed",
       "source": [
-        "twostring.tex:143-158, bar counterpart"
+        "Paper, Section 5 bar counterpart"
       ],
       "lhs": {
         "terms": [
@@ -4155,17 +3939,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_jacobi_commute_S",
       "role": "derived",
       "origin": "computed",
       "source": [
-        "A2_SPECIFICATION.md: section 7"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -4205,17 +3986,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 7"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_jacobi_commute_Sinv",
       "role": "derived",
       "origin": "computed",
       "source": [
-        "A2_SPECIFICATION.md: section 7"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -4255,17 +4033,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 7"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_jacobi_S",
       "role": "derived",
       "origin": "copied",
       "source": [
-        "twostring.tex:422-431"
+        "Paper, Section 5"
       ],
       "lhs": {
         "terms": [
@@ -4326,17 +4101,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:422-431"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_jacobi_Sinv",
       "role": "derived",
       "origin": "copied",
       "source": [
-        "twostring.tex:473-490"
+        "Paper, Section 5"
       ],
       "lhs": {
         "terms": [
@@ -4397,17 +4169,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:473-490"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_K_from_H",
       "role": "derived",
       "origin": "source_prescribed",
       "source": [
-        "threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"
+        "Paper, Section 6 item 6.10; expanded factored Lagrange prescription with H interpreted as H_i"
       ],
       "lhs": {
         "terms": [
@@ -4476,17 +4245,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local1_U_from_H",
       "role": "derived",
       "origin": "source_prescribed",
       "source": [
-        "threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"
+        "Paper, Section 6 item 6.10; expanded factored Lagrange prescription with H interpreted as H_i"
       ],
       "lhs": {
         "terms": [
@@ -4555,16 +4321,13 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_literal_U_U",
       "source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
+        "Paper, Section 5 with S removed as directed at 590-591",
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -4603,17 +4366,13 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_literal_U_K",
       "source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
+        "Paper, Section 5 with S removed as directed at 590-591",
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -4645,17 +4404,13 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_literal_U_H",
       "source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
+        "Paper, Section 5 with S removed as directed at 590-591",
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -4694,17 +4449,13 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_literal_K_U",
       "source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
+        "Paper, Section 5 with S removed as directed at 590-591",
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -4736,17 +4487,13 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_literal_K_K",
       "source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
+        "Paper, Section 5 with S removed as directed at 590-591",
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -4785,17 +4532,13 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_literal_K_H",
       "source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
+        "Paper, Section 5 with S removed as directed at 590-591",
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -4834,17 +4577,13 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_literal_H_U",
       "source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
+        "Paper, Section 5 with S removed as directed at 590-591",
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -4883,17 +4622,13 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_literal_H_K",
       "source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
+        "Paper, Section 5 with S removed as directed at 590-591",
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -4932,17 +4667,13 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_literal_H_H",
       "source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
+        "Paper, Section 5 with S removed as directed at 590-591",
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -4982,16 +4713,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:313-323 with S removed as directed at 590-591",
-        "A2_SPECIFICATION.md: section 4, literal source specification"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_one_one",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5025,15 +4752,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_one_H",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5071,15 +4795,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_one_H2",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5119,15 +4840,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_one_K",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5165,15 +4883,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_one_U",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5211,15 +4926,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_H_one",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5257,15 +4969,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_H_H",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5305,15 +5014,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_H_H2",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5355,15 +5061,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_H_K",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5402,15 +5105,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_H_U",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5449,15 +5149,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_H2_one",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5497,15 +5194,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_H2_H",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5547,15 +5241,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_H2_H2",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5599,15 +5290,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_H2_K",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5647,15 +5335,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_H2_U",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5695,15 +5380,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_K_one",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5741,15 +5423,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_K_H",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5788,15 +5467,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_K_H2",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5836,15 +5512,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_K_K",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5883,15 +5556,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_K_U",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5923,15 +5593,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_U_one",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -5969,15 +5636,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_U_H",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -6016,15 +5680,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_U_H2",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -6064,15 +5725,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_U_K",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -6104,15 +5762,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_completed_U_U",
       "source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -6151,20 +5806,17 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_square_square",
       "role": "primary",
       "origin": "expanded",
       "source": [
-        "appendix.tex:62-65, eq:squaresquare",
-        "twostring.tex:585-623, eq:Hcubed",
-        "diagrams/code.m2:24-32,47-50",
-        "pictures.tex:482-506; twostring.tex:170-175, fig:elements"
+        "Paper, Appendix equation A.1",
+        "Paper, Section 5 equation 5.34",
+        "the square-square diagram identity",
+        "Paper, Section 5; Paper, Section 5 item 1"
       ],
       "display": "H^3 = b_0 1 + b_1 U + b_2 K + b_3 H + b_4 H^2",
       "lhs": {
@@ -6228,20 +5880,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "appendix.tex:62-65, eq:squaresquare",
-        "twostring.tex:585-623, eq:Hcubed",
-        "diagrams/code.m2:24-32,47-50",
-        "pictures.tex:482-506; twostring.tex:170-175, fig:elements"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_cubic",
       "role": "primary",
       "origin": "expanded",
       "source": [
-        "twostring.tex:607-613, eq:Hcubed"
+        "Paper, Section 5 equation 5.34"
       ],
       "display": "(H-xi)(H-zeta)(H-zetastar) = cU U + cK K",
       "lhs": {
@@ -6305,17 +5951,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:607-613, eq:Hcubed"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_reduce_H3",
       "role": "derived",
       "origin": "computed",
       "source": [
-        "A2_SPECIFICATION.md: section 4, cubic expansion"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -6378,17 +6021,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, cubic expansion"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_reduce_H4",
       "role": "derived",
       "origin": "computed",
       "source": [
-        "A2_SPECIFICATION.md: section 4, cubic multiplied by H"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -6452,17 +6092,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 4, cubic multiplied by H"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_skein",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "twostring.tex:78-96,372-383"
+        "Paper, Section 5"
       ],
       "lhs": {
         "terms": [
@@ -6522,17 +6159,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:78-96,372-383"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_inverse_right",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "twostring.tex:224-231"
+        "Paper, Section 5"
       ],
       "lhs": {
         "terms": [
@@ -6569,17 +6203,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:224-231"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_inverse_left",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "twostring.tex:224-231"
+        "Paper, Section 5"
       ],
       "lhs": {
         "terms": [
@@ -6616,18 +6247,15 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:224-231"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_S_polynomial",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "twostring.tex:126-158",
-        "threestring.tex:630-637"
+        "Paper, Section 5",
+        "Paper, Section 6"
       ],
       "lhs": {
         "terms": [
@@ -6688,17 +6316,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_Sinv_polynomial",
       "role": "primary",
       "origin": "source_prescribed",
       "source": [
-        "twostring.tex:143-158, bar counterpart"
+        "Paper, Section 5 bar counterpart"
       ],
       "lhs": {
         "terms": [
@@ -6759,17 +6384,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_jacobi_commute_S",
       "role": "derived",
       "origin": "computed",
       "source": [
-        "A2_SPECIFICATION.md: section 7"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -6809,17 +6431,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 7"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_jacobi_commute_Sinv",
       "role": "derived",
       "origin": "computed",
       "source": [
-        "A2_SPECIFICATION.md: section 7"
+        "Paper, Section 5; data/local_a2.json"
       ],
       "lhs": {
         "terms": [
@@ -6859,17 +6478,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "A2_SPECIFICATION.md: section 7"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_jacobi_S",
       "role": "derived",
       "origin": "copied",
       "source": [
-        "twostring.tex:422-431"
+        "Paper, Section 5"
       ],
       "lhs": {
         "terms": [
@@ -6930,17 +6546,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:422-431"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_jacobi_Sinv",
       "role": "derived",
       "origin": "copied",
       "source": [
-        "twostring.tex:473-490"
+        "Paper, Section 5"
       ],
       "lhs": {
         "terms": [
@@ -7001,17 +6614,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "twostring.tex:473-490"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_K_from_H",
       "role": "derived",
       "origin": "source_prescribed",
       "source": [
-        "threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"
+        "Paper, Section 6 item 6.10; expanded factored Lagrange prescription with H interpreted as H_i"
       ],
       "lhs": {
         "terms": [
@@ -7080,17 +6690,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "local2_U_from_H",
       "role": "derived",
       "origin": "source_prescribed",
       "source": [
-        "threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"
+        "Paper, Section 6 item 6.10; expanded factored Lagrange prescription with H interpreted as H_i"
       ],
       "lhs": {
         "terms": [
@@ -7159,17 +6766,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "braid",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:642-645, eq:braidA3"
+        "Paper, Section 6 equation 6.49"
       ],
       "lhs": {
         "terms": [
@@ -7214,17 +6818,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:658-667; (6.49)-(6.50)"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "HKH",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:202, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ],
       "lhs": {
         "terms": [
@@ -7269,17 +6870,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:202, eq:A3rels"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "KUK1",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
@@ -7324,17 +6922,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "KUH1",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
@@ -7379,17 +6974,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "KUU1",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
@@ -7433,17 +7025,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "UUK1",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
@@ -7487,17 +7076,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "UUU1",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
@@ -7540,17 +7126,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "KUK2",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
@@ -7595,17 +7178,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "KUH2",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
@@ -7650,17 +7230,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "KUU2",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
@@ -7704,17 +7281,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "UUK2",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
@@ -7758,17 +7332,14 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "UUU2",
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
@@ -7811,10 +7382,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "quartic_full",
@@ -7824,7 +7392,7 @@
       "status": "source_claim",
       "origin": "copied",
       "source": [
-        "threestring.tex:218-237, eq:A3relsb, def:tildeA3"
+        "Paper, Section 6 equation 6.39, item 6.9"
       ],
       "lhs": {
         "terms": [
@@ -8064,10 +7632,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:218-237, eq:A3relsb, def:tildeA3"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "S_quintic1",
@@ -8077,7 +7642,7 @@
       "status": "source_claim",
       "origin": "expanded",
       "source": [
-        "threestring.tex:640-646, prop:A3S, eq:Squintic"
+        "Paper, Section 6 item 6.18, equation 6.50"
       ],
       "lhs": {
         "terms": [
@@ -8157,10 +7722,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:658-667; (6.49)-(6.50)"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "H_quintic1",
@@ -8170,7 +7732,7 @@
       "status": "source_claim",
       "origin": "expanded",
       "source": [
-        "threestring.tex:248-253, rem:A3def"
+        "Paper, Section 6 item 6.10"
       ],
       "lhs": {
         "terms": [
@@ -8250,10 +7812,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:248-253, rem:A3def"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "S_quintic2",
@@ -8263,7 +7822,7 @@
       "status": "source_claim",
       "origin": "expanded",
       "source": [
-        "threestring.tex:640-646, prop:A3S, eq:Squintic"
+        "Paper, Section 6 item 6.18, equation 6.50"
       ],
       "lhs": {
         "terms": [
@@ -8343,10 +7902,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:658-667; (6.49)-(6.50)"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "H_quintic2",
@@ -8356,7 +7912,7 @@
       "status": "source_claim",
       "origin": "expanded",
       "source": [
-        "threestring.tex:248-253, rem:A3def"
+        "Paper, Section 6 item 6.10"
       ],
       "lhs": {
         "terms": [
@@ -8436,10 +7992,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:248-253, rem:A3def"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "top_cubic1",
@@ -8449,7 +8002,7 @@
       "status": "source_claim",
       "origin": "copied",
       "source": [
-        "threestring-top.tex:53-55, eq:Hrels"
+        "Paper, Section 6.1 equation 6.4"
       ],
       "lhs": {
         "terms": [
@@ -8494,10 +8047,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring-top.tex:53-55, eq:Hrels"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "top_cubic2",
@@ -8507,7 +8057,7 @@
       "status": "source_claim",
       "origin": "copied",
       "source": [
-        "threestring-top.tex:53-55, eq:Hrels"
+        "Paper, Section 6.1 equation 6.4"
       ],
       "lhs": {
         "terms": [
@@ -8552,10 +8102,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring-top.tex:53-55, eq:Hrels"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "top_quartic_a",
@@ -8565,7 +8112,7 @@
       "status": "source_claim",
       "origin": "copied",
       "source": [
-        "threestring-top.tex:56-69, eq:Hrelsa"
+        "Paper, Section 6.1 equation 6.5"
       ],
       "lhs": {
         "terms": [
@@ -8634,10 +8181,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring-top.tex:56-69, eq:Hrelsa"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "top_quartic_aa",
@@ -8647,7 +8191,7 @@
       "status": "source_claim",
       "origin": "copied",
       "source": [
-        "threestring-top.tex:70-83, eq:Hrelsaa"
+        "Paper, Section 6.1 equation 6.6"
       ],
       "lhs": {
         "terms": [
@@ -8716,10 +8260,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring-top.tex:70-83, eq:Hrelsaa"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "top_quartic_b",
@@ -8729,7 +8270,7 @@
       "status": "source_claim",
       "origin": "copied",
       "source": [
-        "threestring-top.tex:85-91, eq:Hrelsb, equation (6.7), wholesale corrected definition"
+        "Paper, Section 6.1 equation 6.7, equation (6.7), wholesale corrected definition"
       ],
       "lhs": {
         "terms": [
@@ -8842,15 +8383,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring-top.tex:85-91, eq:Hrelsb, equation (6.7), wholesale corrected definition"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "quotient_zero_K1",
       "source": [
-        "threestring.tex:501-517; threestring-top.tex:50-99; quotient K_i=U_i=0"
+        "Paper, Section 6; Paper, Section 6.1; quotient K_i=U_i=0"
       ],
       "lhs": {
         "terms": [
@@ -8876,15 +8414,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:501-517; threestring-top.tex:50-99; quotient K_i=U_i=0"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "quotient_zero_K2",
       "source": [
-        "threestring.tex:501-517; threestring-top.tex:50-99; quotient K_i=U_i=0"
+        "Paper, Section 6; Paper, Section 6.1; quotient K_i=U_i=0"
       ],
       "lhs": {
         "terms": [
@@ -8910,15 +8445,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:501-517; threestring-top.tex:50-99; quotient K_i=U_i=0"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "quotient_zero_U1",
       "source": [
-        "threestring.tex:501-517; threestring-top.tex:50-99; quotient K_i=U_i=0"
+        "Paper, Section 6; Paper, Section 6.1; quotient K_i=U_i=0"
       ],
       "lhs": {
         "terms": [
@@ -8944,15 +8476,12 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:501-517; threestring-top.tex:50-99; quotient K_i=U_i=0"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     },
     {
       "id": "quotient_zero_U2",
       "source": [
-        "threestring.tex:501-517; threestring-top.tex:50-99; quotient K_i=U_i=0"
+        "Paper, Section 6; Paper, Section 6.1; quotient K_i=U_i=0"
       ],
       "lhs": {
         "terms": [
@@ -8978,10 +8507,7 @@
       ],
       "normalization": "ordinary alpha=1; row vectors act on right; ordered products left to right",
       "encoding_status": "encoded",
-      "json_source_note": "Mechanically flattened from data/a3.json or data/local_a2.json; no coefficients recomputed or fitted.",
-      "current_manuscript_source": [
-        "threestring.tex:501-517; threestring-top.tex:50-99; quotient K_i=U_i=0"
-      ]
+      "json_source_note": "Expanded from data/a3.json and data/local_a2.json."
     }
   ],
   "unresolved": [
@@ -8992,9 +8518,9 @@
       "status": "unprinted",
       "degree": 7,
       "source": [
-        "threestring.tex:722-729"
+        "Paper, Section 6"
       ],
-      "note": "Braid plus quintic is not a complete braid-generator presentation; no words or coefficients supplied. Not part of the H,K,U defining list.",
+      "note": "An explicit word-and-coefficient formula is required to evaluate this additional braid relation.",
       "encoding_status": "unresolved",
       "applicable_representations": [
         "I",

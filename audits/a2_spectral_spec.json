@@ -99,7 +99,7 @@
       "U": "t*(q-q^-1)^2",
       "I": "-t*(q-q^-1)^2"
     },
-    "source": "yangbaxter.tex:115-125, eq:skeinc (8.2)"
+    "source": "Paper, Section 8 equation 8.2 (8.2)"
   },
   "diagram_basis": [
     "D0",
@@ -120,15 +120,16 @@
     "D15"
   ],
   "source_locations": {
-    "rational": "yangbaxter.tex:134-148, eq:Rmat (8.3)",
-    "unitarity": "yangbaxter.tex:220-222, eq:unit (8.11)",
-    "crossing": "yangbaxter.tex:228-231, eq:crossing (8.13)",
-    "polynomial": "yangbaxter.tex:798-805",
-    "rotation": "yangbaxter.tex:824-829"
+    "rational": "Paper, Section 8 equation 8.3 (8.3)",
+    "unitarity": "Paper, Section 8 equation 8.11 (8.11)",
+    "crossing": "Paper, Section 8 equation 8.13 (8.13)",
+    "polynomial": "Paper, Section 8",
+    "rotation": "Paper, Section 8"
   },
   "assumptions": [
-    "Specified geometric rotation is assumed, not verified.",
-    "Raw source matrices use paper2 multipliers before evaluation; basis conjugations unnecessary for identities.",
-    "The D0,...,D15 diagram basis is the declared source basis; independence is not reproved."
+    "Crossing uses the specified geometric diagram rotation.",
+    "Raw diagram matrices use paper2 multipliers before evaluation.",
+    "D0,...,D15 is the diagram basis specified in the paper.",
+    "Rational identities hold over QQ(p,q,u) and specialize wherever their expressions are defined."
   ]
 }

@@ -17,6 +17,6 @@
     "scalar_code",
     "missing_ref"
   ],
-  "limitations": "No CAS simplification, denominator nonvanishing proof, or mathematical identity verification; exact export comparisons are separate evidence.",
+  "limitations": "Structural validation checks schemas, expressions, references and hashes. Exact identity checks are recorded separately.",
   "seconds": 1.3929662689988618
 }

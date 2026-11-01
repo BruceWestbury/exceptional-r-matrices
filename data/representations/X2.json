@@ -16,10 +16,10 @@
       "coordinate_3",
       "coordinate_4"
     ],
-    "description": "Neutral coordinates in the printed row/column order; these tables do not individually name mathematical basis vectors.",
+    "description": "Coordinate labels follow the stored matrix order and the bundled ExceptionalDiagrams basis.",
     "source": [
-      "threestring.tex:422-430,456, lem:A3rep",
-      "threestring.tex:652-659,694-698, eq:Sirrepc"
+      "Paper, Section 6 item 6.14",
+      "Paper, Section 6 equation 6.51"
     ]
   },
   "conventions": {
@@ -29,21 +29,18 @@
     "action": "row_vectors_right",
     "word_order": "left_to_right_product",
     "source": [
-      "ribbon.tex:14,42-49",
-      "threestring.tex:422-430,456, lem:A3rep",
-      "threestring.tex:652-659,694-698, eq:Sirrepc"
+      "Paper, Section 3",
+      "Paper, Section 6 item 6.14",
+      "Paper, Section 6 equation 6.51"
     ],
-    "note": "Repository convention v -> v M and rho(ab)=rho(a)rho(b); no transpose. Lower tables prescribe index-2 rotation, not individually named coordinates. In dimension one the two coordinate conventions coincide."
+    "note": "Row vectors act on the right: v maps to v M and rho(ab)=rho(a)rho(b). Ordinary normalization has alpha=1."
   },
   "provenance": {
-    "base_commit": "3068deded4812aed0bf050b5cb13bac785fb0193",
-    "authority": "Current source-based encoding, pending authorial approval; successful audit is not approval.",
-    "change": "Incremental explicit transcription; K/U evaluated from JSON polynomial prescriptions, inverses by bar; no c, quartic or manuscript changes.",
-    "source_hashes": {
-      "threestring.tex": "57a8f96bb73ba0572db41f613dd582bffc4f8d60773bb578b5c09eb085b2c7d5",
-      "threestring-top.tex": "5b6f2ac5eaf0e833cb0e9bd7043f54ea3b1ac6b195f01b51ad48cb373916fcd7",
-      "twostring.tex": "8f6463f6d69b47bf8abbabd30c9add57379a31756e5b38740eb14d6d4abf006f"
-    }
+    "citation": "https://arxiv.org/abs/2406.01348",
+    "description": "Ordinary A(3) representation in the paper and ExceptionalDiagrams coordinates, with alpha=1.",
+    "sources": [
+      "https://arxiv.org/abs/2406.01348"
+    ]
   },
   "matrices": [
     {
@@ -105,7 +102,7 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "threestring.tex:422-430,456, lem:A3rep"
+          "Paper, Section 6 item 6.14"
         ]
       }
     },
@@ -169,7 +166,7 @@
         "origin": "source_prescribed",
         "method": "rotation",
         "source": [
-          "threestring.tex:422-430,456, lem:A3rep"
+          "Paper, Section 6 item 6.14"
         ]
       }
     },
@@ -203,7 +200,7 @@
         "origin": "source_prescribed",
         "method": "polynomial",
         "source": [
-          "threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"
+          "Paper, Section 6 item 6.10; expanded factored Lagrange prescription with H interpreted as H_i"
         ]
       }
     },
@@ -237,7 +234,7 @@
         "origin": "source_prescribed",
         "method": "polynomial",
         "source": [
-          "threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"
+          "Paper, Section 6 item 6.10; expanded factored Lagrange prescription with H interpreted as H_i"
         ]
       }
     },
@@ -250,7 +247,7 @@
         "origin": "source_prescribed",
         "method": "zero",
         "source": [
-          "threestring.tex:513-517, prop:A3bimodules2"
+          "Paper, Section 6 item 6.16"
         ]
       }
     },
@@ -263,7 +260,7 @@
         "origin": "source_prescribed",
         "method": "zero",
         "source": [
-          "threestring.tex:513-517, prop:A3bimodules2"
+          "Paper, Section 6 item 6.16"
         ]
       }
     },
@@ -326,7 +323,7 @@
       "provenance": {
         "origin": "copied",
         "source": [
-          "threestring.tex:652-659,694-698, eq:Sirrepc"
+          "Paper, Section 6 equation 6.51"
         ]
       }
     },
@@ -390,7 +387,7 @@
         "origin": "source_prescribed",
         "method": "rotation",
         "source": [
-          "threestring.tex:652-659,694-698, eq:Sirrepc"
+          "Paper, Section 6 equation 6.51"
         ]
       }
     },
@@ -454,7 +451,7 @@
         "origin": "source_prescribed",
         "method": "bar",
         "source": [
-          "threestring.tex:650-651,694-698; coefficients.tex:342-345, eq:bar"
+          "Paper, Section 6; Paper, Section 4 equation 4.19"
         ]
       }
     },
@@ -518,7 +515,7 @@
         "origin": "source_prescribed",
         "method": "bar",
         "source": [
-          "threestring.tex:650-651,694-698; coefficients.tex:342-345, eq:bar"
+          "Paper, Section 6; Paper, Section 4 equation 4.19"
         ]
       }
     }
@@ -531,9 +528,9 @@
       "target": "H2",
       "operand": "H1",
       "source": [
-        "threestring.tex:422-430,456, lem:A3rep",
-        "threestring.tex:652-659,694-698, eq:Sirrepc",
-        "threestring.tex:248-261,694-698; polynomial/bar commute with J M J"
+        "Paper, Section 6 item 6.14",
+        "Paper, Section 6 equation 6.51",
+        "Paper, Section 6; polynomial/bar commute with J M J"
       ]
     },
     {
@@ -543,9 +540,9 @@
       "target": "K2",
       "operand": "K1",
       "source": [
-        "threestring.tex:422-430,456, lem:A3rep",
-        "threestring.tex:652-659,694-698, eq:Sirrepc",
-        "threestring.tex:248-261,694-698; polynomial/bar commute with J M J"
+        "Paper, Section 6 item 6.14",
+        "Paper, Section 6 equation 6.51",
+        "Paper, Section 6; polynomial/bar commute with J M J"
       ]
     },
     {
@@ -555,9 +552,9 @@
       "target": "U2",
       "operand": "U1",
       "source": [
-        "threestring.tex:422-430,456, lem:A3rep",
-        "threestring.tex:652-659,694-698, eq:Sirrepc",
-        "threestring.tex:248-261,694-698; polynomial/bar commute with J M J"
+        "Paper, Section 6 item 6.14",
+        "Paper, Section 6 equation 6.51",
+        "Paper, Section 6; polynomial/bar commute with J M J"
       ]
     },
     {
@@ -567,9 +564,9 @@
       "target": "S2",
       "operand": "S1",
       "source": [
-        "threestring.tex:422-430,456, lem:A3rep",
-        "threestring.tex:652-659,694-698, eq:Sirrepc",
-        "threestring.tex:248-261,694-698; polynomial/bar commute with J M J"
+        "Paper, Section 6 item 6.14",
+        "Paper, Section 6 equation 6.51",
+        "Paper, Section 6; polynomial/bar commute with J M J"
       ]
     },
     {
@@ -579,9 +576,9 @@
       "target": "Sinv2",
       "operand": "Sinv1",
       "source": [
-        "threestring.tex:422-430,456, lem:A3rep",
-        "threestring.tex:652-659,694-698, eq:Sirrepc",
-        "threestring.tex:248-261,694-698; polynomial/bar commute with J M J"
+        "Paper, Section 6 item 6.14",
+        "Paper, Section 6 equation 6.51",
+        "Paper, Section 6; polynomial/bar commute with J M J"
       ]
     },
     {
@@ -591,7 +588,7 @@
       "target": "Sinv1",
       "operand": "S1",
       "source": [
-        "threestring.tex:650-651,694-698; coefficients.tex:342-345, eq:bar"
+        "Paper, Section 6; Paper, Section 4 equation 4.19"
       ]
     },
     {
@@ -601,13 +598,13 @@
       "target": "Sinv2",
       "operand": "S2",
       "source": [
-        "threestring.tex:650-651,694-698; coefficients.tex:342-345, eq:bar"
+        "Paper, Section 6; Paper, Section 4 equation 4.19"
       ]
     }
   ],
   "comparison": {
-    "status": "independently_checked",
-    "method": "H1 and S1 copied from newly reread ordinary manuscript tables and compared entrywise; no dilute sign pattern is used. All rotation, bar, polynomial, zero, local, braid, diagonal, generic-irreducibility, Bratteli and selected consistency checks pass. The unchanged quartic_full residual is recorded separately.",
-    "current_coefficients": "Imports settled local coefficients including corrected tau, S_I and b_i; no historical coefficient supplies an entry."
+    "status": "package_checked",
+    "method": "Exact agreement with the bundled ExceptionalDiagrams package; verification/macaulay2.json records the package comparison. Algebraic identities are covered in AUDIT_COVERAGE.md.",
+    "current_coefficients": "Exact expressions in p,q with coefficient aliases and normalization prescribed by the algebra registry."
   }
 }

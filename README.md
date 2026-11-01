@@ -1,23 +1,34 @@
 # Exceptional-series R-matrices
 
-Exact JSON matrices, the ExceptionalDiagrams Macaulay2 package, and computational
-audits accompanying Bruce W. Westbury and
-Paul Zinn-Justin, *A uniform trigonometric R-matrix for the exceptional series*
-(arXiv:2406.01348, accepted manuscript). The data, documentation and code are
-licensed under [Creative Commons Attribution 4.0 International
-(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/); see [LICENSE](LICENSE).
+Exact representation matrices and computational tools accompanying Bruce W.
+Westbury and Paul Zinn-Justin,
+[*A uniform trigonometric R-matrix for the exceptional series*](https://arxiv.org/abs/2406.01348).
 
-Start with `data/publication.json` and FORMAT.md. The 542 sparse matrices comprise
-110 ordinary A(3), 330 dilute A(3), 80 dilute A(2), and 22 polynomial spectral
-matrices. Coefficients are exact; indices are zero-based; row vectors act on the
-right. Raw dilute normalization differs from the manuscript-normalized spectral
-files. Scalar aliases, embeddings, basis maps and normalizations are portable JSON.
-The JSON data and C/Python audits do not require Macaulay2 or the manuscript.
+The repository provides three ways to work with the constructions in the paper:
 
-## Macaulay2 package
+- **Portable JSON data:** 542 sparse matrices, with exact coefficients, basis
+  conventions, scalar definitions and diagram embeddings.
+- **ExceptionalDiagrams:** a Macaulay2 package for diagram operations, skein
+  reduction, ordinary and dilute representations, braiding and spectral R-matrices.
+- **Exact verification:** C/FLINT and Python/FLINT programs for algebra relations,
+  unitarity, crossing and the Yang–Baxter equation, together with saved results.
 
-The maintained package is in [macaulay2/](macaulay2/README.md), including all
-auxiliary files and the original tests. From the repository root, in Macaulay2:
+## Using the data
+
+Start with the [data catalogue](data/publication.json) and the
+[format guide](FORMAT.md). The matrices comprise 110 ordinary A(3) generators,
+330 dilute A(3) generators, 80 dilute A(2) diagrams and 22 polynomial spectral
+matrices. Scalars lie in exact rational-function fields. Matrix indices are
+zero-based, and row vectors act on the right.
+
+The format guide explains the normalization factors for raw dilute generators
+and the polynomial normalization of the spectral matrices. A
+[SageMath example](examples/README.md) demonstrates exact import and unitarity.
+
+## Using Macaulay2
+
+With Macaulay2 and its `VectorGraphics` package installed, run this from the
+repository root in Macaulay2:
 
 ```m2
 needsPackage("ExceptionalDiagrams",
@@ -27,73 +38,63 @@ s2 = rep(3,(braid())_2,Dilute=>false);
 assert(s1*s2*s1 == s2*s1*s2);
 ```
 
-The package needs `VectorGraphics`; `Factor` is optional. See its README for
-installation, spectral matrices, normalization choices, and tests. The package
-runs independently of the JSON data and the Python/C software.
-
-To verify exact agreement with the data, and test the package and installation:
+The [package guide](macaulay2/README.md) covers installation, spectral matrices,
+normalizations and tests. To compare the package with all JSON matrices and run
+its package and installation tests:
 
 ```sh
 python3 tools/check_macaulay2_data.py --package-tests --output /tmp/m2-check.json
 ```
 
-This separate check requires Macaulay2 and Python with jsonschema. It performs
-952 matrix comparisons covering all 542 stored matrices, testing both package
-normalizations for raw dilute data. It neither updates nor regenerates data.
-The GitHub Actions Macaulay2 job runs this check independently of the C/Python
-mathematical audits below.
+This command requires Python with `jsonschema` and Macaulay2. It performs 952
+exact matrix comparisons, including both normalizations of the raw dilute data.
+Choose a fresh output filename for each run.
 
-## Reproduce the checks
+## Running the verification suite
 
-Linux/POSIX, Python >=3.10, jsonschema >=3.2, python-flint 0.9.0, a C11 compiler,
-FLINT development headers, GMP and MPFR are required. Sage is optional. The
-original tests used C FLINT 2.8.0 and Python FLINT 3.6.0. Optional legacy helper
-functions in exact_a2.py require SymPy; core structural validation does not.
+Structural validation requires Python >=3.10 and `jsonschema` >=3.2:
 
 ```sh
 python3 tools/validate_publication.py --self-test
-make -C audits/c/a3_relations
-make -C audits/c/a2_spectral
-make -C benchmarks/flint_ybe
-mkdir -p rerun
-audits/c/a3_relations/runner rerun/ordinary_a3
-python3 audits/run_a2_spectral.py --results fresh_results
-benchmarks/flint_ybe/runner benchmarks/flint_ybe/fresh_results
-# The Python report consumes the completed C summary, not C mathematical matrices:
-cp benchmarks/flint_ybe/fresh_results/results.json benchmarks/flint_ybe/results.json
-python3 audits/python/run.py --output rerun/python_ybe
-# Optional:
-timeout -s KILL 60s sage -python examples/import_spectral.py
 ```
 
-Choose fresh output
-directories; runners refuse to overwrite evidence. Each mathematical worker is
-limited to 60 seconds and each batch to 300 seconds. Do not run standalone workers
-without a deadline. `python3 verify_release.py --run-name rerun_all` automates these steps with fresh evidence
-and checks result statuses, rather than relying solely on runner exit codes.
+For the C/Python mathematical suite, install `python-flint==0.9.0`, a C11
+compiler, FLINT development headers, GMP and MPFR, then run:
 
-See CLEAN_CHECKOUT_REPORT.md for this candidate's actual test results,
-AUDIT_COVERAGE.md for scope/limitations, DEPENDENCY_AUDIT.md for dependency chains,
-and PUBLICATION_INVENTORY.md for the complete proposed inventory.
-PUBLICATION_MANIFEST.json is the explicit copy whitelist, with source/candidate
-hashes; EXCLUDED_FILES.json lists every excluded tracked research file and reason.
-DATASET_PROVENANCE.md explains the initial curation and subsequent changes.
-PUBLICATION_DECISIONS.md records the licence choice and remaining release
-decisions, including citation metadata.
+```sh
+python3 verify_release.py --run-name checks
+```
 
-The recorded verification was stronger than a normal rerun: bubblewrap mounted
-only this candidate at `/tmp/release`, hid the research Dropbox tree, disabled
-networking, and supplied `/dev`; PWD/OLDPWD pointed inside the candidate. Python
-and FLINT/Sage installations remained available read-only. A normal invocation
-of verify_release.py does not claim this namespace isolation; its report states
-whether PUBLIC_ISOLATED was provided by the external namespace supervisor.
+The runner builds the C programs, checks ordinary A(3) relations, runs both A(2)
+spectral implementations, and checks the generic Yang–Baxter equation in C and
+Python. It also runs the SageMath example when SageMath is available. Use a fresh
+run name; each worker has a 60-second limit and each mathematical batch a
+300-second limit. The suite runs on Linux/POSIX and saves JSON results, logs and
+a Markdown summary. Macaulay2 verification is a separate command, shown above.
 
-## Licence and attribution
+See the [dependency guide](DEPENDENCY_AUDIT.md) for component requirements and
+the [verification overview](AUDIT_COVERAGE.md) for the mathematical scope.
+[Recorded results](CLEAN_CHECKOUT_REPORT.md) summarize the included evidence.
+The [GitHub Actions workflow](.github/workflows/macaulay2.yml) runs structural
+validation, package tests and exact package/data comparisons.
 
-CC BY 4.0 applies to the repository's mathematical data, documentation and
-software, including ExceptionalDiagrams and the C/Python audit code. When sharing
-or adapting this material, give appropriate credit, link to the licence and
-indicate any changes, as specified in [LICENSE](LICENSE). Credit Bruce W. Westbury
-and Paul Zinn-Justin for the companion repository, and retain Paul Zinn-Justin's
-authorship credit for ExceptionalDiagrams. See [CITATION.cff](CITATION.cff) for the
-accompanying paper's citation. External dependencies retain their own licences.
+## Repository guide
+
+- [Data conventions and verification](DATASET_PROVENANCE.md)
+- [File and directory guide](PUBLICATION_INVENTORY.md)
+- [Maintenance and contributions](PUBLICATION_DECISIONS.md)
+- [Ordinary A(3) relations](audits/c/a3_relations/REPORT.md)
+- [A(2) unitarity and crossing](audits/A2_SPECTRAL_COMPARISON.md)
+- [Generic Yang–Baxter verification](audits/python/REPORT.md)
+
+## Citation and licence
+
+Please cite the accompanying paper when using these data or computations.
+[CITATION.cff](CITATION.cff) contains the citation details.
+
+The data, documentation and software are licensed under
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).
+Give appropriate credit, link to the licence and indicate changes when sharing
+or adapting the material. Credit Bruce W. Westbury and Paul Zinn-Justin for the
+companion repository, and Paul Zinn-Justin for ExceptionalDiagrams.
+External dependencies retain their own licences.

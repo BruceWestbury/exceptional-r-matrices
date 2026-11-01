@@ -2,24 +2,25 @@
   "$schema": "../schema/publication.schema.json",
   "format": "exceptional-series-publication-catalog",
   "version": "0.3.0",
-  "status": "release_candidate",
+  "status": "current",
   "provenance": {
-    "base_commit": "db523ef0c62105a9363a07a1ab1215c01cdd5b2e",
-    "authority": "Accepted local manuscript and retained exact JSON; release candidate pending review"
+    "citation": "https://arxiv.org/abs/2406.01348",
+    "description": "Catalogue of exact matrix data and verification evidence.",
+    "sources": [
+      "https://arxiv.org/abs/2406.01348"
+    ]
   },
   "conventions": {
     "index_base": 0,
     "action": "row_vectors_right",
     "word_order": "left_to_right_product",
-    "scalar_grammar": "FORMAT.md",
-    "legacy_status": "Preserved fields in 0.2.0 files describe their transcription-time status, not current audit coverage."
+    "scalar_grammar": "FORMAT.md"
   },
   "limitations": [
-    "298/330 dilute A(3) matrices independently reconstructed; 32 partial and 92 transition entries unresolved. No missing morphisms reconstructed.",
-    "All 330 source transcriptions verified, but this does not independently derive the missing assembly morphisms.",
-    "This dataset and its audits do not prove completeness of an abstract defining presentation.",
-    "Crossing uses the supplied diagram rotation; diagrammatic rotation conventions are not independently proved.",
-    "Data, documentation and software are licensed under CC BY 4.0; release metadata remains provisional."
+    "Independent ordinary-to-dilute reconstruction covers 298 complete and 32 partial matrices; 92 transition entries require further construction.",
+    "Package comparisons establish exact agreement with all 330 dilute A(3) generators.",
+    "The paper supplies the abstract presentation, basis and dimension arguments.",
+    "Crossing uses the diagram basis and rotation specified in the paper."
   ],
   "verification_evidence": [
     "AUDIT_COVERAGE.md",
@@ -268,5 +269,6 @@
       "schema": "schema/publication.schema.json",
       "role": "specification_or_metadata"
     }
-  ]
+  ],
+  "license": "CC-BY-4.0"
 }

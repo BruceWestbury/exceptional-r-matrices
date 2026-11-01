@@ -1,293 +1,293 @@
 {"phase":"loaded","representation":"I","seconds":0.008347}
 {"phase":"relation_started","id":"HK1"}
-{"representation":"I","id":"HK1","status":"PASS","seconds":0.000095,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"representation":"I","id":"HK1","status":"PASS","seconds":0.000095,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6 equation 6.27"],"residuals":[]}
 {"phase":"relation_started","id":"KH1"}
-{"representation":"I","id":"KH1","status":"PASS","seconds":0.000064,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"representation":"I","id":"KH1","status":"PASS","seconds":0.000064,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6 equation 6.27"],"residuals":[]}
 {"phase":"relation_started","id":"HU1"}
-{"representation":"I","id":"HU1","status":"PASS","seconds":0.000035,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"representation":"I","id":"HU1","status":"PASS","seconds":0.000035,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6 equation 6.27"],"residuals":[]}
 {"phase":"relation_started","id":"UH1"}
-{"representation":"I","id":"UH1","status":"PASS","seconds":0.000033,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"representation":"I","id":"UH1","status":"PASS","seconds":0.000033,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6 equation 6.27"],"residuals":[]}
 {"phase":"relation_started","id":"KK1"}
-{"representation":"I","id":"KK1","status":"PASS","seconds":0.000093,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"representation":"I","id":"KK1","status":"PASS","seconds":0.000093,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6 equation 6.27"],"residuals":[]}
 {"phase":"relation_started","id":"KU1"}
-{"representation":"I","id":"KU1","status":"PASS","seconds":0.000084,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"representation":"I","id":"KU1","status":"PASS","seconds":0.000084,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6 equation 6.27"],"residuals":[]}
 {"phase":"relation_started","id":"UK1"}
-{"representation":"I","id":"UK1","status":"PASS","seconds":0.000054,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"representation":"I","id":"UK1","status":"PASS","seconds":0.000054,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6 equation 6.27"],"residuals":[]}
 {"phase":"relation_started","id":"UU1"}
-{"representation":"I","id":"UU1","status":"PASS","seconds":0.000034,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"representation":"I","id":"UU1","status":"PASS","seconds":0.000034,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6 equation 6.27"],"residuals":[]}
 {"phase":"relation_started","id":"cubic1"}
-{"representation":"I","id":"cubic1","status":"PASS","seconds":0.001517,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:214-217, eq:A3rels; appendix.tex:88-90; twostring.tex:607-613, eq:Hcubed"],"residuals":[]}
+{"representation":"I","id":"cubic1","status":"PASS","seconds":0.001517,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6 equation 6.27; Paper, Appendix; Paper, Section 5 equation 5.34"],"residuals":[]}
 {"phase":"relation_started","id":"inverse_left1"}
-{"representation":"I","id":"inverse_left1","status":"PASS","seconds":0.000080,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"],"residuals":[]}
+{"representation":"I","id":"inverse_left1","status":"PASS","seconds":0.000080,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6; Paper, Section 5"],"residuals":[]}
 {"phase":"relation_started","id":"inverse_right1"}
-{"representation":"I","id":"inverse_right1","status":"PASS","seconds":0.000064,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"],"residuals":[]}
+{"representation":"I","id":"inverse_right1","status":"PASS","seconds":0.000064,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6; Paper, Section 5"],"residuals":[]}
 {"phase":"relation_started","id":"S_polynomial1"}
-{"representation":"I","id":"S_polynomial1","status":"PASS","seconds":0.001463,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"],"residuals":[]}
+{"representation":"I","id":"S_polynomial1","status":"PASS","seconds":0.001463,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6; Paper, Section 5"],"residuals":[]}
 {"phase":"relation_started","id":"Sinv_polynomial1"}
-{"representation":"I","id":"Sinv_polynomial1","status":"PASS","seconds":0.000910,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"],"residuals":[]}
+{"representation":"I","id":"Sinv_polynomial1","status":"PASS","seconds":0.000910,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6; Paper, Section 5"],"residuals":[]}
 {"phase":"relation_started","id":"HK2"}
-{"representation":"I","id":"HK2","status":"PASS","seconds":0.000107,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"representation":"I","id":"HK2","status":"PASS","seconds":0.000107,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6 equation 6.27"],"residuals":[]}
 {"phase":"relation_started","id":"KH2"}
-{"representation":"I","id":"KH2","status":"PASS","seconds":0.000121,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"representation":"I","id":"KH2","status":"PASS","seconds":0.000121,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6 equation 6.27"],"residuals":[]}
 {"phase":"relation_started","id":"HU2"}
-{"representation":"I","id":"HU2","status":"PASS","seconds":0.000062,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"representation":"I","id":"HU2","status":"PASS","seconds":0.000062,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6 equation 6.27"],"residuals":[]}
 {"phase":"relation_started","id":"UH2"}
-{"representation":"I","id":"UH2","status":"PASS","seconds":0.000043,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"representation":"I","id":"UH2","status":"PASS","seconds":0.000043,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6 equation 6.27"],"residuals":[]}
 {"phase":"relation_started","id":"KK2"}
-{"representation":"I","id":"KK2","status":"PASS","seconds":0.000091,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"representation":"I","id":"KK2","status":"PASS","seconds":0.000091,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6 equation 6.27"],"residuals":[]}
 {"phase":"relation_started","id":"KU2"}
-{"representation":"I","id":"KU2","status":"PASS","seconds":0.000040,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"representation":"I","id":"KU2","status":"PASS","seconds":0.000040,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6 equation 6.27"],"residuals":[]}
 {"phase":"relation_started","id":"UK2"}
-{"representation":"I","id":"UK2","status":"PASS","seconds":0.000082,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"representation":"I","id":"UK2","status":"PASS","seconds":0.000082,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6 equation 6.27"],"residuals":[]}
 {"phase":"relation_started","id":"UU2"}
-{"representation":"I","id":"UU2","status":"PASS","seconds":0.000051,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:192-200, eq:A3rels"],"residuals":[]}
+{"representation":"I","id":"UU2","status":"PASS","seconds":0.000051,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6 equation 6.27"],"residuals":[]}
 {"phase":"relation_started","id":"cubic2"}
-{"representation":"I","id":"cubic2","status":"PASS","seconds":0.000561,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:214-217, eq:A3rels; appendix.tex:88-90; twostring.tex:607-613, eq:Hcubed"],"residuals":[]}
+{"representation":"I","id":"cubic2","status":"PASS","seconds":0.000561,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6 equation 6.27; Paper, Appendix; Paper, Section 5 equation 5.34"],"residuals":[]}
 {"phase":"relation_started","id":"inverse_left2"}
-{"representation":"I","id":"inverse_left2","status":"PASS","seconds":0.000087,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"],"residuals":[]}
+{"representation":"I","id":"inverse_left2","status":"PASS","seconds":0.000087,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6; Paper, Section 5"],"residuals":[]}
 {"phase":"relation_started","id":"inverse_right2"}
-{"representation":"I","id":"inverse_right2","status":"PASS","seconds":0.000068,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"],"residuals":[]}
+{"representation":"I","id":"inverse_right2","status":"PASS","seconds":0.000068,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6; Paper, Section 5"],"residuals":[]}
 {"phase":"relation_started","id":"S_polynomial2"}
-{"representation":"I","id":"S_polynomial2","status":"PASS","seconds":0.001104,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"],"residuals":[]}
+{"representation":"I","id":"S_polynomial2","status":"PASS","seconds":0.001104,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6; Paper, Section 5"],"residuals":[]}
 {"phase":"relation_started","id":"Sinv_polynomial2"}
-{"representation":"I","id":"Sinv_polynomial2","status":"PASS","seconds":0.000963,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"],"residuals":[]}
+{"representation":"I","id":"Sinv_polynomial2","status":"PASS","seconds":0.000963,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 6; Paper, Section 5"],"residuals":[]}
 {"phase":"relation_started","id":"local1_literal_U_U"}
-{"representation":"I","id":"local1_literal_U_U","status":"PASS","seconds":0.000078,"peak_rss_kib":7724,"checked_entries":1,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"representation":"I","id":"local1_literal_U_U","status":"PASS","seconds":0.000078,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5 with S removed as directed at 590-591","Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_literal_U_K"}
-{"representation":"I","id":"local1_literal_U_K","status":"PASS","seconds":0.000042,"peak_rss_kib":7724,"checked_entries":1,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"representation":"I","id":"local1_literal_U_K","status":"PASS","seconds":0.000042,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5 with S removed as directed at 590-591","Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_literal_U_H"}
-{"representation":"I","id":"local1_literal_U_H","status":"PASS","seconds":0.000034,"peak_rss_kib":7724,"checked_entries":1,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"representation":"I","id":"local1_literal_U_H","status":"PASS","seconds":0.000034,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5 with S removed as directed at 590-591","Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_literal_K_U"}
-{"representation":"I","id":"local1_literal_K_U","status":"PASS","seconds":0.000076,"peak_rss_kib":7724,"checked_entries":1,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"representation":"I","id":"local1_literal_K_U","status":"PASS","seconds":0.000076,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5 with S removed as directed at 590-591","Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_literal_K_K"}
-{"representation":"I","id":"local1_literal_K_K","status":"PASS","seconds":0.000085,"peak_rss_kib":7724,"checked_entries":1,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"representation":"I","id":"local1_literal_K_K","status":"PASS","seconds":0.000085,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5 with S removed as directed at 590-591","Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_literal_K_H"}
-{"representation":"I","id":"local1_literal_K_H","status":"PASS","seconds":0.000101,"peak_rss_kib":7724,"checked_entries":1,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"representation":"I","id":"local1_literal_K_H","status":"PASS","seconds":0.000101,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5 with S removed as directed at 590-591","Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_literal_H_U"}
-{"representation":"I","id":"local1_literal_H_U","status":"PASS","seconds":0.000102,"peak_rss_kib":7724,"checked_entries":1,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"representation":"I","id":"local1_literal_H_U","status":"PASS","seconds":0.000102,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5 with S removed as directed at 590-591","Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_literal_H_K"}
-{"representation":"I","id":"local1_literal_H_K","status":"PASS","seconds":0.000142,"peak_rss_kib":7724,"checked_entries":1,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"representation":"I","id":"local1_literal_H_K","status":"PASS","seconds":0.000142,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5 with S removed as directed at 590-591","Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_literal_H_H"}
-{"representation":"I","id":"local1_literal_H_H","status":"PASS","seconds":0.000082,"peak_rss_kib":7724,"checked_entries":1,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"representation":"I","id":"local1_literal_H_H","status":"PASS","seconds":0.000082,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5 with S removed as directed at 590-591","Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_one_one"}
-{"representation":"I","id":"local1_completed_one_one","status":"PASS","seconds":0.000065,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_one_one","status":"PASS","seconds":0.000065,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_one_H"}
-{"representation":"I","id":"local1_completed_one_H","status":"PASS","seconds":0.000061,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_one_H","status":"PASS","seconds":0.000061,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_one_H2"}
-{"representation":"I","id":"local1_completed_one_H2","status":"PASS","seconds":0.000093,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_one_H2","status":"PASS","seconds":0.000093,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_one_K"}
-{"representation":"I","id":"local1_completed_one_K","status":"PASS","seconds":0.000080,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_one_K","status":"PASS","seconds":0.000080,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_one_U"}
-{"representation":"I","id":"local1_completed_one_U","status":"PASS","seconds":0.000065,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_one_U","status":"PASS","seconds":0.000065,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_H_one"}
-{"representation":"I","id":"local1_completed_H_one","status":"PASS","seconds":0.000094,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_H_one","status":"PASS","seconds":0.000094,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_H_H"}
-{"representation":"I","id":"local1_completed_H_H","status":"PASS","seconds":0.000093,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_H_H","status":"PASS","seconds":0.000093,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_H_H2"}
-{"representation":"I","id":"local1_completed_H_H2","status":"PASS","seconds":0.000095,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_H_H2","status":"PASS","seconds":0.000095,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_H_K"}
-{"representation":"I","id":"local1_completed_H_K","status":"PASS","seconds":0.000105,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_H_K","status":"PASS","seconds":0.000105,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_H_U"}
-{"representation":"I","id":"local1_completed_H_U","status":"PASS","seconds":0.000046,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_H_U","status":"PASS","seconds":0.000046,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_H2_one"}
-{"representation":"I","id":"local1_completed_H2_one","status":"PASS","seconds":0.000072,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_H2_one","status":"PASS","seconds":0.000072,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_H2_H"}
-{"representation":"I","id":"local1_completed_H2_H","status":"PASS","seconds":0.000083,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_H2_H","status":"PASS","seconds":0.000083,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_H2_H2"}
-{"representation":"I","id":"local1_completed_H2_H2","status":"PASS","seconds":0.000213,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_H2_H2","status":"PASS","seconds":0.000213,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_H2_K"}
-{"representation":"I","id":"local1_completed_H2_K","status":"PASS","seconds":0.000628,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_H2_K","status":"PASS","seconds":0.000628,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_H2_U"}
-{"representation":"I","id":"local1_completed_H2_U","status":"PASS","seconds":0.000105,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_H2_U","status":"PASS","seconds":0.000105,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_K_one"}
-{"representation":"I","id":"local1_completed_K_one","status":"PASS","seconds":0.000089,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_K_one","status":"PASS","seconds":0.000089,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_K_H"}
-{"representation":"I","id":"local1_completed_K_H","status":"PASS","seconds":0.000102,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_K_H","status":"PASS","seconds":0.000102,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_K_H2"}
-{"representation":"I","id":"local1_completed_K_H2","status":"PASS","seconds":0.000148,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_K_H2","status":"PASS","seconds":0.000148,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_K_K"}
-{"representation":"I","id":"local1_completed_K_K","status":"PASS","seconds":0.000077,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_K_K","status":"PASS","seconds":0.000077,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_K_U"}
-{"representation":"I","id":"local1_completed_K_U","status":"PASS","seconds":0.000052,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_K_U","status":"PASS","seconds":0.000052,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_U_one"}
-{"representation":"I","id":"local1_completed_U_one","status":"PASS","seconds":0.000085,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_U_one","status":"PASS","seconds":0.000085,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_U_H"}
-{"representation":"I","id":"local1_completed_U_H","status":"PASS","seconds":0.000065,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_U_H","status":"PASS","seconds":0.000065,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_U_H2"}
-{"representation":"I","id":"local1_completed_U_H2","status":"PASS","seconds":0.000087,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_U_H2","status":"PASS","seconds":0.000087,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_U_K"}
-{"representation":"I","id":"local1_completed_U_K","status":"PASS","seconds":0.000070,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_U_K","status":"PASS","seconds":0.000070,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_completed_U_U"}
-{"representation":"I","id":"local1_completed_U_U","status":"PASS","seconds":0.000062,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local1_completed_U_U","status":"PASS","seconds":0.000062,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_square_square"}
-{"representation":"I","id":"local1_square_square","status":"PASS","seconds":0.000758,"peak_rss_kib":7724,"checked_entries":1,"source":["appendix.tex:62-65, eq:squaresquare","twostring.tex:585-623, eq:Hcubed","diagrams/code.m2:24-32,47-50","pictures.tex:482-506; twostring.tex:170-175, fig:elements"],"residuals":[]}
+{"representation":"I","id":"local1_square_square","status":"PASS","seconds":0.000758,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Appendix equation A.1","Paper, Section 5 equation 5.34","the square-square diagram identity","Paper, Section 5; Paper, Section 5 item 1"],"residuals":[]}
 {"phase":"relation_started","id":"local1_cubic"}
-{"representation":"I","id":"local1_cubic","status":"PASS","seconds":0.000522,"peak_rss_kib":7724,"checked_entries":1,"source":["twostring.tex:607-613, eq:Hcubed"],"residuals":[]}
+{"representation":"I","id":"local1_cubic","status":"PASS","seconds":0.000522,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5 equation 5.34"],"residuals":[]}
 {"phase":"relation_started","id":"local1_reduce_H3"}
-{"representation":"I","id":"local1_reduce_H3","status":"PASS","seconds":0.000598,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, cubic expansion"],"residuals":[]}
+{"representation":"I","id":"local1_reduce_H3","status":"PASS","seconds":0.000598,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_reduce_H4"}
-{"representation":"I","id":"local1_reduce_H4","status":"PASS","seconds":0.001279,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, cubic multiplied by H"],"residuals":[]}
+{"representation":"I","id":"local1_reduce_H4","status":"PASS","seconds":0.001279,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_skein"}
-{"representation":"I","id":"local1_skein","status":"PASS","seconds":0.000291,"peak_rss_kib":7724,"checked_entries":1,"source":["twostring.tex:78-96,372-383"],"residuals":[]}
+{"representation":"I","id":"local1_skein","status":"PASS","seconds":0.000291,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5"],"residuals":[]}
 {"phase":"relation_started","id":"local1_inverse_right"}
-{"representation":"I","id":"local1_inverse_right","status":"PASS","seconds":0.000109,"peak_rss_kib":7724,"checked_entries":1,"source":["twostring.tex:224-231"],"residuals":[]}
+{"representation":"I","id":"local1_inverse_right","status":"PASS","seconds":0.000109,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5"],"residuals":[]}
 {"phase":"relation_started","id":"local1_inverse_left"}
-{"representation":"I","id":"local1_inverse_left","status":"PASS","seconds":0.000058,"peak_rss_kib":7724,"checked_entries":1,"source":["twostring.tex:224-231"],"residuals":[]}
+{"representation":"I","id":"local1_inverse_left","status":"PASS","seconds":0.000058,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5"],"residuals":[]}
 {"phase":"relation_started","id":"local1_S_polynomial"}
-{"representation":"I","id":"local1_S_polynomial","status":"PASS","seconds":0.001040,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"],"residuals":[]}
+{"representation":"I","id":"local1_S_polynomial","status":"PASS","seconds":0.001040,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5","Paper, Section 6"],"residuals":[]}
 {"phase":"relation_started","id":"local1_Sinv_polynomial"}
-{"representation":"I","id":"local1_Sinv_polynomial","status":"PASS","seconds":0.001249,"peak_rss_kib":7724,"checked_entries":1,"source":["threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"],"residuals":[]}
+{"representation":"I","id":"local1_Sinv_polynomial","status":"PASS","seconds":0.001249,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5 bar counterpart"],"residuals":[]}
 {"phase":"relation_started","id":"local1_jacobi_commute_S"}
-{"representation":"I","id":"local1_jacobi_commute_S","status":"PASS","seconds":0.000072,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 7"],"residuals":[]}
+{"representation":"I","id":"local1_jacobi_commute_S","status":"PASS","seconds":0.000072,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_jacobi_commute_Sinv"}
-{"representation":"I","id":"local1_jacobi_commute_Sinv","status":"PASS","seconds":0.000064,"peak_rss_kib":7724,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 7"],"residuals":[]}
+{"representation":"I","id":"local1_jacobi_commute_Sinv","status":"PASS","seconds":0.000064,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local1_jacobi_S"}
-{"representation":"I","id":"local1_jacobi_S","status":"PASS","seconds":0.000200,"peak_rss_kib":7724,"checked_entries":1,"source":["twostring.tex:422-431"],"residuals":[]}
+{"representation":"I","id":"local1_jacobi_S","status":"PASS","seconds":0.000200,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5"],"residuals":[]}
 {"phase":"relation_started","id":"local1_jacobi_Sinv"}
-{"representation":"I","id":"local1_jacobi_Sinv","status":"PASS","seconds":0.000200,"peak_rss_kib":7724,"checked_entries":1,"source":["twostring.tex:473-490"],"residuals":[]}
+{"representation":"I","id":"local1_jacobi_Sinv","status":"PASS","seconds":0.000200,"peak_rss_kib":7724,"checked_entries":1,"source":["Paper, Section 5"],"residuals":[]}
 {"phase":"relation_started","id":"local1_K_from_H"}
-{"representation":"I","id":"local1_K_from_H","status":"PASS","seconds":0.006750,"peak_rss_kib":7852,"checked_entries":1,"source":["threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"],"residuals":[]}
+{"representation":"I","id":"local1_K_from_H","status":"PASS","seconds":0.006750,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 6 item 6.10; expanded factored Lagrange prescription with H interpreted as H_i"],"residuals":[]}
 {"phase":"relation_started","id":"local1_U_from_H"}
-{"representation":"I","id":"local1_U_from_H","status":"PASS","seconds":0.005962,"peak_rss_kib":7852,"checked_entries":1,"source":["threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"],"residuals":[]}
+{"representation":"I","id":"local1_U_from_H","status":"PASS","seconds":0.005962,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 6 item 6.10; expanded factored Lagrange prescription with H interpreted as H_i"],"residuals":[]}
 {"phase":"relation_started","id":"local2_literal_U_U"}
-{"representation":"I","id":"local2_literal_U_U","status":"PASS","seconds":0.000030,"peak_rss_kib":7852,"checked_entries":1,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"representation":"I","id":"local2_literal_U_U","status":"PASS","seconds":0.000030,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5 with S removed as directed at 590-591","Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_literal_U_K"}
-{"representation":"I","id":"local2_literal_U_K","status":"PASS","seconds":0.000032,"peak_rss_kib":7852,"checked_entries":1,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"representation":"I","id":"local2_literal_U_K","status":"PASS","seconds":0.000032,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5 with S removed as directed at 590-591","Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_literal_U_H"}
-{"representation":"I","id":"local2_literal_U_H","status":"PASS","seconds":0.000028,"peak_rss_kib":7852,"checked_entries":1,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"representation":"I","id":"local2_literal_U_H","status":"PASS","seconds":0.000028,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5 with S removed as directed at 590-591","Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_literal_K_U"}
-{"representation":"I","id":"local2_literal_K_U","status":"PASS","seconds":0.000026,"peak_rss_kib":7852,"checked_entries":1,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"representation":"I","id":"local2_literal_K_U","status":"PASS","seconds":0.000026,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5 with S removed as directed at 590-591","Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_literal_K_K"}
-{"representation":"I","id":"local2_literal_K_K","status":"PASS","seconds":0.000051,"peak_rss_kib":7852,"checked_entries":1,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"representation":"I","id":"local2_literal_K_K","status":"PASS","seconds":0.000051,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5 with S removed as directed at 590-591","Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_literal_K_H"}
-{"representation":"I","id":"local2_literal_K_H","status":"PASS","seconds":0.000050,"peak_rss_kib":7852,"checked_entries":1,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"representation":"I","id":"local2_literal_K_H","status":"PASS","seconds":0.000050,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5 with S removed as directed at 590-591","Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_literal_H_U"}
-{"representation":"I","id":"local2_literal_H_U","status":"PASS","seconds":0.000033,"peak_rss_kib":7852,"checked_entries":1,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"representation":"I","id":"local2_literal_H_U","status":"PASS","seconds":0.000033,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5 with S removed as directed at 590-591","Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_literal_H_K"}
-{"representation":"I","id":"local2_literal_H_K","status":"PASS","seconds":0.000052,"peak_rss_kib":7852,"checked_entries":1,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"representation":"I","id":"local2_literal_H_K","status":"PASS","seconds":0.000052,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5 with S removed as directed at 590-591","Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_literal_H_H"}
-{"representation":"I","id":"local2_literal_H_H","status":"PASS","seconds":0.000080,"peak_rss_kib":7852,"checked_entries":1,"source":["twostring.tex:313-323 with S removed as directed at 590-591","A2_SPECIFICATION.md: section 4, literal source specification"],"residuals":[]}
+{"representation":"I","id":"local2_literal_H_H","status":"PASS","seconds":0.000080,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5 with S removed as directed at 590-591","Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_one_one"}
-{"representation":"I","id":"local2_completed_one_one","status":"PASS","seconds":0.000044,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_one_one","status":"PASS","seconds":0.000044,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_one_H"}
-{"representation":"I","id":"local2_completed_one_H","status":"PASS","seconds":0.000084,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_one_H","status":"PASS","seconds":0.000084,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_one_H2"}
-{"representation":"I","id":"local2_completed_one_H2","status":"PASS","seconds":0.000072,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_one_H2","status":"PASS","seconds":0.000072,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_one_K"}
-{"representation":"I","id":"local2_completed_one_K","status":"PASS","seconds":0.000090,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_one_K","status":"PASS","seconds":0.000090,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_one_U"}
-{"representation":"I","id":"local2_completed_one_U","status":"PASS","seconds":0.000061,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_one_U","status":"PASS","seconds":0.000061,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_H_one"}
-{"representation":"I","id":"local2_completed_H_one","status":"PASS","seconds":0.000078,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_H_one","status":"PASS","seconds":0.000078,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_H_H"}
-{"representation":"I","id":"local2_completed_H_H","status":"PASS","seconds":0.000081,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_H_H","status":"PASS","seconds":0.000081,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_H_H2"}
-{"representation":"I","id":"local2_completed_H_H2","status":"PASS","seconds":0.000112,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_H_H2","status":"PASS","seconds":0.000112,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_H_K"}
-{"representation":"I","id":"local2_completed_H_K","status":"PASS","seconds":0.000094,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_H_K","status":"PASS","seconds":0.000094,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_H_U"}
-{"representation":"I","id":"local2_completed_H_U","status":"PASS","seconds":0.000070,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_H_U","status":"PASS","seconds":0.000070,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_H2_one"}
-{"representation":"I","id":"local2_completed_H2_one","status":"PASS","seconds":0.000077,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_H2_one","status":"PASS","seconds":0.000077,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_H2_H"}
-{"representation":"I","id":"local2_completed_H2_H","status":"PASS","seconds":0.000084,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_H2_H","status":"PASS","seconds":0.000084,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_H2_H2"}
-{"representation":"I","id":"local2_completed_H2_H2","status":"PASS","seconds":0.000147,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_H2_H2","status":"PASS","seconds":0.000147,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_H2_K"}
-{"representation":"I","id":"local2_completed_H2_K","status":"PASS","seconds":0.000126,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_H2_K","status":"PASS","seconds":0.000126,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_H2_U"}
-{"representation":"I","id":"local2_completed_H2_U","status":"PASS","seconds":0.000062,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_H2_U","status":"PASS","seconds":0.000062,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_K_one"}
-{"representation":"I","id":"local2_completed_K_one","status":"PASS","seconds":0.000110,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_K_one","status":"PASS","seconds":0.000110,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_K_H"}
-{"representation":"I","id":"local2_completed_K_H","status":"PASS","seconds":0.000099,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_K_H","status":"PASS","seconds":0.000099,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_K_H2"}
-{"representation":"I","id":"local2_completed_K_H2","status":"PASS","seconds":0.000144,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_K_H2","status":"PASS","seconds":0.000144,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_K_K"}
-{"representation":"I","id":"local2_completed_K_K","status":"PASS","seconds":0.000109,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_K_K","status":"PASS","seconds":0.000109,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_K_U"}
-{"representation":"I","id":"local2_completed_K_U","status":"PASS","seconds":0.000080,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_K_U","status":"PASS","seconds":0.000080,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_U_one"}
-{"representation":"I","id":"local2_completed_U_one","status":"PASS","seconds":0.000082,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_U_one","status":"PASS","seconds":0.000082,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_U_H"}
-{"representation":"I","id":"local2_completed_U_H","status":"PASS","seconds":0.000074,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_U_H","status":"PASS","seconds":0.000074,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_U_H2"}
-{"representation":"I","id":"local2_completed_U_H2","status":"PASS","seconds":0.000103,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_U_H2","status":"PASS","seconds":0.000103,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_U_K"}
-{"representation":"I","id":"local2_completed_U_K","status":"PASS","seconds":0.000059,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_U_K","status":"PASS","seconds":0.000059,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_completed_U_U"}
-{"representation":"I","id":"local2_completed_U_U","status":"PASS","seconds":0.000049,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, completed by unit and associativity, not a printed 5x5 source array"],"residuals":[]}
+{"representation":"I","id":"local2_completed_U_U","status":"PASS","seconds":0.000049,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_square_square"}
-{"representation":"I","id":"local2_square_square","status":"PASS","seconds":0.000454,"peak_rss_kib":7852,"checked_entries":1,"source":["appendix.tex:62-65, eq:squaresquare","twostring.tex:585-623, eq:Hcubed","diagrams/code.m2:24-32,47-50","pictures.tex:482-506; twostring.tex:170-175, fig:elements"],"residuals":[]}
+{"representation":"I","id":"local2_square_square","status":"PASS","seconds":0.000454,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Appendix equation A.1","Paper, Section 5 equation 5.34","the square-square diagram identity","Paper, Section 5; Paper, Section 5 item 1"],"residuals":[]}
 {"phase":"relation_started","id":"local2_cubic"}
-{"representation":"I","id":"local2_cubic","status":"PASS","seconds":0.000439,"peak_rss_kib":7852,"checked_entries":1,"source":["twostring.tex:607-613, eq:Hcubed"],"residuals":[]}
+{"representation":"I","id":"local2_cubic","status":"PASS","seconds":0.000439,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5 equation 5.34"],"residuals":[]}
 {"phase":"relation_started","id":"local2_reduce_H3"}
-{"representation":"I","id":"local2_reduce_H3","status":"PASS","seconds":0.000460,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, cubic expansion"],"residuals":[]}
+{"representation":"I","id":"local2_reduce_H3","status":"PASS","seconds":0.000460,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_reduce_H4"}
-{"representation":"I","id":"local2_reduce_H4","status":"PASS","seconds":0.001194,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 4, cubic multiplied by H"],"residuals":[]}
+{"representation":"I","id":"local2_reduce_H4","status":"PASS","seconds":0.001194,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_skein"}
-{"representation":"I","id":"local2_skein","status":"PASS","seconds":0.000197,"peak_rss_kib":7852,"checked_entries":1,"source":["twostring.tex:78-96,372-383"],"residuals":[]}
+{"representation":"I","id":"local2_skein","status":"PASS","seconds":0.000197,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5"],"residuals":[]}
 {"phase":"relation_started","id":"local2_inverse_right"}
-{"representation":"I","id":"local2_inverse_right","status":"PASS","seconds":0.000047,"peak_rss_kib":7852,"checked_entries":1,"source":["twostring.tex:224-231"],"residuals":[]}
+{"representation":"I","id":"local2_inverse_right","status":"PASS","seconds":0.000047,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5"],"residuals":[]}
 {"phase":"relation_started","id":"local2_inverse_left"}
-{"representation":"I","id":"local2_inverse_left","status":"PASS","seconds":0.000044,"peak_rss_kib":7852,"checked_entries":1,"source":["twostring.tex:224-231"],"residuals":[]}
+{"representation":"I","id":"local2_inverse_left","status":"PASS","seconds":0.000044,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5"],"residuals":[]}
 {"phase":"relation_started","id":"local2_S_polynomial"}
-{"representation":"I","id":"local2_S_polynomial","status":"PASS","seconds":0.001003,"peak_rss_kib":7852,"checked_entries":1,"source":["threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"],"residuals":[]}
+{"representation":"I","id":"local2_S_polynomial","status":"PASS","seconds":0.001003,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5","Paper, Section 6"],"residuals":[]}
 {"phase":"relation_started","id":"local2_Sinv_polynomial"}
-{"representation":"I","id":"local2_Sinv_polynomial","status":"PASS","seconds":0.000952,"peak_rss_kib":7852,"checked_entries":1,"source":["threestring.tex:647-655, eq:HtoSA3; twostring.tex:126-158, bar counterpart for inverse"],"residuals":[]}
+{"representation":"I","id":"local2_Sinv_polynomial","status":"PASS","seconds":0.000952,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5 bar counterpart"],"residuals":[]}
 {"phase":"relation_started","id":"local2_jacobi_commute_S"}
-{"representation":"I","id":"local2_jacobi_commute_S","status":"PASS","seconds":0.000103,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 7"],"residuals":[]}
+{"representation":"I","id":"local2_jacobi_commute_S","status":"PASS","seconds":0.000103,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_jacobi_commute_Sinv"}
-{"representation":"I","id":"local2_jacobi_commute_Sinv","status":"PASS","seconds":0.000093,"peak_rss_kib":7852,"checked_entries":1,"source":["A2_SPECIFICATION.md: section 7"],"residuals":[]}
+{"representation":"I","id":"local2_jacobi_commute_Sinv","status":"PASS","seconds":0.000093,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5; data/local_a2.json"],"residuals":[]}
 {"phase":"relation_started","id":"local2_jacobi_S"}
-{"representation":"I","id":"local2_jacobi_S","status":"PASS","seconds":0.000271,"peak_rss_kib":7852,"checked_entries":1,"source":["twostring.tex:422-431"],"residuals":[]}
+{"representation":"I","id":"local2_jacobi_S","status":"PASS","seconds":0.000271,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5"],"residuals":[]}
 {"phase":"relation_started","id":"local2_jacobi_Sinv"}
-{"representation":"I","id":"local2_jacobi_Sinv","status":"PASS","seconds":0.000252,"peak_rss_kib":7852,"checked_entries":1,"source":["twostring.tex:473-490"],"residuals":[]}
+{"representation":"I","id":"local2_jacobi_Sinv","status":"PASS","seconds":0.000252,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 5"],"residuals":[]}
 {"phase":"relation_started","id":"local2_K_from_H"}
-{"representation":"I","id":"local2_K_from_H","status":"PASS","seconds":0.007359,"peak_rss_kib":7852,"checked_entries":1,"source":["threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"],"residuals":[]}
+{"representation":"I","id":"local2_K_from_H","status":"PASS","seconds":0.007359,"peak_rss_kib":7852,"checked_entries":1,"source":["Paper, Section 6 item 6.10; expanded factored Lagrange prescription with H interpreted as H_i"],"residuals":[]}
 {"phase":"relation_started","id":"local2_U_from_H"}
-{"representation":"I","id":"local2_U_from_H","status":"PASS","seconds":0.006690,"peak_rss_kib":7980,"checked_entries":1,"source":["threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"],"residuals":[]}
+{"representation":"I","id":"local2_U_from_H","status":"PASS","seconds":0.006690,"peak_rss_kib":7980,"checked_entries":1,"source":["Paper, Section 6 item 6.10; expanded factored Lagrange prescription with H interpreted as H_i"],"residuals":[]}
 {"phase":"relation_started","id":"braid"}
-{"representation":"I","id":"braid","status":"PASS","seconds":0.000059,"peak_rss_kib":7980,"checked_entries":1,"source":["threestring.tex:658-667; (6.49)-(6.50)"],"residuals":[]}
+{"representation":"I","id":"braid","status":"PASS","seconds":0.000059,"peak_rss_kib":7980,"checked_entries":1,"source":["Paper, Section 6 equation 6.49"],"residuals":[]}
 {"phase":"relation_started","id":"HKH"}
-{"representation":"I","id":"HKH","status":"PASS","seconds":0.000099,"peak_rss_kib":7980,"checked_entries":1,"source":["threestring.tex:202, eq:A3rels"],"residuals":[]}
+{"representation":"I","id":"HKH","status":"PASS","seconds":0.000099,"peak_rss_kib":7980,"checked_entries":1,"source":["Paper, Section 6 equation 6.27"],"residuals":[]}
 {"phase":"relation_started","id":"KUK1"}
-{"representation":"I","id":"KUK1","status":"PASS","seconds":0.000034,"peak_rss_kib":7980,"checked_entries":1,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"representation":"I","id":"KUK1","status":"PASS","seconds":0.000034,"peak_rss_kib":7980,"checked_entries":1,"source":["Paper, Section 6 equation 6.27; i=1,2 and j=3-i"],"residuals":[]}
 {"phase":"relation_started","id":"KUH1"}
-{"representation":"I","id":"KUH1","status":"PASS","seconds":0.000036,"peak_rss_kib":7980,"checked_entries":1,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"representation":"I","id":"KUH1","status":"PASS","seconds":0.000036,"peak_rss_kib":7980,"checked_entries":1,"source":["Paper, Section 6 equation 6.27; i=1,2 and j=3-i"],"residuals":[]}
 {"phase":"relation_started","id":"KUU1"}
-{"representation":"I","id":"KUU1","status":"PASS","seconds":0.000032,"peak_rss_kib":7980,"checked_entries":1,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"representation":"I","id":"KUU1","status":"PASS","seconds":0.000032,"peak_rss_kib":7980,"checked_entries":1,"source":["Paper, Section 6 equation 6.27; i=1,2 and j=3-i"],"residuals":[]}
 {"phase":"relation_started","id":"UUK1"}
-{"representation":"I","id":"UUK1","status":"PASS","seconds":0.000040,"peak_rss_kib":7980,"checked_entries":1,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"representation":"I","id":"UUK1","status":"PASS","seconds":0.000040,"peak_rss_kib":7980,"checked_entries":1,"source":["Paper, Section 6 equation 6.27; i=1,2 and j=3-i"],"residuals":[]}
 {"phase":"relation_started","id":"UUU1"}
-{"representation":"I","id":"UUU1","status":"PASS","seconds":0.000031,"peak_rss_kib":7980,"checked_entries":1,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"representation":"I","id":"UUU1","status":"PASS","seconds":0.000031,"peak_rss_kib":7980,"checked_entries":1,"source":["Paper, Section 6 equation 6.27; i=1,2 and j=3-i"],"residuals":[]}
 {"phase":"relation_started","id":"KUK2"}
-{"representation":"I","id":"KUK2","status":"PASS","seconds":0.000031,"peak_rss_kib":7980,"checked_entries":1,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"representation":"I","id":"KUK2","status":"PASS","seconds":0.000031,"peak_rss_kib":7980,"checked_entries":1,"source":["Paper, Section 6 equation 6.27; i=1,2 and j=3-i"],"residuals":[]}
 {"phase":"relation_started","id":"KUH2"}
-{"representation":"I","id":"KUH2","status":"PASS","seconds":0.000048,"peak_rss_kib":7980,"checked_entries":1,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"representation":"I","id":"KUH2","status":"PASS","seconds":0.000048,"peak_rss_kib":7980,"checked_entries":1,"source":["Paper, Section 6 equation 6.27; i=1,2 and j=3-i"],"residuals":[]}
 {"phase":"relation_started","id":"KUU2"}
-{"representation":"I","id":"KUU2","status":"PASS","seconds":0.000038,"peak_rss_kib":7980,"checked_entries":1,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"representation":"I","id":"KUU2","status":"PASS","seconds":0.000038,"peak_rss_kib":7980,"checked_entries":1,"source":["Paper, Section 6 equation 6.27; i=1,2 and j=3-i"],"residuals":[]}
 {"phase":"relation_started","id":"UUK2"}
-{"representation":"I","id":"UUK2","status":"PASS","seconds":0.000045,"peak_rss_kib":7980,"checked_entries":1,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"representation":"I","id":"UUK2","status":"PASS","seconds":0.000045,"peak_rss_kib":7980,"checked_entries":1,"source":["Paper, Section 6 equation 6.27; i=1,2 and j=3-i"],"residuals":[]}
 {"phase":"relation_started","id":"UUU2"}
-{"representation":"I","id":"UUU2","status":"PASS","seconds":0.000081,"peak_rss_kib":7980,"checked_entries":1,"source":["threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"],"residuals":[]}
+{"representation":"I","id":"UUU2","status":"PASS","seconds":0.000081,"peak_rss_kib":7980,"checked_entries":1,"source":["Paper, Section 6 equation 6.27; i=1,2 and j=3-i"],"residuals":[]}
 {"phase":"relation_started","id":"quartic_full"}
-{"representation":"I","id":"quartic_full","status":"PASS","seconds":0.009878,"peak_rss_kib":7980,"checked_entries":1,"source":["threestring.tex:218-237, eq:A3relsb, def:tildeA3"],"residuals":[]}
+{"representation":"I","id":"quartic_full","status":"PASS","seconds":0.009878,"peak_rss_kib":7980,"checked_entries":1,"source":["Paper, Section 6 equation 6.39, item 6.9"],"residuals":[]}
 {"phase":"relation_started","id":"S_quintic1"}
-{"representation":"I","id":"S_quintic1","status":"PASS","seconds":0.000349,"peak_rss_kib":7980,"checked_entries":1,"source":["threestring.tex:658-667; (6.49)-(6.50)"],"residuals":[]}
+{"representation":"I","id":"S_quintic1","status":"PASS","seconds":0.000349,"peak_rss_kib":7980,"checked_entries":1,"source":["Paper, Section 6 item 6.18, equation 6.50"],"residuals":[]}
 {"phase":"relation_started","id":"H_quintic1"}
-{"representation":"I","id":"H_quintic1","status":"PASS","seconds":0.003164,"peak_rss_kib":7980,"checked_entries":1,"source":["threestring.tex:248-253, rem:A3def"],"residuals":[]}
+{"representation":"I","id":"H_quintic1","status":"PASS","seconds":0.003164,"peak_rss_kib":7980,"checked_entries":1,"source":["Paper, Section 6 item 6.10"],"residuals":[]}
 {"phase":"relation_started","id":"S_quintic2"}
-{"representation":"I","id":"S_quintic2","status":"PASS","seconds":0.000293,"peak_rss_kib":7980,"checked_entries":1,"source":["threestring.tex:658-667; (6.49)-(6.50)"],"residuals":[]}
+{"representation":"I","id":"S_quintic2","status":"PASS","seconds":0.000293,"peak_rss_kib":7980,"checked_entries":1,"source":["Paper, Section 6 item 6.18, equation 6.50"],"residuals":[]}
 {"phase":"relation_started","id":"H_quintic2"}
-{"representation":"I","id":"H_quintic2","status":"PASS","seconds":0.002521,"peak_rss_kib":7980,"checked_entries":1,"source":["threestring.tex:248-253, rem:A3def"],"residuals":[]}
-{"representation":"I","id":"top_cubic1","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":7980,"source":["threestring-top.tex:53-55, eq:Hrels"]}
-{"representation":"I","id":"top_cubic2","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":7980,"source":["threestring-top.tex:53-55, eq:Hrels"]}
-{"representation":"I","id":"top_quartic_a","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":7980,"source":["threestring-top.tex:56-69, eq:Hrelsa"]}
-{"representation":"I","id":"top_quartic_aa","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":7980,"source":["threestring-top.tex:70-83, eq:Hrelsaa"]}
-{"representation":"I","id":"top_quartic_b","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":7980,"source":["threestring-top.tex:85-91, eq:Hrelsb, equation (6.7), wholesale corrected definition"]}
-{"representation":"I","id":"quotient_zero_K1","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":7980,"source":["threestring.tex:501-517; threestring-top.tex:50-99; quotient K_i=U_i=0"]}
-{"representation":"I","id":"quotient_zero_K2","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":7980,"source":["threestring.tex:501-517; threestring-top.tex:50-99; quotient K_i=U_i=0"]}
-{"representation":"I","id":"quotient_zero_U1","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":7980,"source":["threestring.tex:501-517; threestring-top.tex:50-99; quotient K_i=U_i=0"]}
-{"representation":"I","id":"quotient_zero_U2","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":7980,"source":["threestring.tex:501-517; threestring-top.tex:50-99; quotient K_i=U_i=0"]}
+{"representation":"I","id":"H_quintic2","status":"PASS","seconds":0.002521,"peak_rss_kib":7980,"checked_entries":1,"source":["Paper, Section 6 item 6.10"],"residuals":[]}
+{"representation":"I","id":"top_cubic1","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":7980,"source":["Paper, Section 6.1 equation 6.4"]}
+{"representation":"I","id":"top_cubic2","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":7980,"source":["Paper, Section 6.1 equation 6.4"]}
+{"representation":"I","id":"top_quartic_a","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":7980,"source":["Paper, Section 6.1 equation 6.5"]}
+{"representation":"I","id":"top_quartic_aa","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":7980,"source":["Paper, Section 6.1 equation 6.6"]}
+{"representation":"I","id":"top_quartic_b","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":7980,"source":["Paper, Section 6.1 equation 6.7, equation (6.7), wholesale corrected definition"]}
+{"representation":"I","id":"quotient_zero_K1","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":7980,"source":["Paper, Section 6; Paper, Section 6.1; quotient K_i=U_i=0"]}
+{"representation":"I","id":"quotient_zero_K2","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":7980,"source":["Paper, Section 6; Paper, Section 6.1; quotient K_i=U_i=0"]}
+{"representation":"I","id":"quotient_zero_U1","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":7980,"source":["Paper, Section 6; Paper, Section 6.1; quotient K_i=U_i=0"]}
+{"representation":"I","id":"quotient_zero_U2","status":"NOT APPLICABLE","residuals":null,"seconds":0,"peak_rss_kib":7980,"source":["Paper, Section 6; Paper, Section 6.1; quotient K_i=U_i=0"]}
 {"phase":"complete","representation":"I","status":"PASS","passed":141,"failed":0,"not_applicable":9,"seconds":0.083387,"peak_rss_kib":7980,"cached_words":113}

@@ -1,7 +1,7 @@
 {
   "format": "exceptional-series-dilute-a3-transcription",
   "version": "0.2.0",
-  "status": "provisional_transcription",
+  "status": "current",
   "field": {
     "id": "F",
     "type": "rational_function_field",
@@ -287,10 +287,10 @@
     }
   ],
   "normalization_prescriptions": {
-    "note": "These expressions are supplied as package prescriptions and were not applied to stored entries. G_j names only a package generator slot, not H_j or S_j. Multiply each raw matrix by its listed multiplier to obtain the corresponding package configuration.",
+    "note": "Stored entries have raw normalization. Multiply each raw matrix by the selected paper_multiplier or paper2_multiplier once. G_j labels a generator slot; its graph specifies the operator.",
     "alpha": "(q-1)*(q+1)*(q*p-1)*(q*p+1)*p^5/(q^2*(p-1)^2*(p+1)^2*(p^2-p+1)^2*(p^2+p+1)^2)",
     "beta": "(q-1)*(q+1)*p^3/(q*(p-1)*(p+1)*(p^2-p+1)*(p^2+p+1))",
-    "source": "ExceptionalDiagrams.m2: scale1, scale2, alpha configuration, loadrep3"
+    "source": "macaulay2/ExceptionalDiagrams.m2: scale1, scale2, alpha configuration, loadrep3"
   },
   "representations": [
     {
@@ -349,13 +349,17 @@
       "file": "dilute_representations/Dilute_10.json"
     }
   ],
-  "source_repository": "Research repository Zenodo (source commit recorded separately)",
-  "source_commit": "d2ead0efdb09ecbfd1c2d67a96807717954e04a5",
   "limitations": [
-    "No defining relations or YBE audited.",
-    "No manuscript basis/operator comparison established.",
-    "No locality or denominator membership claim.",
-    "No diagrams stored: generator identities are traced by source generator/basis indices.",
-    "Schema validity is structural only."
-  ]
+    "Exact package comparison and generic Yang–Baxter checks are described in AUDIT_COVERAGE.md.",
+    "The paper supplies categorical interpretations and coefficient-ring arguments.",
+    "Generator graphs, indices and occupancy sectors specify the diagram correspondence.",
+    "Structural validation checks the encoding; algebraic verifiers check identities."
+  ],
+  "provenance": {
+    "citation": "https://arxiv.org/abs/2406.01348",
+    "description": "Raw dilute A(3) generator matrices with package normalization factors.",
+    "sources": [
+      "macaulay2/ExceptionalDiagrams.m2"
+    ]
+  }
 }

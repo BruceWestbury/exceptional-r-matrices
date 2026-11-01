@@ -2,261 +2,79 @@
   "$schema": "../schema/publication.schema.json",
   "format": "exceptional-series-publication-provenance",
   "version": "0.3.0",
-  "status": "release_candidate",
+  "status": "current",
   "provenance": {
-    "base_commit": "db523ef0c62105a9363a07a1ab1215c01cdd5b2e",
-    "authority": "Accepted local manuscript and retained exact JSON; release candidate pending review"
+    "citation": "https://arxiv.org/abs/2406.01348",
+    "description": "Data conventions, software requirements and current payload hashes.",
+    "sources": [
+      "https://arxiv.org/abs/2406.01348"
+    ]
   },
-  "base_commit": "db523ef0c62105a9363a07a1ab1215c01cdd5b2e",
   "classification": {
-    "existing_matrix_entries": "Ordinary Y2 conjugated by diag(1,-1,1) on 2026-11-01 to match the current manuscript and Macaulay2 basis; all other matrices unchanged.",
-    "new_a2": "literal source copies plus package-prescribed quotient zeros",
-    "new_spectral": "derived from existing rational artifacts and checked against portable generator formula",
-    "new_formula": "manuscript prescription, algebraically expanded",
-    "basis_maps": "Dilute I,L and source-predicted A2:L maps retained; obsolete ordinary Y2 map removed after adopting its target basis.",
-    "historical_working_files": "ExceptionalDiagrams is bundled under macaulay2/ with installation-compatible coefficient exports and bounded test groups; all 37 auxiliary files are unchanged. Other research-only files remain excluded."
+    "ordinary_matrices": "Ordinary alpha=1 normalization in the paper and ExceptionalDiagrams basis.",
+    "dilute_matrices": "Raw ExceptionalDiagrams generator matrices, with paper and paper2 multipliers in the registries.",
+    "spectral_matrices": "Polynomial R-matrices with the prefactor in data/spectral_r.json.",
+    "basis_maps": "Displayed-table conjugations for dilute I, L and A(2):L; ordinary Y2 uses the common paper/package basis."
   },
   "runtime_dependencies": {
-    "dataset": "JSON reader and an exact rational-function CAS",
-    "structural_validation": "Python >=3.10 and jsonschema >=3.2; no CAS",
+    "dataset": "JSON reader and an exact rational-function algebra system",
+    "structural_validation": "Python >=3.10 and jsonschema >=3.2",
     "optional_sage_example": "SageMath",
-    "macaulay2_package": "Optional: Macaulay2 with VectorGraphics; Factor optional. No JSON or Python/C dependency.",
-    "macaulay2_comparison": "Optional: Python, jsonschema, Macaulay2 and the bundled package; arithmetic runs in Macaulay2."
-  },
-  "source_hashes": {
-    "ExceptionalDiagrams/reps2.m2": {
-      "sha256": "2320e10e26bb62e61223fe19285fd5af274967d95cc7e857183918cdef5539f3",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "ExceptionalDiagrams/reps2dilute.m2": {
-      "sha256": "290d0bb0ef7a33880ed71189459b0eeb2c06bce9eb762c00f7056eaa0fa10b19",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "ExceptionalDiagrams/reps3_0.m2": {
-      "sha256": "7143e843d2924a6cd69bf05dd4faa3cb7aa16aebd45095c31d409a6b21c26836",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "ExceptionalDiagrams/reps3_1.m2": {
-      "sha256": "2cab2d092ef33e294743473dac11811e96ff1c437c86742cede0330e4ea5c0e9",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "ExceptionalDiagrams/reps3_10.m2": {
-      "sha256": "ac5cc202ab22b78762c7a46f52acbc5957d079581cd3f3995e84232b12d2adf7",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "ExceptionalDiagrams/reps3_2.m2": {
-      "sha256": "bf0135f013503df74feca8bb93edea84b65e9e72183fdf79a41c9c68df67b46c",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "ExceptionalDiagrams/reps3_3.m2": {
-      "sha256": "909bedd8d7b01a53b1c34fb11923963dc08a80363596ed4c439301e1c07d0d02",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "ExceptionalDiagrams/reps3_4.m2": {
-      "sha256": "ff8f677fc2d25f719d8ff8d1abe386d967da828d4d00a0d8d82aab6a44f462b0",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "ExceptionalDiagrams/reps3_5.m2": {
-      "sha256": "4fb52af7c6dad1f05bb695edb1c26f00592cb56b5bc226202fe5048ce27d52e2",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "ExceptionalDiagrams/reps3_6.m2": {
-      "sha256": "2bc69e4339859fa0f4fb9fd6f0b3d0df01e897f927cfd610b6015c06860fdbbc",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "ExceptionalDiagrams/reps3_7.m2": {
-      "sha256": "c95a3360bacbb46422f232e263be6ba3d26ff7e98a9acbcc6d98406fcc0d34fe",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "ExceptionalDiagrams/reps3_8.m2": {
-      "sha256": "970f01bafadb224615dfed4aebe0e831762f14910f57ff96b172a21aabc94567",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "ExceptionalDiagrams/reps3_9.m2": {
-      "sha256": "6a162af2b2f2f7bcbf75a547fcb77a39727571fe2ae87e5f3174ce04979e37a8",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "ExceptionalDiagrams/reps3dilute_0.m2": {
-      "sha256": "2bf224e7394bd3b9bf9b4cde0a6c7c8f7b93caffe1874ff060e6fa5ff50be31b",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "ExceptionalDiagrams/reps3dilute_1.m2": {
-      "sha256": "1d53e1d774382823105591954655add798bd5faa68ca294c434df1c0abd32138",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "ExceptionalDiagrams/reps3dilute_2.m2": {
-      "sha256": "4d9a0672c3cd3db95adfc82f7ca1e74720173349dc16facd7bb514769d30d2e6",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "ExceptionalDiagrams/reps3dilute_3.m2": {
-      "sha256": "becaaf01eebd22233620dbd6a8c36eb46193b7bf9aff88df4dd4b0e82795d919",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "ExceptionalDiagrams/reps3dilute_4.m2": {
-      "sha256": "dce86044d16e5261ca8aff56395578f4b01b7bab14a03cc8d43d55229f57fad0",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "ExceptionalDiagrams.m2": {
-      "sha256": "cf0599304687c3256cde3378495b0d1df1b3a76bec9056a821b7af17710679e6",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "audits/python/dilute_transcription/correspondence.json": {
-      "sha256": "351508341d491cf5d6349fe2d40650fb8edd42ee571b7e787f27fc5d7ab882c7",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "reports/paper_audit/local_embeddings.json": {
-      "sha256": "070329a208fcad62d2512e933128f45db1ec38f59623c89fe88bae2f24631d3a",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "reports/paper_audit/spectral_0.json": {
-      "sha256": "7efa1372fd80618fca71c9005c679eee80346e3919519ee870dff9a3e0ecacca",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "reports/paper_audit/spectral_1.json": {
-      "sha256": "113061bb28e667199539e374d9d815e237c30725a90a7f175c8f07d055613383",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "reports/paper_audit/spectral_10.json": {
-      "sha256": "42bf7d2057c7f1e05aa35774ed28227677978ef65f3f9fb2f50c19ea35de58f1",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "reports/paper_audit/spectral_2.json": {
-      "sha256": "a9ec3366cca6e1ff906e4d89b5ee2ea23c5a71a3e2623492e768b8c1c6a9412e",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "reports/paper_audit/spectral_3.json": {
-      "sha256": "fe6d51c124773d2258c97638370984d51fd1b7178868b05c1c5bc642804d7494",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "reports/paper_audit/spectral_4.json": {
-      "sha256": "63abe8c197d2bb5c0710188d9d959167aad06de2c2f07420d46d5678cb414773",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "reports/paper_audit/spectral_5.json": {
-      "sha256": "6179bfef6567e2467eca097e4d903a16931e012ac61e50433190a0746ae87a62",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "reports/paper_audit/spectral_6.json": {
-      "sha256": "e65d6324adeef70764ea3ba0c324cde326904e746e39e16cc328cc87ffc6b90a",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "reports/paper_audit/spectral_7.json": {
-      "sha256": "9928f2b5bc0d39663de4d28f6c4371a3f74f5a14dde506865c6d37f516410007",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "reports/paper_audit/spectral_8.json": {
-      "sha256": "a994e4b7e5bbc57d3367d8bb60e4122e3f015a65497566f147efc21ca7fa9dc0",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "reports/paper_audit/spectral_9.json": {
-      "sha256": "caddf898f751ada10da6fc3f6e9c8483d5a320c037e1c75ef5fcabca813be6f4",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "../appendix.tex": {
-      "sha256": "4a0bd3af853d5238964ebcc33f3d02b7a7d36678fc22738d376300cf22167478",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "../coefficients.tex": {
-      "sha256": "d14a79ed3902bb81077715ed6e2d30a14c4ed3960c26ed14cef1417ccde521b6",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "../dilute.tex": {
-      "sha256": "844ccb03f0bcae65980715c9af6be8777a4604f9d0866e7e85fa837b12f978d4",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "../exceptional.tex": {
-      "sha256": "991dd684a754544a66cd8d2877647666f93d994365f3e2f908cf06136c5b2cb4",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "../introduction.tex": {
-      "sha256": "33363d3ff8aba37236559769ecf30ca3cd83a6d1fdf3283f9e3bd848ea4d6f1d",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "../pictures.tex": {
-      "sha256": "fdcd7c7e5c6b64298b45020fb2bf34eddf366e39a2a3eec3e47a5d8bcd7f279f",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "../rem.tex": {
-      "sha256": "592d79c41618c9925e6481fb7846be6349a4cf20eff0ff2b26431397faf6d364",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "../ribbon.tex": {
-      "sha256": "3652d441ee27e64c52a0a3c50792a57b294b34f56ec2da860e5be89d3a0a51b2",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "../threestring-top.tex": {
-      "sha256": "b3d731a75ae2d54c3c13d5fd5fdd3d24fb3f04ae7b6832be7e3562a9c557ef0d",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "../threestring.tex": {
-      "sha256": "6047ea7cfd6b809a95306f39cade54b4b8542b5ac4ef1796aa6c93b6e77eecff",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "../twostring.tex": {
-      "sha256": "5fd69e6340fd2c1cf792cda4126d387797b12119b5c6051474865f4eaca471b5",
-      "role": "provenance_only_not_runtime_dependency"
-    },
-    "../yangbaxter.tex": {
-      "sha256": "53a1f8016bf15f6feb17b3b0f65cc16a35039b7d5b67bf3a56b2e718d6a03302",
-      "role": "provenance_only_not_runtime_dependency"
-    }
+    "macaulay2_package": "Macaulay2 with VectorGraphics; Factor optional",
+    "macaulay2_comparison": "Python, jsonschema and Macaulay2; the bundled package performs exact arithmetic"
   },
   "payload_hashes": {
-    "data/a3.json": "9b549adcc52f4fd9cd70b1080a075ab143e71a514f166d66310f6ee905f3863a",
-    "data/basis_maps.json": "1fd5e7d92a52f188d8d9df5a464788570cf8c79315b7e5f707ef6f987b626665",
-    "data/dilute_a2.json": "e6c4e054c8351e3bd1892417ec0d0b0694e8906540f3fc9614a49fc996fea049",
-    "data/dilute_a2_representations/I.json": "4b132899ce561a0baf4d4285ff2a74b26a070ae73dd8d4228c90b16fbb29be78",
-    "data/dilute_a2_representations/L.json": "fa29e048e096f888ecf36faaac1f8bbd0c7eb1972fd435697919de5e3be0606d",
-    "data/dilute_a2_representations/X2.json": "d78ee4da7c8db4d4af752935ed462234d483b676ac5fafa4da0671b29274a0aa",
-    "data/dilute_a2_representations/Y2.json": "f6ccadfe88b1a4e2420d18bd1d1cd781076ddc435d22cae21ec91969e91d3dd2",
-    "data/dilute_a2_representations/Y2_star.json": "57f8d7b3c1fe91371a2e03f2eaadfe36c2a6226a34e0cf7622a89422d4fbff95",
-    "data/dilute_a3.json": "3dc0b2e91bd624a7ef313fe503e2b9c4cf799f3e219cdb96e36cd3be4658c2e0",
-    "data/dilute_a3_embeddings.json": "e552cf606e797149d73ac41fc2567833c29669f336685589c020c671b3362d7e",
-    "data/dilute_representations/Dilute_0.json": "606816585daae8f749810835effede446a94de021eba2e31b08e2998ce634a1e",
-    "data/dilute_representations/Dilute_1.json": "38dcb1236894b7baa7130265bd5dc9d3189891b180536c0810beb296456ac85f",
-    "data/dilute_representations/Dilute_10.json": "d4e14a9c54ca0634363966e5ef753baf8a2d6a60b22c2aebc0f1dde9464f3621",
-    "data/dilute_representations/Dilute_2.json": "78cdc7998a06cde0b2b6395fc7f6c1f960668352e772ef5478ee0941c0a2891d",
-    "data/dilute_representations/Dilute_3.json": "64571d482f6bf299c464dc0f64cea56551f0aaa513af069b35ba446df3520192",
-    "data/dilute_representations/Dilute_4.json": "5adcd7f247d43d0e4f60e216adf280e3a4c1cb5d9f3302a5e3b9bb2af0bc79a7",
-    "data/dilute_representations/Dilute_5.json": "08b12c45108396bf62963c0af16c97f56e79961ae38beba2c14133b59c7d2a2c",
-    "data/dilute_representations/Dilute_6.json": "cc6a9f14df407087525e226753264aa763cce5951b4692f19423d02c499d6f3a",
-    "data/dilute_representations/Dilute_7.json": "6f8cdeba8800a42626db17c1a7883411ab035f249b848b930c713831daf71cc4",
-    "data/dilute_representations/Dilute_8.json": "0feb3b4febf823745f3a662634316dd1b21d889a7feadfc3cbcfead419d963f6",
-    "data/dilute_representations/Dilute_9.json": "b454bb95bb125099eb5cb691bf48b2c77d9b014791a8535f02c0ce4de6700949",
-    "data/local_a2.json": "fda4024e781d4d6e6a83bc41f3a94563ecfff89fade64ae287f9fef44e4de7b4",
-    "data/publication.json": "8e5f4f8f76b34f414a9348dcd5bf4d5b03232ed9b449725d70833525ff0c556d",
-    "data/representations/A.json": "021aa224df6174b203757bc4ef58178eb8c6071862938a4695e2837041e47f0b",
-    "data/representations/C.json": "11c8deb00d4e7d6edc24d5125ff474343c077422e498369ac079581a5f88a579",
-    "data/representations/C_star.json": "80d2888cebf528f51a247c5aab48e98545d719202429436774e4e7c4832cc497",
-    "data/representations/I.json": "75957435f55ebb2fbb38abafdaff57cf9def73d23cd33084ada47153c432ddd5",
-    "data/representations/L.json": "f11fdd38ef3f4f1eb91b3b8e083cfffc59ea2a3b1da8c5ead0c09b57bdba839d",
-    "data/representations/X2.json": "b62482cd63fde89241a687d33be2befd474ef48723cce393c507dcb61f645248",
-    "data/representations/X3.json": "43308cf9890c00b356f20051b13e30b1609e5347dbf19bc1c0be41a9b872bca3",
-    "data/representations/Y2.json": "1bf8b8a1e8b63585cbe753e56ff9462cdea2211c976f081846e3ac2fb20fabd0",
-    "data/representations/Y2_star.json": "05efbe90a81545dd279f8ff22293a3a1531285b5fe8d20a7602a475591487375",
-    "data/representations/Y3.json": "92c75e1846dd1a3dc9dd506efa7e1c5a22bcaa3278c8cb58c47486092693f6d5",
-    "data/representations/Y3_star.json": "a6f11cf79510c9482b08d325faf352c4e5d2b3a7cb0c86691c031425fc65b64b",
-    "data/spectral/Dilute_0.json": "df2fb1fff88c8de011521253b7047093ba864cc778e547787443afcd31cb32c6",
-    "data/spectral/Dilute_1.json": "5637a960f6cc890219f81bd22969bee34c8cb23c205abbb4052de54adb788f3e",
-    "data/spectral/Dilute_10.json": "8c50d497b1dcf602ea887bbad037c2bf928f4b377e68ebe627068ac4df1c44db",
-    "data/spectral/Dilute_2.json": "72375cd755ddaebf14543c6ef124289610efdd107fca38901bc6f63b27fca976",
-    "data/spectral/Dilute_3.json": "34310e55995a57d96b4e1954633d71ad03b793905655e65a3dd4b33caebd0f2f",
-    "data/spectral/Dilute_4.json": "1a377475556968627ff31150c0130dd1ffd4303804297ef6257400edd9849e1e",
-    "data/spectral/Dilute_5.json": "6e7feeee170f83590be83ea0e79d8d262691247a3b7caa89de2566d8ea84579e",
-    "data/spectral/Dilute_6.json": "0c993bff8a61aca894695a7f358f401c54ec469fc39b514c9def50559ab7a4dc",
-    "data/spectral/Dilute_7.json": "7913aba19eead28735110737d8d94168b7eabe9f3d39392df8778cb25b0704bb",
-    "data/spectral/Dilute_8.json": "d381dac2a4bc401e675270c6d0611e497b409d0fa2375cd7889c12ece7a94b66",
-    "data/spectral/Dilute_9.json": "172a43c03144051bf0ee5a447271038782b0706e5f937708f533975d966067d3",
-    "data/spectral_r.json": "e9d02d96a70542fdcdfb6f027fc5794dc03c33de0c68bb9e8772cee56fcd8cb3",
-    "schema/a3.schema.json": "3d2cc3ce7b8b70e8972ca27b86c31ad40f0528b2dcce9e7293286f785a0fe25e",
-    "schema/dilute_representation.schema.json": "bec8c85e6dcc8b650d0fdd5313db8e321800fb3c72fe60a52c256fe50d70470e",
-    "schema/local_a2.schema.json": "ea8745a29bf5ca593bab76f3e83032d109c7683f52ba3c41ae58441796582155",
-    "schema/portable_matrices.schema.json": "5d3d06829f818e6d01a5c65339cdbbffda1e5f5a6fa89416169cc75cfc5bcd8b",
-    "schema/publication.schema.json": "657038c7f6551514137f24f2f978c7863d22ceb869786b69344cbd91d994ffac",
-    "schema/representation.schema.json": "ca41edb7a039a4d4f9fb2e3b9e8f91001de1cb8c6851258e89ccacd4d86f2659"
-  },
-  "curation": {
-    "research_head": "83aed000254bf7aca4836f0d3e3fb47c818ee4fa",
-    "changes": "Initial curation changed only the portable source label, selected evidence links and payload integrity metadata. On 2026-11-01, author-requested ordinary Y2 basis alignment conjugated all its operators by diag(1,-1,1) and removed the corresponding basis map; payload hashes refreshed. Author-authorized package integration adds macaulay2/, installation-compatible coefficient exports, bounded test groups, and exact comparison tooling; the mathematical JSON entries are unchanged by this import. On 2026-11-01, the author selected CC BY 4.0 for data, documentation and software; licence notices and current payload hashes were updated without changing mathematical content."
+    "data/a3.json": "303c66627f7df5f2bb94ddbc4bdf1141509d9a98739f325bb8a697b7d1666bf8",
+    "data/basis_maps.json": "ae018b83072174df860ba18757f37404e49a169266485d3b276671b895b4c796",
+    "data/dilute_a2.json": "2371f6d4448385e0f1ce44c75f8d461e3c84bb64f2097095073a193e258a7221",
+    "data/dilute_a2_representations/I.json": "68baf1297df1d1bb5bfed2fb8b302a5a5260cd1fb59a6f6e384420102f2d512a",
+    "data/dilute_a2_representations/L.json": "ec3c2611522a1534132a90592b414b80365ded44ee616faba50934065cbbf261",
+    "data/dilute_a2_representations/X2.json": "bea0d2dc2e87691249ddf2ffd4c06d7576168c188b2adcea5aa7043d787b96d7",
+    "data/dilute_a2_representations/Y2.json": "ba6ab754e7dbdd7bb968e43115316f3675e28445a9eec8b1bccb0721973f0775",
+    "data/dilute_a2_representations/Y2_star.json": "81b4b81448551159ce0d387cd11004856be59be5d0e41cbcd24b85d504a192d8",
+    "data/dilute_a3.json": "fca3c3bb299100af2c3d4ae9c5a9215a62696e23898f06c3b721c8382f949e25",
+    "data/dilute_a3_embeddings.json": "d33ed574cc2c5aeec1258aa2129c96283f65aa62f1d09e563deceeb2f25fd550",
+    "data/dilute_representations/Dilute_0.json": "7d8ec524288af595c2e113671c4300dcb8a9489988d52491f682bf7ba9c3377c",
+    "data/dilute_representations/Dilute_1.json": "1e35657962406b8fd46aed2d40bb679ab953fa5ffe50364d6eb862feeacaaddf",
+    "data/dilute_representations/Dilute_10.json": "4b0f8a23da3cc6d3bf50008eedb1b60537f016c7814313fbc3ef3145dcc0b9cd",
+    "data/dilute_representations/Dilute_2.json": "274a59548d97c04096ca18122466f1b8edb638af4471992abb17454288e2ac9b",
+    "data/dilute_representations/Dilute_3.json": "88a05a938d24a021d4395b8ab2c970c4aa3f4c01b34547008ae00040d134f7ac",
+    "data/dilute_representations/Dilute_4.json": "e966726da9dacb6844c923d1b05f4447b58e321b8bbbcc71a68ed014046a0901",
+    "data/dilute_representations/Dilute_5.json": "b1c53bfcdfaf516bcf20646e5a59913d3f82ca01b26a43752021e85a7da482da",
+    "data/dilute_representations/Dilute_6.json": "7e4e19265884ec7e4208f443efba124761fcc9fbb4ffe84670f1d7187a606108",
+    "data/dilute_representations/Dilute_7.json": "bc7f41c01d334f8a0d939e158713f4508b6a84fb5000bc8850b95b8ae1b07b86",
+    "data/dilute_representations/Dilute_8.json": "ad2158b50b6b5f85e65ec253bdcf40ffe33ab6830a08ec2d7a4648c6e20613bb",
+    "data/dilute_representations/Dilute_9.json": "a86b5ed34264f72cf67968db30e2eda734ce4d07955f7f7ad1d2526338f16f96",
+    "data/local_a2.json": "8bb47506fbdd44191f54927d26506cd2fe7c2614f0bdbd8eb371a1dcb693edfc",
+    "data/publication.json": "5f0370292f7733c032a3c89f9dddb193c4e68d7f6729e5421df6c7a75fe2ea92",
+    "data/representations/A.json": "60aa54685df52000a0982922587c2f726fb13801a3b7b78885f4df5e0c5a77b4",
+    "data/representations/C.json": "0130c79144b40da8eee358feee53da6d37ab63fe7e1dca4ff113bc12e98959cc",
+    "data/representations/C_star.json": "de98bd84af5210c5bdc21f5340324de7f411a5b2220e263c1edf4c90b41c25df",
+    "data/representations/I.json": "3898fb03b052d83fb663f15a1fafd9b23e2029992aceb3e91fa145fc330712d6",
+    "data/representations/L.json": "6c8200ae259f0a5265ebeeaa85c745b35909e0aaf02c15b2821b2f65abdffae6",
+    "data/representations/X2.json": "b7d4040210a5d9891c2f5675a19e6f16e7f98e541e2f8a30c411add480958aaa",
+    "data/representations/X3.json": "e8466e0c7386dfc128bd0782c252d48f53ca15d676b4a54ecd134afc5358becd",
+    "data/representations/Y2.json": "b5017f8f757f5666029539d569c678668d3937b642479e846e61770daab4041c",
+    "data/representations/Y2_star.json": "21758b6b403f89393e7d806009dfe34f788c56fda2d962e944dc1d8cd15eb74f",
+    "data/representations/Y3.json": "44e3e3ae77ad9506e5977c1539c6f264eb1bc04b88c3000a1550cf082fd82629",
+    "data/representations/Y3_star.json": "42dc7c0f51e8dfcafb0d304732af3845eac20406ec9c08591ba2b368e544ee7d",
+    "data/spectral/Dilute_0.json": "fc115b582f8a1807aace2d8c0ddb9faf574e778a5696dbfd6ee6ec0af25da546",
+    "data/spectral/Dilute_1.json": "5174bf39bf6b49180741185a1f51c2db3f7c3fc95b8c9acc9c1c3a7b189a38c6",
+    "data/spectral/Dilute_10.json": "d27fc4fab4c011fd55a46a11c52f05e1d59fa9f5ec3aafc42951a8955e225d16",
+    "data/spectral/Dilute_2.json": "6fb796953bc8850b4e43fdba7a9987c3e1dd2b2ebda4f9323df737babcbf5953",
+    "data/spectral/Dilute_3.json": "c7fb6645baf4bf2b61fa8f3478772d00708efa849413c86db846f3d13aac7f18",
+    "data/spectral/Dilute_4.json": "9057aa24abc01d1e500d75719b589295143b5f33dbd1c6dd53c60e9e7826e174",
+    "data/spectral/Dilute_5.json": "11d90bd4109f359a1cec8e5d05467dbd8303af8581fd6d73cb079eaf7a5488e1",
+    "data/spectral/Dilute_6.json": "1f08030f4b2ca0e5477eeee108bc19dcce0a396f5b22eb984fda04347396cbb1",
+    "data/spectral/Dilute_7.json": "71290a8720c6cbbd629a5832a613cb4cfe973ca8aa5368679f23f52d70619e61",
+    "data/spectral/Dilute_8.json": "32b6b384732f1889d645ded52de6ac91596b067d89663fe2e6b963d96e4bf472",
+    "data/spectral/Dilute_9.json": "a0eee641536ae4c7a76ac9adb78cce956ce5868f7760bde2af4766ed4ec42426",
+    "data/spectral_r.json": "a9f2977eaf6dd11334894c4538a2899c620902037d7c4dd5dd71ffcd4ed5cd97",
+    "schema/a3.schema.json": "441a96c8820122b1797f568a6a5b41737e2e8896fa99f3aea6e7515987e9f06a",
+    "schema/dilute_representation.schema.json": "8734c2451890a8ec0fe764814266dcdf6a1bae559d934067344f49b52ba93517",
+    "schema/local_a2.schema.json": "b292a497096c035e0571c9ae1e8217c667cd59003a89dd8737b18e086446c17d",
+    "schema/portable_matrices.schema.json": "876b0149822b3622e256e0badc66e2bb0e6c9d918477913916f6a75fb7fcaa6a",
+    "schema/publication.schema.json": "d17abf1879ae933f015619755732ba92f9cf49364b3fded5b7095e4484afa8f8",
+    "schema/representation.schema.json": "d7d677f9d1e30b5a07724d1ed7c5bcf7818d0b4ea4d9303fad85ffe47d0299be"
   }
 }

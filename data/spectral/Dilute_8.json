@@ -24,9 +24,9 @@
       "coordinate_1",
       "coordinate_2"
     ],
-    "description": "Neutral coordinates preserving the source file row/column order. No identification with manuscript vector names has been established.",
+    "description": "Coordinate labels follow the stored matrix order and the bundled ExceptionalDiagrams basis.",
     "source": [
-      "ExceptionalDiagrams/reps3_8.m2"
+      "macaulay2/ExceptionalDiagrams/reps3_8.m2"
     ]
   },
   "conventions": {
@@ -37,9 +37,9 @@
     "word_order": "left_to_right_product",
     "source": [
       "ordinary representation schema convention",
-      "ExceptionalDiagrams.m2: repBasis"
+      "macaulay2/ExceptionalDiagrams.m2: repBasis"
     ],
-    "note": "Raw auxiliary-file normalization. This preserves entries without transpose; row-right is the archive coordinate convention, not a new verification of manuscript action conventions. See dilute_a3.json for package rescaling."
+    "note": "Row vectors act on the right, with generator words multiplied in the stated order. See FORMAT.md for normalization."
   },
   "normalization": "manuscript_polynomial",
   "coefficient_definitions": {
@@ -127,15 +127,11 @@
     }
   ],
   "provenance": {
-    "base_commit": "db523ef0c62105a9363a07a1ab1215c01cdd5b2e",
-    "authority": "Derived release candidate; checked exactly against independent generator reconstruction",
-    "construction": "existing rational spectral artifact multiplied by the exact manuscript scalar",
-    "verification": "independent evaluation of portable JSON generator formula using original raw generators",
-    "input_sha256": {
-      "data/dilute_representations/Dilute_8.json": "0feb3b4febf823745f3a662634316dd1b21d889a7feadfc3cbcfead419d963f6",
-      "reports/paper_audit/spectral_8.json": "a994e4b7e5bbc57d3367d8bb60e4122e3f015a65497566f147efc21ca7fa9dc0",
-      "data/spectral_r.json": "e9d02d96a70542fdcdfb6f027fc5794dc03c33de0c68bb9e8772cee56fcd8cb3",
-      "data/dilute_a3_embeddings.json": "e552cf606e797149d73ac41fc2567833c29669f336685589c020c671b3362d7e"
-    }
+    "citation": "https://arxiv.org/abs/2406.01348",
+    "description": "Polynomial spectral matrices derived from the rational R-matrix with the normalization in data/spectral_r.json.",
+    "sources": [
+      "data/spectral_r.json",
+      "data/dilute_a3_embeddings.json"
+    ]
   }
 }

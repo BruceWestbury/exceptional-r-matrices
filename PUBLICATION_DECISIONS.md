@@ -1,27 +1,41 @@
-# Publication decisions
+# Maintenance and contributions
 
-The author selected **Creative Commons Attribution 4.0 International
-(CC BY 4.0)** for the repository's data, documentation and software, including
-ExceptionalDiagrams. The full terms are in [LICENSE](LICENSE); attribution is
-described in [README.md](README.md#licence-and-attribution).
+This repository brings together exact matrix data, ExceptionalDiagrams and
+reproducible algebraic checks. Contributions can improve the mathematical data,
+package functionality, verification coverage or documentation.
 
-## Remaining release decisions
+## Updating data and code
 
-1. Confirm citation author names/order and the dataset title; supply ORCIDs,
-   affiliations, journal reference, article DOI and funding only if desired and
-   verified. None is invented here. The paper title and author names are copied
-   from the accepted manuscript. The arXiv identifier was supplied by the author.
-2. Choose the release version/date, GitHub owner/repository URL and Zenodo
-   community/deposit details. These fields are intentionally absent.
-3. Review the inventory, exclusions, changes and tests for a release. GitHub
-   hosting, inclusion of ExceptionalDiagrams and the CC BY 4.0 licence have been
-   authorized; release metadata remains to be finalized.
-4. Accept the coverage qualifications: 92 dilute A(3) assembly entries remain
-   unreconstructed, rotation geometry is assumed, and the unprinted degree-seven
-   braid relation is unresolved. The publication does not claim those results.
-5. Decide whether to commission a portable wrapper for the historical Python
-   ordinary-relation audit. Its current wrapper is excluded because it needs
-   exploratory witnesses and historical Git objects. The complete encoded
-   ordinary-relation manifest is reproducibly checked here in C/FLINT.
+1. Describe the affected representation, diagram or identity and its normalization.
+   Give a small example and the expected behavior.
+2. Update the maintained package in `macaulay2/` and the corresponding JSON entries
+   together when a change affects their common mathematical content.
+3. Run structural validation and the relevant exact checks. For package or matrix
+   changes, run the package comparison and the C/Python identity checks that
+   exercise the affected objects.
+4. Update the format guide and usage examples when conventions or interfaces
+   change. Refresh payload and inventory hashes after editing their inputs.
+5. Save new verification results under a fresh run name and describe their scope
+   in the change summary.
 
-The licence is settled; versioned-release and deposit details remain open.
+Commands and dependencies are in [README.md](README.md) and
+[DEPENDENCY_AUDIT.md](DEPENDENCY_AUDIT.md). The package's GitHub Actions workflow
+provides structural validation, failure-detection tests and exact package/data
+checks.
+
+## Further verification work
+
+Two useful extensions are an independent construction of the 92 remaining
+ordinary-to-dilute transition entries and an explicit encoding of the
+degree-seven relation for the braid-generator presentation. The
+[coverage guide](AUDIT_COVERAGE.md#further-construction-checks) describes the
+required mathematical inputs.
+
+## Releases, citation and licence
+
+A release should identify the revision, summarize mathematical and interface
+changes, and link its verification results. Keep [CITATION.cff](CITATION.cff)
+consistent with the accompanying paper's bibliographic details.
+
+Data, documentation and software use [CC BY 4.0](LICENSE). Preserve the authorship
+credits and describe modifications when redistributing adapted material.

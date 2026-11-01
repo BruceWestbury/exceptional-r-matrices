@@ -12,7 +12,7 @@
       "display": "[n-1]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307; threestring.tex:447"
+        "Paper, Section 4; Paper, Section 6"
       ]
     },
     "b2m2": {
@@ -20,7 +20,7 @@
       "display": "[2n-2]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307; threestring.tex:447"
+        "Paper, Section 4; Paper, Section 6"
       ]
     },
     "b120": {
@@ -28,7 +28,7 @@
       "display": "[12n]",
       "origin": "expanded",
       "source": [
-        "coefficients.tex:302-307; threestring.tex:449"
+        "Paper, Section 4; Paper, Section 6"
       ]
     },
     "c_1": {
@@ -36,7 +36,7 @@
       "display": "c_1",
       "origin": "copied",
       "source": [
-        "appendix.tex:119, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_4": {
@@ -44,7 +44,7 @@
       "display": "c_4",
       "origin": "copied",
       "source": [
-        "appendix.tex:118, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_2": {
@@ -52,7 +52,7 @@
       "display": "c_2",
       "origin": "copied",
       "source": [
-        "appendix.tex:121, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_3": {
@@ -60,7 +60,7 @@
       "display": "c_3",
       "origin": "copied",
       "source": [
-        "appendix.tex:121, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_5": {
@@ -68,7 +68,7 @@
       "display": "c_5",
       "origin": "copied",
       "source": [
-        "appendix.tex:123, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_6": {
@@ -76,7 +76,7 @@
       "display": "c_6",
       "origin": "copied",
       "source": [
-        "appendix.tex:125, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_9": {
@@ -84,7 +84,7 @@
       "display": "c_9",
       "origin": "copied",
       "source": [
-        "appendix.tex:125, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_7": {
@@ -92,7 +92,7 @@
       "display": "c_7",
       "origin": "copied",
       "source": [
-        "appendix.tex:127, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_8": {
@@ -100,7 +100,7 @@
       "display": "c_8",
       "origin": "copied",
       "source": [
-        "appendix.tex:127, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_10": {
@@ -108,7 +108,7 @@
       "display": "c_10",
       "origin": "copied",
       "source": [
-        "appendix.tex:129, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_11": {
@@ -116,7 +116,7 @@
       "display": "c_11",
       "origin": "copied",
       "source": [
-        "appendix.tex:131, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_14": {
@@ -124,7 +124,7 @@
       "display": "c_14",
       "origin": "copied",
       "source": [
-        "appendix.tex:131, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_12": {
@@ -132,7 +132,7 @@
       "display": "c_12",
       "origin": "copied",
       "source": [
-        "appendix.tex:133, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_13": {
@@ -140,7 +140,7 @@
       "display": "c_13",
       "origin": "copied",
       "source": [
-        "appendix.tex:133, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_15": {
@@ -148,7 +148,7 @@
       "display": "c_15",
       "origin": "copied",
       "source": [
-        "appendix.tex:139, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     },
     "c_0": {
@@ -156,7 +156,7 @@
       "display": "c_0",
       "origin": "copied",
       "source": [
-        "appendix.tex:164, ssec:squarepenta"
+        "Paper, Appendix item A.3"
       ]
     }
   },
@@ -252,20 +252,54 @@
       "role": "derived",
       "origin": "source_prescribed",
       "source": [
-        "threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"
+        "Paper, Section 6 item 6.10; expanded factored Lagrange prescription with H interpreted as H_i"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["K"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "K"
+            ]
+          }
         ]
       },
       "rhs": {
         "terms": [
-          {"coefficient": "phi*(phi*e3)/((tau-xi)*(tau-zeta)*(tau-zetastar)*(tau-phi))", "word": []},
-          {"coefficient": "phi*(-(e3+phi*e2))/((tau-xi)*(tau-zeta)*(tau-zetastar)*(tau-phi))", "word": ["H"]},
-          {"coefficient": "phi*(e2+phi*e1)/((tau-xi)*(tau-zeta)*(tau-zetastar)*(tau-phi))", "word": ["H", "H"]},
-          {"coefficient": "phi*(-(e1+phi))/((tau-xi)*(tau-zeta)*(tau-zetastar)*(tau-phi))", "word": ["H", "H", "H"]},
-          {"coefficient": "phi*(1)/((tau-xi)*(tau-zeta)*(tau-zetastar)*(tau-phi))", "word": ["H", "H", "H", "H"]}
+          {
+            "coefficient": "phi*(phi*e3)/((tau-xi)*(tau-zeta)*(tau-zetastar)*(tau-phi))",
+            "word": []
+          },
+          {
+            "coefficient": "phi*(-(e3+phi*e2))/((tau-xi)*(tau-zeta)*(tau-zetastar)*(tau-phi))",
+            "word": [
+              "H"
+            ]
+          },
+          {
+            "coefficient": "phi*(e2+phi*e1)/((tau-xi)*(tau-zeta)*(tau-zetastar)*(tau-phi))",
+            "word": [
+              "H",
+              "H"
+            ]
+          },
+          {
+            "coefficient": "phi*(-(e1+phi))/((tau-xi)*(tau-zeta)*(tau-zetastar)*(tau-phi))",
+            "word": [
+              "H",
+              "H",
+              "H"
+            ]
+          },
+          {
+            "coefficient": "phi*(1)/((tau-xi)*(tau-zeta)*(tau-zetastar)*(tau-phi))",
+            "word": [
+              "H",
+              "H",
+              "H",
+              "H"
+            ]
+          }
         ]
       },
       "scope": "full_a3",
@@ -277,20 +311,54 @@
       "role": "derived",
       "origin": "source_prescribed",
       "source": [
-        "threestring.tex:248-261, rem:A3def; expanded factored Lagrange prescription with H interpreted as H_i"
+        "Paper, Section 6 item 6.10; expanded factored Lagrange prescription with H interpreted as H_i"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["U"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "U"
+            ]
+          }
         ]
       },
       "rhs": {
         "terms": [
-          {"coefficient": "delta*(tau*e3)/((phi-xi)*(phi-zeta)*(phi-zetastar)*(phi-tau))", "word": []},
-          {"coefficient": "delta*(-(e3+tau*e2))/((phi-xi)*(phi-zeta)*(phi-zetastar)*(phi-tau))", "word": ["H"]},
-          {"coefficient": "delta*(e2+tau*e1)/((phi-xi)*(phi-zeta)*(phi-zetastar)*(phi-tau))", "word": ["H", "H"]},
-          {"coefficient": "delta*(-(e1+tau))/((phi-xi)*(phi-zeta)*(phi-zetastar)*(phi-tau))", "word": ["H", "H", "H"]},
-          {"coefficient": "delta*(1)/((phi-xi)*(phi-zeta)*(phi-zetastar)*(phi-tau))", "word": ["H", "H", "H", "H"]}
+          {
+            "coefficient": "delta*(tau*e3)/((phi-xi)*(phi-zeta)*(phi-zetastar)*(phi-tau))",
+            "word": []
+          },
+          {
+            "coefficient": "delta*(-(e3+tau*e2))/((phi-xi)*(phi-zeta)*(phi-zetastar)*(phi-tau))",
+            "word": [
+              "H"
+            ]
+          },
+          {
+            "coefficient": "delta*(e2+tau*e1)/((phi-xi)*(phi-zeta)*(phi-zetastar)*(phi-tau))",
+            "word": [
+              "H",
+              "H"
+            ]
+          },
+          {
+            "coefficient": "delta*(-(e1+tau))/((phi-xi)*(phi-zeta)*(phi-zetastar)*(phi-tau))",
+            "word": [
+              "H",
+              "H",
+              "H"
+            ]
+          },
+          {
+            "coefficient": "delta*(1)/((phi-xi)*(phi-zeta)*(phi-zetastar)*(phi-tau))",
+            "word": [
+              "H",
+              "H",
+              "H",
+              "H"
+            ]
+          }
         ]
       },
       "scope": "full_a3",
@@ -304,16 +372,30 @@
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:642-645, eq:braidA3"
+        "Paper, Section 6 equation 6.49"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["S1", "S2", "S1"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "S1",
+              "S2",
+              "S1"
+            ]
+          }
         ]
       },
       "rhs": {
         "terms": [
-          {"coefficient": "1", "word": ["S2", "S1", "S2"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "S2",
+              "S1",
+              "S2"
+            ]
+          }
         ]
       },
       "scope": "full_a3",
@@ -325,16 +407,30 @@
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:202, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["H1", "K2", "H1"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "H1",
+              "K2",
+              "H1"
+            ]
+          }
         ]
       },
       "rhs": {
         "terms": [
-          {"coefficient": "1", "word": ["H2", "K1", "H2"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "H2",
+              "K1",
+              "H2"
+            ]
+          }
         ]
       },
       "scope": "full_a3",
@@ -346,16 +442,30 @@
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["K1", "U2", "K1"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "K1",
+              "U2",
+              "K1"
+            ]
+          }
         ]
       },
       "rhs": {
         "terms": [
-          {"coefficient": "1", "word": ["H2", "U1", "H2"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "H2",
+              "U1",
+              "H2"
+            ]
+          }
         ]
       },
       "scope": "full_a3",
@@ -367,16 +477,30 @@
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["K1", "U2", "H1"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "K1",
+              "U2",
+              "H1"
+            ]
+          }
         ]
       },
       "rhs": {
         "terms": [
-          {"coefficient": "1", "word": ["H2", "U1", "K2"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "H2",
+              "U1",
+              "K2"
+            ]
+          }
         ]
       },
       "scope": "full_a3",
@@ -388,16 +512,29 @@
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["K1", "U2", "U1"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "K1",
+              "U2",
+              "U1"
+            ]
+          }
         ]
       },
       "rhs": {
         "terms": [
-          {"coefficient": "1", "word": ["H2", "U1"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "H2",
+              "U1"
+            ]
+          }
         ]
       },
       "scope": "full_a3",
@@ -409,16 +546,29 @@
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["U1", "U2", "K1"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "U1",
+              "U2",
+              "K1"
+            ]
+          }
         ]
       },
       "rhs": {
         "terms": [
-          {"coefficient": "1", "word": ["U1", "H2"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "U1",
+              "H2"
+            ]
+          }
         ]
       },
       "scope": "full_a3",
@@ -430,16 +580,28 @@
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["U1", "U2", "U1"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "U1",
+              "U2",
+              "U1"
+            ]
+          }
         ]
       },
       "rhs": {
         "terms": [
-          {"coefficient": "1", "word": ["U1"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "U1"
+            ]
+          }
         ]
       },
       "scope": "full_a3",
@@ -451,16 +613,30 @@
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["K2", "U1", "K2"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "K2",
+              "U1",
+              "K2"
+            ]
+          }
         ]
       },
       "rhs": {
         "terms": [
-          {"coefficient": "1", "word": ["H1", "U2", "H1"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "H1",
+              "U2",
+              "H1"
+            ]
+          }
         ]
       },
       "scope": "full_a3",
@@ -472,16 +648,30 @@
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["K2", "U1", "H2"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "K2",
+              "U1",
+              "H2"
+            ]
+          }
         ]
       },
       "rhs": {
         "terms": [
-          {"coefficient": "1", "word": ["H1", "U2", "K1"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "H1",
+              "U2",
+              "K1"
+            ]
+          }
         ]
       },
       "scope": "full_a3",
@@ -493,16 +683,29 @@
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["K2", "U1", "U2"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "K2",
+              "U1",
+              "U2"
+            ]
+          }
         ]
       },
       "rhs": {
         "terms": [
-          {"coefficient": "1", "word": ["H1", "U2"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "H1",
+              "U2"
+            ]
+          }
         ]
       },
       "scope": "full_a3",
@@ -514,16 +717,29 @@
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["U2", "U1", "K2"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "U2",
+              "U1",
+              "K2"
+            ]
+          }
         ]
       },
       "rhs": {
         "terms": [
-          {"coefficient": "1", "word": ["U2", "H1"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "U2",
+              "H1"
+            ]
+          }
         ]
       },
       "scope": "full_a3",
@@ -535,16 +751,28 @@
       "role": "primary",
       "origin": "copied",
       "source": [
-        "threestring.tex:204-212, eq:A3rels; i=1,2 and j=3-i"
+        "Paper, Section 6 equation 6.27; i=1,2 and j=3-i"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["U2", "U1", "U2"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "U2",
+              "U1",
+              "U2"
+            ]
+          }
         ]
       },
       "rhs": {
         "terms": [
-          {"coefficient": "1", "word": ["U2"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "U2"
+            ]
+          }
         ]
       },
       "scope": "full_a3",
@@ -559,42 +787,228 @@
       "status": "source_claim",
       "origin": "copied",
       "source": [
-        "threestring.tex:218-237, eq:A3relsb, def:tildeA3"
+        "Paper, Section 6 equation 6.39, item 6.9"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["H2", "H2", "H1", "H2"]},
-          {"coefficient": "-1", "word": ["H1", "H1", "H2", "H1"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "H2",
+              "H2",
+              "H1",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "word": [
+              "H1",
+              "H1",
+              "H2",
+              "H1"
+            ]
+          }
         ]
       },
       "rhs": {
         "terms": [
-          {"coefficient": "(c_2-c_1)*b_0^-1", "word": ["H1", "H1", "H2", "K1"]},
-          {"coefficient": "-((c_2-c_1)*b_0^-1)", "word": ["H2", "H2", "H1", "K2"]},
-          {"coefficient": "c_15", "word": ["H2", "H1", "H2"]},
-          {"coefficient": "-(c_15)", "word": ["H1", "H2", "H1"]},
-          {"coefficient": "c_11", "word": ["H1", "H2", "H2"]},
-          {"coefficient": "-(c_11)", "word": ["H2", "H1", "H1"]},
-          {"coefficient": "c_12", "word": ["H2", "H2", "H1"]},
-          {"coefficient": "-(c_12)", "word": ["H1", "H1", "H2"]},
-          {"coefficient": "c_10", "word": ["K2", "H1", "H2"]},
-          {"coefficient": "-(c_10)", "word": ["K1", "H2", "H1"]},
-          {"coefficient": "c_12+(c_2-c_1)*b_0^-1*b_4", "word": ["H2", "H1", "K2"]},
-          {"coefficient": "-(c_12+(c_2-c_1)*b_0^-1*b_4)", "word": ["H1", "H2", "K1"]},
-          {"coefficient": "(c_6+(c_2-c_1)*b_0^-1*b_2)*tau^-1", "word": ["K2", "H1", "K2"]},
-          {"coefficient": "-((c_6+(c_2-c_1)*b_0^-1*b_2)*tau^-1)", "word": ["K1", "H2", "K1"]},
-          {"coefficient": "c_6", "word": ["K2", "H1"]},
-          {"coefficient": "-(c_6)", "word": ["K1", "H2"]},
-          {"coefficient": "c_7+(c_2-c_1)*b_0^-1*b_3", "word": ["H1", "K2"]},
-          {"coefficient": "-(c_7+(c_2-c_1)*b_0^-1*b_3)", "word": ["H2", "K1"]},
-          {"coefficient": "c_0+(c_2-c_1)*b_0^-1*b_1", "word": ["U2", "H1"]},
-          {"coefficient": "-(c_0+(c_2-c_1)*b_0^-1*b_1)", "word": ["U1", "H2"]},
-          {"coefficient": "c_5-c_7", "word": ["H1", "H2"]},
-          {"coefficient": "-(c_5-c_7)", "word": ["H2", "H1"]},
-          {"coefficient": "c_2", "word": ["H1", "U2"]},
-          {"coefficient": "-(c_2)", "word": ["H2", "U1"]},
-          {"coefficient": "c_1", "word": ["H1"]},
-          {"coefficient": "-(c_1)", "word": ["H2"]}
+          {
+            "coefficient": "(c_2-c_1)*b_0^-1",
+            "word": [
+              "H1",
+              "H1",
+              "H2",
+              "K1"
+            ]
+          },
+          {
+            "coefficient": "-((c_2-c_1)*b_0^-1)",
+            "word": [
+              "H2",
+              "H2",
+              "H1",
+              "K2"
+            ]
+          },
+          {
+            "coefficient": "c_15",
+            "word": [
+              "H2",
+              "H1",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "-(c_15)",
+            "word": [
+              "H1",
+              "H2",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "c_11",
+            "word": [
+              "H1",
+              "H2",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "-(c_11)",
+            "word": [
+              "H2",
+              "H1",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "c_12",
+            "word": [
+              "H2",
+              "H2",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "-(c_12)",
+            "word": [
+              "H1",
+              "H1",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "c_10",
+            "word": [
+              "K2",
+              "H1",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "-(c_10)",
+            "word": [
+              "K1",
+              "H2",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "c_12+(c_2-c_1)*b_0^-1*b_4",
+            "word": [
+              "H2",
+              "H1",
+              "K2"
+            ]
+          },
+          {
+            "coefficient": "-(c_12+(c_2-c_1)*b_0^-1*b_4)",
+            "word": [
+              "H1",
+              "H2",
+              "K1"
+            ]
+          },
+          {
+            "coefficient": "(c_6+(c_2-c_1)*b_0^-1*b_2)*tau^-1",
+            "word": [
+              "K2",
+              "H1",
+              "K2"
+            ]
+          },
+          {
+            "coefficient": "-((c_6+(c_2-c_1)*b_0^-1*b_2)*tau^-1)",
+            "word": [
+              "K1",
+              "H2",
+              "K1"
+            ]
+          },
+          {
+            "coefficient": "c_6",
+            "word": [
+              "K2",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "-(c_6)",
+            "word": [
+              "K1",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "c_7+(c_2-c_1)*b_0^-1*b_3",
+            "word": [
+              "H1",
+              "K2"
+            ]
+          },
+          {
+            "coefficient": "-(c_7+(c_2-c_1)*b_0^-1*b_3)",
+            "word": [
+              "H2",
+              "K1"
+            ]
+          },
+          {
+            "coefficient": "c_0+(c_2-c_1)*b_0^-1*b_1",
+            "word": [
+              "U2",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "-(c_0+(c_2-c_1)*b_0^-1*b_1)",
+            "word": [
+              "U1",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "c_5-c_7",
+            "word": [
+              "H1",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "-(c_5-c_7)",
+            "word": [
+              "H2",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "c_2",
+            "word": [
+              "H1",
+              "U2"
+            ]
+          },
+          {
+            "coefficient": "-(c_2)",
+            "word": [
+              "H2",
+              "U1"
+            ]
+          },
+          {
+            "coefficient": "c_1",
+            "word": [
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "-(c_1)",
+            "word": [
+              "H2"
+            ]
+          }
         ]
       }
     },
@@ -606,16 +1020,54 @@
       "status": "source_claim",
       "origin": "expanded",
       "source": [
-        "threestring.tex:640-646, prop:A3S, eq:Squintic"
+        "Paper, Section 6 item 6.18, equation 6.50"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["S1", "S1", "S1", "S1", "S1"]},
-          {"coefficient": "-((-1)+(q^-2)+(q^2*p^2)+(-p^6)+(p^12))", "word": ["S1", "S1", "S1", "S1"]},
-          {"coefficient": "((-1)*(q^-2)+(-1)*(q^2*p^2)+(-1)*(-p^6)+(-1)*(p^12)+(q^-2)*(q^2*p^2)+(q^-2)*(-p^6)+(q^-2)*(p^12)+(q^2*p^2)*(-p^6)+(q^2*p^2)*(p^12)+(-p^6)*(p^12))", "word": ["S1", "S1", "S1"]},
-          {"coefficient": "-((-1)*(q^-2)*(q^2*p^2)+(-1)*(q^-2)*(-p^6)+(-1)*(q^-2)*(p^12)+(-1)*(q^2*p^2)*(-p^6)+(-1)*(q^2*p^2)*(p^12)+(-1)*(-p^6)*(p^12)+(q^-2)*(q^2*p^2)*(-p^6)+(q^-2)*(q^2*p^2)*(p^12)+(q^-2)*(-p^6)*(p^12)+(q^2*p^2)*(-p^6)*(p^12))", "word": ["S1", "S1"]},
-          {"coefficient": "((-1)*(q^-2)*(q^2*p^2)*(-p^6)+(-1)*(q^-2)*(q^2*p^2)*(p^12)+(-1)*(q^-2)*(-p^6)*(p^12)+(-1)*(q^2*p^2)*(-p^6)*(p^12)+(q^-2)*(q^2*p^2)*(-p^6)*(p^12))", "word": ["S1"]},
-          {"coefficient": "-((-1)*(q^-2)*(q^2*p^2)*(-p^6)*(p^12))", "word": []}
+          {
+            "coefficient": "1",
+            "word": [
+              "S1",
+              "S1",
+              "S1",
+              "S1",
+              "S1"
+            ]
+          },
+          {
+            "coefficient": "-((-1)+(q^-2)+(q^2*p^2)+(-p^6)+(p^12))",
+            "word": [
+              "S1",
+              "S1",
+              "S1",
+              "S1"
+            ]
+          },
+          {
+            "coefficient": "((-1)*(q^-2)+(-1)*(q^2*p^2)+(-1)*(-p^6)+(-1)*(p^12)+(q^-2)*(q^2*p^2)+(q^-2)*(-p^6)+(q^-2)*(p^12)+(q^2*p^2)*(-p^6)+(q^2*p^2)*(p^12)+(-p^6)*(p^12))",
+            "word": [
+              "S1",
+              "S1",
+              "S1"
+            ]
+          },
+          {
+            "coefficient": "-((-1)*(q^-2)*(q^2*p^2)+(-1)*(q^-2)*(-p^6)+(-1)*(q^-2)*(p^12)+(-1)*(q^2*p^2)*(-p^6)+(-1)*(q^2*p^2)*(p^12)+(-1)*(-p^6)*(p^12)+(q^-2)*(q^2*p^2)*(-p^6)+(q^-2)*(q^2*p^2)*(p^12)+(q^-2)*(-p^6)*(p^12)+(q^2*p^2)*(-p^6)*(p^12))",
+            "word": [
+              "S1",
+              "S1"
+            ]
+          },
+          {
+            "coefficient": "((-1)*(q^-2)*(q^2*p^2)*(-p^6)+(-1)*(q^-2)*(q^2*p^2)*(p^12)+(-1)*(q^-2)*(-p^6)*(p^12)+(-1)*(q^2*p^2)*(-p^6)*(p^12)+(q^-2)*(q^2*p^2)*(-p^6)*(p^12))",
+            "word": [
+              "S1"
+            ]
+          },
+          {
+            "coefficient": "-((-1)*(q^-2)*(q^2*p^2)*(-p^6)*(p^12))",
+            "word": []
+          }
         ]
       },
       "rhs": {
@@ -641,16 +1093,54 @@
       "status": "source_claim",
       "origin": "expanded",
       "source": [
-        "threestring.tex:248-253, rem:A3def"
+        "Paper, Section 6 item 6.10"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["H1", "H1", "H1", "H1", "H1"]},
-          {"coefficient": "-((xi)+(zeta)+(zetastar)+(phi)+(tau))", "word": ["H1", "H1", "H1", "H1"]},
-          {"coefficient": "((xi)*(zeta)+(xi)*(zetastar)+(xi)*(phi)+(xi)*(tau)+(zeta)*(zetastar)+(zeta)*(phi)+(zeta)*(tau)+(zetastar)*(phi)+(zetastar)*(tau)+(phi)*(tau))", "word": ["H1", "H1", "H1"]},
-          {"coefficient": "-((xi)*(zeta)*(zetastar)+(xi)*(zeta)*(phi)+(xi)*(zeta)*(tau)+(xi)*(zetastar)*(phi)+(xi)*(zetastar)*(tau)+(xi)*(phi)*(tau)+(zeta)*(zetastar)*(phi)+(zeta)*(zetastar)*(tau)+(zeta)*(phi)*(tau)+(zetastar)*(phi)*(tau))", "word": ["H1", "H1"]},
-          {"coefficient": "((xi)*(zeta)*(zetastar)*(phi)+(xi)*(zeta)*(zetastar)*(tau)+(xi)*(zeta)*(phi)*(tau)+(xi)*(zetastar)*(phi)*(tau)+(zeta)*(zetastar)*(phi)*(tau))", "word": ["H1"]},
-          {"coefficient": "-((xi)*(zeta)*(zetastar)*(phi)*(tau))", "word": []}
+          {
+            "coefficient": "1",
+            "word": [
+              "H1",
+              "H1",
+              "H1",
+              "H1",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "-((xi)+(zeta)+(zetastar)+(phi)+(tau))",
+            "word": [
+              "H1",
+              "H1",
+              "H1",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "((xi)*(zeta)+(xi)*(zetastar)+(xi)*(phi)+(xi)*(tau)+(zeta)*(zetastar)+(zeta)*(phi)+(zeta)*(tau)+(zetastar)*(phi)+(zetastar)*(tau)+(phi)*(tau))",
+            "word": [
+              "H1",
+              "H1",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "-((xi)*(zeta)*(zetastar)+(xi)*(zeta)*(phi)+(xi)*(zeta)*(tau)+(xi)*(zetastar)*(phi)+(xi)*(zetastar)*(tau)+(xi)*(phi)*(tau)+(zeta)*(zetastar)*(phi)+(zeta)*(zetastar)*(tau)+(zeta)*(phi)*(tau)+(zetastar)*(phi)*(tau))",
+            "word": [
+              "H1",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "((xi)*(zeta)*(zetastar)*(phi)+(xi)*(zeta)*(zetastar)*(tau)+(xi)*(zeta)*(phi)*(tau)+(xi)*(zetastar)*(phi)*(tau)+(zeta)*(zetastar)*(phi)*(tau))",
+            "word": [
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "-((xi)*(zeta)*(zetastar)*(phi)*(tau))",
+            "word": []
+          }
         ]
       },
       "rhs": {
@@ -676,16 +1166,54 @@
       "status": "source_claim",
       "origin": "expanded",
       "source": [
-        "threestring.tex:640-646, prop:A3S, eq:Squintic"
+        "Paper, Section 6 item 6.18, equation 6.50"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["S2", "S2", "S2", "S2", "S2"]},
-          {"coefficient": "-((-1)+(q^-2)+(q^2*p^2)+(-p^6)+(p^12))", "word": ["S2", "S2", "S2", "S2"]},
-          {"coefficient": "((-1)*(q^-2)+(-1)*(q^2*p^2)+(-1)*(-p^6)+(-1)*(p^12)+(q^-2)*(q^2*p^2)+(q^-2)*(-p^6)+(q^-2)*(p^12)+(q^2*p^2)*(-p^6)+(q^2*p^2)*(p^12)+(-p^6)*(p^12))", "word": ["S2", "S2", "S2"]},
-          {"coefficient": "-((-1)*(q^-2)*(q^2*p^2)+(-1)*(q^-2)*(-p^6)+(-1)*(q^-2)*(p^12)+(-1)*(q^2*p^2)*(-p^6)+(-1)*(q^2*p^2)*(p^12)+(-1)*(-p^6)*(p^12)+(q^-2)*(q^2*p^2)*(-p^6)+(q^-2)*(q^2*p^2)*(p^12)+(q^-2)*(-p^6)*(p^12)+(q^2*p^2)*(-p^6)*(p^12))", "word": ["S2", "S2"]},
-          {"coefficient": "((-1)*(q^-2)*(q^2*p^2)*(-p^6)+(-1)*(q^-2)*(q^2*p^2)*(p^12)+(-1)*(q^-2)*(-p^6)*(p^12)+(-1)*(q^2*p^2)*(-p^6)*(p^12)+(q^-2)*(q^2*p^2)*(-p^6)*(p^12))", "word": ["S2"]},
-          {"coefficient": "-((-1)*(q^-2)*(q^2*p^2)*(-p^6)*(p^12))", "word": []}
+          {
+            "coefficient": "1",
+            "word": [
+              "S2",
+              "S2",
+              "S2",
+              "S2",
+              "S2"
+            ]
+          },
+          {
+            "coefficient": "-((-1)+(q^-2)+(q^2*p^2)+(-p^6)+(p^12))",
+            "word": [
+              "S2",
+              "S2",
+              "S2",
+              "S2"
+            ]
+          },
+          {
+            "coefficient": "((-1)*(q^-2)+(-1)*(q^2*p^2)+(-1)*(-p^6)+(-1)*(p^12)+(q^-2)*(q^2*p^2)+(q^-2)*(-p^6)+(q^-2)*(p^12)+(q^2*p^2)*(-p^6)+(q^2*p^2)*(p^12)+(-p^6)*(p^12))",
+            "word": [
+              "S2",
+              "S2",
+              "S2"
+            ]
+          },
+          {
+            "coefficient": "-((-1)*(q^-2)*(q^2*p^2)+(-1)*(q^-2)*(-p^6)+(-1)*(q^-2)*(p^12)+(-1)*(q^2*p^2)*(-p^6)+(-1)*(q^2*p^2)*(p^12)+(-1)*(-p^6)*(p^12)+(q^-2)*(q^2*p^2)*(-p^6)+(q^-2)*(q^2*p^2)*(p^12)+(q^-2)*(-p^6)*(p^12)+(q^2*p^2)*(-p^6)*(p^12))",
+            "word": [
+              "S2",
+              "S2"
+            ]
+          },
+          {
+            "coefficient": "((-1)*(q^-2)*(q^2*p^2)*(-p^6)+(-1)*(q^-2)*(q^2*p^2)*(p^12)+(-1)*(q^-2)*(-p^6)*(p^12)+(-1)*(q^2*p^2)*(-p^6)*(p^12)+(q^-2)*(q^2*p^2)*(-p^6)*(p^12))",
+            "word": [
+              "S2"
+            ]
+          },
+          {
+            "coefficient": "-((-1)*(q^-2)*(q^2*p^2)*(-p^6)*(p^12))",
+            "word": []
+          }
         ]
       },
       "rhs": {
@@ -711,16 +1239,54 @@
       "status": "source_claim",
       "origin": "expanded",
       "source": [
-        "threestring.tex:248-253, rem:A3def"
+        "Paper, Section 6 item 6.10"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["H2", "H2", "H2", "H2", "H2"]},
-          {"coefficient": "-((xi)+(zeta)+(zetastar)+(phi)+(tau))", "word": ["H2", "H2", "H2", "H2"]},
-          {"coefficient": "((xi)*(zeta)+(xi)*(zetastar)+(xi)*(phi)+(xi)*(tau)+(zeta)*(zetastar)+(zeta)*(phi)+(zeta)*(tau)+(zetastar)*(phi)+(zetastar)*(tau)+(phi)*(tau))", "word": ["H2", "H2", "H2"]},
-          {"coefficient": "-((xi)*(zeta)*(zetastar)+(xi)*(zeta)*(phi)+(xi)*(zeta)*(tau)+(xi)*(zetastar)*(phi)+(xi)*(zetastar)*(tau)+(xi)*(phi)*(tau)+(zeta)*(zetastar)*(phi)+(zeta)*(zetastar)*(tau)+(zeta)*(phi)*(tau)+(zetastar)*(phi)*(tau))", "word": ["H2", "H2"]},
-          {"coefficient": "((xi)*(zeta)*(zetastar)*(phi)+(xi)*(zeta)*(zetastar)*(tau)+(xi)*(zeta)*(phi)*(tau)+(xi)*(zetastar)*(phi)*(tau)+(zeta)*(zetastar)*(phi)*(tau))", "word": ["H2"]},
-          {"coefficient": "-((xi)*(zeta)*(zetastar)*(phi)*(tau))", "word": []}
+          {
+            "coefficient": "1",
+            "word": [
+              "H2",
+              "H2",
+              "H2",
+              "H2",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "-((xi)+(zeta)+(zetastar)+(phi)+(tau))",
+            "word": [
+              "H2",
+              "H2",
+              "H2",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "((xi)*(zeta)+(xi)*(zetastar)+(xi)*(phi)+(xi)*(tau)+(zeta)*(zetastar)+(zeta)*(phi)+(zeta)*(tau)+(zetastar)*(phi)+(zetastar)*(tau)+(phi)*(tau))",
+            "word": [
+              "H2",
+              "H2",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "-((xi)*(zeta)*(zetastar)+(xi)*(zeta)*(phi)+(xi)*(zeta)*(tau)+(xi)*(zetastar)*(phi)+(xi)*(zetastar)*(tau)+(xi)*(phi)*(tau)+(zeta)*(zetastar)*(phi)+(zeta)*(zetastar)*(tau)+(zeta)*(phi)*(tau)+(zetastar)*(phi)*(tau))",
+            "word": [
+              "H2",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "((xi)*(zeta)*(zetastar)*(phi)+(xi)*(zeta)*(zetastar)*(tau)+(xi)*(zeta)*(phi)*(tau)+(xi)*(zetastar)*(phi)*(tau)+(zeta)*(zetastar)*(phi)*(tau))",
+            "word": [
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "-((xi)*(zeta)*(zetastar)*(phi)*(tau))",
+            "word": []
+          }
         ]
       },
       "rhs": {
@@ -746,14 +1312,35 @@
       "status": "source_claim",
       "origin": "copied",
       "source": [
-        "threestring-top.tex:53-55, eq:Hrels"
+        "Paper, Section 6.1 equation 6.4"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["H1", "H1", "H1"]},
-          {"coefficient": "-e1", "word": ["H1", "H1"]},
-          {"coefficient": "e2", "word": ["H1"]},
-          {"coefficient": "-e3", "word": []}
+          {
+            "coefficient": "1",
+            "word": [
+              "H1",
+              "H1",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "-e1",
+            "word": [
+              "H1",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "e2",
+            "word": [
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "-e3",
+            "word": []
+          }
         ]
       },
       "rhs": {
@@ -768,14 +1355,35 @@
       "status": "source_claim",
       "origin": "copied",
       "source": [
-        "threestring-top.tex:53-55, eq:Hrels"
+        "Paper, Section 6.1 equation 6.4"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["H2", "H2", "H2"]},
-          {"coefficient": "-e1", "word": ["H2", "H2"]},
-          {"coefficient": "e2", "word": ["H2"]},
-          {"coefficient": "-e3", "word": []}
+          {
+            "coefficient": "1",
+            "word": [
+              "H2",
+              "H2",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "-e1",
+            "word": [
+              "H2",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "e2",
+            "word": [
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "-e3",
+            "word": []
+          }
         ]
       },
       "rhs": {
@@ -790,20 +1398,62 @@
       "status": "source_claim",
       "origin": "copied",
       "source": [
-        "threestring-top.tex:56-69, eq:Hrelsa"
+        "Paper, Section 6.1 equation 6.5"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["H2", "H2", "H1", "H2"]},
-          {"coefficient": "-1", "word": ["H2", "H1", "H2", "H2"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "H2",
+              "H2",
+              "H1",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "word": [
+              "H2",
+              "H1",
+              "H2",
+              "H2"
+            ]
+          }
         ]
       },
       "rhs": {
         "terms": [
-          {"coefficient": "xi", "word": ["H2", "H2", "H1"]},
-          {"coefficient": "-xi", "word": ["H1", "H2", "H2"]},
-          {"coefficient": "xi^2", "word": ["H1", "H2"]},
-          {"coefficient": "-xi^2", "word": ["H2", "H1"]}
+          {
+            "coefficient": "xi",
+            "word": [
+              "H2",
+              "H2",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "-xi",
+            "word": [
+              "H1",
+              "H2",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "xi^2",
+            "word": [
+              "H1",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "-xi^2",
+            "word": [
+              "H2",
+              "H1"
+            ]
+          }
         ]
       }
     },
@@ -815,20 +1465,62 @@
       "status": "source_claim",
       "origin": "copied",
       "source": [
-        "threestring-top.tex:70-83, eq:Hrelsaa"
+        "Paper, Section 6.1 equation 6.6"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["H1", "H2", "H1", "H1"]},
-          {"coefficient": "-1", "word": ["H1", "H1", "H2", "H1"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "H1",
+              "H2",
+              "H1",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "word": [
+              "H1",
+              "H1",
+              "H2",
+              "H1"
+            ]
+          }
         ]
       },
       "rhs": {
         "terms": [
-          {"coefficient": "xi", "word": ["H2", "H1", "H1"]},
-          {"coefficient": "-xi", "word": ["H1", "H1", "H2"]},
-          {"coefficient": "xi^2", "word": ["H1", "H2"]},
-          {"coefficient": "-xi^2", "word": ["H2", "H1"]}
+          {
+            "coefficient": "xi",
+            "word": [
+              "H2",
+              "H1",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "-xi",
+            "word": [
+              "H1",
+              "H1",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "xi^2",
+            "word": [
+              "H1",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "-xi^2",
+            "word": [
+              "H2",
+              "H1"
+            ]
+          }
         ]
       }
     },
@@ -840,61 +1532,167 @@
       "status": "source_claim",
       "origin": "copied",
       "source": [
-        "threestring-top.tex:85-91, eq:Hrelsb, equation (6.7), wholesale corrected definition"
+        "Paper, Section 6.1 equation 6.7, equation (6.7), wholesale corrected definition"
       ],
       "lhs": {
         "terms": [
-          {"coefficient": "1", "word": ["H2", "H2", "H1", "H2"]},
-          {"coefficient": "-1", "word": ["H1", "H1", "H2", "H1"]}
+          {
+            "coefficient": "1",
+            "word": [
+              "H2",
+              "H2",
+              "H1",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "word": [
+              "H1",
+              "H1",
+              "H2",
+              "H1"
+            ]
+          }
         ]
       },
       "rhs": {
         "terms": [
-          {"coefficient": "c_15", "word": ["H2", "H1", "H2"]},
-          {"coefficient": "-c_15", "word": ["H1", "H2", "H1"]},
-          {"coefficient": "c_11", "word": ["H1", "H2", "H2"]},
-          {"coefficient": "-c_11", "word": ["H2", "H1", "H1"]},
-          {"coefficient": "c_12", "word": ["H2", "H2", "H1"]},
-          {"coefficient": "-c_12", "word": ["H1", "H1", "H2"]},
-          {"coefficient": "c_5-c_7", "word": ["H1", "H2"]},
-          {"coefficient": "-(c_5-c_7)", "word": ["H2", "H1"]},
-          {"coefficient": "c_1", "word": ["H1"]},
-          {"coefficient": "-c_1", "word": ["H2"]}
+          {
+            "coefficient": "c_15",
+            "word": [
+              "H2",
+              "H1",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "-c_15",
+            "word": [
+              "H1",
+              "H2",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "c_11",
+            "word": [
+              "H1",
+              "H2",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "-c_11",
+            "word": [
+              "H2",
+              "H1",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "c_12",
+            "word": [
+              "H2",
+              "H2",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "-c_12",
+            "word": [
+              "H1",
+              "H1",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "c_5-c_7",
+            "word": [
+              "H1",
+              "H2"
+            ]
+          },
+          {
+            "coefficient": "-(c_5-c_7)",
+            "word": [
+              "H2",
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "c_1",
+            "word": [
+              "H1"
+            ]
+          },
+          {
+            "coefficient": "-c_1",
+            "word": [
+              "H2"
+            ]
+          }
         ]
       }
     }
   ],
   "representations": [
-    {"id": "I", "path": "representations/I.json"},
-    {"id": "X3", "path": "representations/X3.json"},
-    {"id": "Y3", "path": "representations/Y3.json"},
-    {"id": "Y3_star", "path": "representations/Y3_star.json"},
-    {"id": "C", "path": "representations/C.json"},
-    {"id": "C_star", "path": "representations/C_star.json"},
-    {"id": "A", "path": "representations/A.json"},
-    {"id": "Y2", "path": "representations/Y2.json"},
-    {"id": "Y2_star", "path": "representations/Y2_star.json"},
-    {"id": "X2", "path": "representations/X2.json"},
+    {
+      "id": "I",
+      "path": "representations/I.json"
+    },
+    {
+      "id": "X3",
+      "path": "representations/X3.json"
+    },
+    {
+      "id": "Y3",
+      "path": "representations/Y3.json"
+    },
+    {
+      "id": "Y3_star",
+      "path": "representations/Y3_star.json"
+    },
+    {
+      "id": "C",
+      "path": "representations/C.json"
+    },
+    {
+      "id": "C_star",
+      "path": "representations/C_star.json"
+    },
+    {
+      "id": "A",
+      "path": "representations/A.json"
+    },
+    {
+      "id": "Y2",
+      "path": "representations/Y2.json"
+    },
+    {
+      "id": "Y2_star",
+      "path": "representations/Y2_star.json"
+    },
+    {
+      "id": "X2",
+      "path": "representations/X2.json"
+    },
     {
       "id": "L",
       "path": "representations/L.json"
     }
   ],
-  "presentation_scope": "All 30 formal defining H,K,U equations remain encoded as source claims, not an assumption of a complete verified presentation or word basis. The b_i are uniquely determined local coefficients. Following the approved saved-source sign corrections to c1=c4, c15 and the derived b3 term, quartic_full passes exactly in all eleven representations and is included in acceptance checks. Printed c5,c7,c8 and the c0 closure are unchanged; the apparent Delta shift compensated for the stale word-term sign. The wholesale saved eq:Hrelsb replacement at threestring-top.tex:85-91 is the literal K1=K2=U1=U2=0 specialization of quartic_full: both LHS terms and all ten RHS terms match, including the (c5-c7) commutator. top_quartic_b passes exactly in all six top irreducibles (squared dimensions 20) and is now required. All formerly unresolved ordinary quartic assertions pass; prior failures are historical evidence only. The reconstruction verifies the derived word relation, not independently the five-boundary diagram identity.",
+  "presentation_scope": "The thirty H,K,U defining equalities, local consequences, braid identities and top-quotient identities are encoded with their applicability. Exact checks in the eleven representations are recorded in verification/ordinary_a3/. The paper supplies the abstract presentation and basis arguments.",
   "source": [
-    "threestring.tex:188-261, def:tildeA3, eq:A3rels, eq:A3relsb, rem:A3def",
-    "threestring.tex:630-645, eq:HtoSA3, eq:braidA3"
+    "Paper, Section 6 item 6.9, equation 6.27, equation 6.39, item 6.10",
+    "Paper, Section 6 equation 6.48, equation 6.49"
   ],
   "provenance": {
-    "base_commit": "0149631bb3c8bf73369001d239e00ab5ae718f27",
-    "change": "Encode the formal full H,K,U presentation by local references plus mixed and quartic words; classify additional and quotient identities. No stored matrix or local coefficient is changed in that step. Migrate profile version metadata to 0.2.0. Follow-up: move b coefficients to local ownership and correct b_3 to -e2 by the faithful five-character linear system, not by quartic fitting. Author-directed continuation: classify top_quartic_b as unresolved diagnostic without changing its formula or applicability; register C_star, A and the initially failing source-faithful Y2 candidate. Current follow-up: reconcile the author-approved saved Y2 S1 correction and its rotation/bar counterparts, register source-faithful Y2_star and X2, and complete all eleven representations. All acceptance checks now pass. No c coefficient, quartic term or other existing matrix is changed. Subsequent author-approved saved-source correction: reverse c1=c4 and c15, and change the b3 contribution in quartic_full to plus (threestring.tex:232). All other coefficient formulas, the c0 closure, local b values and every representation byte are unchanged. The independent reconstruction and its stale-sign diagnostic history are retained. Earlier pass from 0149631: copy the saved top eq:Hrelsb c11/c12 word-pairing correction at threestring-top.tex:91-92. Coefficients, quartic_full and matrices are unchanged. Exact top residuals remain nonzero; retain unresolved status. The prior complete top residuals are preserved at base_commit:reports/a3_representation_residuals.json. Subsequent wholesale saved-source replacement of eq:Hrelsb: correct LHS, c15 orientation and c11/c12 word differences, and restore the (c5-c7) commutator. Exact literal quotient comparison and all-six-representation verification pass; promote top_quartic_b to source_claim. The immediate pre-replacement uncommitted relation and full residuals are frozen in reports/a3_top_quotient_history.json. No coefficient, full quartic, or matrix changes.",
-    "authority": "The corrected working manuscript is the source for the c formulas and derived word coefficient. Independent exact matrix reconstruction verifies them; it is not an independent diagrammatic proof of the five-boundary identity. The author approved these saved-source corrections; all matrices remain at the recorded checkpoint.",
-    "source_hashes": {
-      "appendix.tex": "d107395cf034713b40739c5dcadb257a84455d807348d38e57c2b5f14ad9f7a1",
-      "threestring.tex": "67591ab70b2c391f36608cce264bb0ea9cae2d060696c60fc4ab6b458e5fda96",
-      "threestring-top.tex": "666b361553f93527709b9d9b97ba8bb07a95a868b064b3cddd7da19cbda99cdc",
-      "twostring.tex": "8f6463f6d69b47bf8abbabd30c9add57379a31756e5b38740eb14d6d4abf006f"
-    }
+    "citation": "https://arxiv.org/abs/2406.01348",
+    "description": "Ordinary A(3) coefficients, relations and representation declarations.",
+    "sources": [
+      "https://arxiv.org/abs/2406.01348"
+    ]
   },
   "local_assertions": [
     {
@@ -909,7 +1707,7 @@
         "right": "K"
       },
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ]
     },
     {
@@ -924,7 +1722,7 @@
         "right": "H"
       },
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ]
     },
     {
@@ -939,7 +1737,7 @@
         "right": "U"
       },
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ]
     },
     {
@@ -954,7 +1752,7 @@
         "right": "H"
       },
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ]
     },
     {
@@ -969,7 +1767,7 @@
         "right": "K"
       },
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ]
     },
     {
@@ -984,7 +1782,7 @@
         "right": "U"
       },
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ]
     },
     {
@@ -999,7 +1797,7 @@
         "right": "K"
       },
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ]
     },
     {
@@ -1014,7 +1812,7 @@
         "right": "U"
       },
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ]
     },
     {
@@ -1027,7 +1825,7 @@
         "relation": "cubic"
       },
       "source": [
-        "threestring.tex:214-217, eq:A3rels; appendix.tex:88-90; twostring.tex:607-613, eq:Hcubed"
+        "Paper, Section 6 equation 6.27; Paper, Appendix; Paper, Section 5 equation 5.34"
       ]
     },
     {
@@ -1040,7 +1838,7 @@
         "relation": "inverse_left"
       },
       "source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+        "Paper, Section 6; Paper, Section 5"
       ]
     },
     {
@@ -1053,7 +1851,7 @@
         "relation": "inverse_right"
       },
       "source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+        "Paper, Section 6; Paper, Section 5"
       ]
     },
     {
@@ -1066,7 +1864,7 @@
         "relation": "S_polynomial"
       },
       "source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+        "Paper, Section 6; Paper, Section 5"
       ]
     },
     {
@@ -1079,7 +1877,7 @@
         "relation": "Sinv_polynomial"
       },
       "source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+        "Paper, Section 6; Paper, Section 5"
       ]
     },
     {
@@ -1094,7 +1892,7 @@
         "right": "K"
       },
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ]
     },
     {
@@ -1109,7 +1907,7 @@
         "right": "H"
       },
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ]
     },
     {
@@ -1124,7 +1922,7 @@
         "right": "U"
       },
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ]
     },
     {
@@ -1139,7 +1937,7 @@
         "right": "H"
       },
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ]
     },
     {
@@ -1154,7 +1952,7 @@
         "right": "K"
       },
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ]
     },
     {
@@ -1169,7 +1967,7 @@
         "right": "U"
       },
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ]
     },
     {
@@ -1184,7 +1982,7 @@
         "right": "K"
       },
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ]
     },
     {
@@ -1199,7 +1997,7 @@
         "right": "U"
       },
       "source": [
-        "threestring.tex:192-200, eq:A3rels"
+        "Paper, Section 6 equation 6.27"
       ]
     },
     {
@@ -1212,7 +2010,7 @@
         "relation": "cubic"
       },
       "source": [
-        "threestring.tex:214-217, eq:A3rels; appendix.tex:88-90; twostring.tex:607-613, eq:Hcubed"
+        "Paper, Section 6 equation 6.27; Paper, Appendix; Paper, Section 5 equation 5.34"
       ]
     },
     {
@@ -1225,7 +2023,7 @@
         "relation": "inverse_left"
       },
       "source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+        "Paper, Section 6; Paper, Section 5"
       ]
     },
     {
@@ -1238,7 +2036,7 @@
         "relation": "inverse_right"
       },
       "source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+        "Paper, Section 6; Paper, Section 5"
       ]
     },
     {
@@ -1251,7 +2049,7 @@
         "relation": "S_polynomial"
       },
       "source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+        "Paper, Section 6; Paper, Section 5"
       ]
     },
     {
@@ -1264,7 +2062,7 @@
         "relation": "Sinv_polynomial"
       },
       "source": [
-        "threestring.tex:630-637,694-696; twostring.tex:143-158,224-231"
+        "Paper, Section 6; Paper, Section 5"
       ]
     }
   ],
@@ -1310,7 +2108,7 @@
         "U2"
       ],
       "source": [
-        "threestring.tex:501-517; threestring-top.tex:50-99"
+        "Paper, Section 6; Paper, Section 6.1"
       ],
       "audit_on_L": false
     }
@@ -1323,9 +2121,9 @@
       "status": "unprinted",
       "degree": 7,
       "source": [
-        "threestring.tex:701-710"
+        "Paper, Section 6"
       ],
-      "note": "Braid plus quintic is not a complete braid-generator presentation; no words or coefficients supplied. Not part of the H,K,U defining list."
+      "note": "Extending the braid-generator audit to degree seven requires an explicit word-and-coefficient formula. The displayed H,K,U equalities are covered by the existing manifest."
     }
   ],
   "coefficient_checks": [
@@ -1337,7 +2135,7 @@
       "status": "equivalent",
       "residual": "0",
       "source": [
-        "threestring-top.tex:29-36; appendix.tex:131-133"
+        "Paper, Section 6.1; Paper, Appendix"
       ]
     },
     {
@@ -1348,15 +2146,40 @@
       "status": "equivalent",
       "residual": "0",
       "source": [
-        "threestring-top.tex:29-36; appendix.tex:123,127"
+        "Paper, Section 6.1; Paper, Appendix"
       ]
     }
   ],
-  "quotient_comparisons": [{"id": "preliminary_mod_KU", "quotient": "top_quotient", "full_relation": "quartic_full", "summands": ["top_quartic_a", "top_preliminary_b"], "expectation": "equal", "source": ["threestring-top.tex:26-45; threestring.tex:218-237"]}, {"id": "formal_top_mod_KU", "quotient": "top_quotient", "full_relation": "quartic_full", "summands": ["top_quartic_b"], "expectation": "equal", "source": ["threestring-top.tex:85-91, eq:Hrelsb; threestring.tex:218-237, eq:A3relsb"]}],
+  "quotient_comparisons": [
+    {
+      "id": "preliminary_mod_KU",
+      "quotient": "top_quotient",
+      "full_relation": "quartic_full",
+      "summands": [
+        "top_quartic_a",
+        "top_preliminary_b"
+      ],
+      "expectation": "equal",
+      "source": [
+        "Paper, Section 6.1; Paper, Section 6"
+      ]
+    },
+    {
+      "id": "formal_top_mod_KU",
+      "quotient": "top_quotient",
+      "full_relation": "quartic_full",
+      "summands": [
+        "top_quartic_b"
+      ],
+      "expectation": "equal",
+      "source": [
+        "Paper, Section 6.1 equation 6.7; Paper, Section 6 equation 6.39"
+      ]
+    }
+  ],
   "diagnostics": [
     {
       "id": "quartic_previous_b3",
-      "snapshot_commit": "6ac74be4cdf0ea7bd490f0af1f71225285794bd8",
       "base_relation": "quartic_full",
       "coefficient_overrides": {
         "b_3": "e2"
@@ -1364,9 +2187,9 @@
       "rhs_coefficient_multipliers": [],
       "status": "non_authoritative",
       "source": [
-        "appendix.tex:84"
+        "Paper, Appendix"
       ],
-      "note": "Reproduce the previous 24-entry failure using the now rejected +e2 formula and the frozen coefficient/word definitions from snapshot_commit, independently of the current provenance.base_commit and corrected c coefficients."
+      "note": "Coefficient-sensitivity diagnostic with b_3=e2. The saved residual in audit_history has its own input fingerprints; evaluating the override on a chosen payload is a separate calculation."
     },
     {
       "id": "quartic_c15_reversed",
@@ -1384,9 +2207,9 @@
       ],
       "status": "non_authoritative",
       "source": [
-        "threestring.tex:223; threestring-top.tex:43,87"
+        "Paper, Section 6; Paper, Section 6.1"
       ],
-      "note": "Diagnostic c15 word-difference reversal only. It is not a proposed replacement assertion and does not repair the full residual."
+      "note": "Diagnostic reversal of the c15 word difference."
     },
     {
       "id": "quartic_word_reversal",
@@ -1396,9 +2219,9 @@
       "reverse_words": true,
       "status": "non_authoritative",
       "source": [
-        "twostring.tex:181-185; threestring.tex:218-237"
+        "Paper, Section 5; Paper, Section 6"
       ],
-      "note": "Reverse every word on both sides solely to diagnose action convention, not an adopted rule."
+      "note": "Diagnostic reversal of every word on both sides to test the action convention."
     },
     {
       "id": "top_preliminary_b",
@@ -1406,26 +2229,98 @@
       "coefficient_overrides": {},
       "rhs_coefficient_multipliers": [],
       "source_sides": {
-        "lhs": {"terms": [
-          {"coefficient": "1", "word": ["H2", "H1", "H2", "H2"]},
-          {"coefficient": "-1", "word": ["H1", "H1", "H2", "H1"]}
-        ]},
-        "rhs": {"terms": [
-          {"coefficient": "c_15", "word": ["H2", "H1", "H2"]},
-          {"coefficient": "-c_15", "word": ["H1", "H2", "H1"]},
-          {"coefficient": "c_11", "word": ["H2", "H2", "H1"]},
-          {"coefficient": "-c_11", "word": ["H2", "H1", "H1"]},
-          {"coefficient": "c_12", "word": ["H1", "H2", "H2"]},
-          {"coefficient": "-c_12", "word": ["H1", "H1", "H2"]},
-          {"coefficient": "c_1", "word": ["H1"]},
-          {"coefficient": "-c_1", "word": ["H2"]}
-        ]}
+        "lhs": {
+          "terms": [
+            {
+              "coefficient": "1",
+              "word": [
+                "H2",
+                "H1",
+                "H2",
+                "H2"
+              ]
+            },
+            {
+              "coefficient": "-1",
+              "word": [
+                "H1",
+                "H1",
+                "H2",
+                "H1"
+              ]
+            }
+          ]
+        },
+        "rhs": {
+          "terms": [
+            {
+              "coefficient": "c_15",
+              "word": [
+                "H2",
+                "H1",
+                "H2"
+              ]
+            },
+            {
+              "coefficient": "-c_15",
+              "word": [
+                "H1",
+                "H2",
+                "H1"
+              ]
+            },
+            {
+              "coefficient": "c_11",
+              "word": [
+                "H2",
+                "H2",
+                "H1"
+              ]
+            },
+            {
+              "coefficient": "-c_11",
+              "word": [
+                "H2",
+                "H1",
+                "H1"
+              ]
+            },
+            {
+              "coefficient": "c_12",
+              "word": [
+                "H1",
+                "H2",
+                "H2"
+              ]
+            },
+            {
+              "coefficient": "-c_12",
+              "word": [
+                "H1",
+                "H1",
+                "H2"
+              ]
+            },
+            {
+              "coefficient": "c_1",
+              "word": [
+                "H1"
+              ]
+            },
+            {
+              "coefficient": "-c_1",
+              "word": [
+                "H2"
+              ]
+            }
+          ]
+        }
       },
       "status": "non_authoritative",
       "source": [
-        "threestring-top.tex:41-47, preliminary square-pentagon display"
+        "Paper, Section 6.1: auxiliary square-pentagon expression."
       ],
-      "note": "Literal witness for the unchanged preliminary display, separately retained after the wholesale formal eq:Hrelsb replacement. Only a quotient free-word comparison with the full relation modulo K,U; never evaluate this quotient-only identity on L. No coefficient definition changes."
+      "note": "Auxiliary top-quotient word expression used in the decomposition of the full quartic modulo K,U. Its applicability is the top quotient."
     }
   ],
   "coefficient_imports": {
@@ -1452,6 +2347,6 @@
       0,
       "(-2*p^40*q^10 + 2*p^40*q^8 - 2*p^38*q^12 + 10*p^38*q^8 - 10*p^38*q^6 + 2*p^38*q^4 - 10*p^36*q^12 + 26*p^36*q^10 - 24*p^36*q^8 + 6*p^36*q^6 + 2*p^36*q^4 - 4*p^34*q^14 - 2*p^34*q^12 + 40*p^34*q^10 - 70*p^34*q^8 + 52*p^34*q^6 - 18*p^34*q^4 + 2*p^34*q^2 - 12*p^32*q^14 + 42*p^32*q^12 - 52*p^32*q^10 + 14*p^32*q^8 + 26*p^32*q^6 - 24*p^32*q^4 + 6*p^32*q^2 - 2*p^30*q^16 - 6*p^30*q^14 + 46*p^30*q^12 - 98*p^30*q^10 + 106*p^30*q^8 - 60*p^30*q^6 + 12*p^30*q^4 + 2*p^30*q^2 - 4*p^28*q^16 + 22*p^28*q^14 - 44*p^28*q^12 + 34*p^28*q^10 + 14*p^28*q^8 - 36*p^28*q^6 + 18*p^28*q^4 - 4*p^28*q^2 - 4*p^26*q^16 + 12*p^26*q^14 - 42*p^26*q^12 + 98*p^26*q^10 - 108*p^26*q^8 + 50*p^26*q^6 - 8*p^26*q^4 + 2*p^26*q^2 + 4*p^24*q^16 - 20*p^24*q^14 + 46*p^24*q^12 - 32*p^24*q^10 - 22*p^24*q^8 + 44*p^24*q^6 - 22*p^24*q^4 + 2*p^24*q^2 - 4*p^22*q^16 - 6*p^22*q^14 + 54*p^22*q^12 - 90*p^22*q^10 + 54*p^22*q^8 + 4*p^22*q^6 - 22*p^22*q^4 + 12*p^22*q^2 - 2*p^22 - 4*p^20*q^16 + 20*p^20*q^14 - 20*p^20*q^12 - 28*p^20*q^10 + 64*p^20*q^8 - 28*p^20*q^6 - 20*p^20*q^4 + 20*p^20*q^2 - 4*p^20 - 2*p^18*q^16 + 12*p^18*q^14 - 22*p^18*q^12 + 4*p^18*q^10 + 54*p^18*q^8 - 90*p^18*q^6 + 54*p^18*q^4 - 6*p^18*q^2 - 4*p^18 + 2*p^16*q^14 - 22*p^16*q^12 + 44*p^16*q^10 - 22*p^16*q^8 - 32*p^16*q^6 + 46*p^16*q^4 - 20*p^16*q^2 + 4*p^16 + 2*p^14*q^14 - 8*p^14*q^12 + 50*p^14*q^10 - 108*p^14*q^8 + 98*p^14*q^6 - 42*p^14*q^4 + 12*p^14*q^2 - 4*p^14 - 4*p^12*q^14 + 18*p^12*q^12 - 36*p^12*q^10 + 14*p^12*q^8 + 34*p^12*q^6 - 44*p^12*q^4 + 22*p^12*q^2 - 4*p^12 + 2*p^10*q^14 + 12*p^10*q^12 - 60*p^10*q^10 + 106*p^10*q^8 - 98*p^10*q^6 + 46*p^10*q^4 - 6*p^10*q^2 - 2*p^10 + 6*p^8*q^14 - 24*p^8*q^12 + 26*p^8*q^10 + 14*p^8*q^8 - 52*p^8*q^6 + 42*p^8*q^4 - 12*p^8*q^2 + 2*p^6*q^14 - 18*p^6*q^12 + 52*p^6*q^10 - 70*p^6*q^8 + 40*p^6*q^6 - 2*p^6*q^4 - 4*p^6*q^2 + 2*p^4*q^12 + 6*p^4*q^10 - 24*p^4*q^8 + 26*p^4*q^6 - 10*p^4*q^4 + 2*p^2*q^12 - 10*p^2*q^10 + 10*p^2*q^8 - 2*p^2*q^4 + 2*q^8 - 2*q^6)/(p^24*q^8 - 4*p^22*q^8 + 6*p^20*q^8 - 4*p^18*q^8 + p^16*q^8)"
     ],
-    "note": "Exact pre-correction uncommitted failure, retained and reproduced only as a regression; not current b data."
+    "note": "Recorded exact coefficient-sensitivity diagnostic with b_3=e2. The input hashes identify the evaluated payloads; the residual is retained as a diagnostic result."
   }
 }

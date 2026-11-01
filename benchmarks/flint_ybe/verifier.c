@@ -362,7 +362,7 @@ static void term ( Mat r , Mat a , const char * s ) {
     addscaled ( r , a , & c ) ;
     clear ( & c ) ;
 }
-/* Expanded manuscript (8.3) times the EXACT scalar at yangbaxter.tex:798-800.
+/* Paper equation (8.3) times the polynomial-normalization scalar in Section 8.
    X=[x], Z=[x+2n], W=[x+3n], F=[6n]^2[n]/([3n]^2[2n]). */
 static Mat construct ( Mat g [ 30 ] , J * recipes , J * ordinary ) {
     int n = g [ 0 ] . n ;

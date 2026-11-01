@@ -30,9 +30,31 @@
         },
         "provenance": {
           "type": "object",
+          "additionalProperties": false,
           "required": [
-            "base_commit"
-          ]
+            "citation",
+            "description",
+            "sources"
+          ],
+          "properties": {
+            "citation": {
+              "type": "string",
+              "minLength": 1
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sources": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
         },
         "field": {
           "type": "object",
@@ -158,9 +180,31 @@
         },
         "provenance": {
           "type": "object",
+          "additionalProperties": false,
           "required": [
-            "base_commit"
-          ]
+            "citation",
+            "description",
+            "sources"
+          ],
+          "properties": {
+            "citation": {
+              "type": "string",
+              "minLength": 1
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sources": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
         },
         "positions": {
           "type": "object",
@@ -262,9 +306,31 @@
         },
         "provenance": {
           "type": "object",
+          "additionalProperties": false,
           "required": [
-            "base_commit"
-          ]
+            "citation",
+            "description",
+            "sources"
+          ],
+          "properties": {
+            "citation": {
+              "type": "string",
+              "minLength": 1
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sources": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
         },
         "field": {
           "type": "object",
@@ -346,9 +412,31 @@
         },
         "provenance": {
           "type": "object",
+          "additionalProperties": false,
           "required": [
-            "base_commit"
-          ]
+            "citation",
+            "description",
+            "sources"
+          ],
+          "properties": {
+            "citation": {
+              "type": "string",
+              "minLength": 1
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sources": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
         },
         "maps": {
           "type": "array",
@@ -392,9 +480,31 @@
         },
         "provenance": {
           "type": "object",
+          "additionalProperties": false,
           "required": [
-            "base_commit"
-          ]
+            "citation",
+            "description",
+            "sources"
+          ],
+          "properties": {
+            "citation": {
+              "type": "string",
+              "minLength": 1
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sources": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
         },
         "files": {
           "type": "array",
@@ -429,8 +539,6 @@
         "version",
         "status",
         "provenance",
-        "base_commit",
-        "source_hashes",
         "payload_hashes",
         "classification",
         "runtime_dependencies"
@@ -448,16 +556,31 @@
         },
         "provenance": {
           "type": "object",
+          "additionalProperties": false,
           "required": [
-            "base_commit"
-          ]
-        },
-        "base_commit": {
-          "type": "string",
-          "pattern": "^[0-9a-f]{40}$"
-        },
-        "source_hashes": {
-          "type": "object"
+            "citation",
+            "description",
+            "sources"
+          ],
+          "properties": {
+            "citation": {
+              "type": "string",
+              "minLength": 1
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sources": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
         },
         "payload_hashes": {
           "type": "object",

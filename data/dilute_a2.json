@@ -4,8 +4,11 @@
   "version": "0.3.0",
   "status": "source_prescribed",
   "provenance": {
-    "base_commit": "db523ef0c62105a9363a07a1ab1215c01cdd5b2e",
-    "authority": "Accepted local manuscript and retained exact JSON; release candidate pending review"
+    "citation": "https://arxiv.org/abs/2406.01348",
+    "description": "Dilute two-string diagrams, representations and normalization multipliers.",
+    "sources": [
+      "https://arxiv.org/abs/2406.01348"
+    ]
   },
   "field": {
     "base": "QQ",
@@ -16,10 +19,10 @@
   },
   "normalization": "raw_auxiliary_source",
   "normalization_prescriptions": {
-    "note": "These expressions are supplied as package prescriptions and were not applied to stored entries. G_j names only a package generator slot, not H_j or S_j. Multiply each raw matrix by its listed multiplier to obtain the corresponding package configuration.",
+    "note": "Stored entries have raw normalization. Multiply each raw matrix by the selected paper_multiplier or paper2_multiplier once. G_j labels a generator slot; its graph specifies the operator.",
     "alpha": "(q-1)*(q+1)*(q*p-1)*(q*p+1)*p^5/(q^2*(p-1)^2*(p+1)^2*(p^2-p+1)^2*(p^2+p+1)^2)",
     "beta": "(q-1)*(q+1)*p^3/(q*(p-1)*(p+1)*(p^2-p+1)*(p^2+p+1))",
-    "source": "ExceptionalDiagrams.m2: scale1, scale2, alpha configuration, loadrep3"
+    "source": "macaulay2/ExceptionalDiagrams.m2: scale1, scale2, alpha configuration, loadrep3"
   },
   "operator_order": [
     "D0",
@@ -339,8 +342,8 @@
     }
   ],
   "source": [
-    "ExceptionalDiagrams.m2:470-471,866-917",
-    "ExceptionalDiagrams/reps2dilute.m2",
-    "ExceptionalDiagrams/reps2.m2"
+    "macaulay2/ExceptionalDiagrams.m2",
+    "macaulay2/ExceptionalDiagrams/reps2dilute.m2",
+    "macaulay2/ExceptionalDiagrams/reps2.m2"
   ]
 }

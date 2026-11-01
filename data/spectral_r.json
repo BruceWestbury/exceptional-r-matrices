@@ -4,8 +4,11 @@
   "version": "0.3.0",
   "status": "source_prescribed",
   "provenance": {
-    "base_commit": "db523ef0c62105a9363a07a1ab1215c01cdd5b2e",
-    "authority": "Accepted local manuscript and retained exact JSON; release candidate pending review"
+    "citation": "https://arxiv.org/abs/2406.01348",
+    "description": "Polynomial spectral expansion, rational normalization, crossing and distinguished values.",
+    "sources": [
+      "https://arxiv.org/abs/2406.01348"
+    ]
   },
   "field": {
     "base": "QQ",
@@ -104,7 +107,7 @@
     "equation": "Rpoly(u) = normalization_scalar(u) * Rcheck(u)",
     "normalization_scalar": "F*((p^(1)*u^(1)*q^(1)-p^(-1)*u^(-1)*q^(-1))/(q-q^-1))*((p^(0)*u^(1)*q^(-1)-p^(0)*u^(-1)*q^(1))/(q-q^-1))*Z*W",
     "inverse_relation": "Rcheck(u) = Rpoly(u)/normalization_scalar(u)",
-    "source": "yangbaxter.tex:798-800"
+    "source": "Paper, Section 8"
   },
   "crossing": {
     "spectral_substitution": {
@@ -136,8 +139,8 @@
       "D",
       "O"
     ],
-    "source": "yangbaxter.tex:803-829",
-    "scope": "linear diagram rotation, not entrywise matrix transpose or algebra automorphism; conventions supplied, not independently rederived"
+    "source": "Paper, Section 8",
+    "scope": "Linear rotation of the specified diagram basis, followed by skein reduction."
   },
   "distinguished_values": [
     {
@@ -167,9 +170,8 @@
   ],
   "generators_ref": "dilute_a3_embeddings.json",
   "source": [
-    "yangbaxter.tex:134-148 (8.3)",
-    "yangbaxter.tex:209-214",
-    "yangbaxter.tex:798-829"
+    "Paper, Section 8 (8.3)",
+    "Paper, Section 8"
   ],
-  "note": "Polynomial means Laurent polynomial in u with rational p,q coefficients; no extra denominator clearing is part of the manuscript normalization."
+  "note": "Polynomial means Laurent polynomial in u with rational p,q coefficients, using exactly the stated spectral prefactor."
 }

@@ -233,7 +233,7 @@ static int applies(J *relation, const char *representation) {
     return 0;
 }
 static void sources(J *relation) {
-    J *source = get(relation, "current_manuscript_source");
+    J *source = get(relation, "source");
     printf("\"source\":[");
     for (int i = 0; i < source->n; ++i) printf("%s\"%s\"", i?",":"", source->a[i]->s);
     printf("]");

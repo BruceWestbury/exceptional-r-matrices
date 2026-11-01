@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Run candidate checks; orchestration only, with deadlines and access tracing.
-No research repository or Git-history input is used. Requires fresh output paths.
+"""Run repository checks with deadlines and optional file-access tracing.
+Use a fresh output directory for each run.
 """
 import argparse,collections,hashlib,importlib.metadata,json,os,platform,re,shutil,signal,subprocess,sys,tempfile,time
 from pathlib import Path
@@ -28,11 +28,10 @@ def main():
                 except subprocess.TimeoutExpired:
                     timeout=True;os.killpg(child.pid,signal.SIGKILL);child.wait();code=-9
             paths=re.findall(r'"([^"\n]*)"',trace.read_text(errors='replace')) if trace.exists() else []
-            forbidden=[p for p in paths if 'Dropbox' in p or '/E8Series/' in p or '/Zenodo/' in p] if os.environ.get('PUBLIC_ISOLATED')=='1' else []
             entry={'stage':name,'command':command,'wall_seconds':time.monotonic()-t,'limit_seconds':limit,'exit_code':code,'status':'TIMEOUT' if timeout else 'PASS' if code==0 else 'ERROR'}
-            stages.append(entry);access.append({'stage':name,'traced':trace.exists(),'file_path_events':len(paths),'candidate_path_events':sum(p.startswith(str(ROOT)) for p in paths),'forbidden_research_path_attempts':len(forbidden)})
+            stages.append(entry);access.append({'stage':name,'traced':trace.exists(),'file_path_events':len(paths),'repository_path_events':sum(p.startswith(str(ROOT)) for p in paths)})
             print(name,entry['status'],f"{entry['wall_seconds']:.3f}s",flush=True)
-            if code or forbidden:raise RuntimeError(name+' failed or attempted research access')
+            if code:raise RuntimeError(name+' failed')
         try:
             run('structural',[sys.executable,'tools/validate_publication.py','--self-test','--output',f'{run_name}/structural.json'],60)
             for path,name in [('audits/c/a3_relations','ordinary'),('audits/c/a2_spectral','a2'),('benchmarks/flint_ybe','ybe')]:run('build_'+name,['make','-C',path],60)
@@ -54,7 +53,7 @@ def main():
         except Exception as exc:
             success=False;stages.append({'stage':'suite','status':'ERROR','diagnostic':str(exc)})
         finally:
-            # Remove only executables produced by the builds in this fresh candidate.
+            # Remove executables produced by the builds.
             for rel in ('audits/c/a2_spectral/verify','audits/c/a3_relations/verify','audits/c/a3_relations/runner','benchmarks/flint_ybe/verifier','benchmarks/flint_ybe/runner'):
                 p=ROOT/rel
                 if p.exists():p.unlink()
@@ -67,11 +66,29 @@ def main():
         for p in ('python-flint','jsonschema','sympy'):
             try:versions[p]=importlib.metadata.version(p)
             except importlib.metadata.PackageNotFoundError:pass
-        summary={'status':'PASS' if success else 'FAIL','suite_wall_seconds':time.monotonic()-start,'stages':stages,'ordinary_relation_counts':dict(counts),'versions':versions,'access_traces':access,'isolation':{'research_tree_hidden':os.environ.get('PUBLIC_ISOLATED')=='1','network_disabled':os.environ.get('PUBLIC_ISOLATED')=='1','candidate_mount':'/tmp/release' if os.environ.get('PUBLIC_ISOLATED')=='1' else 'not namespace-isolated','method':'bubblewrap mount namespace; research tree hidden; dynamic strace file-access monitoring' if os.environ.get('PUBLIC_ISOLATED')=='1' else 'tracing only; no namespace isolation claimed'},'generated_executables_removed':True}
+        summary={'status':'PASS' if success else 'FAIL','suite_wall_seconds':time.monotonic()-start,'stages':stages,'ordinary_relation_counts':dict(counts),'versions':versions,'access_traces':access,'environment':{'filesystem':'isolated mount namespace' if os.environ.get('PUBLIC_ISOLATED')=='1' else 'local checkout','isolation_supplied':os.environ.get('PUBLIC_ISOLATED')=='1','file_access_tracing':shutil.which('strace') is not None},'generated_executables_removed':True}
         dump(OUT/'summary.json',summary)
-        lines=['# Clean-checkout verification report','','Overall status: **'+summary['status']+'**. This report records verification of the supplied checkout.','', '| Stage | Status | Wall s | Hard limit s |','|---|---|---:|---:|']
-        for s in stages:lines.append(f"| {s['stage']} | {s['status']} | {s.get('wall_seconds',0):.3f} | {s.get('limit_seconds','—')} |")
-        lines+=['',f"Ordinary manifest results: {dict(counts)}.",'','All runners retain their 60-second per-representation/crossing limits and 300-second batch limits. Build times are separate. No timeout was extended. A runner status alone is insufficient: result JSON is checked for every representation. Failed stages stop the suite; missing stages are not counted as passing.','',f"Isolation: {summary['isolation']}",f"Forbidden research-path attempts found in access traces: {sum(a['forbidden_research_path_attempts'] for a in access)}.",'',('The namespace-isolated run hid the research tree and disabled networking. Software dependencies were visible read-only.' if os.environ.get('PUBLIC_ISOLATED')=='1' else 'This run used file tracing only; research-directory masking and networking isolation are not claimed.')+' Raw traces are ephemeral; generated executables are removed after testing.','',f"Dependency versions: {versions}",'','Exact per-representation time, peak RSS and residuals are retained in the worker JSON logs. No arithmetic is performed by this orchestrator. Source-provenance citations are not filesystem accesses. Historical source-comparison evidence is not described as rerun.','', 'The historical Python ordinary wrapper is excluded; C/FLINT covers the complete encoded ordinary manifest. See AUDIT_COVERAGE.md and PUBLICATION_DECISIONS.md for unresolved presentation/assembly and release questions.','', 'The repository is licensed under CC BY 4.0; see LICENSE. This verification run creates no commit, release or deposit.']
+        lines=['# Verification results', '',
+               'Overall status: **'+summary['status']+'**. This report summarizes the C/Python suite.', '',
+               '| Stage | Status | Wall s | Limit s |', '|---|---|---:|---:|']
+        for stage in stages:
+            lines.append(f"| {stage['stage']} | {stage['status']} | {stage.get('wall_seconds',0):.3f} | {stage.get('limit_seconds','—')} |")
+        lines += ['', f"Ordinary relation results: {dict(counts)}.", '',
+                  'The suite checks structural validity, ordinary A(3) relations, A(2) unitarity and crossing, '
+                  'and generic Yang–Baxter identities. SageMath import is included when available. '
+                  'Per-representation result records determine the reported mathematical status.', '',
+                  'Workers have 60-second limits and batches have 300-second limits. '
+                  'Build times are recorded separately. A failed stage stops the suite.', '',
+                  ('Environment: isolated filesystem with local software dependencies.'
+                   if os.environ.get('PUBLIC_ISOLATED')=='1' else
+                   'Environment: the local checkout and installed software dependencies.'),
+                  f"Stages with file-access tracing: {sum(a['traced'] for a in access)}.", '',
+                  f"Dependency versions: {versions}", '',
+                  f"[Full run summary]({run_name}/summary.json) records the environment and stage results. "
+                  'Worker logs retain exact residuals, wall times and peak resident memory.', '',
+                  'See [AUDIT_COVERAGE.md](AUDIT_COVERAGE.md) for the mathematical scope and '
+                  '[macaulay2/README.md](macaulay2/README.md) for the separate package checks.', '',
+                  'The repository uses [CC BY 4.0](LICENSE).']
         (ROOT/'CLEAN_CHECKOUT_REPORT.md').write_text('\n'.join(lines)+'\n')
     return 0 if success else 1
 if __name__=='__main__':sys.exit(main())

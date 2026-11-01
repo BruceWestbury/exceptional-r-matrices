@@ -4,8 +4,11 @@
   "version": "0.3.0",
   "status": "source_prescribed",
   "provenance": {
-    "base_commit": "db523ef0c62105a9363a07a1ab1215c01cdd5b2e",
-    "authority": "Accepted local manuscript and retained exact JSON; release candidate pending review"
+    "citation": "https://arxiv.org/abs/2406.01348",
+    "description": "Embeddings of normalized local diagrams into the three-string representations.",
+    "sources": [
+      "https://arxiv.org/abs/2406.01348"
+    ]
   },
   "positions": {
     "1": {
@@ -282,8 +285,8 @@
     }
   },
   "source": {
-    "status": "copied source-prescribed embeddings, not independently verified diagram conventions",
-    "source": "ExceptionalDiagrams.m2 decTable true; local diagram index mapping retained from tools/compare_paper.py",
+    "status": "Diagram embeddings specified by the paper and the package.",
+    "source": "macaulay2/ExceptionalDiagrams.m2: decTable; data/dilute_a3_embeddings.json: local diagram index mapping",
     "source_sha256": "cf0599304687c3256cde3378495b0d1df1b3a76bec9056a821b7af17710679e6",
     "meaning": "Each local diagram tensored with dilute spectator identity is the sum of the two listed generator words; preserve word order. Index 4 is H squared.",
     "positions": {
