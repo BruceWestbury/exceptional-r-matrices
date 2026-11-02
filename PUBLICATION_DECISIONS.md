@@ -14,7 +14,7 @@ package functionality, verification coverage or documentation.
    changes, run the package comparison and the C/Python identity checks that
    exercise the affected objects.
 4. Update the format guide and usage examples when conventions or interfaces
-   change. Refresh payload and inventory hashes after editing their inputs.
+   change. Refresh payload hashes after editing their inputs.
 5. Save new verification results under a fresh run name and describe their scope
    in the change summary.
 

@@ -93,19 +93,17 @@ This directory contains tests of the programs themselves. These include checking
 
 Such tests do not prove the mathematical identities, but they increase confidence that the programs used to check those identities are functioning correctly.
 
-### `benchmarks/` — The cost of exact calculations
+### `benchmarks/` — C/FLINT Yang–Baxter verification
 
-This directory contains measurements of the computational resources required for selected calculations.
+`benchmarks/flint_ybe/` contains the C/FLINT verifier and runner for the generic
+Yang–Baxter equation in all eleven dilute representations. Saved results include
+exact residuals, timings and memory measurements.
 
-For example, checking the Yang–Baxter equation with matrices over polynomial rings can involve substantial symbolic computation.
+### `reports/paper_audit/` — Inputs for Yang–Baxter verification
 
-These measurements help other researchers assess the feasibility of repeating or extending the calculations, and compare different methods for exact arithmetic.
-
-### `reports/` — Detailed accounts of calculations
-
-This directory contains longer accounts of particular calculations, including methods, results, difficulties and unresolved questions.
-
-These reports supplement the paper by recording computational details that would be inappropriate to include in a mathematical article but may be important to someone attempting to reproduce or extend the work.
+This directory contains exact rational reference matrices and local embeddings
+used by both the C/FLINT and Python/FLINT Yang–Baxter verifiers. These JSON files
+are required inputs for reproducing the checks.
 
 ### `verify_release.py` — Repeating the checks
 
@@ -181,8 +179,6 @@ validation, package tests and exact package/data comparisons.
 ## Repository guide
 
 - [Data conventions and verification](DATASET_PROVENANCE.md)
-- [File and directory guide](PUBLICATION_INVENTORY.md)
-- [Maintenance and contributions](PUBLICATION_DECISIONS.md)
 - [Ordinary A(3) relations](audits/c/a3_relations/REPORT.md)
 - [A(2) unitarity and crossing](audits/A2_SPECTRAL_COMPARISON.md)
 - [Generic Yang–Baxter verification](audits/python/REPORT.md)
@@ -192,6 +188,17 @@ The file `FORMAT.md` explains the JSON representation of the mathematical object
 `DATASET_PROVENANCE.md` explains where the matrices came from and how they relate to the original calculations and the paper.
 
 The remaining documents give more detailed information about the supplied files, the programs required to use them and the calculations performed before publication.
+
+## Corrections
+
+This is a curated companion to the paper. Corrections should identify the
+representation or identity affected, its conventions, and the reason for the
+change. Changes to shared mathematical content should keep the JSON data and
+Macaulay2 package consistent and be checked by structural validation, package
+comparison and the relevant exact identity checks. Update affected descriptions
+and integrity hashes, and identify the corrected revision and supporting results.
+Retain evidence needed to reproduce the published claims; exploratory notes and
+routine development logs need not be added to the repository.
 
 ## Citation and licence
 

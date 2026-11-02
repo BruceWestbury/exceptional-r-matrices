@@ -33,14 +33,12 @@ construction check.
 
 ## Integrity and reproducibility
 
-[PUBLICATION_MANIFEST.json](PUBLICATION_MANIFEST.json) records the repository
-inventory and current file hashes in `files`.
 [data/publication_provenance.json](data/publication_provenance.json) supplies
 payload hashes checked by the structural validator. Saved verification records
 identify the inputs used for each calculation.
 
 For a fresh verification, follow the [main README](README.md). For data or package
-changes, follow the [maintenance guide](PUBLICATION_DECISIONS.md), update affected
+changes, follow the [correction guidance](README.md#corrections), update affected
 integrity records and record the relevant checks.
 
 The data, documentation and software are distributed under [CC BY 4.0](LICENSE).
