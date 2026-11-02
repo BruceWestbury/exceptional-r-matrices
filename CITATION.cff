@@ -1,6 +1,12 @@
 cff-version: 1.2.0
-message: "Draft citation metadata; confirm before publication. Please cite the accompanying paper."
+message: "Please cite the accompanying paper."
 type: dataset
+version: 1.0.0
+abstract: >-
+  Exact sparse matrices in portable JSON format and mathematical verification
+  software accompanying A uniform trigonometric R-matrix for the exceptional
+  series. Includes checks of representation relations, unitarity, crossing
+  symmetry and the generic parametrised Yang–Baxter equation.
 license: CC-BY-4.0
 title: "Exact representation matrices and audits for A uniform trigonometric R-matrix for the exceptional series"
 authors:
